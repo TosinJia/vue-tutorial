@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./lib/vue-2.6.14.js"></script>
+
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div id="app">
+        <div>
+            <label>
+                id: 
+            </label>
+            <input type="text" v-model="id">
+            <label>
+                name: 
+            </label>
+            <input type="text" v-model="name">
+
+            <input type="button" value="add" v-on:click="add">
+            <input type="button" value="add" class="btn btn-primary" v-on:click="add">
+        </div>
+
+        <!-- bs3-table -->
+        
+        <table class="table table-bordered table-hover table-striped">
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>name</th>
+                    <th>ctime</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="item in list" v-bind:key="item.id">
+                    <th>{{item.id}}</th>
+                    <th>{{item.name}}</th>
+                    <th>{{item.ctime}}</th>
+                    <th>
+                        <a href="http://www.bing.com" v-on:click.prevent="del(item.id)">删除</a>
+                        <a href="http://www.bing.com" v-on:click.prevent="del2(item.id)">删除2</a>
+                    </th>
+                </tr>
+            </tbody>
+        </table>
+        
+        <hr>
+        <table>
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>name</th>
+                    <th>ctime</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="item in list" v-bind:key="item.id">
+                    <th>{{item.id}}</th>
+                    <th>{{item.name}}</th>
+                    <th>{{item.ctime}}</th>
+                    <th>
+                        <a href="http://www.bing.com" v-on:click.prevent="del(item.id)">删除</a>
+                        <a href="http://www.bing.com" v-on:click.prevent="del2(item.id)">删除2</a>
+                    </th>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+    <script>
+        var vm = new Vue({
+            el: '#app',
+            data: {
+                id: '',
+                name: '',
+                list: [
+                    {id: 10, name: 'item1', ctime: new Date()},
+                    {id: 20, name: 'item2', ctime: new Date()},
+                    {id: 30, name: 'item3', ctime: new Date()},
+                    {id: 40, name: 'item4', ctime: new Date()},
+                ]
+            },
+            methods: {
+                add(){  // 添加
+                    var info = {id: this.id, name: this.name, ctime: new Date()};
+                    this.list.push(info);
+                    // 表达式从右往左赋值
+                    this.id = this.name = '';
+
+                },
+                del(id){    // 点击删除商品
+                    console.log(id);
+                    // 分析业务逻辑: 
+                    //  1. 根据拿到的商品Id, 查找到 对应的 商品索引
+                    //  2.根据拿到的 索引值, 去数组中,调用 splice 方法删除对应的那个元素
+
+                    for(let i=0; i<this.list.length; i++){
+                        if(this.list[i].id==id){
+                            this.list.splice(i, i);
+                            break;
+                        }
+                    }
+                },
+                del2(id){    // 点击删除商品
+                    const index = this.list.findIndex(function(item, i, arr){
+                        return item.id==id;
+                    });
+                    this.list.splice(index, 1);
+
+                    console.log(index);
+                    // this.list.forEach(function(item, i, arr){});
+                }
+
+            }
+        });
+
+    </script>
+</body>
+</html>

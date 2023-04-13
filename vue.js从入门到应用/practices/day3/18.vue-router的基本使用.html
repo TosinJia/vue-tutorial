@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./lib/vue-2.6.14.js"></script>
+    <!-- 1. 导入 vue-router -->
+    <script src="./lib/vue-router-3.5.3.js"></script>
+</head>
+<body>
+    <div id="app">
+
+        <!-- 表示路由链接， router-link 默认渲染为 a 标签 -->
+        <router-link to="/login" tag="span">登录</router-link>
+        <router-link to="/reg">注册</router-link>
+
+        <!-- 路由的坑 ，将来用来把匹配到的组件，呈现到这个坑中  -->
+        <!-- router-view 默认不会被渲染为元素 -->
+        <router-view></router-view>
+
+        <hr>
+        <component v-bind:is="'login'"></component>
+        <hr>
+        <login></login>
+        <reg></reg>
+    </div>
+    <script>
+        //  2. 创建要进行切换的组件
+        const login =  {
+            template: `<h5>登录组件</h5>`
+        };
+        const reg = {
+            template: `<h5>注册组件</h5>`
+        };
+
+        Vue.component('login', login);
+        Vue.component('reg', reg);
+
+        // 3. 创建一个路由的对象
+        //  当 导入完 vue-router 之后，在 浏览器全局，就有了  VueRouter 构造函数了
+        const router = new VueRouter({
+            routes: [  // 路由规则的数组
+                {path: '/login', component: login}, // 路由规则 其中， path 表示要匹配的hash值，component 表示对应的hash要展示的 组件对象
+                {path: '/reg', component: reg}, // 匹配到的路由组件，如果想要展示给用户，需要在页面上放 <router-view></router-view>
+            ]
+        });
+        
+
+        const vm = new Vue({
+            el: '#app',
+            // router: router // 4. 把路由对象，通过 vm 的 router 属性，挂载到 vm 上
+            router  // 简写 router: router 一样
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./lib/vue-2.6.14.js"></script>
+    <script src="./lib/vue-router-3.5.3.js"></script>
+</head>
+<body>
+    <div id="app">
+        <router-link to="/login/100/tosin">登录</router-link>
+        <router-link to="/reg">注册</router-link>
+        <router-view></router-view>
+    </div>
+    <script>
+        const login = {
+            template: '<h5>登录组件--{{$route.path}}---{{this.$route.params.id}}-{{$route.params.name}}</h5>',
+            created: function() {
+                console.log(this, this.$route, this.$route.params);
+            }
+        };
+        const reg = {
+            template: '<h5>注册组件</h5>'
+        };
+        const router = new VueRouter({
+            routes:[
+                {path: '/', redirect: '/login'},
+                {path: '/login/:id/:name', component: login},
+                {path: '/reg', component: reg},
+            ]
+        });
+        const vm = new Vue({
+            el: '#app',
+            router: router
+        });
+    </script>
+</body>
+</html>

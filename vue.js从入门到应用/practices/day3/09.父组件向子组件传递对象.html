@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./lib/vue-2.6.14.js"></script>
+</head>
+<body>
+    <div id="app">
+        <com1 v-bind:msgobj="parentMsgObj" v-bind:msg-obj="parentMsgObj"></com1>
+    </div>
+    <script>
+
+
+        const vm = new Vue({
+            el: '#app',
+            data: {
+                parentMsgObj: {
+                    id: 100,
+                    name: 'msgObjName'
+                }
+            },
+            components: {
+                'com1': {
+                    template: `<h5>{{JSON.stringify(msgobj)}}--{{msgobj.name}}
+                        <hr>
+                        {{msgObj.name}}
+                        </h5>`,
+                    props: ['msgobj', "msgObj"],
+                }
+            }
+        });
+    </script>
+</body>
+</html>

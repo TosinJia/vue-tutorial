@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./lib/vue-2.6.14.js"></script>
+</head>
+<body>
+    <div id="app">
+        <a href="#/a">a</a>&nbsp;
+        <a href="#/b">b</a>&nbsp;
+        <a href="#/c">c</a>&nbsp;
+        <a href="#/d">d</a>&nbsp;
+
+
+        <component v-bind:is="comname"></component>
+    </div>
+    <script>
+        // Vue.component('a', {    // vue-2.6.14.js:634 [Vue warn]: Do not use built-in or reserved HTML elements as component id: a
+        Vue.component('com1', {
+            template: `<div>com1</div>`
+        });
+        Vue.component('com2', {
+            template: `<div>com2</div>`
+        });
+        Vue.component('com3', {
+            template: `<div>com3</div>`
+        });
+        Vue.component('com4', {
+            template: `<div>com4</div>`
+        });
+        const vm = new Vue({
+            el: '#app',
+            data: {
+                comname: 'com1'
+            },
+            mounted(){
+                window.onhashchange = function(){
+                    console.log("function() ", this);
+                }
+
+                window.onhashchange = () => {
+                    console.log("() => ", this);
+
+                    // 获取到 URL中的 hash 地址
+                    var hash = window.location.hash;
+                    console.log("hash ", hash);
+                    switch (hash) {
+                        case '#/a':
+                            this.comname='com1';
+                            break;
+                        case '#/b':
+                            this.comname='com2';
+                            break;
+                        case '#/c':
+                            this.comname='com3';
+                            break;
+                        case '#/d':
+                            this.comname='com4';
+                            break;
+                        default:
+                            break;
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

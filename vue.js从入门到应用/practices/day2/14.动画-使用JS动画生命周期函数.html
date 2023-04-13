@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./lib/vue-2.6.14.js"></script>
+
+    <style>
+        #ball {
+            height: 20px;
+            width: 20px;
+            background-color: red;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <input type="button" value="加入购物车" v-on:click="flag=!flag">
+
+        <transition v-on:before-enter="beforeEnter"
+            v-on:enter="enter"
+            v-on:after-enter="afterEnter">
+            <div id="ball" v-show="flag"></div>
+        </transition>
+        
+    </div>
+
+    <script>
+        var vm = new Vue({
+            el: '#app',
+            data: {
+                flag: false,
+            },
+            methods: {
+                beforeEnter(el){    // 小球开始动画之前的起始状态
+                    console.log("beforeEnter", el);
+                    el.style.transform='translate(50px, 50px)';
+                },
+                enter(el, done){    // 小球动画结束之后的结束状态
+                    console.log("enter", el, done);
+
+                    // 这是固定写法，如果不写 el.offsetWidth 就无法实现动画效果
+                    // el.offsetWidth;
+                    // el.offsetHeight
+                    // el.offsetLeft
+                    // el.offsetRight No
+                    el.offsetTop;
+                    // el.offsetBottom No
+
+                    el.style.transform="translate(500px, 700px)"
+                    el.style.transition="all 3s ease"
+
+                    // 当动画执行完毕后，会自动调用 done 这个函数，这个done 就是 afterEnter 函数的引用
+                    done();
+                },
+                afterEnter(el){ // 小球动画结束之后的回调函数，用来做一些清理工作
+                    console.log("afterEnter", el);
+                    // 通过取非的操作，直接让小球跳过了后半场的动画
+                    // this.flag = !this.flag;
+
+                    this.flag = false;
+                }
+            }
+        });
+    </script>
+</body>
+</html>

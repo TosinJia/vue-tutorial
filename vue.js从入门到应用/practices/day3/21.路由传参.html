@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./lib/vue-2.6.14.js"></script>
+    <script src="./lib/vue-router-3.5.3.js"></script>
+</head>
+<body>
+    <div id="app">
+        <router-link to="/login?id=10">登录</router-link>
+        <router-link to="/reg">注册</router-link>
+        <router-view></router-view>
+    </div>
+    <script>
+        const login = { // 组件也有自己的生命周期函数，这些函数，和 vm 实例的 生命周期函数一致
+            template: `<h5>登录组件{{this.$route.query.id}}--{{$route.query.id}}</h5>`,
+            created: function(){    // 当 login 组件 中 data 和 methods 初始化完毕后，调用 created
+                console.log(this, this.$route, this.$route.query.id);
+            }
+        };
+        const reg = {
+            template: `<h5>注册组件</h5>`,
+        };
+        const router = new VueRouter({
+            routes:[
+                {path: '/', redirect: '/login'},
+                {path: '/login', component: login},
+                {path: '/reg', component: reg},
+            ]
+        });
+        const vm = new Vue({
+            el: '#app',
+            router,
+        });
+    </script>
+</body>
+</html>

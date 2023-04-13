@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./lib/vue-2.6.14.js"></script>
+    <style>
+        /* 样式 */
+        .outer {
+            background-color: green;
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <!-- 事件冒泡执行 -->
+        <div class="outer" v-on:click="outerClick">
+            <input type="button" value="事件冒泡执行 按钮1" @click="btnClick">
+        </div>
+        <hr>
+        <!-- 事件铺货执行 -->
+        <div class="outer" v-on:click.capture="outerClick">
+            <input type="button" value="事件捕获执行 按钮2" @click="btnClick">
+        </div>
+        <hr>
+        <div class="outer" v-on:click.self="outerClick">
+            <input type="button" value="按钮3" @click="btnClick">
+        </div>
+        <hr>
+        <div class="outer" v-on:click.self="outerClick">
+            <input type="button" value="只触发一次 按钮4" @click.once="btnClick">
+        </div>
+    </div>
+    <script>
+        var vm = new Vue({
+            el: '#app',
+            data: {},
+            methods: {
+                btnClick(){
+                    console.log("btnClick");
+                },
+                outerClick(){
+                    console.log("outerClick");
+                }
+            }
+        });
+
+    </script>
+</body>
+</html>

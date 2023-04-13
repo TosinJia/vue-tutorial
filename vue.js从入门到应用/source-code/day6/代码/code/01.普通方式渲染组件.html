@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!-- 1. 导入Vue的包 -->
+  <script src="./lib/vue-2.5.9.js"></script>
+</head>
+
+<body>
+  <div id="app">
+    1111
+    <login></login>
+    2222
+  </div>
+
+  <script>
+
+    const login = {
+      template: '<h3>哈哈，这是一个登录组件</h3>'
+    }
+
+    // Vue.component('login', login)
+
+    // 创建 Vue 实例，得到 ViewModel
+    var vm = new Vue({
+      el: '#app',
+      data: {},
+      methods: {},
+      components: { // 注册私有组件的
+        login
+      }
+    });
+  </script>
+</body>
+
+</html>

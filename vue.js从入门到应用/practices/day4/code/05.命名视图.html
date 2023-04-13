@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./lib/vue-2.6.14.js"></script>
+    <script src="./lib/vue-router-3.5.3.js"></script>
+
+    <style>
+        html,
+        body,
+        h5 {
+            margin: 0;
+            padding: 0;
+            font-size: 20px;
+        }
+
+        .header {
+            height: 100px;
+            background-color: darkcyan;
+        }
+        .container {
+            height: 500px;
+            display: flex;
+            background-color: darkgray;
+        }
+        .siderbar {
+            background-color: orange;
+            flex: 1;
+        }
+        .content {
+            background-color: pink;
+            flex: 8;
+        }
+        .footer {
+            height: 50px;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <!-- 路由的容器 -->
+        <router-view name="top"></router-view>
+        <div class="container">
+            <router-view name="left"></router-view>
+            <router-view name="right"></router-view>
+        </div>
+        <router-view name="bottom"></router-view>
+    </div>
+    <script>
+        const header = {
+            template: `<h5 class="header">头部区域</h5>`,
+        };
+        const sidebar = {
+            template: `<h5 class="siderbar">左侧侧边栏</h5>`,
+        };
+        const content = {
+            template: `<h5 class="content">右侧内容区域</h5>`,
+        };
+        const footer = {
+            template: `<h5 class="footer">尾部</h5>`,
+        };
+        const router = new VueRouter({
+            routes:[    // 之前的路由规则，当匹配到一个路由的时候，只能在页面的容器中，放置唯一的一个组件
+            // {path: '/', component: sidebar},
+                {path: '/', components:{
+                    //     路由视图名称 :  组件对象
+                    'top': header,
+                    'left': sidebar,
+                    'right': content,
+                    'bottom': footer,
+                }},
+            ]
+        });
+        const vm = new Vue({
+            el: '#app',
+            router: router,
+        });
+    </script>
+</body>
+</html>

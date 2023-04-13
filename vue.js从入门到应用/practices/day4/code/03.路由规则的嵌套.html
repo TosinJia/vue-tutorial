@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./lib/vue-2.6.14.js"></script>
+    <script src="./lib/vue-router-3.5.3.js"></script>
+    <style>
+        .account {
+            height: 400px;
+            border: 2px solid blue ;
+        }
+        .newlist {
+            height: 400px;
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <!-- 路由链接 -->
+        <router-link to="/account">显示账户组件</router-link>
+        <router-link to="/newlist">显示新闻列表组件</router-link>
+
+        <!-- 路由的容器 -->
+        <router-view></router-view>
+    </div>
+    <script>
+        const account = {
+            template: `<div class="account">
+                <h2>账户组件</h2>
+                <!-- 子路由链接 -->
+                <router-link to="/account/login">显示登录组件</router-link>
+                <router-link to="/account/reg">显示注册组件</router-link>
+                <router-link to="/account/reg1">显示注册1组件</router-link>
+
+                <!-- 子路由容器 -->
+                <router-view></router-view>
+                </div>`,
+        };
+
+        const login = {
+            template: `<div>
+                <h5>登录组件</h5>
+                </div>`,
+        };
+        const reg = {
+            template: `<div>
+                <h5>注册组件</h5>
+                </div>`,
+        };
+        const reg1 = {
+            template: `<div>
+                <h5>注册1组件</h5>
+                </div>`,
+        };
+        const newlist = {
+            template: `<div class="newlist">
+                <h2>新闻列表组件</h2>
+                </div>`,
+        };
+        const router = new VueRouter({
+            routes: [
+                {path: '/account', component: account, 
+                    children:[
+                        {path:"login", component: login},   // account 规则的子路由规则， 注意： 使用 children 属性创建的子路由规则，path 前面，不要带 /
+                        {path:"reg", component: reg},
+                        {path:"/reg1", component: reg1},
+                    ]}, // 展示账号组件的路由匹配规则
+                {path: '/newlist', component: newlist}, // 新闻列表路由的匹配规则
+            ]
+        });
+        const vm = new Vue({
+            el: '#app',
+            router: router,
+        });
+    </script>
+</body>
+</html>
+
+<!-- 通过 路由规则 的 children 属性，实现路由规则的嵌套，这样， 组件之间也就有了嵌套关系 -->

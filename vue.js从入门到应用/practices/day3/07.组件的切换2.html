@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./lib/vue-2.6.14.js"></script>
+
+    <style>
+        /* .v-enter,
+        .v-leave-to {
+            opacity: 0;
+            transform: translateX(500px);
+        } */
+        .v-enter {  /* 即将进入时候的坐标 */
+            opacity: 0;
+            transform: translateX(500px);
+        }
+
+        .v-leave-to {   /* 离开时候，最终到达的位置 */
+            opacity: 0;
+            transform: translateX(-500px);
+        }
+
+        .v-enter-active,
+        .v-leave-active {
+            transition: all 1s ease;
+
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <com1></com1>
+        <hr>
+        
+        
+        <a href="#" v-on:click.prevent="comname='com1'">显示组件1</a>&nbsp;&nbsp;
+        <a href="#" v-on:click.prevent="comname='com2'">显示组件2</a>&nbsp;&nbsp;
+        <a href="#" v-on:click.prevent="comname='com3'">显示组件3</a>&nbsp;&nbsp;
+        <a href="#" v-on:click.prevent="comname='com4'">显示组件4</a>&nbsp;&nbsp;
+        <a href="#" v-on:click.prevent="comname='com5'">显示组件5</a>&nbsp;&nbsp;
+
+        <!-- https://cn.vuejs.org/v2/api/#transition -->
+        <!-- transition     transition-group    template??     component -->
+        <!-- 通过 component  的  :is 属性，可以显示指定【名称】的组件 -->
+
+        <transition mode="out-in">
+            <component v-bind:is="comname"></component>
+        </transition>
+
+        <hr>
+        <transition>
+            <component v-bind:is="comname"></component>
+        </transition>
+        
+    </div>
+    <script>
+
+        Vue.component('com1', {
+            template: '<h5>com1</h5>',
+        });
+        Vue.component('com2', {
+            template: '<h5>com2</h5>',
+        });
+        Vue.component('com3', {
+            template: '<h5>com3</h5>',
+        });
+        Vue.component('com4', {
+            template: '<h5>com4</h5>',
+        });
+        Vue.component('com5', {
+            template: '<h5>com5</h5>',
+        });
+
+        const vm = new Vue({
+            el: '#app',
+            data: {
+                comname: 'com1',    // 在 data 上定义 comname 来指定要渲染的组件名称
+            },
+            methods: {}
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="./lib/vue-2.6.14.js"></script>
+</head>
+<body>
+    <div id="app">
+        1111111111111111111
+        2222222222222222222
+    </div>
+
+    <script>
+        const customComponet = {
+            template: '<h5>自定义组件</h5>'
+        };
+        const vm = new Vue({
+            el: '#app',
+            data: {},
+            // render 函数，会把之前的内容清除掉，然后页面上只能显示这个被 render 的组件；不能有其它内容和这个组件并存
+            // 渲染成 Anonymous Component
+            // Vue 规定了，render 必须是一个函数，同时，render的参数列表中，有个形参，叫做 createElements ，将来， Vue 在调用 render 的时候，会给我们传递这个形参；
+            render: function(createElements){
+                // 注意： Vue 给我们传递的这个 createElements ，是一个 方法，接收一个参数，就是： 要渲染的组件
+                console.log(createElements);
+                return createElements(customComponet);
+            }
+        });
+
+        function Vue1(obj){
+            obj.render();
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="./lib/vue-2.6.14.js"></script>
+</head>
+<body>
+    <div id="app">
+        1111111111111111111
+        2222222222222222222
+    </div>
+
+    <script>
+        const customComponet = {
+            template: '<h5>自定义组件</h5>'
+        };
+        const vm = new Vue({
+            el: '#app',
+            data: {},
+            render1: function(createElements){
+                return createElements(customComponet);
+            },
+            render2: (createElements) => {
+                return createElements(customComponet);
+            },
+            render3: createElements => {
+                return createElements(customComponet);
+            },
+            render4: createElements=>createElements(customComponet),
+            render: c=>c(customComponet),
+        });
+
+        function Vue1(obj){
+            obj.render();
+        }
+    </script>
+</body>
+</html>

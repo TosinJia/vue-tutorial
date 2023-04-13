@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./lib/vue-2.6.14.js"></script>
+
+    <link rel="stylesheet" href="./lib/bootstrap-5.1.3.css">
+    <script src="./lib/moment.min-2.29.1.js"></script>
+</head>
+<body>
+    <div id="app">
+        <div>
+            <label>
+                id: 
+            </label>
+            <input type="text" v-model="id">
+            <label>
+                name: 
+            </label>
+            <!-- <input type="text" v-model="name"> -->
+            <!-- <input type="text" v-model="name" v-on:keyup="add"> -->
+            <!-- <input type="text" v-model="name" v-on:keyup.enter="add"> -->
+            
+            <!-- 自动匹配按键修饰符 2.5.0 新增 -->
+            <!-- <input type="text" v-model="name" v-on:keyup.f2="add"> -->
+            <!-- <input type="text" v-model="name" v-on:keyup.0="add"> -->
+            
+            <!-- <input type="text" v-model="name" v-on:keyup.end="add"> -->
+            
+            <input type="button" value="add" v-on:click="add">
+            <input type="button" value="add" class="btn btn-primary" v-on:click="add">
+            <br>
+            <span v-color>按照品牌名称检索:</span>
+            <input type="text" v-model="keywords" v-on:change="searchByName" v-focus>
+        </div>
+
+        <!-- bs3-table -->
+        <table class="table table-bordered table-hover table-striped">
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th v-italic1>name</th>
+                    <th v-italic>ctime</th>
+                    <th v-color="'blue'" v-bold="100">操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="item in searchByName()" v-bind:key="item.id">
+                    <th>{{item.id}}</th>
+                    <th>{{item.name}}</th>
+                    <th>{{item.ctime | formatDate}}</th>
+                    <th>
+                        <a href="http://www.bing.com" v-on:click.prevent="del2(item.id)">删除2</a>
+                    </th>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+    <script>
+        // 全局自定义 获得焦点的 v-focus 指令
+        // Vue.filter('过滤器的名称', 处理函数)
+        // 注意： Vue 自定义指令的名称中，不需要写 v- 前缀，但是，在调用自定义指令的时候，必须在 前面加上 v- 前缀
+        Vue.directive('focus', {
+            // 参数列表中的 第一个参数，永远是  el 表示被绑定指令的那个元素
+            //  如果要操作元素的样式， 写到 bind 就行了  
+            bind(el, binding, vnode) {  // 当指令绑定到的元素，被Vue实例解析的时候，就会 立即执行 bind 函数
+                console.log("Vue.directive focus bind ", el, binding, vnode);
+
+                // 这是 JS DOM API 中原生的方法
+                // el.focus();  // 如果想要让文本框获得焦点，那么，文本框必须先插入到文档中才能生效
+                el.style.color='red';
+
+            },
+            // 今后在自定义指令的时候，如果 需要操作 元素的JS行为了，最好写到 inserted 中
+            inserted(el, binding, vnode) {  // 调用时机： 当 指令绑定到的元素，被插入到文档的父节点时候，调用 inserted 函数
+                console.info("Vue.directive focus inserted ", el, binding, vnode);
+                el.focus();
+            },
+            update(el, binding, vnode, oldVnode) {
+                console.info("Vue.directive focus update ", el, binding, vnode, oldVnode);
+            },
+            componentUpdated(el, binding, vnode) {
+                console.info("Vue.directive focus componentUpdated ", el, binding, vnode);
+            },
+            unbind(el, binding, vnode) {
+                console.info("Vue.directive unbind ", el, binding, vnode);
+            },
+        });
+
+
+        Vue.directive('color', {
+            bind(el, binding, vnode) {
+                console.log("Vue.directive color bind" , el, binding, vnode);
+                el.style.color = binding.value || 'red';
+            },
+        });
+
+
+
+        // 自定义一个 全局的 过滤器 需要定义再vm之前
+        // Vue.filter('过滤器将来被调用时候的名称', 过滤器的处理函数)
+        // 注意:过滤器的处理函数中, 第一个形参,作用已经被规定死了,永远是 管道符 前面的值
+        Vue.filter('formatDate', function(data){
+            // console.log("formatDate");
+            // return data+"$";
+
+            // return moment().format("YYYY-MM-DD HH:mm:ss");
+            return moment(data).format("YYYY-MM-DD HH:mm:ss");
+        });
+
+
+        var vm = new Vue({
+            el: '#app',
+            data: {
+                id: '',
+                name: '',
+
+                list: [
+                    {id: 10, name: 'item1', ctime: new Date()},
+                    {id: 20, name: 'item2', ctime: new Date()},
+                    {id: 30, name: 'item3', ctime: new Date()},
+                    {id: 40, name: 'item4', ctime: new Date()},
+                ],
+                keywords: ''    // 根据名称检索时候的关键字
+            },
+            methods: {
+                add(){  // 添加
+                    var info = {id: this.id, name: this.name, ctime: new Date()};
+                    this.list.push(info);
+                    // 表达式从右往左赋值
+                    this.id = this.name = '';
+
+                },
+                del2(id){    // 点击删除商品
+                    const index = this.list.findIndex(function(item, i, arr){
+                        return item.id==id;
+                    });
+                    this.list.splice(index, 1);
+
+                    console.log(index);
+                    // this.list.forEach(function(item, i, arr){});
+                },
+                searchByName(){ // 根据搜索的关键字,检索品牌数据
+                    console.log(this.keywords);
+
+                    return this.list.filter(item=> item.name.includes(this.keywords));
+                }
+            },
+            filters: {  // 自定义过滤器区域
+
+            },
+            directives: {   // 自定义指令区域
+                bold: { // 让指定元素字体加粗的指令
+                    bind: function(el, binding){
+                        console.log("directives bold bind ", el, binding);
+                        el.style.fontWeight = binding.value;
+                    }
+                },
+                italic: function(el, binding){  // 让文字倾斜的指令
+                    // 用到了指令的函数简写形式，如果指令给定的是 function，则 等同于 把 这个 function 中的代码，分别定义到了 bind 和 update 中去；
+                    console.log("directives italic ", el, binding);
+                    el.style.fontStyle = "italic";
+                },
+                italic1: {
+                    bind: function(el, binding){
+                        console.log("italic1 bind");
+                        el.style.fontStyle = "italic"
+                    },
+                    update: function(el, binding){
+                        console.log("italic1 update");
+                        el.style.fontStyle = "italic"
+                    }
+                }
+            }
+        });
+
+    </script>
+</body>
+</html>

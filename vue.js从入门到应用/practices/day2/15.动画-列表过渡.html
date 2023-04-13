@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./lib/vue-2.6.14.js"></script>
+
+    <style>
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            line-height: 30px;
+            border: 1px dashed #ccc;
+            margin: 5px;
+            font-size: 12px;
+            padding-left: 10px;
+            width: 500px;
+            cursor:pointer;
+        }
+
+        li:hover {
+            background-color: orange;
+            box-shadow: 0 0 7px gray;
+            transition: all 0.6s ease;
+        }
+
+        .v-enter,
+        .v-leave-to {
+            opacity: 0;
+            transform: translateY(200px);
+        }
+        .v-enter-active,
+        .v-leave-active {
+            transition: all 3s ease;
+        }
+        .v-move {   /* 让元素被改变定位的时候，有一个缓动的效果 */
+            transition: all 3s ease;
+        }
+        .v-leave-active {   /* 表示要被删除的那个元素， 让即将被移除的元素，脱离标准流，这样，后面的元素就能渐渐的浮动上来了 */
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+
+        id: <input type="text" v-model="id">
+        name: <input type="text" v-model="name">
+        <input type="button" value="add" v-on:click="add()">
+
+        <transition-group tag="ul">
+            <li v-for="(item, i) in list" v-bind:key="item.id" v-on:click="del(i)">{{item.id}}--{{item.name}}</li>
+        </transition-group>
+
+        <hr>
+        <transition tag="ul">
+            <li v-for="(item, i) in list" v-on:key="item.id" v-on:click="del(i)">{{item.id}}--{{item.name}}</li>
+        </transition>
+
+        <hr>
+        <ul>
+            <li v-for="(item, i) in list" v-on:key="item.id" v-on:click="del(i)">{{item.id}}--{{item.name}}</li>
+        </ul>
+
+
+    </div>
+    <script>
+        var vm = new Vue({
+            el: '#app',
+            data: {
+                list: [
+                    {id:100, name:'item1'},
+                    {id:200, name:'item2'},
+                    {id:300, name:'item3'},
+                    {id:400, name:'item4'},
+                ],
+                id:'',
+                name:'',
+            },
+            methods: {
+                add: function(){
+                    var info = {id: this.id, name:this.name};
+                    // this.list.push(info);
+                    this.list.unshift(info);
+                    this.id=this.name='';
+                },
+                del: function(index){
+                    this.list.splice(index, 1);
+                }
+
+            }
+        });
+    </script>
+</body>
+</html>

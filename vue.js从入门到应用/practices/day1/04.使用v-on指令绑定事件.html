@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./lib/vue-2.6.14.js"></script>
+</head>
+<body>
+    <input type="button" value="1按钮" id="btn1">
+    <div id="app">
+        <!-- 2按钮无法执行 -->
+        <input type="button" value="2按钮" id="btn2">
+        <hr>
+    <!-- Vue 中 提供了 v-on: 来为元素绑定 事件 -->
+    <!-- 绑定的事件处理函数,必须定义到 VM 实例的  methods 属性中 -->
+        <input type="button" value="3按钮 add1" v-on:click="add1">
+        <input type="button" value="4按钮 add2" v-on:click="add2">
+        <input type="button" value="5按钮 add2" v-on:click="add2(1,2,3,4,5)">
+        <input type="button" value="按钮 add" v-on:click="add">
+        <input type="button" value="按钮 add" @click="add">
+        <hr>
+        <h5>当前值：{{ value}}</h5>
+    </div>
+
+    <script>
+        document.getElementById('btn1').onclick = function(){
+            console.info("btn1Add");
+        }
+        
+        document.getElementById('btn2').onclick = function(){
+            console.info("btn2Add");
+        }
+
+        var vm = new Vue({
+            el: '#app',
+            data: {
+                value: 10
+            },
+            methods: {  //这个 methods 属性中,可以定义好多的 事件处理函数
+                add1: function(){
+                    this.value+=1;
+                },
+                add(){  // ES6 对象中,定义函数属性的简写形式 省略“: function”
+                    // 在 methods 中,如果想要访问 data 中的 值,只能通过 this.*** 来访问
+                    this.value+=5;
+                    // 注意: 当 data 中的数据变化之后,会被  VM 调度者 监听到,然后,自动把最新的数据,应用到 页面上;
+                },
+                add2(...args){ //不定参数，放到数组中
+                    console.info(args);
+                },
+
+            }
+
+        })
+
+    </script>
+</body>
+<!-- 1. 如何创建一个 VM 实例 -->
+<!-- 2. 在 VM 实例中,我们学了  el   data    methods -->
+<!-- 3. {{  }}     v-text    v-cloak    v-html    v-bind:   简写是  :      v-on:   简写是 @ -->
+
+
+</html>

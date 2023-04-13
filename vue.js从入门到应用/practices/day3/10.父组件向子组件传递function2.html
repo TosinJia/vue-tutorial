@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./lib/vue-2.6.14.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- 1. 如果要向子组件传递 data 中的数据，则 使用 属性绑定的形式  v-bind: -->
+        <!-- 2. 如果要向子组件传递 methods 中的 方法，则 使用 事件绑定的形式 v-on: -->
+        <com1 v-on:func="show" v-bind:func1="show" v-on:func3="show3"></com1>
+    </div>
+    <script>
+
+
+        const vm = new Vue({
+            el: '#app',
+            data: {
+                msgFromSon: ''
+            },
+            methods: {
+                show: function(arg1){
+                    console.log("vm methods show", arg1);
+                    // 把子组件传递过来的数据，保存到 父组件的  data 中
+                    this.msgFromSon = arg1;
+                    console.log("msgFromSon ", this.msgFromSon);
+
+                    return 'showReturnResult';
+                },
+                show3: function(arg1, callback){
+                    console.log("vm methods show3", arg1);
+                    // 把子组件传递过来的数据，保存到 父组件的  data 中
+                    this.msgFromSon = arg1;
+                    console.log("msgFromSon ", this.msgFromSon);
+
+                    callback('show3ReturnResult');
+                },
+
+            },
+            components: {   // 定义子组件
+                'com1': {
+                    template: `<div>
+                        <!-- 当点击子组件的  按钮时候， 调用一下 父组件传递过来的 func 方法 -->
+                        <input type="button" value="com1按钮" v-on:click="btnClick"/>
+                        <input type="button" value="com1按钮1" v-on:click="btnClick1"/>
+                        <input type="button" value="com1按钮2" v-on:click="btnClick2"/>
+                        <input type="button" value="com1按钮3" v-on:click="btnClick3"/>
+                        </div>`,
+                    data: function(){   // 子组件的数据
+                        return {
+                            sonMsg: "sonMsgData"
+                        }
+                    },
+                    // 通过传Function，子组件可获取到父组件的方法。
+                    props: {
+                        // 子组件接收函数
+                        func1: {
+                            type: Function,
+                            default: null
+                        },
+                    },
+                    methods: {
+                        btnClick: function(){
+                            console.log("com1 methods btnClick");
+                            // 调用一下 父组件传递过来的 func1 方法  emit 英文原意为 发射， 在 计算机中，引申为 触发
+                            // this.$emit('func1');
+
+                            // 子组件向父组件传值，本质上，还是调用了父组件传递过来的方法，只不过，子组件在调用的时候，把 数据 当作参数，传给这个方法了；
+                            this.$emit('func', this.sonMsg);
+                        },
+                        // 调用父组件方法获取返回值 方式一：属性绑定
+                        btnClick1: function(){
+                            console.log("com1 methods btnClick1");
+                            let result = this.func1(this.sonMsg);
+                            console.log(result);
+                        },
+                        // 调用父组件方法获取返回值 方式二：this.$parent.event来调用父组件的方法
+                        btnClick2: function(){
+                            console.log("com1 methods btnClick2");
+                            let result=this.$parent.show(this.sonMsg);
+                            console.log(result);
+                        },
+                        // 调用父组件方法获取返回值 方式三：父组件方法添加 回调函数参数
+                        btnClick3: function(){
+                            console.log("com1 methods btnClick3");
+                            let result=null;
+                            this.$emit('func3',this.sonMsg,function(val){
+                                result=val;
+                                return result;
+                            });
+                            console.log(result);
+                        },
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,2160 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://doc.cms.liulongbin.top/#/md/day1
+Subject: =?utf-8?Q?Day1=20-=20Vue.js=20=E4=BB=8E=E5=85=A5=E9=97=A8=E5=88=B0=E5=BA?=
+ =?utf-8?Q?=94=E7=94=A8?=
+Date: Wed, 6 Oct 2021 01:19:17 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--tANTFTLWwBMYBs44o8tmhj5sg8LAMZOPHu35M5JoxE----"
+
+
+------MultipartBoundary--tANTFTLWwBMYBs44o8tmhj5sg8LAMZOPHu35M5JoxE----
+Content-Type: text/html
+Content-ID: <frame-C838362984B36A1E8040F2FEA19638EA@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://doc.cms.liulongbin.top/#/md/day1
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8">
+ =20
+  <title>Day1 - Vue.js =E4=BB=8E=E5=85=A5=E9=97=A8=E5=88=B0=E5=BA=94=E7=94=
+=A8</title>
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge,chrome=3D1">
+  <meta name=3D"description" content=3D"Description">
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, user-scalable=3D=
+no, initial-scale=3D1.0, maximum-scale=3D1.0, minimum-scale=3D1.0">
+  <link rel=3D"stylesheet" href=3D"http://doc.cms.liulongbin.top/css/vue-mi=
+n.css">
+</head>
+<body data-page=3D"md/day1.md" class=3D"ready sticky">
+  <main><button class=3D"sidebar-toggle" aria-label=3D"Menu"><div class=3D"=
+sidebar-toggle-button"><span></span><span></span><span></span></div></butto=
+n><aside class=3D"sidebar"><h1 class=3D"app-name"><a class=3D"app-name-link=
+" data-nosearch=3D"" href=3D"http://doc.cms.liulongbin.top/">Vue.js =E4=BB=
+=8E=E5=85=A5=E9=97=A8=E5=88=B0=E5=BA=94=E7=94=A8</a></h1><div class=3D"side=
+bar-nav"><!-- docs/_sidebar.md -->
+
+<ul><li><a href=3D"http://doc.cms.liulongbin.top/#/">Home</a></li><li class=
+=3D"active"><a href=3D"http://doc.cms.liulongbin.top/#/md/day1">Day1</a><ul=
+ class=3D"app-sub-sidebar"><li><a class=3D"section-link" href=3D"http://doc=
+.cms.liulongbin.top/#/md/day1?id=3D%e8%af%be%e7%a8%8b%e4%bb%8b%e7%bb%8d">=
+=E8=AF=BE=E7=A8=8B=E4=BB=8B=E7=BB=8D</a></li><ul class=3D"app-sub-sidebar">=
+<li><a class=3D"section-link" href=3D"http://doc.cms.liulongbin.top/#/md/da=
+y1?id=3D%e4%bb%80%e4%b9%88%e6%98%afvuejs">=E4=BB=80=E4=B9=88=E6=98=AFVue.js=
+</a></li></ul><li><a class=3D"section-link" href=3D"http://doc.cms.liulongb=
+in.top/#/md/day1?id=3D%e4%b8%ba%e4%bb%80%e4%b9%88%e8%a6%81%e5%ad%a6%e4%b9%a=
+0%e6%b5%81%e8%a1%8c%e6%a1%86%e6%9e%b6">=E4=B8=BA=E4=BB=80=E4=B9=88=E8=A6=81=
+=E5=AD=A6=E4=B9=A0=E6=B5=81=E8=A1=8C=E6=A1=86=E6=9E=B6</a></li><li><a class=
+=3D"section-link" href=3D"http://doc.cms.liulongbin.top/#/md/day1?id=3D%e6%=
+a1%86%e6%9e%b6%e5%92%8c%e5%ba%93%e7%9a%84%e5%8c%ba%e5%88%ab">=E6=A1=86=E6=
+=9E=B6=E5=92=8C=E5=BA=93=E7=9A=84=E5=8C=BA=E5=88=AB</a></li><li><a class=3D=
+"section-link" href=3D"http://doc.cms.liulongbin.top/#/md/day1?id=3Dnode%ef=
+%bc%88%e5%90%8e%e7%ab%af%ef%bc%89%e4%b8%ad%e7%9a%84-mvc-%e4%b8%8e-%e5%89%8d=
+%e7%ab%af%e4%b8%ad%e7%9a%84-mvvm-%e4%b9%8b%e9%97%b4%e7%9a%84%e5%8c%ba%e5%88=
+%ab">Node=EF=BC=88=E5=90=8E=E7=AB=AF=EF=BC=89=E4=B8=AD=E7=9A=84 MVC =E4=B8=
+=8E =E5=89=8D=E7=AB=AF=E4=B8=AD=E7=9A=84 MVVM =E4=B9=8B=E9=97=B4=E7=9A=84=
+=E5=8C=BA=E5=88=AB</a></li><li><a class=3D"section-link" href=3D"http://doc=
+.cms.liulongbin.top/#/md/day1?id=3Dvuejs-%e5%9f%ba%e6%9c%ac%e4%bb%a3%e7%a0%=
+81-%e5%92%8c-mvvm-%e4%b9%8b%e9%97%b4%e7%9a%84%e5%af%b9%e5%ba%94%e5%85%b3%e7=
+%b3%bb">Vue.js =E5=9F=BA=E6=9C=AC=E4=BB=A3=E7=A0=81 =E5=92=8C MVVM =E4=B9=
+=8B=E9=97=B4=E7=9A=84=E5=AF=B9=E5=BA=94=E5=85=B3=E7=B3=BB</a></li><li><a cl=
+ass=3D"section-link" href=3D"http://doc.cms.liulongbin.top/#/md/day1?id=3Dv=
+ue%e4%b9%8b-%e5%9f%ba%e6%9c%ac%e7%9a%84%e4%bb%a3%e7%a0%81%e7%bb%93%e6%9e%84=
+%e5%92%8c%e6%8f%92%e5%80%bc%e8%a1%a8%e8%be%be%e5%bc%8f%e3%80%81v-cloak">Vue=
+=E4=B9=8B - <code>=E5=9F=BA=E6=9C=AC=E7=9A=84=E4=BB=A3=E7=A0=81=E7=BB=93=E6=
+=9E=84</code>=E5=92=8C<code>=E6=8F=92=E5=80=BC=E8=A1=A8=E8=BE=BE=E5=BC=8F</=
+code>=E3=80=81<code>v-cloak</code></a></li><li><a class=3D"section-link" hr=
+ef=3D"http://doc.cms.liulongbin.top/#/md/day1?id=3Dvue%e6%8c%87%e4%bb%a4%e4=
+%b9%8bv-text%e5%92%8cv-html">Vue=E6=8C=87=E4=BB=A4=E4=B9=8B<code>v-text</co=
+de>=E5=92=8C<code>v-html</code></a></li><li><a class=3D"section-link" href=
+=3D"http://doc.cms.liulongbin.top/#/md/day1?id=3Dvue%e6%8c%87%e4%bb%a4%e4%b=
+9%8bv-bind%e7%9a%84%e4%b8%89%e7%a7%8d%e7%94%a8%e6%b3%95">Vue=E6=8C=87=E4=BB=
+=A4=E4=B9=8B<code>v-bind</code>=E7=9A=84=E4=B8=89=E7=A7=8D=E7=94=A8=E6=B3=
+=95</a></li><li><a class=3D"section-link" href=3D"http://doc.cms.liulongbin=
+.top/#/md/day1?id=3Dvue%e6%8c%87%e4%bb%a4%e4%b9%8bv-on%e5%92%8c%e8%b7%91%e9=
+%a9%ac%e7%81%af%e6%95%88%e6%9e%9c">Vue=E6=8C=87=E4=BB=A4=E4=B9=8B<code>v-on=
+</code>=E5=92=8C<code>=E8=B7=91=E9=A9=AC=E7=81=AF=E6=95=88=E6=9E=9C</code><=
+/a></li><ul class=3D"app-sub-sidebar"><li><a class=3D"section-link" href=3D=
+"http://doc.cms.liulongbin.top/#/md/day1?id=3D%e8%b7%91%e9%a9%ac%e7%81%af%e=
+6%95%88%e6%9e%9c">=E8=B7=91=E9=A9=AC=E7=81=AF=E6=95=88=E6=9E=9C</a></li></u=
+l><li><a class=3D"section-link" href=3D"http://doc.cms.liulongbin.top/#/md/=
+day1?id=3Dvue%e6%8c%87%e4%bb%a4%e4%b9%8bv-on%e7%9a%84%e7%bc%a9%e5%86%99%e5%=
+92%8c%e4%ba%8b%e4%bb%b6%e4%bf%ae%e9%a5%b0%e7%ac%a6">Vue=E6=8C=87=E4=BB=A4=
+=E4=B9=8B<code>v-on=E7=9A=84=E7=BC=A9=E5=86=99</code>=E5=92=8C<code>=E4=BA=
+=8B=E4=BB=B6=E4=BF=AE=E9=A5=B0=E7=AC=A6</code></a></li><ul class=3D"app-sub=
+-sidebar"><li><a class=3D"section-link" href=3D"http://doc.cms.liulongbin.t=
+op/#/md/day1?id=3D%e4%ba%8b%e4%bb%b6%e4%bf%ae%e9%a5%b0%e7%ac%a6%ef%bc%9a">=
+=E4=BA=8B=E4=BB=B6=E4=BF=AE=E9=A5=B0=E7=AC=A6=EF=BC=9A</a></li></ul><li><a =
+class=3D"section-link" href=3D"http://doc.cms.liulongbin.top/#/md/day1?id=
+=3Dvue%e6%8c%87%e4%bb%a4%e4%b9%8bv-model%e5%92%8c%e5%8f%8c%e5%90%91%e6%95%b=
+0%e6%8d%ae%e7%bb%91%e5%ae%9a">Vue=E6=8C=87=E4=BB=A4=E4=B9=8B<code>v-model</=
+code>=E5=92=8C<code>=E5=8F=8C=E5=90=91=E6=95=B0=E6=8D=AE=E7=BB=91=E5=AE=9A<=
+/code></a></li><li><a class=3D"section-link" href=3D"http://doc.cms.liulong=
+bin.top/#/md/day1?id=3D%e7%ae%80%e6%98%93%e8%ae%a1%e7%ae%97%e5%99%a8%e6%a1%=
+88%e4%be%8b">=E7=AE=80=E6=98=93=E8=AE=A1=E7=AE=97=E5=99=A8=E6=A1=88=E4=BE=
+=8B</a></li><li><a class=3D"section-link" href=3D"http://doc.cms.liulongbin=
+.top/#/md/day1?id=3D%e5%9c%a8vue%e4%b8%ad%e4%bd%bf%e7%94%a8%e6%a0%b7%e5%bc%=
+8f">=E5=9C=A8Vue=E4=B8=AD=E4=BD=BF=E7=94=A8=E6=A0=B7=E5=BC=8F</a></li><ul c=
+lass=3D"app-sub-sidebar"><li><a class=3D"section-link" href=3D"http://doc.c=
+ms.liulongbin.top/#/md/day1?id=3D%e4%bd%bf%e7%94%a8class%e6%a0%b7%e5%bc%8f"=
+>=E4=BD=BF=E7=94=A8class=E6=A0=B7=E5=BC=8F</a></li><li><a class=3D"section-=
+link" href=3D"http://doc.cms.liulongbin.top/#/md/day1?id=3D%e4%bd%bf%e7%94%=
+a8%e5%86%85%e8%81%94%e6%a0%b7%e5%bc%8f">=E4=BD=BF=E7=94=A8=E5=86=85=E8=81=
+=94=E6=A0=B7=E5=BC=8F</a></li></ul><li><a class=3D"section-link" href=3D"ht=
+tp://doc.cms.liulongbin.top/#/md/day1?id=3Dvue%e6%8c%87%e4%bb%a4%e4%b9%8bv-=
+for%e5%92%8ckey%e5%b1%9e%e6%80%a7">Vue=E6=8C=87=E4=BB=A4=E4=B9=8B<code>v-fo=
+r</code>=E5=92=8C<code>key</code>=E5=B1=9E=E6=80=A7</a></li><li><a class=3D=
+"section-link" href=3D"http://doc.cms.liulongbin.top/#/md/day1?id=3Dvue%e6%=
+8c%87%e4%bb%a4%e4%b9%8bv-if%e5%92%8cv-show">Vue=E6=8C=87=E4=BB=A4=E4=B9=8B<=
+code>v-if</code>=E5=92=8C<code>v-show</code></a></li><li><a class=3D"sectio=
+n-link" href=3D"http://doc.cms.liulongbin.top/#/md/day1?id=3D%e5%93%81%e7%8=
+9%8c%e7%ae%a1%e7%90%86%e6%a1%88%e4%be%8b">=E5=93=81=E7=89=8C=E7=AE=A1=E7=90=
+=86=E6=A1=88=E4=BE=8B</a></li><ul class=3D"app-sub-sidebar"><li><a class=3D=
+"section-link" href=3D"http://doc.cms.liulongbin.top/#/md/day1?id=3D%e6%b7%=
+bb%e5%8a%a0%e6%96%b0%e5%93%81%e7%89%8c">=E6=B7=BB=E5=8A=A0=E6=96=B0=E5=93=
+=81=E7=89=8C</a></li><li><a class=3D"section-link" href=3D"http://doc.cms.l=
+iulongbin.top/#/md/day1?id=3D%e5%88%a0%e9%99%a4%e5%93%81%e7%89%8c">=E5=88=
+=A0=E9=99=A4=E5=93=81=E7=89=8C</a></li><li><a class=3D"section-link" href=
+=3D"http://doc.cms.liulongbin.top/#/md/day1?id=3D%e6%a0%b9%e6%8d%ae%e6%9d%a=
+1%e4%bb%b6%e7%ad%9b%e9%80%89%e5%93%81%e7%89%8c">=E6=A0=B9=E6=8D=AE=E6=9D=A1=
+=E4=BB=B6=E7=AD=9B=E9=80=89=E5=93=81=E7=89=8C</a></li></ul><li><a class=3D"=
+section-link" href=3D"http://doc.cms.liulongbin.top/#/md/day1?id=3Dvue%e8%b=
+0%83%e8%af%95%e5%b7%a5%e5%85%b7vue-devtools%e7%9a%84%e5%ae%89%e8%a3%85%e6%a=
+d%a5%e9%aa%a4%e5%92%8c%e4%bd%bf%e7%94%a8">Vue=E8=B0=83=E8=AF=95=E5=B7=A5=E5=
+=85=B7<code>vue-devtools</code>=E7=9A=84=E5=AE=89=E8=A3=85=E6=AD=A5=E9=AA=
+=A4=E5=92=8C=E4=BD=BF=E7=94=A8</a></li><li><a class=3D"section-link" href=
+=3D"http://doc.cms.liulongbin.top/#/md/day1?id=3D%e8%bf%87%e6%bb%a4%e5%99%a=
+8">=E8=BF=87=E6=BB=A4=E5=99=A8</a></li><ul class=3D"app-sub-sidebar"><li><a=
+ class=3D"section-link" href=3D"http://doc.cms.liulongbin.top/#/md/day1?id=
+=3D%e7%a7%81%e6%9c%89%e8%bf%87%e6%bb%a4%e5%99%a8">=E7=A7=81=E6=9C=89=E8=BF=
+=87=E6=BB=A4=E5=99=A8</a></li><li><a class=3D"section-link" href=3D"http://=
+doc.cms.liulongbin.top/#/md/day1?id=3D%e5%85%a8%e5%b1%80%e8%bf%87%e6%bb%a4%=
+e5%99%a8">=E5=85=A8=E5=B1=80=E8=BF=87=E6=BB=A4=E5=99=A8</a></li></ul><li><a=
+ class=3D"section-link" href=3D"http://doc.cms.liulongbin.top/#/md/day1?id=
+=3D%e9%94%ae%e7%9b%98%e4%bf%ae%e9%a5%b0%e7%ac%a6%e4%bb%a5%e5%8f%8a%e8%87%aa=
+%e5%ae%9a%e4%b9%89%e9%94%ae%e7%9b%98%e4%bf%ae%e9%a5%b0%e7%ac%a6">=E9=94=AE=
+=E7=9B=98=E4=BF=AE=E9=A5=B0=E7=AC=A6=E4=BB=A5=E5=8F=8A=E8=87=AA=E5=AE=9A=E4=
+=B9=89=E9=94=AE=E7=9B=98=E4=BF=AE=E9=A5=B0=E7=AC=A6</a></li><ul class=3D"ap=
+p-sub-sidebar"><li><a class=3D"section-link" href=3D"http://doc.cms.liulong=
+bin.top/#/md/day1?id=3D_1x%e4%b8%ad%e8%87%aa%e5%ae%9a%e4%b9%89%e9%94%ae%e7%=
+9b%98%e4%bf%ae%e9%a5%b0%e7%ac%a6%e3%80%90%e4%ba%86%e8%a7%a3%e5%8d%b3%e5%8f%=
+af%e3%80%91">1.x=E4=B8=AD=E8=87=AA=E5=AE=9A=E4=B9=89=E9=94=AE=E7=9B=98=E4=
+=BF=AE=E9=A5=B0=E7=AC=A6=E3=80=90=E4=BA=86=E8=A7=A3=E5=8D=B3=E5=8F=AF=E3=80=
+=91</a></li><li><a class=3D"section-link" href=3D"http://doc.cms.liulongbin=
+.top/#/md/day1?id=3Da-hrefhttpscnvuejsorgv2guideeventshtml%e9%94%ae%e5%80%b=
+c%e4%bf%ae%e9%a5%b0%e7%ac%a6-target_blank2x%e4%b8%ad%e8%87%aa%e5%ae%9a%e4%b=
+9%89%e9%94%ae%e7%9b%98%e4%bf%ae%e9%a5%b0%e7%ac%a6"></a><a href=3D"https://c=
+n.vuejs.org/v2/guide/events.html#%E9%94%AE%E5%80%BC%E4%BF%AE%E9%A5%B0%E7%AC=
+%A6" target=3D"_blank">2.x=E4=B8=AD=E8=87=AA=E5=AE=9A=E4=B9=89=E9=94=AE=E7=
+=9B=98=E4=BF=AE=E9=A5=B0=E7=AC=A6</a></li></ul><li><a class=3D"section-link=
+" href=3D"http://doc.cms.liulongbin.top/#/md/day1?id=3Da-hrefhttpscnvuejsor=
+gv2guidecustom-directivehtml-target_blank%e8%87%aa%e5%ae%9a%e4%b9%89%e6%8c%=
+87%e4%bb%a4"></a><a href=3D"https://cn.vuejs.org/v2/guide/custom-directive.=
+html" target=3D"_blank">=E8=87=AA=E5=AE=9A=E4=B9=89=E6=8C=87=E4=BB=A4</a></=
+li><li><a class=3D"section-link" href=3D"http://doc.cms.liulongbin.top/#/md=
+/day1?id=3Dvue-1x-%e4%b8%ad-%e8%87%aa%e5%ae%9a%e4%b9%89%e5%85%83%e7%b4%a0%e=
+6%8c%87%e4%bb%a4%e3%80%90%e5%b7%b2%e5%ba%9f%e5%bc%83%e4%ba%86%e8%a7%a3%e5%8=
+d%b3%e5%8f%af%e3%80%91">Vue 1.x =E4=B8=AD =E8=87=AA=E5=AE=9A=E4=B9=89=E5=85=
+=83=E7=B4=A0=E6=8C=87=E4=BB=A4=E3=80=90=E5=B7=B2=E5=BA=9F=E5=BC=83,=E4=BA=
+=86=E8=A7=A3=E5=8D=B3=E5=8F=AF=E3=80=91</a></li><li><a class=3D"section-lin=
+k" href=3D"http://doc.cms.liulongbin.top/#/md/day1?id=3D%e7%9b%b8%e5%85%b3%=
+e6%96%87%e7%ab%a0">=E7=9B=B8=E5=85=B3=E6=96=87=E7=AB=A0</a></li></ul></li><=
+li><a href=3D"http://doc.cms.liulongbin.top/#/md/day2">Day2</a></li><li><a =
+href=3D"http://doc.cms.liulongbin.top/#/md/day3">Day3</a></li><li><a href=
+=3D"http://doc.cms.liulongbin.top/#/md/day4">Day4</a></li><li><a href=3D"ht=
+tp://doc.cms.liulongbin.top/#/md/day5">Day5</a></li><li><a href=3D"http://d=
+oc.cms.liulongbin.top/#/md/day6">Day6</a></li><li><a href=3D"http://doc.cms=
+.liulongbin.top/#/md/day7_day8">Day7 &amp; Day8</a></li><li><a href=3D"http=
+://doc.cms.liulongbin.top/#/md/day9">Day9</a></li></ul></div></aside><secti=
+on class=3D"content"><article class=3D"markdown-section" id=3D"main"><h1 id=
+=3D"vuejs-day1"><a href=3D"http://doc.cms.liulongbin.top/#/md/day1?id=3Dvue=
+js-day1" data-id=3D"vuejs-day1" class=3D"anchor"><span>Vue.js - Day1</span>=
+</a></h1><h2 id=3D"=E8=AF=BE=E7=A8=8B=E4=BB=8B=E7=BB=8D"><a href=3D"http://=
+doc.cms.liulongbin.top/#/md/day1?id=3D%e8%af%be%e7%a8%8b%e4%bb%8b%e7%bb%8d"=
+ data-id=3D"=E8=AF=BE=E7=A8=8B=E4=BB=8B=E7=BB=8D" class=3D"anchor"><span>=
+=E8=AF=BE=E7=A8=8B=E4=BB=8B=E7=BB=8D</span></a></h2><ul><li>React=EF=BC=8C =
+Vue=EF=BC=8C Angular</li><li>=E5=89=8D=E4=B8=89=E5=A4=A9=E4=B8=BB=E8=A6=81=
+=E5=AD=A6=E4=B9=A0 Vue =E7=9A=84=E5=9F=BA=E7=A1=80=E8=AF=AD=E6=B3=95</li><l=
+i>=E7=AC=AC=E5=9B=9B=E5=A4=A9 ~ =E7=AC=AC 5 =E5=A4=A9 =EF=BC=8C=E5=AD=A6=E4=
+=B9=A0=E5=89=8D=E7=AB=AF=E7=9A=84=E8=87=AA=E5=8A=A8=E5=8C=96=E6=9E=84=E5=BB=
+=BA=E5=B7=A5=E5=85=B7 Webpack(=E8=83=BD=E5=A4=9F=E8=87=AA=E5=B7=B1=E6=89=8B=
+=E5=86=99=E9=85=8D=E7=BD=AE=E5=9F=BA=E6=9C=AC=E7=9A=84=E9=85=8D=E7=BD=AE=E6=
+=96=87=E4=BB=B6=EF=BC=8C=E6=90=AD=E5=BB=BA=E9=A1=B9=E7=9B=AE=E7=9A=84=E7=BB=
+=93=E6=9E=84)</li><li>=E5=90=8E=E4=B8=89=E5=A4=A9 - Vue =E9=A1=B9=E7=9B=AE<=
+/li><li>=E4=B8=89=E5=A4=A7=E6=A1=86=E6=9E=B6=E4=B8=80=E5=A4=A7=E6=8A=84</li=
+></ul><h3 id=3D"=E4=BB=80=E4=B9=88=E6=98=AFvuejs"><a href=3D"http://doc.cms=
+.liulongbin.top/#/md/day1?id=3D%e4%bb%80%e4%b9%88%e6%98%afvuejs" data-id=3D=
+"=E4=BB=80=E4=B9=88=E6=98=AFvuejs" class=3D"anchor"><span>=E4=BB=80=E4=B9=
+=88=E6=98=AFVue.js</span></a></h3><ul><li>Vue.js =E6=98=AF=E7=9B=AE=E5=89=
+=8D=E6=9C=80=E7=81=AB=E7=9A=84=E4=B8=80=E4=B8=AA=E5=89=8D=E7=AB=AF=E6=A1=86=
+=E6=9E=B6=EF=BC=8CReact=E6=98=AF=E6=9C=80=E6=B5=81=E8=A1=8C=E7=9A=84=E4=B8=
+=80=E4=B8=AA=E5=89=8D=E7=AB=AF=E6=A1=86=E6=9E=B6=EF=BC=88React=E9=99=A4=E4=
+=BA=86=E5=BC=80=E5=8F=91=E7=BD=91=E7=AB=99=EF=BC=8C=E8=BF=98=E5=8F=AF=E4=BB=
+=A5=E5=BC=80=E5=8F=91=E6=89=8B=E6=9C=BAApp=EF=BC=8C Vue=E8=AF=AD=E6=B3=95=
+=E4=B9=9F=E6=98=AF=E5=8F=AF=E4=BB=A5=E7=94=A8=E4=BA=8E=E8=BF=9B=E8=A1=8C=E6=
+=89=8B=E6=9C=BAApp=E5=BC=80=E5=8F=91=E7=9A=84=EF=BC=8C=E9=9C=80=E8=A6=81=E5=
+=80=9F=E5=8A=A9=E4=BA=8EWeex=EF=BC=89</li><li>Vue.js =E6=98=AF=E5=89=8D=E7=
+=AB=AF=E7=9A=84<strong>=E4=B8=BB=E6=B5=81=E6=A1=86=E6=9E=B6=E4=B9=8B=E4=B8=
+=80</strong>=EF=BC=8C=E5=92=8CAngular.js=E3=80=81React.js =E4=B8=80=E8=B5=
+=B7=EF=BC=8C=E5=B9=B6=E6=88=90=E4=B8=BA=E5=89=8D=E7=AB=AF=E4=B8=89=E5=A4=A7=
+=E4=B8=BB=E6=B5=81=E6=A1=86=E6=9E=B6=EF=BC=81</li><li>Vue.js =E6=98=AF=E4=
+=B8=80=E5=A5=97=E6=9E=84=E5=BB=BA=E7=94=A8=E6=88=B7=E7=95=8C=E9=9D=A2=E7=9A=
+=84=E6=A1=86=E6=9E=B6=EF=BC=8C<strong>=E5=8F=AA=E5=85=B3=E6=B3=A8=E8=A7=86=
+=E5=9B=BE=E5=B1=82</strong>=EF=BC=8C=E5=AE=83=E4=B8=8D=E4=BB=85=E6=98=93=E4=
+=BA=8E=E4=B8=8A=E6=89=8B=EF=BC=8C=E8=BF=98=E4=BE=BF=E4=BA=8E=E4=B8=8E=E7=AC=
+=AC=E4=B8=89=E6=96=B9=E5=BA=93=E6=88=96=E6=97=A2=E6=9C=89=E9=A1=B9=E7=9B=AE=
+=E6=95=B4=E5=90=88=E3=80=82=EF=BC=88Vue=E6=9C=89=E9=85=8D=E5=A5=97=E7=9A=84=
+=E7=AC=AC=E4=B8=89=E6=96=B9=E7=B1=BB=E5=BA=93=EF=BC=8C=E5=8F=AF=E4=BB=A5=E6=
+=95=B4=E5=90=88=E8=B5=B7=E6=9D=A5=E5=81=9A=E5=A4=A7=E5=9E=8B=E9=A1=B9=E7=9B=
+=AE=E7=9A=84=E5=BC=80=E5=8F=91=EF=BC=89</li><li>=E5=89=8D=E7=AB=AF=E7=9A=84=
+=E4=B8=BB=E8=A6=81=E5=B7=A5=E4=BD=9C=EF=BC=9F=E4=B8=BB=E8=A6=81=E8=B4=9F=E8=
+=B4=A3MVC=E4=B8=AD=E7=9A=84V=E8=BF=99=E4=B8=80=E5=B1=82=EF=BC=9B=E4=B8=BB=
+=E8=A6=81=E5=B7=A5=E4=BD=9C=E5=B0=B1=E6=98=AF=E5=92=8C=E7=95=8C=E9=9D=A2=E6=
+=89=93=E4=BA=A4=E9=81=93=EF=BC=8C=E6=9D=A5=E5=88=B6=E4=BD=9C=E5=89=8D=E7=AB=
+=AF=E9=A1=B5=E9=9D=A2=E6=95=88=E6=9E=9C=EF=BC=9B</li></ul><h2 id=3D"=E4=B8=
+=BA=E4=BB=80=E4=B9=88=E8=A6=81=E5=AD=A6=E4=B9=A0=E6=B5=81=E8=A1=8C=E6=A1=86=
+=E6=9E=B6"><a href=3D"http://doc.cms.liulongbin.top/#/md/day1?id=3D%e4%b8%b=
+a%e4%bb%80%e4%b9%88%e8%a6%81%e5%ad%a6%e4%b9%a0%e6%b5%81%e8%a1%8c%e6%a1%86%e=
+6%9e%b6" data-id=3D"=E4=B8=BA=E4=BB=80=E4=B9=88=E8=A6=81=E5=AD=A6=E4=B9=A0=
+=E6=B5=81=E8=A1=8C=E6=A1=86=E6=9E=B6" class=3D"anchor"><span>=E4=B8=BA=E4=
+=BB=80=E4=B9=88=E8=A6=81=E5=AD=A6=E4=B9=A0=E6=B5=81=E8=A1=8C=E6=A1=86=E6=9E=
+=B6</span></a></h2><ul><li>=E4=BC=81=E4=B8=9A=E4=B8=BA=E4=BA=86=E6=8F=90=E9=
+=AB=98=E5=BC=80=E5=8F=91=E6=95=88=E7=8E=87=EF=BC=9A=E5=9C=A8=E4=BC=81=E4=B8=
+=9A=E4=B8=AD=EF=BC=8C=E6=97=B6=E9=97=B4=E5=B0=B1=E6=98=AF=E6=95=88=E7=8E=87=
+=EF=BC=8C=E6=95=88=E7=8E=87=E5=B0=B1=E6=98=AF=E9=87=91=E9=92=B1=EF=BC=9B<ul=
+><li>Jquery + art-template + Ajax</li><li>=E5=9C=A8=E6=B2=A1=E6=9C=89=E5=89=
+=8D=E7=AB=AF=E6=A1=86=E6=9E=B6=E4=B9=8B=E5=89=8D=EF=BC=8C=E6=88=91=E4=BB=AC=
+=E5=89=8D=E7=AB=AF=E9=9C=80=E8=A6=81=E7=BB=8F=E5=B8=B8=E7=9A=84=E6=93=8D=E4=
+=BD=9CDOM=E5=85=83=E7=B4=A0=EF=BC=9B</li><li>=E5=9C=A8=E9=A1=B9=E7=9B=AE=E4=
+=B8=AD=EF=BC=8Cvue =E8=83=BD=E5=A4=9F=E7=AE=80=E5=8C=96DOM=E6=93=8D=E4=BD=
+=9C=EF=BC=8C=E8=AE=A9=E7=A8=8B=E5=BA=8F=E5=91=98=E6=A0=B9=E6=9C=AC=E4=B8=8D=
+=E7=94=A8=E6=93=8D=E4=BD=9C=E4=BB=BB=E4=BD=95DOM=E5=85=83=E7=B4=A0=EF=BC=8C=
+=E5=B0=B1=E8=83=BD=E6=B8=B2=E6=9F=93=E9=A1=B5=E9=9D=A2=EF=BC=9B</li><li>=E4=
+=BC=81=E4=B8=9A=E4=B8=AD=EF=BC=8C=E4=BD=BF=E7=94=A8=E6=A1=86=E6=9E=B6=EF=BC=
+=8C=E8=83=BD=E5=A4=9F=E6=8F=90=E9=AB=98=E5=BC=80=E5=8F=91=E7=9A=84=E6=95=88=
+=E7=8E=87=EF=BC=9B</li></ul></li><li>=E6=8F=90=E9=AB=98=E5=BC=80=E5=8F=91=
+=E6=95=88=E7=8E=87=E7=9A=84=E5=8F=91=E5=B1=95=E5=8E=86=E7=A8=8B=EF=BC=9A=E5=
+=8E=9F=E7=94=9FJS -&gt; Jquery=E4=B9=8B=E7=B1=BB=E7=9A=84=E7=B1=BB=E5=BA=93=
+ -&gt; =E5=89=8D=E7=AB=AF=E6=A8=A1=E6=9D=BF=E5=BC=95=E6=93=8E -&gt; Angular=
+.js / Vue.js=EF=BC=88=E8=83=BD=E5=A4=9F=E5=B8=AE=E5=8A=A9=E6=88=91=E4=BB=AC=
+=E5=87=8F=E5=B0=91=E4=B8=8D=E5=BF=85=E8=A6=81=E7=9A=84DOM=E6=93=8D=E4=BD=9C=
+=EF=BC=9B=E6=8F=90=E9=AB=98=E6=B8=B2=E6=9F=93=E6=95=88=E7=8E=87=EF=BC=9B=E5=
+=8F=8C=E5=90=91=E6=95=B0=E6=8D=AE=E7=BB=91=E5=AE=9A=E7=9A=84=E6=A6=82=E5=BF=
+=B5=E3=80=90=E9=80=9A=E8=BF=87=E6=A1=86=E6=9E=B6=E6=8F=90=E4=BE=9B=E7=9A=84=
+=E6=8C=87=E4=BB=A4=EF=BC=8C=E6=88=91=E4=BB=AC=E5=89=8D=E7=AB=AF=E7=A8=8B=E5=
+=BA=8F=E5=91=98=E5=8F=AA=E9=9C=80=E8=A6=81=E5=85=B3=E5=BF=83=E6=95=B0=E6=8D=
+=AE=E7=9A=84=E4=B8=9A=E5=8A=A1=E9=80=BB=E8=BE=91=EF=BC=8C=E4=B8=8D=E5=86=8D=
+=E5=85=B3=E5=BF=83DOM=E6=98=AF=E5=A6=82=E4=BD=95=E6=B8=B2=E6=9F=93=E7=9A=84=
+=E4=BA=86=E3=80=91=EF=BC=89</li><li>=E5=9C=A8Vue=E4=B8=AD=EF=BC=8C=E4=B8=80=
+=E4=B8=AA=E6=A0=B8=E5=BF=83=E7=9A=84=E6=A6=82=E5=BF=B5=EF=BC=8C=E5=B0=B1=E6=
+=98=AF=E8=AE=A9=E7=94=A8=E6=88=B7=E4=B8=8D=E5=86=8D=E6=93=8D=E4=BD=9CDOM=E5=
+=85=83=E7=B4=A0=EF=BC=8C=E8=A7=A3=E6=94=BE=E4=BA=86=E7=94=A8=E6=88=B7=E7=9A=
+=84=E5=8F=8C=E6=89=8B=EF=BC=8C=E8=AE=A9=E7=A8=8B=E5=BA=8F=E5=91=98=E5=8F=AF=
+=E4=BB=A5=E6=9B=B4=E5=A4=9A=E7=9A=84=E6=97=B6=E9=97=B4=E5=8E=BB=E5=85=B3=E6=
+=B3=A8=E4=B8=9A=E5=8A=A1=E9=80=BB=E8=BE=91=EF=BC=9B</li><li>=E5=A2=9E=E5=BC=
+=BA=E8=87=AA=E5=B7=B1=E5=B0=B1=E4=B8=9A=E6=97=B6=E5=80=99=E7=9A=84=E7=AB=9E=
+=E4=BA=89=E5=8A=9B<ul><li>=E5=9F=BA=E7=A1=80=E7=8F=AD</li><li>JS=E5=9F=BA=
+=E6=9C=AC=E5=8A=9F=EF=BC=8C JS=E9=AB=98=E7=BA=A7=EF=BC=8C PHP=EF=BC=8CJquer=
+y=EF=BC=8CH5C3 + =E7=A7=BB=E5=8A=A8Web</li><li>Node.js=EF=BC=8C =E5=89=8D=
+=E7=AB=AF=E4=B8=89=E5=A4=A7=E6=A1=86=E6=9E=B6=EF=BC=8CReact-Native=EF=BC=88=
+=E4=BD=BF=E7=94=A8=E5=89=8D=E7=AB=AF=E7=9A=84=E6=8A=80=E6=9C=AFHTML+CSS+JS=
+=EF=BC=8C =E5=8E=BB=E5=BC=80=E5=8F=91=E6=89=8B=E6=9C=BAApp=EF=BC=89</li></u=
+l></li></ul><h2 id=3D"=E6=A1=86=E6=9E=B6=E5=92=8C=E5=BA=93=E7=9A=84=E5=8C=
+=BA=E5=88=AB"><a href=3D"http://doc.cms.liulongbin.top/#/md/day1?id=3D%e6%a=
+1%86%e6%9e%b6%e5%92%8c%e5%ba%93%e7%9a%84%e5%8c%ba%e5%88%ab" data-id=3D"=E6=
+=A1=86=E6=9E=B6=E5=92=8C=E5=BA=93=E7=9A=84=E5=8C=BA=E5=88=AB" class=3D"anch=
+or"><span>=E6=A1=86=E6=9E=B6=E5=92=8C=E5=BA=93=E7=9A=84=E5=8C=BA=E5=88=AB</=
+span></a></h2><ul><li>=E6=A1=86=E6=9E=B6=EF=BC=9A=E6=98=AF=E4=B8=80=E5=A5=
+=97=E5=AE=8C=E6=95=B4=E7=9A=84=E8=A7=A3=E5=86=B3=E6=96=B9=E6=A1=88=EF=BC=9B=
+=E5=AF=B9=E9=A1=B9=E7=9B=AE=E7=9A=84=E4=BE=B5=E5=85=A5=E6=80=A7=E8=BE=83=E5=
+=A4=A7=EF=BC=8C=E9=A1=B9=E7=9B=AE=E5=A6=82=E6=9E=9C=E9=9C=80=E8=A6=81=E6=9B=
+=B4=E6=8D=A2=E6=A1=86=E6=9E=B6=EF=BC=8C=E5=88=99=E9=9C=80=E8=A6=81=E9=87=8D=
+=E6=96=B0=E6=9E=B6=E6=9E=84=E6=95=B4=E4=B8=AA=E9=A1=B9=E7=9B=AE=E3=80=82<ul=
+><li>node =E4=B8=AD=E7=9A=84 express=EF=BC=9B</li></ul></li><li>=E5=BA=93=
+=EF=BC=88=E6=8F=92=E4=BB=B6=EF=BC=89=EF=BC=9A=E6=8F=90=E4=BE=9B=E6=9F=90=E4=
+=B8=80=E4=B8=AA=E5=B0=8F=E5=8A=9F=E8=83=BD=EF=BC=8C=E5=AF=B9=E9=A1=B9=E7=9B=
+=AE=E7=9A=84=E4=BE=B5=E5=85=A5=E6=80=A7=E8=BE=83=E5=B0=8F=EF=BC=8C=E5=A6=82=
+=E6=9E=9C=E6=9F=90=E4=B8=AA=E5=BA=93=E6=97=A0=E6=B3=95=E5=AE=8C=E6=88=90=E6=
+=9F=90=E4=BA=9B=E9=9C=80=E6=B1=82=EF=BC=8C=E5=8F=AF=E4=BB=A5=E5=BE=88=E5=AE=
+=B9=E6=98=93=E5=88=87=E6=8D=A2=E5=88=B0=E5=85=B6=E5=AE=83=E5=BA=93=E5=AE=9E=
+=E7=8E=B0=E9=9C=80=E6=B1=82=E3=80=82<ul><li><ol><li>=E4=BB=8EJquery =E5=88=
+=87=E6=8D=A2=E5=88=B0 Zepto</li></ol></li><li><ol start=3D"2"><li>=E4=BB=8E=
+ EJS =E5=88=87=E6=8D=A2=E5=88=B0 art-template</li></ol></li></ul></li></ul>=
+<h2 id=3D"node=EF=BC=88=E5=90=8E=E7=AB=AF=EF=BC=89=E4=B8=AD=E7=9A=84-mvc-=
+=E4=B8=8E-=E5=89=8D=E7=AB=AF=E4=B8=AD=E7=9A=84-mvvm-=E4=B9=8B=E9=97=B4=E7=
+=9A=84=E5=8C=BA=E5=88=AB"><a href=3D"http://doc.cms.liulongbin.top/#/md/day=
+1?id=3Dnode%ef%bc%88%e5%90%8e%e7%ab%af%ef%bc%89%e4%b8%ad%e7%9a%84-mvc-%e4%b=
+8%8e-%e5%89%8d%e7%ab%af%e4%b8%ad%e7%9a%84-mvvm-%e4%b9%8b%e9%97%b4%e7%9a%84%=
+e5%8c%ba%e5%88%ab" data-id=3D"node=EF=BC=88=E5=90=8E=E7=AB=AF=EF=BC=89=E4=
+=B8=AD=E7=9A=84-mvc-=E4=B8=8E-=E5=89=8D=E7=AB=AF=E4=B8=AD=E7=9A=84-mvvm-=E4=
+=B9=8B=E9=97=B4=E7=9A=84=E5=8C=BA=E5=88=AB" class=3D"anchor"><span>Node=EF=
+=BC=88=E5=90=8E=E7=AB=AF=EF=BC=89=E4=B8=AD=E7=9A=84 MVC =E4=B8=8E =E5=89=8D=
+=E7=AB=AF=E4=B8=AD=E7=9A=84 MVVM =E4=B9=8B=E9=97=B4=E7=9A=84=E5=8C=BA=E5=88=
+=AB</span></a></h2><ul><li>MVC =E6=98=AF=E5=90=8E=E7=AB=AF=E7=9A=84=E5=88=
+=86=E5=B1=82=E5=BC=80=E5=8F=91=E6=A6=82=E5=BF=B5=EF=BC=9B</li><li>MVVM=E6=
+=98=AF=E5=89=8D=E7=AB=AF=E8=A7=86=E5=9B=BE=E5=B1=82=E7=9A=84=E6=A6=82=E5=BF=
+=B5=EF=BC=8C=E4=B8=BB=E8=A6=81=E5=85=B3=E6=B3=A8=E4=BA=8E =E8=A7=86=E5=9B=
+=BE=E5=B1=82=E5=88=86=E7=A6=BB=EF=BC=8C=E4=B9=9F=E5=B0=B1=E6=98=AF=E8=AF=B4=
+=EF=BC=9AMVVM=E6=8A=8A=E5=89=8D=E7=AB=AF=E7=9A=84=E8=A7=86=E5=9B=BE=E5=B1=
+=82=EF=BC=8C=E5=88=86=E4=B8=BA=E4=BA=86 =E4=B8=89=E9=83=A8=E5=88=86 Model, =
+View , VM ViewModel</li><li>=E4=B8=BA=E4=BB=80=E4=B9=88=E6=9C=89=E4=BA=86MV=
+C=E8=BF=98=E8=A6=81=E6=9C=89MVVM</li></ul><h2 id=3D"vuejs-=E5=9F=BA=E6=9C=
+=AC=E4=BB=A3=E7=A0=81-=E5=92=8C-mvvm-=E4=B9=8B=E9=97=B4=E7=9A=84=E5=AF=B9=
+=E5=BA=94=E5=85=B3=E7=B3=BB"><a href=3D"http://doc.cms.liulongbin.top/#/md/=
+day1?id=3Dvuejs-%e5%9f%ba%e6%9c%ac%e4%bb%a3%e7%a0%81-%e5%92%8c-mvvm-%e4%b9%=
+8b%e9%97%b4%e7%9a%84%e5%af%b9%e5%ba%94%e5%85%b3%e7%b3%bb" data-id=3D"vuejs-=
+=E5=9F=BA=E6=9C=AC=E4=BB=A3=E7=A0=81-=E5=92=8C-mvvm-=E4=B9=8B=E9=97=B4=E7=
+=9A=84=E5=AF=B9=E5=BA=94=E5=85=B3=E7=B3=BB" class=3D"anchor"><span>Vue.js =
+=E5=9F=BA=E6=9C=AC=E4=BB=A3=E7=A0=81 =E5=92=8C MVVM =E4=B9=8B=E9=97=B4=E7=
+=9A=84=E5=AF=B9=E5=BA=94=E5=85=B3=E7=B3=BB</span></a></h2><h2 id=3D"vue=E4=
+=B9=8B-=E5=9F=BA=E6=9C=AC=E7=9A=84=E4=BB=A3=E7=A0=81=E7=BB=93=E6=9E=84=E5=
+=92=8C=E6=8F=92=E5=80=BC=E8=A1=A8=E8=BE=BE=E5=BC=8F=E3=80=81v-cloak"><a hre=
+f=3D"http://doc.cms.liulongbin.top/#/md/day1?id=3Dvue%e4%b9%8b-%e5%9f%ba%e6=
+%9c%ac%e7%9a%84%e4%bb%a3%e7%a0%81%e7%bb%93%e6%9e%84%e5%92%8c%e6%8f%92%e5%80=
+%bc%e8%a1%a8%e8%be%be%e5%bc%8f%e3%80%81v-cloak" data-id=3D"vue=E4=B9=8B-=E5=
+=9F=BA=E6=9C=AC=E7=9A=84=E4=BB=A3=E7=A0=81=E7=BB=93=E6=9E=84=E5=92=8C=E6=8F=
+=92=E5=80=BC=E8=A1=A8=E8=BE=BE=E5=BC=8F=E3=80=81v-cloak" class=3D"anchor"><=
+span>Vue=E4=B9=8B - <code>=E5=9F=BA=E6=9C=AC=E7=9A=84=E4=BB=A3=E7=A0=81=E7=
+=BB=93=E6=9E=84</code>=E5=92=8C<code>=E6=8F=92=E5=80=BC=E8=A1=A8=E8=BE=BE=
+=E5=BC=8F</code>=E3=80=81<code>v-cloak</code></span></a></h2><ol><li>=E4=BD=
+=BF=E7=94=A8 =E6=8F=92=E5=80=BC=E8=A1=A8=E8=BE=BE=E5=BC=8F,=E5=AD=98=E5=9C=
+=A8=E5=86=85=E5=AE=B9=E9=97=AA=E7=83=81=E7=9A=84=E9=97=AE=E9=A2=98,=E4=BD=
+=86=E6=98=AF,<code>v-text</code>=E6=B2=A1=E6=9C=89=E9=97=AA=E7=83=81=E9=97=
+=AE=E9=A2=98;</li><li>=E5=9C=A8=E6=8F=92=E5=80=BC=E8=A1=A8=E8=BE=BE=E5=BC=
+=8F=E4=B8=AD,=E5=8F=AF=E4=BB=A5=E4=BD=BF=E7=94=A8 <code>v-cloak</code> =E8=
+=A7=A3=E5=86=B3=E9=97=AA=E7=83=81=E9=97=AE=E9=A2=98;</li><li>=E6=8F=92=E5=
+=80=BC=E8=A1=A8=E8=BE=BE=E5=BC=8F=E5=8F=AA=E4=BC=9A=E6=8F=92=E5=85=A5=E5=86=
+=85=E5=AE=B9,=E5=B9=B6=E4=B8=8D=E4=BC=9A=E6=B8=85=E6=A5=9A=E5=85=B6=E4=BD=
+=99=E7=9A=84=E5=86=85=E5=AE=B9; <code>v-text</code> =E4=BC=9A=E6=8A=8A=E5=
+=85=83=E7=B4=A0=E4=B8=AD=E4=B9=8B=E5=89=8D=E7=9A=84=E5=86=85=E5=AE=B9=E9=83=
+=BD=E6=B8=85=E7=A9=BA!</li></ol><h2 id=3D"vue=E6=8C=87=E4=BB=A4=E4=B9=8Bv-t=
+ext=E5=92=8Cv-html"><a href=3D"http://doc.cms.liulongbin.top/#/md/day1?id=
+=3Dvue%e6%8c%87%e4%bb%a4%e4%b9%8bv-text%e5%92%8cv-html" data-id=3D"vue=E6=
+=8C=87=E4=BB=A4=E4=B9=8Bv-text=E5=92=8Cv-html" class=3D"anchor"><span>Vue=
+=E6=8C=87=E4=BB=A4=E4=B9=8B<code>v-text</code>=E5=92=8C<code>v-html</code><=
+/span></a></h2><h2 id=3D"vue=E6=8C=87=E4=BB=A4=E4=B9=8Bv-bind=E7=9A=84=E4=
+=B8=89=E7=A7=8D=E7=94=A8=E6=B3=95"><a href=3D"http://doc.cms.liulongbin.top=
+/#/md/day1?id=3Dvue%e6%8c%87%e4%bb%a4%e4%b9%8bv-bind%e7%9a%84%e4%b8%89%e7%a=
+7%8d%e7%94%a8%e6%b3%95" data-id=3D"vue=E6=8C=87=E4=BB=A4=E4=B9=8Bv-bind=E7=
+=9A=84=E4=B8=89=E7=A7=8D=E7=94=A8=E6=B3=95" class=3D"anchor"><span>Vue=E6=
+=8C=87=E4=BB=A4=E4=B9=8B<code>v-bind</code>=E7=9A=84=E4=B8=89=E7=A7=8D=E7=
+=94=A8=E6=B3=95</span></a></h2><ol><li>=E7=9B=B4=E6=8E=A5=E4=BD=BF=E7=94=A8=
+=E6=8C=87=E4=BB=A4<code>v-bind</code></li><li>=E4=BD=BF=E7=94=A8=E7=AE=80=
+=E5=8C=96=E6=8C=87=E4=BB=A4<code>:</code></li><li>=E5=9C=A8=E7=BB=91=E5=AE=
+=9A=E7=9A=84=E6=97=B6=E5=80=99=EF=BC=8C=E6=8B=BC=E6=8E=A5=E7=BB=91=E5=AE=9A=
+=E5=86=85=E5=AE=B9=EF=BC=9A<code>:title=3D"btnTitle + ', =E8=BF=99=E6=98=AF=
+=E8=BF=BD=E5=8A=A0=E7=9A=84=E5=86=85=E5=AE=B9'"</code></li></ol><h2 id=3D"v=
+ue=E6=8C=87=E4=BB=A4=E4=B9=8Bv-on=E5=92=8C=E8=B7=91=E9=A9=AC=E7=81=AF=E6=95=
+=88=E6=9E=9C"><a href=3D"http://doc.cms.liulongbin.top/#/md/day1?id=3Dvue%e=
+6%8c%87%e4%bb%a4%e4%b9%8bv-on%e5%92%8c%e8%b7%91%e9%a9%ac%e7%81%af%e6%95%88%=
+e6%9e%9c" data-id=3D"vue=E6=8C=87=E4=BB=A4=E4=B9=8Bv-on=E5=92=8C=E8=B7=91=
+=E9=A9=AC=E7=81=AF=E6=95=88=E6=9E=9C" class=3D"anchor"><span>Vue=E6=8C=87=
+=E4=BB=A4=E4=B9=8B<code>v-on</code>=E5=92=8C<code>=E8=B7=91=E9=A9=AC=E7=81=
+=AF=E6=95=88=E6=9E=9C</code></span></a></h2><h3 id=3D"=E8=B7=91=E9=A9=AC=E7=
+=81=AF=E6=95=88=E6=9E=9C"><a href=3D"http://doc.cms.liulongbin.top/#/md/day=
+1?id=3D%e8%b7%91%e9%a9%ac%e7%81%af%e6%95%88%e6%9e%9c" data-id=3D"=E8=B7=91=
+=E9=A9=AC=E7=81=AF=E6=95=88=E6=9E=9C" class=3D"anchor"><span>=E8=B7=91=E9=
+=A9=AC=E7=81=AF=E6=95=88=E6=9E=9C</span></a></h3><ol><li>HTML=E7=BB=93=E6=
+=9E=84=EF=BC=9A<pre v-pre=3D"" data-lang=3D"html"><code class=3D"lang-html"=
+><span class=3D"token tag"><span class=3D"token tag"><span class=3D"token p=
+unctuation">&lt;</span>div</span> <span class=3D"token attr-name">id</span>=
+<span class=3D"token attr-value"><span class=3D"token punctuation">=3D</spa=
+n><span class=3D"token punctuation">"</span>app<span class=3D"token punctua=
+tion">"</span></span><span class=3D"token punctuation">&gt;</span></span>
+ <span class=3D"token tag"><span class=3D"token tag"><span class=3D"token p=
+unctuation">&lt;</span>p</span><span class=3D"token punctuation">&gt;</span=
+></span>{{info}}<span class=3D"token tag"><span class=3D"token tag"><span c=
+lass=3D"token punctuation">&lt;/</span>p</span><span class=3D"token punctua=
+tion">&gt;</span></span>
+ <span class=3D"token tag"><span class=3D"token tag"><span class=3D"token p=
+unctuation">&lt;</span>input</span> <span class=3D"token attr-name">type</s=
+pan><span class=3D"token attr-value"><span class=3D"token punctuation">=3D<=
+/span><span class=3D"token punctuation">"</span>button<span class=3D"token =
+punctuation">"</span></span> <span class=3D"token attr-name">value</span><s=
+pan class=3D"token attr-value"><span class=3D"token punctuation">=3D</span>=
+<span class=3D"token punctuation">"</span>=E5=BC=80=E5=90=AF<span class=3D"=
+token punctuation">"</span></span> <span class=3D"token attr-name"><span cl=
+ass=3D"token namespace">v-on:</span>click</span><span class=3D"token attr-v=
+alue"><span class=3D"token punctuation">=3D</span><span class=3D"token punc=
+tuation">"</span>go<span class=3D"token punctuation">"</span></span><span c=
+lass=3D"token punctuation">&gt;</span></span>
+ <span class=3D"token tag"><span class=3D"token tag"><span class=3D"token p=
+unctuation">&lt;</span>input</span> <span class=3D"token attr-name">type</s=
+pan><span class=3D"token attr-value"><span class=3D"token punctuation">=3D<=
+/span><span class=3D"token punctuation">"</span>button<span class=3D"token =
+punctuation">"</span></span> <span class=3D"token attr-name">value</span><s=
+pan class=3D"token attr-value"><span class=3D"token punctuation">=3D</span>=
+<span class=3D"token punctuation">"</span>=E5=81=9C=E6=AD=A2<span class=3D"=
+token punctuation">"</span></span> <span class=3D"token attr-name"><span cl=
+ass=3D"token namespace">v-on:</span>click</span><span class=3D"token attr-v=
+alue"><span class=3D"token punctuation">=3D</span><span class=3D"token punc=
+tuation">"</span>stop<span class=3D"token punctuation">"</span></span><span=
+ class=3D"token punctuation">&gt;</span></span>
+<span class=3D"token tag"><span class=3D"token tag"><span class=3D"token pu=
+nctuation">&lt;/</span>div</span><span class=3D"token punctuation">&gt;</sp=
+an></span></code></pre></li><li>Vue=E5=AE=9E=E4=BE=8B=EF=BC=9A<pre v-pre=3D=
+"" data-lang=3D"js"><code class=3D"lang-js"> <span class=3D"token comment">=
+// =E5=88=9B=E5=BB=BA Vue =E5=AE=9E=E4=BE=8B=EF=BC=8C=E5=BE=97=E5=88=B0 Vie=
+wModel</span>
+ <span class=3D"token keyword">var</span> vm <span class=3D"token operator"=
+>=3D</span> <span class=3D"token keyword">new</span> <span class=3D"token c=
+lass-name">Vue</span><span class=3D"token punctuation">(</span><span class=
+=3D"token punctuation">{</span>
+   el<span class=3D"token operator">:</span> <span class=3D"token string">'=
+#app'</span><span class=3D"token punctuation">,</span>
+   data<span class=3D"token operator">:</span> <span class=3D"token punctua=
+tion">{</span>
+     info<span class=3D"token operator">:</span> <span class=3D"token strin=
+g">'=E7=8C=A5=E7=90=90=E5=8F=91=E8=82=B2=EF=BC=8C=E5=88=AB=E6=B5=AA~=EF=BC=
+=81'</span><span class=3D"token punctuation">,</span>
+     intervalId<span class=3D"token operator">:</span> <span class=3D"token=
+ keyword">null</span>
+   <span class=3D"token punctuation">}</span><span class=3D"token punctuati=
+on">,</span>
+   methods<span class=3D"token operator">:</span> <span class=3D"token punc=
+tuation">{</span>
+     <span class=3D"token function">go</span><span class=3D"token punctuati=
+on">(</span><span class=3D"token punctuation">)</span> <span class=3D"token=
+ punctuation">{</span>
+       <span class=3D"token comment">// =E5=A6=82=E6=9E=9C=E5=BD=93=E5=89=
+=8D=E6=9C=89=E5=AE=9A=E6=97=B6=E5=99=A8=E5=9C=A8=E8=BF=90=E8=A1=8C=EF=BC=8C=
+=E5=88=99=E7=9B=B4=E6=8E=A5return</span>
+       <span class=3D"token keyword">if</span> <span class=3D"token punctua=
+tion">(</span><span class=3D"token keyword">this</span><span class=3D"token=
+ punctuation">.</span>intervalId <span class=3D"token operator">!=3D</span>=
+ <span class=3D"token keyword">null</span><span class=3D"token punctuation"=
+>)</span> <span class=3D"token punctuation">{</span>
+         <span class=3D"token keyword">return</span><span class=3D"token pu=
+nctuation">;</span>
+       <span class=3D"token punctuation">}</span>
+       <span class=3D"token comment">// =E5=BC=80=E5=A7=8B=E5=AE=9A=E6=97=
+=B6=E5=99=A8</span>
+       <span class=3D"token keyword">this</span><span class=3D"token punctu=
+ation">.</span>intervalId <span class=3D"token operator">=3D</span> <span c=
+lass=3D"token function">setInterval</span><span class=3D"token punctuation"=
+>(</span><span class=3D"token punctuation">(</span><span class=3D"token pun=
+ctuation">)</span> <span class=3D"token operator">=3D&gt;</span> <span clas=
+s=3D"token punctuation">{</span>
+         <span class=3D"token keyword">this</span><span class=3D"token punc=
+tuation">.</span>info <span class=3D"token operator">=3D</span> <span class=
+=3D"token keyword">this</span><span class=3D"token punctuation">.</span>inf=
+o<span class=3D"token punctuation">.</span><span class=3D"token function">s=
+ubstring</span><span class=3D"token punctuation">(</span><span class=3D"tok=
+en number">1</span><span class=3D"token punctuation">)</span> <span class=
+=3D"token operator">+</span> <span class=3D"token keyword">this</span><span=
+ class=3D"token punctuation">.</span>info<span class=3D"token punctuation">=
+.</span><span class=3D"token function">substring</span><span class=3D"token=
+ punctuation">(</span><span class=3D"token number">0</span><span class=3D"t=
+oken punctuation">,</span> <span class=3D"token number">1</span><span class=
+=3D"token punctuation">)</span><span class=3D"token punctuation">;</span>
+       <span class=3D"token punctuation">}</span><span class=3D"token punct=
+uation">,</span> <span class=3D"token number">500</span><span class=3D"toke=
+n punctuation">)</span><span class=3D"token punctuation">;</span>
+     <span class=3D"token punctuation">}</span><span class=3D"token punctua=
+tion">,</span>
+     <span class=3D"token function">stop</span><span class=3D"token punctua=
+tion">(</span><span class=3D"token punctuation">)</span> <span class=3D"tok=
+en punctuation">{</span>
+       <span class=3D"token function">clearInterval</span><span class=3D"to=
+ken punctuation">(</span><span class=3D"token keyword">this</span><span cla=
+ss=3D"token punctuation">.</span>intervalId<span class=3D"token punctuation=
+">)</span><span class=3D"token punctuation">;</span>
+     <span class=3D"token punctuation">}</span>
+   <span class=3D"token punctuation">}</span>
+ <span class=3D"token punctuation">}</span><span class=3D"token punctuation=
+">)</span><span class=3D"token punctuation">;</span></code></pre></li></ol>=
+<h2 id=3D"vue=E6=8C=87=E4=BB=A4=E4=B9=8Bv-on=E7=9A=84=E7=BC=A9=E5=86=99=E5=
+=92=8C=E4=BA=8B=E4=BB=B6=E4=BF=AE=E9=A5=B0=E7=AC=A6"><a href=3D"http://doc.=
+cms.liulongbin.top/#/md/day1?id=3Dvue%e6%8c%87%e4%bb%a4%e4%b9%8bv-on%e7%9a%=
+84%e7%bc%a9%e5%86%99%e5%92%8c%e4%ba%8b%e4%bb%b6%e4%bf%ae%e9%a5%b0%e7%ac%a6"=
+ data-id=3D"vue=E6=8C=87=E4=BB=A4=E4=B9=8Bv-on=E7=9A=84=E7=BC=A9=E5=86=99=
+=E5=92=8C=E4=BA=8B=E4=BB=B6=E4=BF=AE=E9=A5=B0=E7=AC=A6" class=3D"anchor"><s=
+pan>Vue=E6=8C=87=E4=BB=A4=E4=B9=8B<code>v-on=E7=9A=84=E7=BC=A9=E5=86=99</co=
+de>=E5=92=8C<code>=E4=BA=8B=E4=BB=B6=E4=BF=AE=E9=A5=B0=E7=AC=A6</code></spa=
+n></a></h2><h3 id=3D"=E4=BA=8B=E4=BB=B6=E4=BF=AE=E9=A5=B0=E7=AC=A6=EF=BC=9A=
+"><a href=3D"http://doc.cms.liulongbin.top/#/md/day1?id=3D%e4%ba%8b%e4%bb%b=
+6%e4%bf%ae%e9%a5%b0%e7%ac%a6%ef%bc%9a" data-id=3D"=E4=BA=8B=E4=BB=B6=E4=BF=
+=AE=E9=A5=B0=E7=AC=A6=EF=BC=9A" class=3D"anchor"><span>=E4=BA=8B=E4=BB=B6=
+=E4=BF=AE=E9=A5=B0=E7=AC=A6=EF=BC=9A</span></a></h3><ul><li>.stop       =E9=
+=98=BB=E6=AD=A2=E5=86=92=E6=B3=A1</li><li>.prevent    =E9=98=BB=E6=AD=A2=E9=
+=BB=98=E8=AE=A4=E4=BA=8B=E4=BB=B6</li><li>.capture    =E6=B7=BB=E5=8A=A0=E4=
+=BA=8B=E4=BB=B6=E4=BE=A6=E5=90=AC=E5=99=A8=E6=97=B6=E4=BD=BF=E7=94=A8=E4=BA=
+=8B=E4=BB=B6=E6=8D=95=E8=8E=B7=E6=A8=A1=E5=BC=8F</li><li>.self       =E5=8F=
+=AA=E5=BD=93=E4=BA=8B=E4=BB=B6=E5=9C=A8=E8=AF=A5=E5=85=83=E7=B4=A0=E6=9C=AC=
+=E8=BA=AB=EF=BC=88=E6=AF=94=E5=A6=82=E4=B8=8D=E6=98=AF=E5=AD=90=E5=85=83=E7=
+=B4=A0=EF=BC=89=E8=A7=A6=E5=8F=91=E6=97=B6=E8=A7=A6=E5=8F=91=E5=9B=9E=E8=B0=
+=83</li><li>.once       =E4=BA=8B=E4=BB=B6=E5=8F=AA=E8=A7=A6=E5=8F=91=E4=B8=
+=80=E6=AC=A1</li></ul><h2 id=3D"vue=E6=8C=87=E4=BB=A4=E4=B9=8Bv-model=E5=92=
+=8C=E5=8F=8C=E5=90=91=E6=95=B0=E6=8D=AE=E7=BB=91=E5=AE=9A"><a href=3D"http:=
+//doc.cms.liulongbin.top/#/md/day1?id=3Dvue%e6%8c%87%e4%bb%a4%e4%b9%8bv-mod=
+el%e5%92%8c%e5%8f%8c%e5%90%91%e6%95%b0%e6%8d%ae%e7%bb%91%e5%ae%9a" data-id=
+=3D"vue=E6=8C=87=E4=BB=A4=E4=B9=8Bv-model=E5=92=8C=E5=8F=8C=E5=90=91=E6=95=
+=B0=E6=8D=AE=E7=BB=91=E5=AE=9A" class=3D"anchor"><span>Vue=E6=8C=87=E4=BB=
+=A4=E4=B9=8B<code>v-model</code>=E5=92=8C<code>=E5=8F=8C=E5=90=91=E6=95=B0=
+=E6=8D=AE=E7=BB=91=E5=AE=9A</code></span></a></h2><h2 id=3D"=E7=AE=80=E6=98=
+=93=E8=AE=A1=E7=AE=97=E5=99=A8=E6=A1=88=E4=BE=8B"><a href=3D"http://doc.cms=
+.liulongbin.top/#/md/day1?id=3D%e7%ae%80%e6%98%93%e8%ae%a1%e7%ae%97%e5%99%a=
+8%e6%a1%88%e4%be%8b" data-id=3D"=E7=AE=80=E6=98=93=E8=AE=A1=E7=AE=97=E5=99=
+=A8=E6=A1=88=E4=BE=8B" class=3D"anchor"><span>=E7=AE=80=E6=98=93=E8=AE=A1=
+=E7=AE=97=E5=99=A8=E6=A1=88=E4=BE=8B</span></a></h2><ol><li>HTML =E4=BB=A3=
+=E7=A0=81=E7=BB=93=E6=9E=84<pre v-pre=3D"" data-lang=3D"html"><code class=
+=3D"lang-html"><span class=3D"token tag"><span class=3D"token tag"><span cl=
+ass=3D"token punctuation">&lt;</span>div</span> <span class=3D"token attr-n=
+ame">id</span><span class=3D"token attr-value"><span class=3D"token punctua=
+tion">=3D</span><span class=3D"token punctuation">"</span>app<span class=3D=
+"token punctuation">"</span></span><span class=3D"token punctuation">&gt;</=
+span></span>
+ <span class=3D"token tag"><span class=3D"token tag"><span class=3D"token p=
+unctuation">&lt;</span>input</span> <span class=3D"token attr-name">type</s=
+pan><span class=3D"token attr-value"><span class=3D"token punctuation">=3D<=
+/span><span class=3D"token punctuation">"</span>text<span class=3D"token pu=
+nctuation">"</span></span> <span class=3D"token attr-name">v-model</span><s=
+pan class=3D"token attr-value"><span class=3D"token punctuation">=3D</span>=
+<span class=3D"token punctuation">"</span>n1<span class=3D"token punctuatio=
+n">"</span></span><span class=3D"token punctuation">&gt;</span></span>
+ <span class=3D"token tag"><span class=3D"token tag"><span class=3D"token p=
+unctuation">&lt;</span>select</span> <span class=3D"token attr-name">v-mode=
+l</span><span class=3D"token attr-value"><span class=3D"token punctuation">=
+=3D</span><span class=3D"token punctuation">"</span>opt<span class=3D"token=
+ punctuation">"</span></span><span class=3D"token punctuation">&gt;</span><=
+/span>
+   <span class=3D"token tag"><span class=3D"token tag"><span class=3D"token=
+ punctuation">&lt;</span>option</span> <span class=3D"token attr-name">valu=
+e</span><span class=3D"token attr-value"><span class=3D"token punctuation">=
+=3D</span><span class=3D"token punctuation">"</span>+<span class=3D"token p=
+unctuation">"</span></span><span class=3D"token punctuation">&gt;</span></s=
+pan>+<span class=3D"token tag"><span class=3D"token tag"><span class=3D"tok=
+en punctuation">&lt;/</span>option</span><span class=3D"token punctuation">=
+&gt;</span></span>
+   <span class=3D"token tag"><span class=3D"token tag"><span class=3D"token=
+ punctuation">&lt;</span>option</span> <span class=3D"token attr-name">valu=
+e</span><span class=3D"token attr-value"><span class=3D"token punctuation">=
+=3D</span><span class=3D"token punctuation">"</span>-<span class=3D"token p=
+unctuation">"</span></span><span class=3D"token punctuation">&gt;</span></s=
+pan>-<span class=3D"token tag"><span class=3D"token tag"><span class=3D"tok=
+en punctuation">&lt;/</span>option</span><span class=3D"token punctuation">=
+&gt;</span></span>
+   <span class=3D"token tag"><span class=3D"token tag"><span class=3D"token=
+ punctuation">&lt;</span>option</span> <span class=3D"token attr-name">valu=
+e</span><span class=3D"token attr-value"><span class=3D"token punctuation">=
+=3D</span><span class=3D"token punctuation">"</span>*<span class=3D"token p=
+unctuation">"</span></span><span class=3D"token punctuation">&gt;</span></s=
+pan>*<span class=3D"token tag"><span class=3D"token tag"><span class=3D"tok=
+en punctuation">&lt;/</span>option</span><span class=3D"token punctuation">=
+&gt;</span></span>
+   <span class=3D"token tag"><span class=3D"token tag"><span class=3D"token=
+ punctuation">&lt;</span>option</span> <span class=3D"token attr-name">valu=
+e</span><span class=3D"token attr-value"><span class=3D"token punctuation">=
+=3D</span><span class=3D"token punctuation">"</span>/<span class=3D"token p=
+unctuation">"</span></span><span class=3D"token punctuation">&gt;</span></s=
+pan>/<span class=3D"token tag"><span class=3D"token tag"><span class=3D"tok=
+en punctuation">&lt;/</span>option</span><span class=3D"token punctuation">=
+&gt;</span></span>
+ <span class=3D"token tag"><span class=3D"token tag"><span class=3D"token p=
+unctuation">&lt;/</span>select</span><span class=3D"token punctuation">&gt;=
+</span></span>
+ <span class=3D"token tag"><span class=3D"token tag"><span class=3D"token p=
+unctuation">&lt;</span>input</span> <span class=3D"token attr-name">type</s=
+pan><span class=3D"token attr-value"><span class=3D"token punctuation">=3D<=
+/span><span class=3D"token punctuation">"</span>text<span class=3D"token pu=
+nctuation">"</span></span> <span class=3D"token attr-name">v-model</span><s=
+pan class=3D"token attr-value"><span class=3D"token punctuation">=3D</span>=
+<span class=3D"token punctuation">"</span>n2<span class=3D"token punctuatio=
+n">"</span></span><span class=3D"token punctuation">&gt;</span></span>
+ <span class=3D"token tag"><span class=3D"token tag"><span class=3D"token p=
+unctuation">&lt;</span>input</span> <span class=3D"token attr-name">type</s=
+pan><span class=3D"token attr-value"><span class=3D"token punctuation">=3D<=
+/span><span class=3D"token punctuation">"</span>button<span class=3D"token =
+punctuation">"</span></span> <span class=3D"token attr-name">value</span><s=
+pan class=3D"token attr-value"><span class=3D"token punctuation">=3D</span>=
+<span class=3D"token punctuation">"</span>=3D<span class=3D"token punctuati=
+on">"</span></span> <span class=3D"token attr-name">@click</span><span clas=
+s=3D"token attr-value"><span class=3D"token punctuation">=3D</span><span cl=
+ass=3D"token punctuation">"</span>calc<span class=3D"token punctuation">"</=
+span></span><span class=3D"token punctuation">&gt;</span></span>
+ <span class=3D"token tag"><span class=3D"token tag"><span class=3D"token p=
+unctuation">&lt;</span>input</span> <span class=3D"token attr-name">type</s=
+pan><span class=3D"token attr-value"><span class=3D"token punctuation">=3D<=
+/span><span class=3D"token punctuation">"</span>text<span class=3D"token pu=
+nctuation">"</span></span> <span class=3D"token attr-name">v-model</span><s=
+pan class=3D"token attr-value"><span class=3D"token punctuation">=3D</span>=
+<span class=3D"token punctuation">"</span>result<span class=3D"token punctu=
+ation">"</span></span><span class=3D"token punctuation">&gt;</span></span>
+<span class=3D"token tag"><span class=3D"token tag"><span class=3D"token pu=
+nctuation">&lt;/</span>div</span><span class=3D"token punctuation">&gt;</sp=
+an></span></code></pre></li><li>Vue=E5=AE=9E=E4=BE=8B=E4=BB=A3=E7=A0=81=EF=
+=BC=9A<pre v-pre=3D"" data-lang=3D"js"><code class=3D"lang-js"><span class=
+=3D"token operator">&lt;</span>script<span class=3D"token operator">&gt;</s=
+pan>
+ <span class=3D"token comment">// =E5=88=9B=E5=BB=BA Vue =E5=AE=9E=E4=BE=8B=
+=EF=BC=8C=E5=BE=97=E5=88=B0 ViewModel</span>
+ <span class=3D"token keyword">var</span> vm <span class=3D"token operator"=
+>=3D</span> <span class=3D"token keyword">new</span> <span class=3D"token c=
+lass-name">Vue</span><span class=3D"token punctuation">(</span><span class=
+=3D"token punctuation">{</span>
+   el<span class=3D"token operator">:</span> <span class=3D"token string">'=
+#app'</span><span class=3D"token punctuation">,</span>
+   data<span class=3D"token operator">:</span> <span class=3D"token punctua=
+tion">{</span>
+     n1<span class=3D"token operator">:</span> <span class=3D"token number"=
+>0</span><span class=3D"token punctuation">,</span>
+     n2<span class=3D"token operator">:</span> <span class=3D"token number"=
+>0</span><span class=3D"token punctuation">,</span>
+     opt<span class=3D"token operator">:</span> <span class=3D"token string=
+">'+'</span><span class=3D"token punctuation">,</span>
+     result<span class=3D"token operator">:</span> <span class=3D"token num=
+ber">0</span>
+   <span class=3D"token punctuation">}</span><span class=3D"token punctuati=
+on">,</span>
+   methods<span class=3D"token operator">:</span> <span class=3D"token punc=
+tuation">{</span>
+     <span class=3D"token function">calc</span><span class=3D"token punctua=
+tion">(</span><span class=3D"token punctuation">)</span> <span class=3D"tok=
+en punctuation">{</span>
+       <span class=3D"token keyword">const</span> str <span class=3D"token =
+operator">=3D</span> <span class=3D"token template-string"><span class=3D"t=
+oken template-punctuation string">`</span><span class=3D"token string">pars=
+eFloat(</span><span class=3D"token interpolation"><span class=3D"token inte=
+rpolation-punctuation punctuation">${</span><span class=3D"token keyword">t=
+his</span><span class=3D"token punctuation">.</span>n1<span class=3D"token =
+interpolation-punctuation punctuation">}</span></span><span class=3D"token =
+string">) </span><span class=3D"token interpolation"><span class=3D"token i=
+nterpolation-punctuation punctuation">${</span><span class=3D"token keyword=
+">this</span><span class=3D"token punctuation">.</span>opt<span class=3D"to=
+ken interpolation-punctuation punctuation">}</span></span><span class=3D"to=
+ken string"> parseFloat(</span><span class=3D"token interpolation"><span cl=
+ass=3D"token interpolation-punctuation punctuation">${</span><span class=3D=
+"token keyword">this</span><span class=3D"token punctuation">.</span>n2<spa=
+n class=3D"token interpolation-punctuation punctuation">}</span></span><spa=
+n class=3D"token string">)</span><span class=3D"token template-punctuation =
+string">`</span></span>
+       <span class=3D"token keyword">this</span><span class=3D"token punctu=
+ation">.</span>result <span class=3D"token operator">=3D</span> <span class=
+=3D"token function">eval</span><span class=3D"token punctuation">(</span>st=
+r<span class=3D"token punctuation">)</span>
+     <span class=3D"token punctuation">}</span>
+   <span class=3D"token punctuation">}</span>
+ <span class=3D"token punctuation">}</span><span class=3D"token punctuation=
+">)</span><span class=3D"token punctuation">;</span>
+<span class=3D"token operator">&lt;</span><span class=3D"token operator">/<=
+/span>script<span class=3D"token operator">&gt;</span></code></pre></li></o=
+l><h2 id=3D"=E5=9C=A8vue=E4=B8=AD=E4=BD=BF=E7=94=A8=E6=A0=B7=E5=BC=8F"><a h=
+ref=3D"http://doc.cms.liulongbin.top/#/md/day1?id=3D%e5%9c%a8vue%e4%b8%ad%e=
+4%bd%bf%e7%94%a8%e6%a0%b7%e5%bc%8f" data-id=3D"=E5=9C=A8vue=E4=B8=AD=E4=BD=
+=BF=E7=94=A8=E6=A0=B7=E5=BC=8F" class=3D"anchor"><span>=E5=9C=A8Vue=E4=B8=
+=AD=E4=BD=BF=E7=94=A8=E6=A0=B7=E5=BC=8F</span></a></h2><h3 id=3D"=E4=BD=BF=
+=E7=94=A8class=E6=A0=B7=E5=BC=8F"><a href=3D"http://doc.cms.liulongbin.top/=
+#/md/day1?id=3D%e4%bd%bf%e7%94%a8class%e6%a0%b7%e5%bc%8f" data-id=3D"=E4=BD=
+=BF=E7=94=A8class=E6=A0=B7=E5=BC=8F" class=3D"anchor"><span>=E4=BD=BF=E7=94=
+=A8class=E6=A0=B7=E5=BC=8F</span></a></h3><ol><li>=E6=95=B0=E7=BB=84<pre v-=
+pre=3D"" data-lang=3D"html"><code class=3D"lang-html"><span class=3D"token =
+tag"><span class=3D"token tag"><span class=3D"token punctuation">&lt;</span=
+>h1</span> <span class=3D"token attr-name">:class</span><span class=3D"toke=
+n attr-value"><span class=3D"token punctuation">=3D</span><span class=3D"to=
+ken punctuation">"</span>['red', 'thin']<span class=3D"token punctuation">"=
+</span></span><span class=3D"token punctuation">&gt;</span></span>=E8=BF=99=
+=E6=98=AF=E4=B8=80=E4=B8=AA=E9=82=AA=E6=81=B6=E7=9A=84H1<span class=3D"toke=
+n tag"><span class=3D"token tag"><span class=3D"token punctuation">&lt;/</s=
+pan>h1</span><span class=3D"token punctuation">&gt;</span></span></code></p=
+re></li><li>=E6=95=B0=E7=BB=84=E4=B8=AD=E4=BD=BF=E7=94=A8=E4=B8=89=E5=85=83=
+=E8=A1=A8=E8=BE=BE=E5=BC=8F<pre v-pre=3D"" data-lang=3D"html"><code class=
+=3D"lang-html"><span class=3D"token tag"><span class=3D"token tag"><span cl=
+ass=3D"token punctuation">&lt;</span>h1</span> <span class=3D"token attr-na=
+me">:class</span><span class=3D"token attr-value"><span class=3D"token punc=
+tuation">=3D</span><span class=3D"token punctuation">"</span>['red', 'thin'=
+, isactive?'active':'']<span class=3D"token punctuation">"</span></span><sp=
+an class=3D"token punctuation">&gt;</span></span>=E8=BF=99=E6=98=AF=E4=B8=
+=80=E4=B8=AA=E9=82=AA=E6=81=B6=E7=9A=84H1<span class=3D"token tag"><span cl=
+ass=3D"token tag"><span class=3D"token punctuation">&lt;/</span>h1</span><s=
+pan class=3D"token punctuation">&gt;</span></span></code></pre></li><li>=E6=
+=95=B0=E7=BB=84=E4=B8=AD=E5=B5=8C=E5=A5=97=E5=AF=B9=E8=B1=A1<pre v-pre=3D""=
+ data-lang=3D"html"><code class=3D"lang-html"><span class=3D"token tag"><sp=
+an class=3D"token tag"><span class=3D"token punctuation">&lt;</span>h1</spa=
+n> <span class=3D"token attr-name">:class</span><span class=3D"token attr-v=
+alue"><span class=3D"token punctuation">=3D</span><span class=3D"token punc=
+tuation">"</span>['red', 'thin', {'active': isactive}]<span class=3D"token =
+punctuation">"</span></span><span class=3D"token punctuation">&gt;</span></=
+span>=E8=BF=99=E6=98=AF=E4=B8=80=E4=B8=AA=E9=82=AA=E6=81=B6=E7=9A=84H1<span=
+ class=3D"token tag"><span class=3D"token tag"><span class=3D"token punctua=
+tion">&lt;/</span>h1</span><span class=3D"token punctuation">&gt;</span></s=
+pan></code></pre></li><li>=E7=9B=B4=E6=8E=A5=E4=BD=BF=E7=94=A8=E5=AF=B9=E8=
+=B1=A1<pre v-pre=3D"" data-lang=3D"html"><code class=3D"lang-html"><span cl=
+ass=3D"token tag"><span class=3D"token tag"><span class=3D"token punctuatio=
+n">&lt;</span>h1</span> <span class=3D"token attr-name">:class</span><span =
+class=3D"token attr-value"><span class=3D"token punctuation">=3D</span><spa=
+n class=3D"token punctuation">"</span>{red:true, italic:true, active:true, =
+thin:true}<span class=3D"token punctuation">"</span></span><span class=3D"t=
+oken punctuation">&gt;</span></span>=E8=BF=99=E6=98=AF=E4=B8=80=E4=B8=AA=E9=
+=82=AA=E6=81=B6=E7=9A=84H1<span class=3D"token tag"><span class=3D"token ta=
+g"><span class=3D"token punctuation">&lt;/</span>h1</span><span class=3D"to=
+ken punctuation">&gt;</span></span></code></pre></li></ol><h3 id=3D"=E4=BD=
+=BF=E7=94=A8=E5=86=85=E8=81=94=E6=A0=B7=E5=BC=8F"><a href=3D"http://doc.cms=
+.liulongbin.top/#/md/day1?id=3D%e4%bd%bf%e7%94%a8%e5%86%85%e8%81%94%e6%a0%b=
+7%e5%bc%8f" data-id=3D"=E4=BD=BF=E7=94=A8=E5=86=85=E8=81=94=E6=A0=B7=E5=BC=
+=8F" class=3D"anchor"><span>=E4=BD=BF=E7=94=A8=E5=86=85=E8=81=94=E6=A0=B7=
+=E5=BC=8F</span></a></h3><ol><li>=E7=9B=B4=E6=8E=A5=E5=9C=A8=E5=85=83=E7=B4=
+=A0=E4=B8=8A=E9=80=9A=E8=BF=87 <code>:style</code> =E7=9A=84=E5=BD=A2=E5=BC=
+=8F=EF=BC=8C=E4=B9=A6=E5=86=99=E6=A0=B7=E5=BC=8F=E5=AF=B9=E8=B1=A1<pre v-pr=
+e=3D"" data-lang=3D"html"><code class=3D"lang-html"><span class=3D"token ta=
+g"><span class=3D"token tag"><span class=3D"token punctuation">&lt;</span>h=
+1</span> <span class=3D"token attr-name">:</span><span class=3D"token style=
+-attr language-css"><span class=3D"token attr-name"><span class=3D"token at=
+tr-name">style</span></span><span class=3D"token punctuation">=3D"</span><s=
+pan class=3D"token attr-value"><span class=3D"token punctuation">{</span><s=
+pan class=3D"token property">color</span><span class=3D"token punctuation">=
+:</span> <span class=3D"token string">'red'</span><span class=3D"token punc=
+tuation">,</span> <span class=3D"token string">'font-size'</span><span clas=
+s=3D"token punctuation">:</span> <span class=3D"token string">'40px'</span>=
+<span class=3D"token punctuation">}</span></span><span class=3D"token punct=
+uation">"</span></span><span class=3D"token punctuation">&gt;</span></span>=
+=E8=BF=99=E6=98=AF=E4=B8=80=E4=B8=AA=E5=96=84=E8=89=AF=E7=9A=84H1<span clas=
+s=3D"token tag"><span class=3D"token tag"><span class=3D"token punctuation"=
+>&lt;/</span>h1</span><span class=3D"token punctuation">&gt;</span></span><=
+/code></pre></li><li>=E5=B0=86=E6=A0=B7=E5=BC=8F=E5=AF=B9=E8=B1=A1=EF=BC=8C=
+=E5=AE=9A=E4=B9=89=E5=88=B0 <code>data</code> =E4=B8=AD=EF=BC=8C=E5=B9=B6=
+=E7=9B=B4=E6=8E=A5=E5=BC=95=E7=94=A8=E5=88=B0 <code>:style</code> =E4=B8=AD=
+<ul><li>=E5=9C=A8data=E4=B8=8A=E5=AE=9A=E4=B9=89=E6=A0=B7=E5=BC=8F=EF=BC=9A=
+<pre v-pre=3D"" data-lang=3D"js"><code class=3D"lang-js">data<span class=3D=
+"token operator">:</span> <span class=3D"token punctuation">{</span>
+   h1StyleObj<span class=3D"token operator">:</span> <span class=3D"token p=
+unctuation">{</span> color<span class=3D"token operator">:</span> <span cla=
+ss=3D"token string">'red'</span><span class=3D"token punctuation">,</span> =
+<span class=3D"token string">'font-size'</span><span class=3D"token operato=
+r">:</span> <span class=3D"token string">'40px'</span><span class=3D"token =
+punctuation">,</span> <span class=3D"token string">'font-weight'</span><spa=
+n class=3D"token operator">:</span> <span class=3D"token string">'200'</spa=
+n> <span class=3D"token punctuation">}</span>
+<span class=3D"token punctuation">}</span></code></pre></li><li>=E5=9C=A8=
+=E5=85=83=E7=B4=A0=E4=B8=AD=EF=BC=8C=E9=80=9A=E8=BF=87=E5=B1=9E=E6=80=A7=E7=
+=BB=91=E5=AE=9A=E7=9A=84=E5=BD=A2=E5=BC=8F=EF=BC=8C=E5=B0=86=E6=A0=B7=E5=BC=
+=8F=E5=AF=B9=E8=B1=A1=E5=BA=94=E7=94=A8=E5=88=B0=E5=85=83=E7=B4=A0=E4=B8=AD=
+=EF=BC=9A<pre v-pre=3D"" data-lang=3D"html"><code class=3D"lang-html"><span=
+ class=3D"token tag"><span class=3D"token tag"><span class=3D"token punctua=
+tion">&lt;</span>h1</span> <span class=3D"token attr-name">:</span><span cl=
+ass=3D"token style-attr language-css"><span class=3D"token attr-name"><span=
+ class=3D"token attr-name">style</span></span><span class=3D"token punctuat=
+ion">=3D"</span><span class=3D"token attr-value">h1StyleObj</span><span cla=
+ss=3D"token punctuation">"</span></span><span class=3D"token punctuation">&=
+gt;</span></span>=E8=BF=99=E6=98=AF=E4=B8=80=E4=B8=AA=E5=96=84=E8=89=AF=E7=
+=9A=84H1<span class=3D"token tag"><span class=3D"token tag"><span class=3D"=
+token punctuation">&lt;/</span>h1</span><span class=3D"token punctuation">&=
+gt;</span></span></code></pre></li></ul></li><li>=E5=9C=A8 <code>:style</co=
+de> =E4=B8=AD=E9=80=9A=E8=BF=87=E6=95=B0=E7=BB=84=EF=BC=8C=E5=BC=95=E7=94=
+=A8=E5=A4=9A=E4=B8=AA <code>data</code> =E4=B8=8A=E7=9A=84=E6=A0=B7=E5=BC=
+=8F=E5=AF=B9=E8=B1=A1<ul><li>=E5=9C=A8data=E4=B8=8A=E5=AE=9A=E4=B9=89=E6=A0=
+=B7=E5=BC=8F=EF=BC=9A<pre v-pre=3D"" data-lang=3D"js"><code class=3D"lang-j=
+s">data<span class=3D"token operator">:</span> <span class=3D"token punctua=
+tion">{</span>
+   h1StyleObj<span class=3D"token operator">:</span> <span class=3D"token p=
+unctuation">{</span> color<span class=3D"token operator">:</span> <span cla=
+ss=3D"token string">'red'</span><span class=3D"token punctuation">,</span> =
+<span class=3D"token string">'font-size'</span><span class=3D"token operato=
+r">:</span> <span class=3D"token string">'40px'</span><span class=3D"token =
+punctuation">,</span> <span class=3D"token string">'font-weight'</span><spa=
+n class=3D"token operator">:</span> <span class=3D"token string">'200'</spa=
+n> <span class=3D"token punctuation">}</span><span class=3D"token punctuati=
+on">,</span>
+   h1StyleObj2<span class=3D"token operator">:</span> <span class=3D"token =
+punctuation">{</span> fontStyle<span class=3D"token operator">:</span> <spa=
+n class=3D"token string">'italic'</span> <span class=3D"token punctuation">=
+}</span>
+<span class=3D"token punctuation">}</span></code></pre></li><li>=E5=9C=A8=
+=E5=85=83=E7=B4=A0=E4=B8=AD=EF=BC=8C=E9=80=9A=E8=BF=87=E5=B1=9E=E6=80=A7=E7=
+=BB=91=E5=AE=9A=E7=9A=84=E5=BD=A2=E5=BC=8F=EF=BC=8C=E5=B0=86=E6=A0=B7=E5=BC=
+=8F=E5=AF=B9=E8=B1=A1=E5=BA=94=E7=94=A8=E5=88=B0=E5=85=83=E7=B4=A0=E4=B8=AD=
+=EF=BC=9A<pre v-pre=3D"" data-lang=3D"html"><code class=3D"lang-html"><span=
+ class=3D"token tag"><span class=3D"token tag"><span class=3D"token punctua=
+tion">&lt;</span>h1</span> <span class=3D"token attr-name">:</span><span cl=
+ass=3D"token style-attr language-css"><span class=3D"token attr-name"><span=
+ class=3D"token attr-name">style</span></span><span class=3D"token punctuat=
+ion">=3D"</span><span class=3D"token attr-value">[h1StyleObj<span class=3D"=
+token punctuation">,</span> h1StyleObj2]</span><span class=3D"token punctua=
+tion">"</span></span><span class=3D"token punctuation">&gt;</span></span>=
+=E8=BF=99=E6=98=AF=E4=B8=80=E4=B8=AA=E5=96=84=E8=89=AF=E7=9A=84H1<span clas=
+s=3D"token tag"><span class=3D"token tag"><span class=3D"token punctuation"=
+>&lt;/</span>h1</span><span class=3D"token punctuation">&gt;</span></span><=
+/code></pre></li></ul></li></ol><h2 id=3D"vue=E6=8C=87=E4=BB=A4=E4=B9=8Bv-f=
+or=E5=92=8Ckey=E5=B1=9E=E6=80=A7"><a href=3D"http://doc.cms.liulongbin.top/=
+#/md/day1?id=3Dvue%e6%8c%87%e4%bb%a4%e4%b9%8bv-for%e5%92%8ckey%e5%b1%9e%e6%=
+80%a7" data-id=3D"vue=E6=8C=87=E4=BB=A4=E4=B9=8Bv-for=E5=92=8Ckey=E5=B1=9E=
+=E6=80=A7" class=3D"anchor"><span>Vue=E6=8C=87=E4=BB=A4=E4=B9=8B<code>v-for=
+</code>=E5=92=8C<code>key</code>=E5=B1=9E=E6=80=A7</span></a></h2><ol><li>=
+=E8=BF=AD=E4=BB=A3=E6=95=B0=E7=BB=84</li></ol><pre v-pre=3D"" data-lang=3D"=
+html"><code class=3D"lang-html"><span class=3D"token tag"><span class=3D"to=
+ken tag"><span class=3D"token punctuation">&lt;</span>ul</span><span class=
+=3D"token punctuation">&gt;</span></span>
+  <span class=3D"token tag"><span class=3D"token tag"><span class=3D"token =
+punctuation">&lt;</span>li</span> <span class=3D"token attr-name">v-for</sp=
+an><span class=3D"token attr-value"><span class=3D"token punctuation">=3D</=
+span><span class=3D"token punctuation">"</span>(item, i) in list<span class=
+=3D"token punctuation">"</span></span><span class=3D"token punctuation">&gt=
+;</span></span>=E7=B4=A2=E5=BC=95=EF=BC=9A{{i}} --- =E5=A7=93=E5=90=8D=EF=
+=BC=9A{{item.name}} --- =E5=B9=B4=E9=BE=84=EF=BC=9A{{item.age}}<span class=
+=3D"token tag"><span class=3D"token tag"><span class=3D"token punctuation">=
+&lt;/</span>li</span><span class=3D"token punctuation">&gt;</span></span>
+<span class=3D"token tag"><span class=3D"token tag"><span class=3D"token pu=
+nctuation">&lt;/</span>ul</span><span class=3D"token punctuation">&gt;</spa=
+n></span></code></pre><ol start=3D"2"><li>=E8=BF=AD=E4=BB=A3=E5=AF=B9=E8=B1=
+=A1=E4=B8=AD=E7=9A=84=E5=B1=9E=E6=80=A7<pre v-pre=3D"" data-lang=3D"html"><=
+code class=3D"lang-html"><span class=3D"token comment">&lt;!-- =E5=BE=AA=E7=
+=8E=AF=E9=81=8D=E5=8E=86=E5=AF=B9=E8=B1=A1=E8=BA=AB=E4=B8=8A=E7=9A=84=E5=B1=
+=9E=E6=80=A7 --&gt;</span>
+<span class=3D"token tag"><span class=3D"token tag"><span class=3D"token pu=
+nctuation">&lt;</span>div</span> <span class=3D"token attr-name">v-for</spa=
+n><span class=3D"token attr-value"><span class=3D"token punctuation">=3D</s=
+pan><span class=3D"token punctuation">"</span>(val, key, i) in userInfo<spa=
+n class=3D"token punctuation">"</span></span><span class=3D"token punctuati=
+on">&gt;</span></span>{{val}} --- {{key}} --- {{i}}<span class=3D"token tag=
+"><span class=3D"token tag"><span class=3D"token punctuation">&lt;/</span>d=
+iv</span><span class=3D"token punctuation">&gt;</span></span></code></pre><=
+/li><li>=E8=BF=AD=E4=BB=A3=E6=95=B0=E5=AD=97<pre v-pre=3D"" data-lang=3D"ht=
+ml"><code class=3D"lang-html"><span class=3D"token tag"><span class=3D"toke=
+n tag"><span class=3D"token punctuation">&lt;</span>p</span> <span class=3D=
+"token attr-name">v-for</span><span class=3D"token attr-value"><span class=
+=3D"token punctuation">=3D</span><span class=3D"token punctuation">"</span>=
+i in 10<span class=3D"token punctuation">"</span></span><span class=3D"toke=
+n punctuation">&gt;</span></span>=E8=BF=99=E6=98=AF=E7=AC=AC {{i}} =E4=B8=
+=AAP=E6=A0=87=E7=AD=BE<span class=3D"token tag"><span class=3D"token tag"><=
+span class=3D"token punctuation">&lt;/</span>p</span><span class=3D"token p=
+unctuation">&gt;</span></span></code></pre></li></ol><blockquote>
+<p>2.2.0+ =E7=9A=84=E7=89=88=E6=9C=AC=E9=87=8C=EF=BC=8C<strong>=E5=BD=93=E5=
+=9C=A8=E7=BB=84=E4=BB=B6=E4=B8=AD=E4=BD=BF=E7=94=A8</strong> v-for =E6=97=
+=B6=EF=BC=8Ckey =E7=8E=B0=E5=9C=A8=E6=98=AF=E5=BF=85=E9=A1=BB=E7=9A=84=E3=
+=80=82</p></blockquote>
+<ul><li><p>=E5=BD=93 Vue.js =E7=94=A8 v-for =E6=AD=A3=E5=9C=A8=E6=9B=B4=E6=
+=96=B0=E5=B7=B2=E6=B8=B2=E6=9F=93=E8=BF=87=E7=9A=84=E5=85=83=E7=B4=A0=E5=88=
+=97=E8=A1=A8=E6=97=B6=EF=BC=8C=E5=AE=83=E9=BB=98=E8=AE=A4=E7=94=A8 =E2=80=
+=9C<strong>=E5=B0=B1=E5=9C=B0=E5=A4=8D=E7=94=A8</strong>=E2=80=9D =E7=AD=96=
+=E7=95=A5=E3=80=82=E5=A6=82=E6=9E=9C=E6=95=B0=E6=8D=AE=E9=A1=B9=E7=9A=84=E9=
+=A1=BA=E5=BA=8F=E8=A2=AB=E6=94=B9=E5=8F=98=EF=BC=8CVue=E5=B0=86<strong>=E4=
+=B8=8D=E6=98=AF=E7=A7=BB=E5=8A=A8 DOM =E5=85=83=E7=B4=A0=E6=9D=A5=E5=8C=B9=
+=E9=85=8D=E6=95=B0=E6=8D=AE=E9=A1=B9=E7=9A=84=E9=A1=BA=E5=BA=8F</strong>=EF=
+=BC=8C =E8=80=8C=E6=98=AF<strong>=E7=AE=80=E5=8D=95=E5=A4=8D=E7=94=A8=E6=AD=
+=A4=E5=A4=84=E6=AF=8F=E4=B8=AA=E5=85=83=E7=B4=A0</strong>=EF=BC=8C=E5=B9=B6=
+=E4=B8=94=E7=A1=AE=E4=BF=9D=E5=AE=83=E5=9C=A8=E7=89=B9=E5=AE=9A=E7=B4=A2=E5=
+=BC=95=E4=B8=8B=E6=98=BE=E7=A4=BA=E5=B7=B2=E8=A2=AB=E6=B8=B2=E6=9F=93=E8=BF=
+=87=E7=9A=84=E6=AF=8F=E4=B8=AA=E5=85=83=E7=B4=A0=E3=80=82</p></li><li><p>=
+=E4=B8=BA=E4=BA=86=E7=BB=99 Vue =E4=B8=80=E4=B8=AA=E6=8F=90=E7=A4=BA=EF=BC=
+=8C<strong>=E4=BB=A5=E4=BE=BF=E5=AE=83=E8=83=BD=E8=B7=9F=E8=B8=AA=E6=AF=8F=
+=E4=B8=AA=E8=8A=82=E7=82=B9=E7=9A=84=E8=BA=AB=E4=BB=BD=EF=BC=8C=E4=BB=8E=E8=
+=80=8C=E9=87=8D=E7=94=A8=E5=92=8C=E9=87=8D=E6=96=B0=E6=8E=92=E5=BA=8F=E7=8E=
+=B0=E6=9C=89=E5=85=83=E7=B4=A0</strong>=EF=BC=8C=E4=BD=A0=E9=9C=80=E8=A6=81=
+=E4=B8=BA=E6=AF=8F=E9=A1=B9=E6=8F=90=E4=BE=9B=E4=B8=80=E4=B8=AA=E5=94=AF=E4=
+=B8=80 key =E5=B1=9E=E6=80=A7=E3=80=82</p></li></ul><h2 id=3D"vue=E6=8C=87=
+=E4=BB=A4=E4=B9=8Bv-if=E5=92=8Cv-show"><a href=3D"http://doc.cms.liulongbin=
+.top/#/md/day1?id=3Dvue%e6%8c%87%e4%bb%a4%e4%b9%8bv-if%e5%92%8cv-show" data=
+-id=3D"vue=E6=8C=87=E4=BB=A4=E4=B9=8Bv-if=E5=92=8Cv-show" class=3D"anchor">=
+<span>Vue=E6=8C=87=E4=BB=A4=E4=B9=8B<code>v-if</code>=E5=92=8C<code>v-show<=
+/code></span></a></h2><blockquote>
+<p>=E4=B8=80=E8=88=AC=E6=9D=A5=E8=AF=B4=EF=BC=8Cv-if =E6=9C=89=E6=9B=B4=E9=
+=AB=98=E7=9A=84=E5=88=87=E6=8D=A2=E6=B6=88=E8=80=97=E8=80=8C v-show =E6=9C=
+=89=E6=9B=B4=E9=AB=98=E7=9A=84=E5=88=9D=E5=A7=8B=E6=B8=B2=E6=9F=93=E6=B6=88=
+=E8=80=97=E3=80=82=E5=9B=A0=E6=AD=A4=EF=BC=8C=E5=A6=82=E6=9E=9C=E9=9C=80=E8=
+=A6=81=E9=A2=91=E7=B9=81=E5=88=87=E6=8D=A2 v-show =E8=BE=83=E5=A5=BD=EF=BC=
+=8C=E5=A6=82=E6=9E=9C=E5=9C=A8=E8=BF=90=E8=A1=8C=E6=97=B6=E6=9D=A1=E4=BB=B6=
+=E4=B8=8D=E5=A4=A7=E5=8F=AF=E8=83=BD=E6=94=B9=E5=8F=98 v-if =E8=BE=83=E5=A5=
+=BD=E3=80=82</p></blockquote>
+<h2 id=3D"=E5=93=81=E7=89=8C=E7=AE=A1=E7=90=86=E6=A1=88=E4=BE=8B"><a href=
+=3D"http://doc.cms.liulongbin.top/#/md/day1?id=3D%e5%93%81%e7%89%8c%e7%ae%a=
+1%e7%90%86%e6%a1%88%e4%be%8b" data-id=3D"=E5=93=81=E7=89=8C=E7=AE=A1=E7=90=
+=86=E6=A1=88=E4=BE=8B" class=3D"anchor"><span>=E5=93=81=E7=89=8C=E7=AE=A1=
+=E7=90=86=E6=A1=88=E4=BE=8B</span></a></h2><h3 id=3D"=E6=B7=BB=E5=8A=A0=E6=
+=96=B0=E5=93=81=E7=89=8C"><a href=3D"http://doc.cms.liulongbin.top/#/md/day=
+1?id=3D%e6%b7%bb%e5%8a%a0%e6%96%b0%e5%93%81%e7%89%8c" data-id=3D"=E6=B7=BB=
+=E5=8A=A0=E6=96=B0=E5=93=81=E7=89=8C" class=3D"anchor"><span>=E6=B7=BB=E5=
+=8A=A0=E6=96=B0=E5=93=81=E7=89=8C</span></a></h3><h3 id=3D"=E5=88=A0=E9=99=
+=A4=E5=93=81=E7=89=8C"><a href=3D"http://doc.cms.liulongbin.top/#/md/day1?i=
+d=3D%e5%88%a0%e9%99%a4%e5%93%81%e7%89%8c" data-id=3D"=E5=88=A0=E9=99=A4=E5=
+=93=81=E7=89=8C" class=3D"anchor"><span>=E5=88=A0=E9=99=A4=E5=93=81=E7=89=
+=8C</span></a></h3><h3 id=3D"=E6=A0=B9=E6=8D=AE=E6=9D=A1=E4=BB=B6=E7=AD=9B=
+=E9=80=89=E5=93=81=E7=89=8C"><a href=3D"http://doc.cms.liulongbin.top/#/md/=
+day1?id=3D%e6%a0%b9%e6%8d%ae%e6%9d%a1%e4%bb%b6%e7%ad%9b%e9%80%89%e5%93%81%e=
+7%89%8c" data-id=3D"=E6=A0=B9=E6=8D=AE=E6=9D=A1=E4=BB=B6=E7=AD=9B=E9=80=89=
+=E5=93=81=E7=89=8C" class=3D"anchor"><span>=E6=A0=B9=E6=8D=AE=E6=9D=A1=E4=
+=BB=B6=E7=AD=9B=E9=80=89=E5=93=81=E7=89=8C</span></a></h3><ol><li>1.x =E7=
+=89=88=E6=9C=AC=E4=B8=AD=E7=9A=84filterBy=E6=8C=87=E4=BB=A4=EF=BC=8C=E5=9C=
+=A82.x=E4=B8=AD=E5=B7=B2=E7=BB=8F=E8=A2=AB=E5=BA=9F=E9=99=A4=EF=BC=9A
+<a href=3D"https://v1-cn.vuejs.org/api/#filterBy" target=3D"_blank">filterB=
+y - =E6=8C=87=E4=BB=A4</a><pre v-pre=3D"" data-lang=3D"html"><code class=3D=
+"lang-html"><span class=3D"token tag"><span class=3D"token tag"><span class=
+=3D"token punctuation">&lt;</span>tr</span> <span class=3D"token attr-name"=
+>v-for</span><span class=3D"token attr-value"><span class=3D"token punctuat=
+ion">=3D</span><span class=3D"token punctuation">"</span>item in list | fil=
+terBy searchName in 'name'<span class=3D"token punctuation">"</span></span>=
+<span class=3D"token punctuation">&gt;</span></span>
+<span class=3D"token tag"><span class=3D"token tag"><span class=3D"token pu=
+nctuation">&lt;</span>td</span><span class=3D"token punctuation">&gt;</span=
+></span>{{item.id}}<span class=3D"token tag"><span class=3D"token tag"><spa=
+n class=3D"token punctuation">&lt;/</span>td</span><span class=3D"token pun=
+ctuation">&gt;</span></span>
+<span class=3D"token tag"><span class=3D"token tag"><span class=3D"token pu=
+nctuation">&lt;</span>td</span><span class=3D"token punctuation">&gt;</span=
+></span>{{item.name}}<span class=3D"token tag"><span class=3D"token tag"><s=
+pan class=3D"token punctuation">&lt;/</span>td</span><span class=3D"token p=
+unctuation">&gt;</span></span>
+<span class=3D"token tag"><span class=3D"token tag"><span class=3D"token pu=
+nctuation">&lt;</span>td</span><span class=3D"token punctuation">&gt;</span=
+></span>{{item.ctime}}<span class=3D"token tag"><span class=3D"token tag"><=
+span class=3D"token punctuation">&lt;/</span>td</span><span class=3D"token =
+punctuation">&gt;</span></span>
+<span class=3D"token tag"><span class=3D"token tag"><span class=3D"token pu=
+nctuation">&lt;</span>td</span><span class=3D"token punctuation">&gt;</span=
+></span>
+ <span class=3D"token tag"><span class=3D"token tag"><span class=3D"token p=
+unctuation">&lt;</span>a</span> <span class=3D"token attr-name">href</span>=
+<span class=3D"token attr-value"><span class=3D"token punctuation">=3D</spa=
+n><span class=3D"token punctuation">"</span>#<span class=3D"token punctuati=
+on">"</span></span> <span class=3D"token attr-name">@click.prevent</span><s=
+pan class=3D"token attr-value"><span class=3D"token punctuation">=3D</span>=
+<span class=3D"token punctuation">"</span>del(item.id)<span class=3D"token =
+punctuation">"</span></span><span class=3D"token punctuation">&gt;</span></=
+span>=E5=88=A0=E9=99=A4<span class=3D"token tag"><span class=3D"token tag">=
+<span class=3D"token punctuation">&lt;/</span>a</span><span class=3D"token =
+punctuation">&gt;</span></span>
+<span class=3D"token tag"><span class=3D"token tag"><span class=3D"token pu=
+nctuation">&lt;/</span>td</span><span class=3D"token punctuation">&gt;</spa=
+n></span>
+<span class=3D"token tag"><span class=3D"token tag"><span class=3D"token pu=
+nctuation">&lt;/</span>tr</span><span class=3D"token punctuation">&gt;</spa=
+n></span></code></pre></li><li>=E5=9C=A82.x=E7=89=88=E6=9C=AC=E4=B8=AD<a hr=
+ef=3D"https://cn.vuejs.org/v2/guide/list.html#%E6%98%BE%E7%A4%BA%E8%BF%87%E=
+6%BB%A4-%E6%8E%92%E5%BA%8F%E7%BB%93%E6%9E%9C" target=3D"_blank">=E6=89=8B=
+=E5=8A=A8=E5=AE=9E=E7=8E=B0=E7=AD=9B=E9=80=89=E7=9A=84=E6=96=B9=E5=BC=8F</a=
+>=EF=BC=9A</li></ol><ul><li>=E7=AD=9B=E9=80=89=E6=A1=86=E7=BB=91=E5=AE=9A=
+=E5=88=B0 VM =E5=AE=9E=E4=BE=8B=E4=B8=AD=E7=9A=84 <code>searchName</code> =
+=E5=B1=9E=E6=80=A7=EF=BC=9A<pre v-pre=3D"" data-lang=3D"html"><code class=
+=3D"lang-html"><span class=3D"token tag"><span class=3D"token tag"><span cl=
+ass=3D"token punctuation">&lt;</span>hr</span><span class=3D"token punctuat=
+ion">&gt;</span></span> =E8=BE=93=E5=85=A5=E7=AD=9B=E9=80=89=E5=90=8D=E7=A7=
+=B0=EF=BC=9A
+<span class=3D"token tag"><span class=3D"token tag"><span class=3D"token pu=
+nctuation">&lt;</span>input</span> <span class=3D"token attr-name">type</sp=
+an><span class=3D"token attr-value"><span class=3D"token punctuation">=3D</=
+span><span class=3D"token punctuation">"</span>text<span class=3D"token pun=
+ctuation">"</span></span> <span class=3D"token attr-name">v-model</span><sp=
+an class=3D"token attr-value"><span class=3D"token punctuation">=3D</span><=
+span class=3D"token punctuation">"</span>searchName<span class=3D"token pun=
+ctuation">"</span></span><span class=3D"token punctuation">&gt;</span></spa=
+n></code></pre></li><li>=E5=9C=A8=E4=BD=BF=E7=94=A8 <code>v-for</code> =E6=
+=8C=87=E4=BB=A4=E5=BE=AA=E7=8E=AF=E6=AF=8F=E4=B8=80=E8=A1=8C=E6=95=B0=E6=8D=
+=AE=E7=9A=84=E6=97=B6=E5=80=99=EF=BC=8C=E4=B8=8D=E5=86=8D=E7=9B=B4=E6=8E=A5=
+ <code>item in list</code>=EF=BC=8C=E8=80=8C=E6=98=AF <code>in</code> =E4=
+=B8=80=E4=B8=AA =E8=BF=87=E6=BB=A4=E7=9A=84methods =E6=96=B9=E6=B3=95=EF=BC=
+=8C=E5=90=8C=E6=97=B6=EF=BC=8C=E6=8A=8A=E8=BF=87=E6=BB=A4=E6=9D=A1=E4=BB=B6=
+<code>searchName</code>=E4=BC=A0=E9=80=92=E8=BF=9B=E5=8E=BB=EF=BC=9A<pre v-=
+pre=3D"" data-lang=3D"html"><code class=3D"lang-html"><span class=3D"token =
+tag"><span class=3D"token tag"><span class=3D"token punctuation">&lt;</span=
+>tbody</span><span class=3D"token punctuation">&gt;</span></span>
+    <span class=3D"token tag"><span class=3D"token tag"><span class=3D"toke=
+n punctuation">&lt;</span>tr</span> <span class=3D"token attr-name">v-for</=
+span><span class=3D"token attr-value"><span class=3D"token punctuation">=3D=
+</span><span class=3D"token punctuation">"</span>item in search(searchName)=
+<span class=3D"token punctuation">"</span></span><span class=3D"token punct=
+uation">&gt;</span></span>
+      <span class=3D"token tag"><span class=3D"token tag"><span class=3D"to=
+ken punctuation">&lt;</span>td</span><span class=3D"token punctuation">&gt;=
+</span></span>{{item.id}}<span class=3D"token tag"><span class=3D"token tag=
+"><span class=3D"token punctuation">&lt;/</span>td</span><span class=3D"tok=
+en punctuation">&gt;</span></span>
+      <span class=3D"token tag"><span class=3D"token tag"><span class=3D"to=
+ken punctuation">&lt;</span>td</span><span class=3D"token punctuation">&gt;=
+</span></span>{{item.name}}<span class=3D"token tag"><span class=3D"token t=
+ag"><span class=3D"token punctuation">&lt;/</span>td</span><span class=3D"t=
+oken punctuation">&gt;</span></span>
+      <span class=3D"token tag"><span class=3D"token tag"><span class=3D"to=
+ken punctuation">&lt;</span>td</span><span class=3D"token punctuation">&gt;=
+</span></span>{{item.ctime}}<span class=3D"token tag"><span class=3D"token =
+tag"><span class=3D"token punctuation">&lt;/</span>td</span><span class=3D"=
+token punctuation">&gt;</span></span>
+      <span class=3D"token tag"><span class=3D"token tag"><span class=3D"to=
+ken punctuation">&lt;</span>td</span><span class=3D"token punctuation">&gt;=
+</span></span>
+        <span class=3D"token tag"><span class=3D"token tag"><span class=3D"=
+token punctuation">&lt;</span>a</span> <span class=3D"token attr-name">href=
+</span><span class=3D"token attr-value"><span class=3D"token punctuation">=
+=3D</span><span class=3D"token punctuation">"</span>#<span class=3D"token p=
+unctuation">"</span></span> <span class=3D"token attr-name">@click.prevent<=
+/span><span class=3D"token attr-value"><span class=3D"token punctuation">=
+=3D</span><span class=3D"token punctuation">"</span>del(item.id)<span class=
+=3D"token punctuation">"</span></span><span class=3D"token punctuation">&gt=
+;</span></span>=E5=88=A0=E9=99=A4<span class=3D"token tag"><span class=3D"t=
+oken tag"><span class=3D"token punctuation">&lt;/</span>a</span><span class=
+=3D"token punctuation">&gt;</span></span>
+      <span class=3D"token tag"><span class=3D"token tag"><span class=3D"to=
+ken punctuation">&lt;/</span>td</span><span class=3D"token punctuation">&gt=
+;</span></span>
+    <span class=3D"token tag"><span class=3D"token tag"><span class=3D"toke=
+n punctuation">&lt;/</span>tr</span><span class=3D"token punctuation">&gt;<=
+/span></span>
+  <span class=3D"token tag"><span class=3D"token tag"><span class=3D"token =
+punctuation">&lt;/</span>tbody</span><span class=3D"token punctuation">&gt;=
+</span></span></code></pre></li><li><code>search</code> =E8=BF=87=E6=BB=A4=
+=E6=96=B9=E6=B3=95=E4=B8=AD=EF=BC=8C=E4=BD=BF=E7=94=A8 =E6=95=B0=E7=BB=84=
+=E7=9A=84 <code>filter</code> =E6=96=B9=E6=B3=95=E8=BF=9B=E8=A1=8C=E8=BF=87=
+=E6=BB=A4=EF=BC=9A<pre v-pre=3D"" data-lang=3D"js"><code class=3D"lang-js">=
+<span class=3D"token function">search</span><span class=3D"token punctuatio=
+n">(</span><span class=3D"token parameter">name</span><span class=3D"token =
+punctuation">)</span> <span class=3D"token punctuation">{</span>
+<span class=3D"token keyword">return</span> <span class=3D"token keyword">t=
+his</span><span class=3D"token punctuation">.</span>list<span class=3D"toke=
+n punctuation">.</span><span class=3D"token function">filter</span><span cl=
+ass=3D"token punctuation">(</span><span class=3D"token parameter">x</span> =
+<span class=3D"token operator">=3D&gt;</span> <span class=3D"token punctuat=
+ion">{</span>
+  <span class=3D"token keyword">return</span> x<span class=3D"token punctua=
+tion">.</span>name<span class=3D"token punctuation">.</span><span class=3D"=
+token function">indexOf</span><span class=3D"token punctuation">(</span>nam=
+e<span class=3D"token punctuation">)</span> <span class=3D"token operator">=
+!=3D</span> <span class=3D"token operator">-</span><span class=3D"token num=
+ber">1</span><span class=3D"token punctuation">;</span>
+<span class=3D"token punctuation">}</span><span class=3D"token punctuation"=
+>)</span><span class=3D"token punctuation">;</span>
+<span class=3D"token punctuation">}</span></code></pre></li></ul><h2 id=3D"=
+vue=E8=B0=83=E8=AF=95=E5=B7=A5=E5=85=B7vue-devtools=E7=9A=84=E5=AE=89=E8=A3=
+=85=E6=AD=A5=E9=AA=A4=E5=92=8C=E4=BD=BF=E7=94=A8"><a href=3D"http://doc.cms=
+.liulongbin.top/#/md/day1?id=3Dvue%e8%b0%83%e8%af%95%e5%b7%a5%e5%85%b7vue-d=
+evtools%e7%9a%84%e5%ae%89%e8%a3%85%e6%ad%a5%e9%aa%a4%e5%92%8c%e4%bd%bf%e7%9=
+4%a8" data-id=3D"vue=E8=B0=83=E8=AF=95=E5=B7=A5=E5=85=B7vue-devtools=E7=9A=
+=84=E5=AE=89=E8=A3=85=E6=AD=A5=E9=AA=A4=E5=92=8C=E4=BD=BF=E7=94=A8" class=
+=3D"anchor"><span>Vue=E8=B0=83=E8=AF=95=E5=B7=A5=E5=85=B7<code>vue-devtools=
+</code>=E7=9A=84=E5=AE=89=E8=A3=85=E6=AD=A5=E9=AA=A4=E5=92=8C=E4=BD=BF=E7=
+=94=A8</span></a></h2><p><a href=3D"https://chrome.google.com/webstore/deta=
+il/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=3Dzh-CN" target=3D"_b=
+lank">Vue.js devtools - =E7=BF=BB=E5=A2=99=E5=AE=89=E8=A3=85=E6=96=B9=E5=BC=
+=8F - =E6=8E=A8=E8=8D=90</a></p><h2 id=3D"=E8=BF=87=E6=BB=A4=E5=99=A8"><a h=
+ref=3D"http://doc.cms.liulongbin.top/#/md/day1?id=3D%e8%bf%87%e6%bb%a4%e5%9=
+9%a8" data-id=3D"=E8=BF=87=E6=BB=A4=E5=99=A8" class=3D"anchor"><span>=E8=BF=
+=87=E6=BB=A4=E5=99=A8</span></a></h2><p>=E6=A6=82=E5=BF=B5=EF=BC=9AVue.js =
+=E5=85=81=E8=AE=B8=E4=BD=A0=E8=87=AA=E5=AE=9A=E4=B9=89=E8=BF=87=E6=BB=A4=E5=
+=99=A8=EF=BC=8C<strong>=E5=8F=AF=E8=A2=AB=E7=94=A8=E4=BD=9C=E4=B8=80=E4=BA=
+=9B=E5=B8=B8=E8=A7=81=E7=9A=84=E6=96=87=E6=9C=AC=E6=A0=BC=E5=BC=8F=E5=8C=96=
+</strong>=E3=80=82=E8=BF=87=E6=BB=A4=E5=99=A8=E5=8F=AF=E4=BB=A5=E7=94=A8=E5=
+=9C=A8=E4=B8=A4=E4=B8=AA=E5=9C=B0=E6=96=B9=EF=BC=9A<strong>mustache =E6=8F=
+=92=E5=80=BC=E5=92=8C v-bind =E8=A1=A8=E8=BE=BE=E5=BC=8F</strong>=E3=80=82=
+=E8=BF=87=E6=BB=A4=E5=99=A8=E5=BA=94=E8=AF=A5=E8=A2=AB=E6=B7=BB=E5=8A=A0=E5=
+=9C=A8 JavaScript =E8=A1=A8=E8=BE=BE=E5=BC=8F=E7=9A=84=E5=B0=BE=E9=83=A8=EF=
+=BC=8C=E7=94=B1=E2=80=9C=E7=AE=A1=E9=81=93=E2=80=9D=E7=AC=A6=E6=8C=87=E7=A4=
+=BA=EF=BC=9B</p><h3 id=3D"=E7=A7=81=E6=9C=89=E8=BF=87=E6=BB=A4=E5=99=A8"><a=
+ href=3D"http://doc.cms.liulongbin.top/#/md/day1?id=3D%e7%a7%81%e6%9c%89%e8=
+%bf%87%e6%bb%a4%e5%99%a8" data-id=3D"=E7=A7=81=E6=9C=89=E8=BF=87=E6=BB=A4=
+=E5=99=A8" class=3D"anchor"><span>=E7=A7=81=E6=9C=89=E8=BF=87=E6=BB=A4=E5=
+=99=A8</span></a></h3><ol><li><p>HTML=E5=85=83=E7=B4=A0=EF=BC=9A</p><pre v-=
+pre=3D"" data-lang=3D"html"><code class=3D"lang-html"><span class=3D"token =
+tag"><span class=3D"token tag"><span class=3D"token punctuation">&lt;</span=
+>td</span><span class=3D"token punctuation">&gt;</span></span>{{item.ctime =
+| dataFormat('yyyy-mm-dd')}}<span class=3D"token tag"><span class=3D"token =
+tag"><span class=3D"token punctuation">&lt;/</span>td</span><span class=3D"=
+token punctuation">&gt;</span></span></code></pre></li><li><p>=E7=A7=81=E6=
+=9C=89 <code>filters</code> =E5=AE=9A=E4=B9=89=E6=96=B9=E5=BC=8F=EF=BC=9A</=
+p><pre v-pre=3D"" data-lang=3D"js"><code class=3D"lang-js">filters<span cla=
+ss=3D"token operator">:</span> <span class=3D"token punctuation">{</span> <=
+span class=3D"token comment">// =E7=A7=81=E6=9C=89=E5=B1=80=E9=83=A8=E8=BF=
+=87=E6=BB=A4=E5=99=A8=EF=BC=8C=E5=8F=AA=E8=83=BD=E5=9C=A8 =E5=BD=93=E5=89=
+=8D VM =E5=AF=B9=E8=B1=A1=E6=89=80=E6=8E=A7=E5=88=B6=E7=9A=84 View =E5=8C=
+=BA=E5=9F=9F=E8=BF=9B=E8=A1=8C=E4=BD=BF=E7=94=A8</span>
+ <span class=3D"token function">dataFormat</span><span class=3D"token punct=
+uation">(</span>input<span class=3D"token punctuation">,</span> pattern <sp=
+an class=3D"token operator">=3D</span> <span class=3D"token string">""</spa=
+n><span class=3D"token punctuation">)</span> <span class=3D"token punctuati=
+on">{</span> <span class=3D"token comment">// =E5=9C=A8=E5=8F=82=E6=95=B0=
+=E5=88=97=E8=A1=A8=E4=B8=AD =E9=80=9A=E8=BF=87 pattern=3D"" =E6=9D=A5=E6=8C=
+=87=E5=AE=9A=E5=BD=A2=E5=8F=82=E9=BB=98=E8=AE=A4=E5=80=BC=EF=BC=8C=E9=98=B2=
+=E6=AD=A2=E6=8A=A5=E9=94=99</span>
+   <span class=3D"token keyword">var</span> dt <span class=3D"token operato=
+r">=3D</span> <span class=3D"token keyword">new</span> <span class=3D"token=
+ class-name">Date</span><span class=3D"token punctuation">(</span>input<spa=
+n class=3D"token punctuation">)</span><span class=3D"token punctuation">;</=
+span>
+   <span class=3D"token comment">// =E8=8E=B7=E5=8F=96=E5=B9=B4=E6=9C=88=E6=
+=97=A5</span>
+   <span class=3D"token keyword">var</span> y <span class=3D"token operator=
+">=3D</span> dt<span class=3D"token punctuation">.</span><span class=3D"tok=
+en function">getFullYear</span><span class=3D"token punctuation">(</span><s=
+pan class=3D"token punctuation">)</span><span class=3D"token punctuation">;=
+</span>
+   <span class=3D"token keyword">var</span> m <span class=3D"token operator=
+">=3D</span> <span class=3D"token punctuation">(</span>dt<span class=3D"tok=
+en punctuation">.</span><span class=3D"token function">getMonth</span><span=
+ class=3D"token punctuation">(</span><span class=3D"token punctuation">)</s=
+pan> <span class=3D"token operator">+</span> <span class=3D"token number">1=
+</span><span class=3D"token punctuation">)</span><span class=3D"token punct=
+uation">.</span><span class=3D"token function">toString</span><span class=
+=3D"token punctuation">(</span><span class=3D"token punctuation">)</span><s=
+pan class=3D"token punctuation">.</span><span class=3D"token function">padS=
+tart</span><span class=3D"token punctuation">(</span><span class=3D"token n=
+umber">2</span><span class=3D"token punctuation">,</span> <span class=3D"to=
+ken string">'0'</span><span class=3D"token punctuation">)</span><span class=
+=3D"token punctuation">;</span>
+   <span class=3D"token keyword">var</span> d <span class=3D"token operator=
+">=3D</span> dt<span class=3D"token punctuation">.</span><span class=3D"tok=
+en function">getDate</span><span class=3D"token punctuation">(</span><span =
+class=3D"token punctuation">)</span><span class=3D"token punctuation">.</sp=
+an><span class=3D"token function">toString</span><span class=3D"token punct=
+uation">(</span><span class=3D"token punctuation">)</span><span class=3D"to=
+ken punctuation">.</span><span class=3D"token function">padStart</span><spa=
+n class=3D"token punctuation">(</span><span class=3D"token number">2</span>=
+<span class=3D"token punctuation">,</span> <span class=3D"token string">'0'=
+</span><span class=3D"token punctuation">)</span><span class=3D"token punct=
+uation">;</span>
+
+   <span class=3D"token comment">// =E5=A6=82=E6=9E=9C =E4=BC=A0=E9=80=92=
+=E8=BF=9B=E6=9D=A5=E7=9A=84=E5=AD=97=E7=AC=A6=E4=B8=B2=E7=B1=BB=E5=9E=8B=EF=
+=BC=8C=E8=BD=AC=E4=B8=BA=E5=B0=8F=E5=86=99=E4=B9=8B=E5=90=8E=EF=BC=8C=E7=AD=
+=89=E4=BA=8E yyyy-mm-dd=EF=BC=8C=E9=82=A3=E4=B9=88=E5=B0=B1=E8=BF=94=E5=9B=
+=9E =E5=B9=B4-=E6=9C=88-=E6=97=A5</span>
+   <span class=3D"token comment">// =E5=90=A6=E5=88=99=EF=BC=8C=E5=B0=B1=E8=
+=BF=94=E5=9B=9E  =E5=B9=B4-=E6=9C=88-=E6=97=A5 =E6=97=B6=EF=BC=9A=E5=88=86=
+=EF=BC=9A=E7=A7=92</span>
+   <span class=3D"token keyword">if</span> <span class=3D"token punctuation=
+">(</span>pattern<span class=3D"token punctuation">.</span><span class=3D"t=
+oken function">toLowerCase</span><span class=3D"token punctuation">(</span>=
+<span class=3D"token punctuation">)</span> <span class=3D"token operator">=
+=3D=3D=3D</span> <span class=3D"token string">'yyyy-mm-dd'</span><span clas=
+s=3D"token punctuation">)</span> <span class=3D"token punctuation">{</span>
+     <span class=3D"token keyword">return</span> <span class=3D"token templ=
+ate-string"><span class=3D"token template-punctuation string">`</span><span=
+ class=3D"token interpolation"><span class=3D"token interpolation-punctuati=
+on punctuation">${</span>y<span class=3D"token interpolation-punctuation pu=
+nctuation">}</span></span><span class=3D"token string">-</span><span class=
+=3D"token interpolation"><span class=3D"token interpolation-punctuation pun=
+ctuation">${</span>m<span class=3D"token interpolation-punctuation punctuat=
+ion">}</span></span><span class=3D"token string">-</span><span class=3D"tok=
+en interpolation"><span class=3D"token interpolation-punctuation punctuatio=
+n">${</span>d<span class=3D"token interpolation-punctuation punctuation">}<=
+/span></span><span class=3D"token template-punctuation string">`</span></sp=
+an><span class=3D"token punctuation">;</span>
+   <span class=3D"token punctuation">}</span> <span class=3D"token keyword"=
+>else</span> <span class=3D"token punctuation">{</span>
+     <span class=3D"token comment">// =E8=8E=B7=E5=8F=96=E6=97=B6=E5=88=86=
+=E7=A7=92</span>
+     <span class=3D"token keyword">var</span> hh <span class=3D"token opera=
+tor">=3D</span> dt<span class=3D"token punctuation">.</span><span class=3D"=
+token function">getHours</span><span class=3D"token punctuation">(</span><s=
+pan class=3D"token punctuation">)</span><span class=3D"token punctuation">.=
+</span><span class=3D"token function">toString</span><span class=3D"token p=
+unctuation">(</span><span class=3D"token punctuation">)</span><span class=
+=3D"token punctuation">.</span><span class=3D"token function">padStart</spa=
+n><span class=3D"token punctuation">(</span><span class=3D"token number">2<=
+/span><span class=3D"token punctuation">,</span> <span class=3D"token strin=
+g">'0'</span><span class=3D"token punctuation">)</span><span class=3D"token=
+ punctuation">;</span>
+     <span class=3D"token keyword">var</span> mm <span class=3D"token opera=
+tor">=3D</span> dt<span class=3D"token punctuation">.</span><span class=3D"=
+token function">getMinutes</span><span class=3D"token punctuation">(</span>=
+<span class=3D"token punctuation">)</span><span class=3D"token punctuation"=
+>.</span><span class=3D"token function">toString</span><span class=3D"token=
+ punctuation">(</span><span class=3D"token punctuation">)</span><span class=
+=3D"token punctuation">.</span><span class=3D"token function">padStart</spa=
+n><span class=3D"token punctuation">(</span><span class=3D"token number">2<=
+/span><span class=3D"token punctuation">,</span> <span class=3D"token strin=
+g">'0'</span><span class=3D"token punctuation">)</span><span class=3D"token=
+ punctuation">;</span>
+     <span class=3D"token keyword">var</span> ss <span class=3D"token opera=
+tor">=3D</span> dt<span class=3D"token punctuation">.</span><span class=3D"=
+token function">getSeconds</span><span class=3D"token punctuation">(</span>=
+<span class=3D"token punctuation">)</span><span class=3D"token punctuation"=
+>.</span><span class=3D"token function">toString</span><span class=3D"token=
+ punctuation">(</span><span class=3D"token punctuation">)</span><span class=
+=3D"token punctuation">.</span><span class=3D"token function">padStart</spa=
+n><span class=3D"token punctuation">(</span><span class=3D"token number">2<=
+/span><span class=3D"token punctuation">,</span> <span class=3D"token strin=
+g">'0'</span><span class=3D"token punctuation">)</span><span class=3D"token=
+ punctuation">;</span>
+
+     <span class=3D"token keyword">return</span> <span class=3D"token templ=
+ate-string"><span class=3D"token template-punctuation string">`</span><span=
+ class=3D"token interpolation"><span class=3D"token interpolation-punctuati=
+on punctuation">${</span>y<span class=3D"token interpolation-punctuation pu=
+nctuation">}</span></span><span class=3D"token string">-</span><span class=
+=3D"token interpolation"><span class=3D"token interpolation-punctuation pun=
+ctuation">${</span>m<span class=3D"token interpolation-punctuation punctuat=
+ion">}</span></span><span class=3D"token string">-</span><span class=3D"tok=
+en interpolation"><span class=3D"token interpolation-punctuation punctuatio=
+n">${</span>d<span class=3D"token interpolation-punctuation punctuation">}<=
+/span></span><span class=3D"token string"> </span><span class=3D"token inte=
+rpolation"><span class=3D"token interpolation-punctuation punctuation">${</=
+span>hh<span class=3D"token interpolation-punctuation punctuation">}</span>=
+</span><span class=3D"token string">:</span><span class=3D"token interpolat=
+ion"><span class=3D"token interpolation-punctuation punctuation">${</span>m=
+m<span class=3D"token interpolation-punctuation punctuation">}</span></span=
+><span class=3D"token string">:</span><span class=3D"token interpolation"><=
+span class=3D"token interpolation-punctuation punctuation">${</span>ss<span=
+ class=3D"token interpolation-punctuation punctuation">}</span></span><span=
+ class=3D"token template-punctuation string">`</span></span><span class=3D"=
+token punctuation">;</span>
+   <span class=3D"token punctuation">}</span>
+ <span class=3D"token punctuation">}</span>
+<span class=3D"token punctuation">}</span></code></pre></li></ol><blockquot=
+e>
+<p>=E4=BD=BF=E7=94=A8ES6=E4=B8=AD=E7=9A=84=E5=AD=97=E7=AC=A6=E4=B8=B2=E6=96=
+=B0=E6=96=B9=E6=B3=95 String.prototype.padStart(maxLength, fillString=3D'')=
+ =E6=88=96 String.prototype.padEnd(maxLength, fillString=3D'')=E6=9D=A5=E5=
+=A1=AB=E5=85=85=E5=AD=97=E7=AC=A6=E4=B8=B2=EF=BC=9B</p></blockquote>
+<h3 id=3D"=E5=85=A8=E5=B1=80=E8=BF=87=E6=BB=A4=E5=99=A8"><a href=3D"http://=
+doc.cms.liulongbin.top/#/md/day1?id=3D%e5%85%a8%e5%b1%80%e8%bf%87%e6%bb%a4%=
+e5%99%a8" data-id=3D"=E5=85=A8=E5=B1=80=E8=BF=87=E6=BB=A4=E5=99=A8" class=
+=3D"anchor"><span>=E5=85=A8=E5=B1=80=E8=BF=87=E6=BB=A4=E5=99=A8</span></a><=
+/h3><pre v-pre=3D"" data-lang=3D"js"><code class=3D"lang-js"><span class=3D=
+"token comment">// =E5=AE=9A=E4=B9=89=E4=B8=80=E4=B8=AA=E5=85=A8=E5=B1=80=
+=E8=BF=87=E6=BB=A4=E5=99=A8</span>
+Vue<span class=3D"token punctuation">.</span><span class=3D"token function"=
+>filter</span><span class=3D"token punctuation">(</span><span class=3D"toke=
+n string">'dataFormat'</span><span class=3D"token punctuation">,</span> <sp=
+an class=3D"token keyword">function</span> <span class=3D"token punctuation=
+">(</span>input<span class=3D"token punctuation">,</span> pattern <span cla=
+ss=3D"token operator">=3D</span> <span class=3D"token string">''</span><spa=
+n class=3D"token punctuation">)</span> <span class=3D"token punctuation">{<=
+/span>
+  <span class=3D"token keyword">var</span> dt <span class=3D"token operator=
+">=3D</span> <span class=3D"token keyword">new</span> <span class=3D"token =
+class-name">Date</span><span class=3D"token punctuation">(</span>input<span=
+ class=3D"token punctuation">)</span><span class=3D"token punctuation">;</s=
+pan>
+  <span class=3D"token comment">// =E8=8E=B7=E5=8F=96=E5=B9=B4=E6=9C=88=E6=
+=97=A5</span>
+  <span class=3D"token keyword">var</span> y <span class=3D"token operator"=
+>=3D</span> dt<span class=3D"token punctuation">.</span><span class=3D"toke=
+n function">getFullYear</span><span class=3D"token punctuation">(</span><sp=
+an class=3D"token punctuation">)</span><span class=3D"token punctuation">;<=
+/span>
+  <span class=3D"token keyword">var</span> m <span class=3D"token operator"=
+>=3D</span> <span class=3D"token punctuation">(</span>dt<span class=3D"toke=
+n punctuation">.</span><span class=3D"token function">getMonth</span><span =
+class=3D"token punctuation">(</span><span class=3D"token punctuation">)</sp=
+an> <span class=3D"token operator">+</span> <span class=3D"token number">1<=
+/span><span class=3D"token punctuation">)</span><span class=3D"token punctu=
+ation">.</span><span class=3D"token function">toString</span><span class=3D=
+"token punctuation">(</span><span class=3D"token punctuation">)</span><span=
+ class=3D"token punctuation">.</span><span class=3D"token function">padStar=
+t</span><span class=3D"token punctuation">(</span><span class=3D"token numb=
+er">2</span><span class=3D"token punctuation">,</span> <span class=3D"token=
+ string">'0'</span><span class=3D"token punctuation">)</span><span class=3D=
+"token punctuation">;</span>
+  <span class=3D"token keyword">var</span> d <span class=3D"token operator"=
+>=3D</span> dt<span class=3D"token punctuation">.</span><span class=3D"toke=
+n function">getDate</span><span class=3D"token punctuation">(</span><span c=
+lass=3D"token punctuation">)</span><span class=3D"token punctuation">.</spa=
+n><span class=3D"token function">toString</span><span class=3D"token punctu=
+ation">(</span><span class=3D"token punctuation">)</span><span class=3D"tok=
+en punctuation">.</span><span class=3D"token function">padStart</span><span=
+ class=3D"token punctuation">(</span><span class=3D"token number">2</span><=
+span class=3D"token punctuation">,</span> <span class=3D"token string">'0'<=
+/span><span class=3D"token punctuation">)</span><span class=3D"token punctu=
+ation">;</span>
+
+  <span class=3D"token comment">// =E5=A6=82=E6=9E=9C =E4=BC=A0=E9=80=92=E8=
+=BF=9B=E6=9D=A5=E7=9A=84=E5=AD=97=E7=AC=A6=E4=B8=B2=E7=B1=BB=E5=9E=8B=EF=BC=
+=8C=E8=BD=AC=E4=B8=BA=E5=B0=8F=E5=86=99=E4=B9=8B=E5=90=8E=EF=BC=8C=E7=AD=89=
+=E4=BA=8E yyyy-mm-dd=EF=BC=8C=E9=82=A3=E4=B9=88=E5=B0=B1=E8=BF=94=E5=9B=9E =
+=E5=B9=B4-=E6=9C=88-=E6=97=A5</span>
+  <span class=3D"token comment">// =E5=90=A6=E5=88=99=EF=BC=8C=E5=B0=B1=E8=
+=BF=94=E5=9B=9E  =E5=B9=B4-=E6=9C=88-=E6=97=A5 =E6=97=B6=EF=BC=9A=E5=88=86=
+=EF=BC=9A=E7=A7=92</span>
+  <span class=3D"token keyword">if</span> <span class=3D"token punctuation"=
+>(</span>pattern<span class=3D"token punctuation">.</span><span class=3D"to=
+ken function">toLowerCase</span><span class=3D"token punctuation">(</span><=
+span class=3D"token punctuation">)</span> <span class=3D"token operator">=
+=3D=3D=3D</span> <span class=3D"token string">'yyyy-mm-dd'</span><span clas=
+s=3D"token punctuation">)</span> <span class=3D"token punctuation">{</span>
+    <span class=3D"token keyword">return</span> <span class=3D"token templa=
+te-string"><span class=3D"token template-punctuation string">`</span><span =
+class=3D"token interpolation"><span class=3D"token interpolation-punctuatio=
+n punctuation">${</span>y<span class=3D"token interpolation-punctuation pun=
+ctuation">}</span></span><span class=3D"token string">-</span><span class=
+=3D"token interpolation"><span class=3D"token interpolation-punctuation pun=
+ctuation">${</span>m<span class=3D"token interpolation-punctuation punctuat=
+ion">}</span></span><span class=3D"token string">-</span><span class=3D"tok=
+en interpolation"><span class=3D"token interpolation-punctuation punctuatio=
+n">${</span>d<span class=3D"token interpolation-punctuation punctuation">}<=
+/span></span><span class=3D"token template-punctuation string">`</span></sp=
+an><span class=3D"token punctuation">;</span>
+  <span class=3D"token punctuation">}</span> <span class=3D"token keyword">=
+else</span> <span class=3D"token punctuation">{</span>
+    <span class=3D"token comment">// =E8=8E=B7=E5=8F=96=E6=97=B6=E5=88=86=
+=E7=A7=92</span>
+    <span class=3D"token keyword">var</span> hh <span class=3D"token operat=
+or">=3D</span> dt<span class=3D"token punctuation">.</span><span class=3D"t=
+oken function">getHours</span><span class=3D"token punctuation">(</span><sp=
+an class=3D"token punctuation">)</span><span class=3D"token punctuation">.<=
+/span><span class=3D"token function">toString</span><span class=3D"token pu=
+nctuation">(</span><span class=3D"token punctuation">)</span><span class=3D=
+"token punctuation">.</span><span class=3D"token function">padStart</span><=
+span class=3D"token punctuation">(</span><span class=3D"token number">2</sp=
+an><span class=3D"token punctuation">,</span> <span class=3D"token string">=
+'0'</span><span class=3D"token punctuation">)</span><span class=3D"token pu=
+nctuation">;</span>
+    <span class=3D"token keyword">var</span> mm <span class=3D"token operat=
+or">=3D</span> dt<span class=3D"token punctuation">.</span><span class=3D"t=
+oken function">getMinutes</span><span class=3D"token punctuation">(</span><=
+span class=3D"token punctuation">)</span><span class=3D"token punctuation">=
+.</span><span class=3D"token function">toString</span><span class=3D"token =
+punctuation">(</span><span class=3D"token punctuation">)</span><span class=
+=3D"token punctuation">.</span><span class=3D"token function">padStart</spa=
+n><span class=3D"token punctuation">(</span><span class=3D"token number">2<=
+/span><span class=3D"token punctuation">,</span> <span class=3D"token strin=
+g">'0'</span><span class=3D"token punctuation">)</span><span class=3D"token=
+ punctuation">;</span>
+    <span class=3D"token keyword">var</span> ss <span class=3D"token operat=
+or">=3D</span> dt<span class=3D"token punctuation">.</span><span class=3D"t=
+oken function">getSeconds</span><span class=3D"token punctuation">(</span><=
+span class=3D"token punctuation">)</span><span class=3D"token punctuation">=
+.</span><span class=3D"token function">toString</span><span class=3D"token =
+punctuation">(</span><span class=3D"token punctuation">)</span><span class=
+=3D"token punctuation">.</span><span class=3D"token function">padStart</spa=
+n><span class=3D"token punctuation">(</span><span class=3D"token number">2<=
+/span><span class=3D"token punctuation">,</span> <span class=3D"token strin=
+g">'0'</span><span class=3D"token punctuation">)</span><span class=3D"token=
+ punctuation">;</span>
+
+    <span class=3D"token keyword">return</span> <span class=3D"token templa=
+te-string"><span class=3D"token template-punctuation string">`</span><span =
+class=3D"token interpolation"><span class=3D"token interpolation-punctuatio=
+n punctuation">${</span>y<span class=3D"token interpolation-punctuation pun=
+ctuation">}</span></span><span class=3D"token string">-</span><span class=
+=3D"token interpolation"><span class=3D"token interpolation-punctuation pun=
+ctuation">${</span>m<span class=3D"token interpolation-punctuation punctuat=
+ion">}</span></span><span class=3D"token string">-</span><span class=3D"tok=
+en interpolation"><span class=3D"token interpolation-punctuation punctuatio=
+n">${</span>d<span class=3D"token interpolation-punctuation punctuation">}<=
+/span></span><span class=3D"token string"> </span><span class=3D"token inte=
+rpolation"><span class=3D"token interpolation-punctuation punctuation">${</=
+span>hh<span class=3D"token interpolation-punctuation punctuation">}</span>=
+</span><span class=3D"token string">:</span><span class=3D"token interpolat=
+ion"><span class=3D"token interpolation-punctuation punctuation">${</span>m=
+m<span class=3D"token interpolation-punctuation punctuation">}</span></span=
+><span class=3D"token string">:</span><span class=3D"token interpolation"><=
+span class=3D"token interpolation-punctuation punctuation">${</span>ss<span=
+ class=3D"token interpolation-punctuation punctuation">}</span></span><span=
+ class=3D"token template-punctuation string">`</span></span><span class=3D"=
+token punctuation">;</span>
+  <span class=3D"token punctuation">}</span>
+<span class=3D"token punctuation">}</span><span class=3D"token punctuation"=
+>)</span><span class=3D"token punctuation">;</span></code></pre><blockquote=
+>
+<p>=E6=B3=A8=E6=84=8F=EF=BC=9A=E5=BD=93=E6=9C=89=E5=B1=80=E9=83=A8=E5=92=8C=
+=E5=85=A8=E5=B1=80=E4=B8=A4=E4=B8=AA=E5=90=8D=E7=A7=B0=E7=9B=B8=E5=90=8C=E7=
+=9A=84=E8=BF=87=E6=BB=A4=E5=99=A8=E6=97=B6=E5=80=99=EF=BC=8C=E4=BC=9A=E4=BB=
+=A5=E5=B0=B1=E8=BF=91=E5=8E=9F=E5=88=99=E8=BF=9B=E8=A1=8C=E8=B0=83=E7=94=A8=
+=EF=BC=8C=E5=8D=B3=EF=BC=9A=E5=B1=80=E9=83=A8=E8=BF=87=E6=BB=A4=E5=99=A8=E4=
+=BC=98=E5=85=88=E4=BA=8E=E5=85=A8=E5=B1=80=E8=BF=87=E6=BB=A4=E5=99=A8=E8=A2=
+=AB=E8=B0=83=E7=94=A8=EF=BC=81</p></blockquote>
+<h2 id=3D"=E9=94=AE=E7=9B=98=E4=BF=AE=E9=A5=B0=E7=AC=A6=E4=BB=A5=E5=8F=8A=
+=E8=87=AA=E5=AE=9A=E4=B9=89=E9=94=AE=E7=9B=98=E4=BF=AE=E9=A5=B0=E7=AC=A6"><=
+a href=3D"http://doc.cms.liulongbin.top/#/md/day1?id=3D%e9%94%ae%e7%9b%98%e=
+4%bf%ae%e9%a5%b0%e7%ac%a6%e4%bb%a5%e5%8f%8a%e8%87%aa%e5%ae%9a%e4%b9%89%e9%9=
+4%ae%e7%9b%98%e4%bf%ae%e9%a5%b0%e7%ac%a6" data-id=3D"=E9=94=AE=E7=9B=98=E4=
+=BF=AE=E9=A5=B0=E7=AC=A6=E4=BB=A5=E5=8F=8A=E8=87=AA=E5=AE=9A=E4=B9=89=E9=94=
+=AE=E7=9B=98=E4=BF=AE=E9=A5=B0=E7=AC=A6" class=3D"anchor"><span>=E9=94=AE=
+=E7=9B=98=E4=BF=AE=E9=A5=B0=E7=AC=A6=E4=BB=A5=E5=8F=8A=E8=87=AA=E5=AE=9A=E4=
+=B9=89=E9=94=AE=E7=9B=98=E4=BF=AE=E9=A5=B0=E7=AC=A6</span></a></h2><h3 id=
+=3D"_1x=E4=B8=AD=E8=87=AA=E5=AE=9A=E4=B9=89=E9=94=AE=E7=9B=98=E4=BF=AE=E9=
+=A5=B0=E7=AC=A6=E3=80=90=E4=BA=86=E8=A7=A3=E5=8D=B3=E5=8F=AF=E3=80=91"><a h=
+ref=3D"http://doc.cms.liulongbin.top/#/md/day1?id=3D_1x%e4%b8%ad%e8%87%aa%e=
+5%ae%9a%e4%b9%89%e9%94%ae%e7%9b%98%e4%bf%ae%e9%a5%b0%e7%ac%a6%e3%80%90%e4%b=
+a%86%e8%a7%a3%e5%8d%b3%e5%8f%af%e3%80%91" data-id=3D"_1x=E4=B8=AD=E8=87=AA=
+=E5=AE=9A=E4=B9=89=E9=94=AE=E7=9B=98=E4=BF=AE=E9=A5=B0=E7=AC=A6=E3=80=90=E4=
+=BA=86=E8=A7=A3=E5=8D=B3=E5=8F=AF=E3=80=91" class=3D"anchor"><span>1.x=E4=
+=B8=AD=E8=87=AA=E5=AE=9A=E4=B9=89=E9=94=AE=E7=9B=98=E4=BF=AE=E9=A5=B0=E7=AC=
+=A6=E3=80=90=E4=BA=86=E8=A7=A3=E5=8D=B3=E5=8F=AF=E3=80=91</span></a></h3><p=
+re v-pre=3D"" data-lang=3D"js"><code class=3D"lang-js">Vue<span class=3D"to=
+ken punctuation">.</span><span class=3D"token function">directive</span><sp=
+an class=3D"token punctuation">(</span><span class=3D"token string">'on'</s=
+pan><span class=3D"token punctuation">)</span><span class=3D"token punctuat=
+ion">.</span>keyCodes<span class=3D"token punctuation">.</span>f2 <span cla=
+ss=3D"token operator">=3D</span> <span class=3D"token number">113</span><sp=
+an class=3D"token punctuation">;</span></code></pre><h3 id=3D"a-hrefhttpscn=
+vuejsorgv2guideeventshtml=E9=94=AE=E5=80=BC=E4=BF=AE=E9=A5=B0=E7=AC=A6-targ=
+et_blank2x=E4=B8=AD=E8=87=AA=E5=AE=9A=E4=B9=89=E9=94=AE=E7=9B=98=E4=BF=AE=
+=E9=A5=B0=E7=AC=A6"><a href=3D"http://doc.cms.liulongbin.top/#/md/day1?id=
+=3Da-hrefhttpscnvuejsorgv2guideeventshtml%e9%94%ae%e5%80%bc%e4%bf%ae%e9%a5%=
+b0%e7%ac%a6-target_blank2x%e4%b8%ad%e8%87%aa%e5%ae%9a%e4%b9%89%e9%94%ae%e7%=
+9b%98%e4%bf%ae%e9%a5%b0%e7%ac%a6" data-id=3D"a-hrefhttpscnvuejsorgv2guideev=
+entshtml=E9=94=AE=E5=80=BC=E4=BF=AE=E9=A5=B0=E7=AC=A6-target_blank2x=E4=B8=
+=AD=E8=87=AA=E5=AE=9A=E4=B9=89=E9=94=AE=E7=9B=98=E4=BF=AE=E9=A5=B0=E7=AC=A6=
+" class=3D"anchor"><span></span></a><a href=3D"https://cn.vuejs.org/v2/guid=
+e/events.html#%E9%94%AE%E5%80%BC%E4%BF%AE%E9%A5%B0%E7%AC%A6" target=3D"_bla=
+nk">2.x=E4=B8=AD=E8=87=AA=E5=AE=9A=E4=B9=89=E9=94=AE=E7=9B=98=E4=BF=AE=E9=
+=A5=B0=E7=AC=A6</a></h3><ol><li>=E9=80=9A=E8=BF=87<code>Vue.config.keyCodes=
+.=E5=90=8D=E7=A7=B0 =3D =E6=8C=89=E9=94=AE=E5=80=BC</code>=E6=9D=A5=E8=87=
+=AA=E5=AE=9A=E4=B9=89=E6=A1=88=E4=BB=B6=E4=BF=AE=E9=A5=B0=E7=AC=A6=E7=9A=84=
+=E5=88=AB=E5=90=8D=EF=BC=9A<pre v-pre=3D"" data-lang=3D"js"><code class=3D"=
+lang-js">Vue<span class=3D"token punctuation">.</span>config<span class=3D"=
+token punctuation">.</span>keyCodes<span class=3D"token punctuation">.</spa=
+n>f2 <span class=3D"token operator">=3D</span> <span class=3D"token number"=
+>113</span><span class=3D"token punctuation">;</span></code></pre></li><li>=
+=E4=BD=BF=E7=94=A8=E8=87=AA=E5=AE=9A=E4=B9=89=E7=9A=84=E6=8C=89=E9=94=AE=E4=
+=BF=AE=E9=A5=B0=E7=AC=A6=EF=BC=9A<pre v-pre=3D"" data-lang=3D"html"><code c=
+lass=3D"lang-html"><span class=3D"token tag"><span class=3D"token tag"><spa=
+n class=3D"token punctuation">&lt;</span>input</span> <span class=3D"token =
+attr-name">type</span><span class=3D"token attr-value"><span class=3D"token=
+ punctuation">=3D</span><span class=3D"token punctuation">"</span>text<span=
+ class=3D"token punctuation">"</span></span> <span class=3D"token attr-name=
+">v-model</span><span class=3D"token attr-value"><span class=3D"token punct=
+uation">=3D</span><span class=3D"token punctuation">"</span>name<span class=
+=3D"token punctuation">"</span></span> <span class=3D"token attr-name">@key=
+up.f2</span><span class=3D"token attr-value"><span class=3D"token punctuati=
+on">=3D</span><span class=3D"token punctuation">"</span>add<span class=3D"t=
+oken punctuation">"</span></span><span class=3D"token punctuation">&gt;</sp=
+an></span></code></pre></li></ol><h2 id=3D"a-hrefhttpscnvuejsorgv2guidecust=
+om-directivehtml-target_blank=E8=87=AA=E5=AE=9A=E4=B9=89=E6=8C=87=E4=BB=A4"=
+><a href=3D"http://doc.cms.liulongbin.top/#/md/day1?id=3Da-hrefhttpscnvuejs=
+orgv2guidecustom-directivehtml-target_blank%e8%87%aa%e5%ae%9a%e4%b9%89%e6%8=
+c%87%e4%bb%a4" data-id=3D"a-hrefhttpscnvuejsorgv2guidecustom-directivehtml-=
+target_blank=E8=87=AA=E5=AE=9A=E4=B9=89=E6=8C=87=E4=BB=A4" class=3D"anchor"=
+><span></span></a><a href=3D"https://cn.vuejs.org/v2/guide/custom-directive=
+.html" target=3D"_blank">=E8=87=AA=E5=AE=9A=E4=B9=89=E6=8C=87=E4=BB=A4</a><=
+/h2><ol><li><p>=E8=87=AA=E5=AE=9A=E4=B9=89=E5=85=A8=E5=B1=80=E5=92=8C=E5=B1=
+=80=E9=83=A8=E7=9A=84 =E8=87=AA=E5=AE=9A=E4=B9=89=E6=8C=87=E4=BB=A4=EF=BC=
+=9A</p><pre v-pre=3D"" data-lang=3D"js"><code class=3D"lang-js"> <span clas=
+s=3D"token comment">// =E8=87=AA=E5=AE=9A=E4=B9=89=E5=85=A8=E5=B1=80=E6=8C=
+=87=E4=BB=A4 v-focus=EF=BC=8C=E4=B8=BA=E7=BB=91=E5=AE=9A=E7=9A=84=E5=85=83=
+=E7=B4=A0=E8=87=AA=E5=8A=A8=E8=8E=B7=E5=8F=96=E7=84=A6=E7=82=B9=EF=BC=9A</s=
+pan>
+ Vue<span class=3D"token punctuation">.</span><span class=3D"token function=
+">directive</span><span class=3D"token punctuation">(</span><span class=3D"=
+token string">'focus'</span><span class=3D"token punctuation">,</span> <spa=
+n class=3D"token punctuation">{</span>
+   <span class=3D"token function-variable function">inserted</span><span cl=
+ass=3D"token operator">:</span> <span class=3D"token keyword">function</spa=
+n> <span class=3D"token punctuation">(</span><span class=3D"token parameter=
+">el</span><span class=3D"token punctuation">)</span> <span class=3D"token =
+punctuation">{</span> <span class=3D"token comment">// inserted =E8=A1=A8=
+=E7=A4=BA=E8=A2=AB=E7=BB=91=E5=AE=9A=E5=85=83=E7=B4=A0=E6=8F=92=E5=85=A5=E7=
+=88=B6=E8=8A=82=E7=82=B9=E6=97=B6=E8=B0=83=E7=94=A8</span>
+     el<span class=3D"token punctuation">.</span><span class=3D"token funct=
+ion">focus</span><span class=3D"token punctuation">(</span><span class=3D"t=
+oken punctuation">)</span><span class=3D"token punctuation">;</span>
+   <span class=3D"token punctuation">}</span>
+ <span class=3D"token punctuation">}</span><span class=3D"token punctuation=
+">)</span><span class=3D"token punctuation">;</span>
+
+ <span class=3D"token comment">// =E8=87=AA=E5=AE=9A=E4=B9=89=E5=B1=80=E9=
+=83=A8=E6=8C=87=E4=BB=A4 v-color =E5=92=8C v-font-weight=EF=BC=8C=E4=B8=BA=
+=E7=BB=91=E5=AE=9A=E7=9A=84=E5=85=83=E7=B4=A0=E8=AE=BE=E7=BD=AE=E6=8C=87=E5=
+=AE=9A=E7=9A=84=E5=AD=97=E4=BD=93=E9=A2=9C=E8=89=B2 =E5=92=8C =E5=AD=97=E4=
+=BD=93=E7=B2=97=E7=BB=86=EF=BC=9A</span>
+   directives<span class=3D"token operator">:</span> <span class=3D"token p=
+unctuation">{</span>
+     color<span class=3D"token operator">:</span> <span class=3D"token punc=
+tuation">{</span> <span class=3D"token comment">// =E4=B8=BA=E5=85=83=E7=B4=
+=A0=E8=AE=BE=E7=BD=AE=E6=8C=87=E5=AE=9A=E7=9A=84=E5=AD=97=E4=BD=93=E9=A2=9C=
+=E8=89=B2</span>
+       <span class=3D"token function">bind</span><span class=3D"token punct=
+uation">(</span><span class=3D"token parameter">el<span class=3D"token punc=
+tuation">,</span> binding</span><span class=3D"token punctuation">)</span> =
+<span class=3D"token punctuation">{</span>
+         el<span class=3D"token punctuation">.</span>style<span class=3D"to=
+ken punctuation">.</span>color <span class=3D"token operator">=3D</span> bi=
+nding<span class=3D"token punctuation">.</span>value<span class=3D"token pu=
+nctuation">;</span>
+       <span class=3D"token punctuation">}</span>
+     <span class=3D"token punctuation">}</span><span class=3D"token punctua=
+tion">,</span>
+     <span class=3D"token string">'font-weight'</span><span class=3D"token =
+operator">:</span> <span class=3D"token keyword">function</span> <span clas=
+s=3D"token punctuation">(</span><span class=3D"token parameter">el<span cla=
+ss=3D"token punctuation">,</span> binding2</span><span class=3D"token punct=
+uation">)</span> <span class=3D"token punctuation">{</span> <span class=3D"=
+token comment">// =E8=87=AA=E5=AE=9A=E4=B9=89=E6=8C=87=E4=BB=A4=E7=9A=84=E7=
+=AE=80=E5=86=99=E5=BD=A2=E5=BC=8F=EF=BC=8C=E7=AD=89=E5=90=8C=E4=BA=8E=E5=AE=
+=9A=E4=B9=89=E4=BA=86 bind =E5=92=8C update =E4=B8=A4=E4=B8=AA=E9=92=A9=E5=
+=AD=90=E5=87=BD=E6=95=B0</span>
+       el<span class=3D"token punctuation">.</span>style<span class=3D"toke=
+n punctuation">.</span>fontWeight <span class=3D"token operator">=3D</span>=
+ binding2<span class=3D"token punctuation">.</span>value<span class=3D"toke=
+n punctuation">;</span>
+     <span class=3D"token punctuation">}</span>
+   <span class=3D"token punctuation">}</span></code></pre></li><li><p>=E8=
+=87=AA=E5=AE=9A=E4=B9=89=E6=8C=87=E4=BB=A4=E7=9A=84=E4=BD=BF=E7=94=A8=E6=96=
+=B9=E5=BC=8F=EF=BC=9A</p><pre v-pre=3D"" data-lang=3D"html"><code class=3D"=
+lang-html"><span class=3D"token tag"><span class=3D"token tag"><span class=
+=3D"token punctuation">&lt;</span>input</span> <span class=3D"token attr-na=
+me">type</span><span class=3D"token attr-value"><span class=3D"token punctu=
+ation">=3D</span><span class=3D"token punctuation">"</span>text<span class=
+=3D"token punctuation">"</span></span> <span class=3D"token attr-name">v-mo=
+del</span><span class=3D"token attr-value"><span class=3D"token punctuation=
+">=3D</span><span class=3D"token punctuation">"</span>searchName<span class=
+=3D"token punctuation">"</span></span> <span class=3D"token attr-name">v-fo=
+cus</span> <span class=3D"token attr-name">v-color</span><span class=3D"tok=
+en attr-value"><span class=3D"token punctuation">=3D</span><span class=3D"t=
+oken punctuation">"</span><span class=3D"token punctuation">'</span>red'<sp=
+an class=3D"token punctuation">"</span></span> <span class=3D"token attr-na=
+me">v-font-weight</span><span class=3D"token attr-value"><span class=3D"tok=
+en punctuation">=3D</span><span class=3D"token punctuation">"</span>900<spa=
+n class=3D"token punctuation">"</span></span><span class=3D"token punctuati=
+on">&gt;</span></span></code></pre></li></ol><h2 id=3D"vue-1x-=E4=B8=AD-=E8=
+=87=AA=E5=AE=9A=E4=B9=89=E5=85=83=E7=B4=A0=E6=8C=87=E4=BB=A4=E3=80=90=E5=B7=
+=B2=E5=BA=9F=E5=BC=83=E4=BA=86=E8=A7=A3=E5=8D=B3=E5=8F=AF=E3=80=91"><a href=
+=3D"http://doc.cms.liulongbin.top/#/md/day1?id=3Dvue-1x-%e4%b8%ad-%e8%87%aa=
+%e5%ae%9a%e4%b9%89%e5%85%83%e7%b4%a0%e6%8c%87%e4%bb%a4%e3%80%90%e5%b7%b2%e5=
+%ba%9f%e5%bc%83%e4%ba%86%e8%a7%a3%e5%8d%b3%e5%8f%af%e3%80%91" data-id=3D"vu=
+e-1x-=E4=B8=AD-=E8=87=AA=E5=AE=9A=E4=B9=89=E5=85=83=E7=B4=A0=E6=8C=87=E4=BB=
+=A4=E3=80=90=E5=B7=B2=E5=BA=9F=E5=BC=83=E4=BA=86=E8=A7=A3=E5=8D=B3=E5=8F=AF=
+=E3=80=91" class=3D"anchor"><span>Vue 1.x =E4=B8=AD =E8=87=AA=E5=AE=9A=E4=
+=B9=89=E5=85=83=E7=B4=A0=E6=8C=87=E4=BB=A4=E3=80=90=E5=B7=B2=E5=BA=9F=E5=BC=
+=83,=E4=BA=86=E8=A7=A3=E5=8D=B3=E5=8F=AF=E3=80=91</span></a></h2><pre v-pre=
+=3D"" data-lang=3D"js"><code class=3D"lang-js">Vue<span class=3D"token punc=
+tuation">.</span><span class=3D"token function">elementDirective</span><spa=
+n class=3D"token punctuation">(</span><span class=3D"token string">'red-col=
+or'</span><span class=3D"token punctuation">,</span> <span class=3D"token p=
+unctuation">{</span>
+  <span class=3D"token function-variable function">bind</span><span class=
+=3D"token operator">:</span> <span class=3D"token keyword">function</span> =
+<span class=3D"token punctuation">(</span><span class=3D"token punctuation"=
+>)</span> <span class=3D"token punctuation">{</span>
+    <span class=3D"token keyword">this</span><span class=3D"token punctuati=
+on">.</span>el<span class=3D"token punctuation">.</span>style<span class=3D=
+"token punctuation">.</span>color <span class=3D"token operator">=3D</span>=
+ <span class=3D"token string">'red'</span><span class=3D"token punctuation"=
+>;</span>
+  <span class=3D"token punctuation">}</span>
+<span class=3D"token punctuation">}</span><span class=3D"token punctuation"=
+>)</span><span class=3D"token punctuation">;</span></code></pre><p>=E4=BD=
+=BF=E7=94=A8=E6=96=B9=E5=BC=8F=EF=BC=9A</p><pre v-pre=3D"" data-lang=3D"htm=
+l"><code class=3D"lang-html"><span class=3D"token tag"><span class=3D"token=
+ tag"><span class=3D"token punctuation">&lt;</span>red-color</span><span cl=
+ass=3D"token punctuation">&gt;</span></span>1232<span class=3D"token tag"><=
+span class=3D"token tag"><span class=3D"token punctuation">&lt;/</span>red-=
+color</span><span class=3D"token punctuation">&gt;</span></span></code></pr=
+e><h2 id=3D"=E7=9B=B8=E5=85=B3=E6=96=87=E7=AB=A0"><a href=3D"http://doc.cms=
+.liulongbin.top/#/md/day1?id=3D%e7%9b%b8%e5%85%b3%e6%96%87%e7%ab%a0" data-i=
+d=3D"=E7=9B=B8=E5=85=B3=E6=96=87=E7=AB=A0" class=3D"anchor"><span>=E7=9B=B8=
+=E5=85=B3=E6=96=87=E7=AB=A0</span></a></h2><ol><li><a href=3D"https://v1-cn=
+.vuejs.org/" target=3D"_blank">vue.js 1.x =E6=96=87=E6=A1=A3</a></li><li><a=
+ href=3D"https://cn.vuejs.org/" target=3D"_blank">vue.js 2.x =E6=96=87=E6=
+=A1=A3</a></li><li><a href=3D"http://www.css88.com/archives/7715" target=3D=
+"_blank">String.prototype.padStart(maxLength, fillString)</a></li><li><a hr=
+ef=3D"http://www.cnblogs.com/wuhua1/p/6686237.html" target=3D"_blank">js =
+=E9=87=8C=E9=9D=A2=E7=9A=84=E9=94=AE=E7=9B=98=E4=BA=8B=E4=BB=B6=E5=AF=B9=E5=
+=BA=94=E7=9A=84=E9=94=AE=E7=A0=81</a></li><li><a href=3D"http://www.cnblogs=
+.com/kidney/p/6052935.html" target=3D"_blank">Vue.js=E5=8F=8C=E5=90=91=E7=
+=BB=91=E5=AE=9A=E7=9A=84=E5=AE=9E=E7=8E=B0=E5=8E=9F=E7=90=86</a></li></ol><=
+/article></section></main>
+ =20
+  <!-- <script src=3D"//unpkg.com/docsify/lib/docsify.min.js"></script> -->
+ =20
+
+
+<div class=3D"progress" style=3D"opacity: 0; width: 0%;"></div><div class=
+=3D"xl-chrome-ext-bar" id=3D"xl_chrome_ext_{4DB361DE-01F7-4376-B494-639E489=
+D19ED}" style=3D"display: none;">
+      <div class=3D"xl-chrome-ext-bar__logo"></div>
+
+      <a id=3D"xl_chrome_ext_download" class=3D"xl-chrome-ext-bar__option">=
+=E4=B8=8B=E8=BD=BD=E8=A7=86=E9=A2=91</a>
+      <a id=3D"xl_chrome_ext_close" class=3D"xl-chrome-ext-bar__close"></a>
+    </div></body></html>
+------MultipartBoundary--tANTFTLWwBMYBs44o8tmhj5sg8LAMZOPHu35M5JoxE----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://doc.cms.liulongbin.top/css/vue-min.css
+
+@charset "utf-8";
+
+@import url("https://fonts.googleapis.com/css?family=3DRoboto+Mono|Source+S=
+ans+Pro:300,400,600");
+
+* { -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(=
+0, 0, 0, 0); text-size-adjust: none; box-sizing: border-box; }
+
+body:not(.ready) { overflow: hidden; }
+
+body:not(.ready) .app-nav, body:not(.ready) > nav, body:not(.ready) [data-c=
+loak] { display: none; }
+
+div#app { font-size: 30px; font-weight: lighter; margin: 40vh auto; text-al=
+ign: center; }
+
+div#app:empty::before { content: "Loading..."; }
+
+.emoji { height: 1.2rem; vertical-align: middle; }
+
+.progress { background-color: var(--theme-color,#42b983); height: 2px; left=
+: 0px; position: fixed; right: 0px; top: 0px; transition: width 0.2s ease 0=
+s, opacity 0.4s ease 0s; width: 0px; z-index: 5; }
+
+.search .search-keyword, .search a:hover { color: var(--theme-color,#42b983=
+); }
+
+.search .search-keyword { font-style: normal; font-weight: 700; }
+
+body, html { height: 100%; }
+
+body { -webkit-font-smoothing: antialiased; color: rgb(52, 73, 94); font-fa=
+mily: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif; font-size: 15=
+px; letter-spacing: 0px; margin: 0px; overflow-x: hidden; }
+
+img { max-width: 100%; }
+
+a[disabled] { cursor: not-allowed; opacity: 0.6; }
+
+kbd { border: 1px solid rgb(204, 204, 204); border-radius: 3px; display: in=
+line-block; line-height: 12px; margin-bottom: 3px; padding: 3px 5px; vertic=
+al-align: middle; font-size: 12px !important; }
+
+li input[type=3D"checkbox"] { margin: 0px 0.2em 0.25em 0px; vertical-align:=
+ middle; }
+
+.app-nav { margin: 25px 60px 0px 0px; position: absolute; right: 0px; text-=
+align: right; z-index: 2; }
+
+.app-nav.no-badge { margin-right: 25px; }
+
+.app-nav p { margin: 0px; }
+
+.app-nav > a { margin: 0px 1rem; padding: 5px 0px; }
+
+.app-nav li, .app-nav ul { display: inline-block; list-style: none; margin:=
+ 0px; }
+
+.app-nav a { color: inherit; font-size: 16px; text-decoration: none; transi=
+tion: color 0.3s ease 0s; }
+
+.app-nav a.active, .app-nav a:hover { color: var(--theme-color,#42b983); }
+
+.app-nav a.active { border-bottom: 2px solid var(--theme-color,#42b983); }
+
+.app-nav li { display: inline-block; margin: 0px 1rem; padding: 5px 0px; po=
+sition: relative; }
+
+.app-nav li ul { background-color: rgb(255, 255, 255); border-width: 1px; b=
+order-style: solid; border-color: rgb(221, 221, 221) rgb(221, 221, 221) rgb=
+(204, 204, 204); border-image: initial; border-radius: 4px; box-sizing: bor=
+der-box; display: none; max-height: calc(100vh - 61px); overflow-y: auto; p=
+adding: 10px 0px; position: absolute; right: -15px; text-align: left; top: =
+100%; white-space: nowrap; }
+
+.app-nav li ul li { display: block; font-size: 14px; line-height: 1rem; mar=
+gin: 8px 14px; white-space: nowrap; }
+
+.app-nav li ul a { display: block; font-size: inherit; margin: 0px; padding=
+: 0px; }
+
+.app-nav li ul a.active { border-bottom: 0px; }
+
+.app-nav li:hover ul { display: block; }
+
+.github-corner { border-bottom: 0px; position: fixed; right: 0px; text-deco=
+ration: none; top: 0px; z-index: 1; }
+
+.github-corner:hover .octo-arm { animation: 0.56s ease-in-out 0s 1 normal n=
+one running a; }
+
+.github-corner svg { color: rgb(255, 255, 255); fill: var(--theme-color,#42=
+b983); height: 80px; width: 80px; }
+
+main { display: block; position: relative; width: 100vw; height: 100%; z-in=
+dex: 0; }
+
+main.hidden { display: none; }
+
+.anchor { display: inline-block; text-decoration: none; transition: all 0.3=
+s ease 0s; }
+
+.anchor span { color: rgb(52, 73, 94); }
+
+.anchor:hover { text-decoration: underline; }
+
+.sidebar { border-right: 1px solid rgba(0, 0, 0, 0.07); overflow-y: auto; p=
+adding: 40px 0px 0px; position: absolute; top: 0px; bottom: 0px; left: 0px;=
+ transition: transform 0.25s ease-out 0s; width: 300px; z-index: 3; }
+
+.sidebar > h1 { margin: 0px auto 1rem; font-size: 1.5rem; font-weight: 300;=
+ text-align: center; }
+
+.sidebar > h1 a { color: inherit; text-decoration: none; }
+
+.sidebar > h1 .app-nav { display: block; position: static; }
+
+.sidebar .sidebar-nav { line-height: 2em; padding-bottom: 40px; }
+
+.sidebar li.collapse .app-sub-sidebar { display: none; }
+
+.sidebar ul { margin: 0px 0px 0px 15px; padding: 0px; }
+
+.sidebar li > p { font-weight: 700; margin: 0px; }
+
+.sidebar ul, .sidebar ul li { list-style: none; }
+
+.sidebar ul li a { border-bottom: none; display: block; }
+
+.sidebar ul li ul { padding-left: 20px; }
+
+.sidebar::-webkit-scrollbar { width: 4px; }
+
+.sidebar::-webkit-scrollbar-thumb { background: transparent; border-radius:=
+ 4px; }
+
+.sidebar:hover::-webkit-scrollbar-thumb { background: rgba(135, 135, 135, 0=
+.4); }
+
+.sidebar:hover::-webkit-scrollbar-track { background: rgba(135, 135, 135, 0=
+.1); }
+
+.sidebar-toggle { background-color: rgba(255, 255, 255, 0.8); border: 0px; =
+outline: none; padding: 10px; position: absolute; bottom: 0px; left: 0px; t=
+ext-align: center; transition: opacity 0.3s ease 0s; width: 284px; z-index:=
+ 4; }
+
+.sidebar-toggle .sidebar-toggle-button:hover { opacity: 0.4; }
+
+.sidebar-toggle span { background-color: var(--theme-color,#42b983); displa=
+y: block; margin-bottom: 4px; width: 16px; height: 2px; }
+
+body.sticky .sidebar, body.sticky .sidebar-toggle { position: fixed; }
+
+.content { padding-top: 60px; position: absolute; inset: 0px 0px 0px 300px;=
+ transition: left 0.25s ease 0s; }
+
+.markdown-section { margin: 0px auto; max-width: 800px; padding: 30px 15px =
+40px; position: relative; }
+
+.markdown-section > * { box-sizing: border-box; font-size: inherit; }
+
+.markdown-section > :first-child { margin-top: 0px !important; }
+
+.markdown-section hr { border-top: none; border-right: none; border-left: n=
+one; border-image: initial; border-bottom: 1px solid rgb(238, 238, 238); ma=
+rgin: 2em 0px; }
+
+.markdown-section iframe { border: 1px solid rgb(238, 238, 238); width: 1px=
+; min-width: 100%; }
+
+.markdown-section table { border-collapse: collapse; border-spacing: 0px; d=
+isplay: block; margin-bottom: 1rem; overflow: auto; width: 100%; }
+
+.markdown-section th { font-weight: 700; }
+
+.markdown-section td, .markdown-section th { border: 1px solid rgb(221, 221=
+, 221); padding: 6px 13px; }
+
+.markdown-section tr { border-top: 1px solid rgb(204, 204, 204); }
+
+.markdown-section p.tip, .markdown-section tr:nth-child(2n) { background-co=
+lor: rgb(248, 248, 248); }
+
+.markdown-section p.tip { border-bottom-right-radius: 2px; border-left: 4px=
+ solid rgb(255, 102, 102); border-top-right-radius: 2px; margin: 2em 0px; p=
+adding: 12px 24px 12px 30px; position: relative; }
+
+.markdown-section p.tip::before { background-color: rgb(255, 102, 102); bor=
+der-radius: 100%; color: rgb(255, 255, 255); content: "!"; font-family: Dos=
+is, "Source Sans Pro", "Helvetica Neue", Arial, sans-serif; font-size: 14px=
+; font-weight: 700; left: -12px; line-height: 20px; position: absolute; hei=
+ght: 20px; width: 20px; text-align: center; top: 14px; }
+
+.markdown-section p.tip code { background-color: rgb(239, 239, 239); }
+
+.markdown-section p.tip em { color: rgb(52, 73, 94); }
+
+.markdown-section p.warn { background: rgba(66, 185, 131, 0.1); border-radi=
+us: 2px; padding: 1rem; }
+
+.markdown-section ul.task-list > li { list-style-type: none; }
+
+body.close .sidebar { transform: translateX(-300px); }
+
+body.close .sidebar-toggle { width: auto; }
+
+body.close .content { left: 0px; }
+
+@media print {
+  .app-nav, .github-corner, .sidebar, .sidebar-toggle { display: none; }
+}
+
+@media screen and (max-width: 768px) {
+  .github-corner, .sidebar, .sidebar-toggle { position: fixed; }
+  .app-nav { margin-top: 16px; }
+  .app-nav li ul { top: 30px; }
+  main { height: auto; overflow-x: hidden; }
+  .sidebar { left: -300px; transition: transform 0.25s ease-out 0s; }
+  .content { left: 0px; max-width: 100vw; position: static; padding-top: 20=
+px; transition: transform 0.25s ease 0s; }
+  .app-nav, .github-corner { transition: transform 0.25s ease-out 0s; }
+  .sidebar-toggle { background-color: transparent; width: auto; padding: 30=
+px 30px 10px 10px; }
+  body.close .sidebar { transform: translateX(300px); }
+  body.close .sidebar-toggle { background-color: rgba(255, 255, 255, 0.8); =
+transition: background-color 1s ease 0s; width: 284px; padding: 10px; }
+  body.close .content { transform: translateX(300px); }
+  body.close .app-nav, body.close .github-corner { display: none; }
+  .github-corner:hover .octo-arm { animation: 0s ease 0s 1 normal none runn=
+ing none; }
+  .github-corner .octo-arm { animation: 0.56s ease-in-out 0s 1 normal none =
+running a; }
+}
+
+@keyframes a {=20
+  0%, 100% { transform: rotate(0deg); }
+  20%, 60% { transform: rotate(-25deg); }
+  40%, 80% { transform: rotate(10deg); }
+}
+
+section.cover { align-items: center; background-position: 50% center; backg=
+round-repeat: no-repeat; background-size: cover; height: 100vh; display: no=
+ne; }
+
+section.cover.show { display: flex; }
+
+section.cover.has-mask .mask { background-color: rgb(255, 255, 255); opacit=
+y: 0.8; position: absolute; top: 0px; height: 100%; width: 100%; }
+
+section.cover .cover-main { flex: 1 1 0%; margin: -20px 16px 0px; text-alig=
+n: center; z-index: 1; }
+
+section.cover a { color: inherit; }
+
+section.cover a, section.cover a:hover { text-decoration: none; }
+
+section.cover p { line-height: 1.5rem; margin: 1em 0px; }
+
+section.cover h1 { color: inherit; font-size: 2.5rem; font-weight: 300; mar=
+gin: 0.625rem 0px 2.5rem; position: relative; text-align: center; }
+
+section.cover h1 a { display: block; }
+
+section.cover h1 small { bottom: -0.4375rem; font-size: 1rem; position: abs=
+olute; }
+
+section.cover blockquote { font-size: 1.5rem; text-align: center; }
+
+section.cover ul { line-height: 1.8; list-style-type: none; margin: 1em aut=
+o; max-width: 500px; padding: 0px; }
+
+section.cover .cover-main > p:last-child a { border: 1px solid var(--theme-=
+color,#42b983); border-radius: 2rem; box-sizing: border-box; color: var(--t=
+heme-color,#42b983); display: inline-block; font-size: 1.05rem; letter-spac=
+ing: 0.1rem; margin: 0.5rem 1rem; padding: 0.75em 2rem; text-decoration: no=
+ne; transition: all 0.15s ease 0s; }
+
+section.cover .cover-main > p:last-child a:last-child { background-color: v=
+ar(--theme-color,#42b983); color: rgb(255, 255, 255); }
+
+section.cover .cover-main > p:last-child a:last-child:hover { color: inheri=
+t; opacity: 0.8; }
+
+section.cover .cover-main > p:last-child a:hover { color: inherit; }
+
+section.cover blockquote > p > a { border-bottom: 2px solid var(--theme-col=
+or,#42b983); transition: color 0.3s ease 0s; }
+
+section.cover blockquote > p > a:hover { color: var(--theme-color,#42b983);=
+ }
+
+.sidebar, body { background-color: rgb(255, 255, 255); }
+
+.sidebar { color: rgb(54, 65, 73); }
+
+.sidebar li { margin: 6px 0px; }
+
+.sidebar ul li a { color: rgb(80, 93, 107); font-size: 14px; font-weight: 4=
+00; overflow: hidden; text-decoration: none; text-overflow: ellipsis; white=
+-space: nowrap; }
+
+.sidebar ul li a:hover { text-decoration: underline; }
+
+.sidebar ul li ul { padding: 0px; }
+
+.sidebar ul li.active > a { border-right: 2px solid; color: var(--theme-col=
+or,#42b983); font-weight: 600; }
+
+.app-sub-sidebar li::before { content: "-"; padding-right: 4px; float: left=
+; }
+
+.markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown=
+-section h4, .markdown-section strong { color: rgb(44, 62, 80); font-weight=
+: 600; }
+
+.markdown-section a { color: var(--theme-color,#42b983); font-weight: 600; =
+}
+
+.markdown-section h1 { font-size: 2rem; margin: 0px 0px 1rem; }
+
+.markdown-section h2 { font-size: 1.75rem; margin: 45px 0px 0.8rem; }
+
+.markdown-section h3 { font-size: 1.5rem; margin: 40px 0px 0.6rem; }
+
+.markdown-section h4 { font-size: 1.25rem; }
+
+.markdown-section h5 { font-size: 1rem; }
+
+.markdown-section h6 { color: rgb(119, 119, 119); font-size: 1rem; }
+
+.markdown-section figure, .markdown-section p { margin: 1.2em 0px; }
+
+.markdown-section ol, .markdown-section p, .markdown-section ul { line-heig=
+ht: 1.6rem; word-spacing: 0.05rem; }
+
+.markdown-section ol, .markdown-section ul { padding-left: 1.5rem; }
+
+.markdown-section blockquote { border-left: 4px solid var(--theme-color,#42=
+b983); color: rgb(133, 133, 133); margin: 2em 0px; padding-left: 20px; }
+
+.markdown-section blockquote p { font-weight: 600; margin-left: 0px; }
+
+.markdown-section iframe { margin: 1em 0px; }
+
+.markdown-section em { color: rgb(127, 140, 141); }
+
+.markdown-section code { border-radius: 2px; color: rgb(233, 105, 0); font-=
+size: 0.8rem; margin: 0px 2px; padding: 3px 5px; white-space: pre-wrap; bac=
+kground-color: rgb(248, 248, 248); font-family: "Roboto Mono", Monaco, cour=
+ier, monospace; }
+
+.markdown-section pre { border-radius: 4px; background-color: rgb(32, 40, 4=
+5); font-family: "Roboto Mono", Monaco, courier, monospace; transition: box=
+-shadow 0.2s ease 0s; }
+
+.markdown-section pre::before { content: " "; display: block; background: u=
+rl("../images/flag2.png") 0% 0% / 65px 23px no-repeat; margin-top: 15px; }
+
+.markdown-section pre:hover { box-shadow: blue 1px 1px 10px; }
+
+.markdown-section pre { -webkit-font-smoothing: initial; line-height: 1.5re=
+m; margin: 1.2em 0px; overflow: auto; padding: 0px 1.4rem; position: relati=
+ve; overflow-wrap: normal; }
+
+.token.cdata, .token.comment, .token.doctype, .token.prolog { color: rgb(14=
+2, 144, 140); }
+
+.token.namespace { opacity: 0.7; }
+
+.token.boolean, .token.number { color: rgb(227, 76, 57); }
+
+.token.punctuation { color: rgb(51, 166, 242); }
+
+.token.property { color: rgb(192, 139, 48); }
+
+.token.tag { color: rgb(249, 38, 114); }
+
+.token.operator { color: rgb(255, 190, 75); }
+
+.token.string { color: var(--theme-color,#42b983); }
+
+.token.selector { color: rgb(102, 121, 204); }
+
+.token.attr-name { color: orange; }
+
+.language-css .token.string, .style .token.string, .token.entity, .token.ur=
+l { color: rgb(34, 162, 201); }
+
+.token.attr-value, .token.control, .token.directive, .token.unit { color: v=
+ar(--theme-color,#42b983); }
+
+.token.function, .token.keyword { color: rgb(233, 105, 0); }
+
+.token.atrule, .token.regex, .token.statement { color: rgb(34, 162, 201); }
+
+.token.placeholder, .token.variable { color: rgb(61, 143, 209); }
+
+.token.deleted { text-decoration: line-through; }
+
+.token.inserted { border-bottom: 1px dotted rgb(32, 39, 70); text-decoratio=
+n: none; }
+
+.token.italic { font-style: italic; }
+
+.token.bold, .token.important { font-weight: 700; }
+
+.token.important { color: rgb(201, 73, 34); }
+
+.token.entity { cursor: help; }
+
+.markdown-section pre > code { -webkit-font-smoothing: initial; background-=
+color: rgb(32, 40, 45); border-radius: 2px; color: rgb(255, 255, 255); disp=
+lay: block; font-family: "Roboto Mono", Monaco, courier, monospace; font-si=
+ze: 0.8rem; line-height: inherit; margin: 0px 2px; max-width: inherit; over=
+flow: inherit; padding: 10px 5px 20px; white-space: inherit; }
+
+.markdown-section pre > code::-webkit-scrollbar { width: 4px; height: 4px; =
+}
+
+.markdown-section pre > code::-webkit-scrollbar-thumb { border-radius: 5px;=
+ box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px inset; background: rgb(255, 189=
+, 46); }
+
+.markdown-section pre > code::-webkit-scrollbar-track { box-shadow: rgba(0,=
+ 0, 0, 0.2) 0px 0px 5px inset; border-radius: 2px; background: gray; }
+
+.markdown-section code::after, .markdown-section code::before { letter-spac=
+ing: 0.05rem; }
+
+code .token { -webkit-font-smoothing: initial; min-height: 1.5rem; }
+
+pre::after { color: rgb(204, 204, 204); content: attr(data-lang); font-size=
+: 0.6rem; font-weight: 600; height: 15px; line-height: 15px; padding: 5px 1=
+0px 0px; position: absolute; right: 0px; text-align: right; top: 0px; }
+
+::selection { color: white; background-color: rgb(253, 115, 51); }
+------MultipartBoundary--tANTFTLWwBMYBs44o8tmhj5sg8LAMZOPHu35M5JoxE----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro:300,400,600
+
+@charset "utf-8";
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8b=
+XMIhJHg45mwgGEFl0_3vq_SeW4Ep0.woff2") format("woff2"); unicode-range: U+460=
+-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8b=
+XMIhJHg45mwgGEFl0_3vq_QOW4Ep0.woff2") format("woff2"); unicode-range: U+400=
+-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8b=
+XMIhJHg45mwgGEFl0_3vq_R-W4Ep0.woff2") format("woff2"); unicode-range: U+370=
+-3FF; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8b=
+XMIhJHg45mwgGEFl0_3vq_S-W4Ep0.woff2") format("woff2"); unicode-range: U+102=
+-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U=
++20AB; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8b=
+XMIhJHg45mwgGEFl0_3vq_SuW4Ep0.woff2") format("woff2"); unicode-range: U+100=
+-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-=
+2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8b=
+XMIhJHg45mwgGEFl0_3vq_ROW4.woff2") format("woff2"); unicode-range: U+0-FF, =
+U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20=
+AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3ik4zwmhduz8A.woff2") format("woff2"); unicode-range: U+460-=
+52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3ik4zwkxduz8A.woff2") format("woff2"); unicode-range: U+400-=
+45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3ik4zwmxduz8A.woff2") format("woff2"); unicode-range: U+1F00=
+-1FFF; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3ik4zwlBduz8A.woff2") format("woff2"); unicode-range: U+370-=
+3FF; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3ik4zwmBduz8A.woff2") format("woff2"); unicode-range: U+102-=
+103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+=
+20AB; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3ik4zwmRduz8A.woff2") format("woff2"); unicode-range: U+100-=
+24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2=
+C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3ik4zwlxdu.woff2") format("woff2"); unicode-range: U+0-FF, U=
++131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20A=
+C, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcS=
+V-LCoeQqfX1RYOo3qNa7lqDY.woff2") format("woff2"); unicode-range: U+460-52F,=
+ U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcS=
+V-LCoeQqfX1RYOo3qPK7lqDY.woff2") format("woff2"); unicode-range: U+400-45F,=
+ U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcS=
+V-LCoeQqfX1RYOo3qNK7lqDY.woff2") format("woff2"); unicode-range: U+1F00-1FF=
+F; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcS=
+V-LCoeQqfX1RYOo3qO67lqDY.woff2") format("woff2"); unicode-range: U+370-3FF;=
+ }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcS=
+V-LCoeQqfX1RYOo3qN67lqDY.woff2") format("woff2"); unicode-range: U+102-103,=
+ U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB=
+; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcS=
+V-LCoeQqfX1RYOo3qNq7lqDY.woff2") format("woff2"); unicode-range: U+100-24F,=
+ U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,=
+ U+A720-A7FF; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcS=
+V-LCoeQqfX1RYOo3qOK7l.woff2") format("woff2"); unicode-range: U+0-FF, U+131=
+, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U=
++2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 600; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3i54rwmhduz8A.woff2") format("woff2"); unicode-range: U+460-=
+52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 600; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3i54rwkxduz8A.woff2") format("woff2"); unicode-range: U+400-=
+45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 600; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3i54rwmxduz8A.woff2") format("woff2"); unicode-range: U+1F00=
+-1FFF; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 600; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3i54rwlBduz8A.woff2") format("woff2"); unicode-range: U+370-=
+3FF; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 600; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3i54rwmBduz8A.woff2") format("woff2"); unicode-range: U+102-=
+103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+=
+20AB; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 600; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3i54rwmRduz8A.woff2") format("woff2"); unicode-range: U+100-=
+24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2=
+C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 600; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3i54rwlxdu.woff2") format("woff2"); unicode-range: U+0-FF, U=
++131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20A=
+C, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+------MultipartBoundary--tANTFTLWwBMYBs44o8tmhj5sg8LAMZOPHu35M5JoxE----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://doc.cms.liulongbin.top/images/flag2.png
+
+iVBORw0KGgoAAAANSUhEUgAAAE0AAAAbCAIAAAC2vJUNAAAACXBIWXMAABJ0AAASdAHeZh94AAAB
+/klEQVR42mNQ0NAdCYhh1J+j/hyW/lTU0DXS1tfT0qOKfQZGOkBEHdcb6cqb6CpoUuzPSjOzfc52
+F9ydbni7XvNyOe3muNHBxk/fkAw3JQZqbe9UPzNd/do8DSACMoBcoCAZRsl76Mj26MrN15Nfbii/
+0khukb7sVF25VLL86aZncNjF/mu4///4MGT0Ly70tq/7SntrkiIQ6KVnq7X+79VDQ0BBoBRJ0Svb
+pquwxlj9hJ36SXtkpHzAQnaGnryTDgn+9NAzPOfmiOZDZPQ9ImC7oy0xztIz1Dk8Ue33Ll1MT0IQ
+UAqoAKiMKE9O0FU5ZIXmQ2Qkt0BP3lmHWH8edbHH40kI+hbuP83GiqDLtrSr/9qpg8uTEARUAFRG
+2JNVusBIw+NJCJKdRVx8NlqYf8NIrljRRQ8nQ219PC4LdNe6v0QTvychCKgMqBhfnjTRlVusT9CT
+kAQsl6VD2J8Hne2J8SQk9daam+Fx3MoG9b+7dYnxJ1AZUDEeo+QydFUOWhLjT1CUTicUn8Aq5KK7
+E5H+BKINDjZ4HHdoghoxnoQgoGJ8ibZbh0hPgnLpYn3MygbFn7paele9XIj35068pdGJKerE+xOo
+GJ8/J+oS70/5ZQYKhqPxOYLy5wgqb0dK/TmC2kMjpX07gvorI6v/OTpuMurPUX+O+nPUn9RDAHzJ
+ItswE45tAAAAAElFTkSuQmCC
+
+------MultipartBoundary--tANTFTLWwBMYBs44o8tmhj5sg8LAMZOPHu35M5JoxE------

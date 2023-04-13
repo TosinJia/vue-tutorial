@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./lib/vue-2.6.14.js"></script>
+</head>
+<body>
+    <div id="app">
+        <input type="button" value="changeMsgSpecialValue" v-on:click="msg='change msg'">
+        <input type="button" value="changeMsg" v-on:click="msg=msg+'1'">
+        <h5 id="ih5">{{msg}}</h5>
+    </div>
+    <script>
+        var vm = new Vue({
+            el: '#app',
+            data: {
+                msg: "data msg"
+            },
+            methods: {
+                show: function(){
+                    console.log("methods show");
+                }
+            },
+            beforeCreate() {    // 这是我们遇到的第一个生命周期函数【创建阶段】
+                console.log("beforeCreate", this, this.msg);
+                // [Vue warn]: Error in beforeCreate hook: "TypeError: this.show is not a function"
+                // this.show();
+            },
+            created() { // 这是我们遇到的第二个生命周期函数  【创建阶段】
+                console.log("created", this, this.msg);
+                this.show();
+            },
+
+            beforeMount() { // 创建阶段的第三个 生命周期函数  表示，即将挂载
+                const el = document.getElementById("ih5");
+                console.log("beforeMount", el, el.innerHTML);
+            },
+            mounted() { // 创建阶段的第 4 个生命周期函数， 表示 页面已经完成了渲染，同时，mounted 函数的执行，标志着 创建阶段的结束，从此以后，Vue 实例，就从创建阶段，进入到运行阶段；
+                const el = document.getElementById("ih5");
+                console.log("mounted", el, el.innerHTML);
+            },
+            
+            // -------------------之前的是创建阶段，后面的是运行阶段--------------------------
+            beforeUpdate() {    // 更新之前
+                const el = document.getElementById("ih5");
+                console.log("beforeUpdate", el, el.innerHTML);
+            },
+            updated() { // 更新之后
+                const el = document.getElementById("ih5");
+                console.log("updated", el, el.innerHTML);
+            },
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="./lib/vue-2.6.14.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- v-bind: 可以为 元素的属性,绑定 一些数据 -->
+        <!-- v-bind: 这个指令可以被简写成  :  , 今后推荐直接写 冒号 -->
+        <!-- v-bind: 指令中,如果想要实现表达式的拼接, 被拼接的 字符串,一定要 用 引号包裹起来, 否则,会被当作 变量解析 -->
+        <input type="button" value="1按钮" title="btnTile" id="customId">
+        <input type="button" value="2按钮" v-bind:title="btnTile" v-bind:id="customId">
+        <input type="button" value="3按钮" :title="btnTile" :id="customId">
+        <input type="button" value="4按钮" :title="btnTile+'4'" :id="customId+4" :class="customClass+a">
+        
+    </div>
+
+    <script>
+        const vm = new Vue({
+            el: '#app',
+            data: {
+                btnTile: 'data.btnTile',
+                customId: 'data.customId',
+                customClass: 'data.customClass'
+            }
+        })
+    </script>
+</body>
+</html>

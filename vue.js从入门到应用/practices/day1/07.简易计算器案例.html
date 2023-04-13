@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./lib/vue-2.6.14.js"></script>
+</head>
+<body>
+    <div id="app">
+        <input type="text" v-model="n1">
+        <select v-model="opt">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <input type="text" v-model="n2">
+        <input type="button" value="=" v-on:click="calc">
+        <input type="button" value="=2" v-on:click="calc2">
+        <input type="text" v-model="r">
+    </div>
+
+    <script>
+        var vm = new Vue({
+            el: '#app',
+            data: {
+                n1: 0,
+                n2: 0,
+                opt: '+',
+                r:0
+            },
+            methods: {
+                calc(){
+                    // 获取到 操作符
+                    // 获取到 n1 的值 和 n2 的值
+                    // 根据不同的操作符,计算这两个值的结果,最后,把结果赋值给 result 
+                    switch (this.opt) {
+                        case '+':
+                            this.r = parseFloat(this.n1)+parseFloat(this.n2);
+                            break;
+                        case '-':
+                            this.r = parseFloat(this.n1)-parseFloat(this.n2);
+                            break;
+                        case '*':
+                            this.r = parseFloat(this.n1)*parseFloat(this.n2);
+                            break;
+                        case '/':
+                            this.r = parseFloat(this.n1)/parseFloat(this.n2);
+                            break;
+                        default:
+                            break;
+                    }
+                    
+                },
+                calc2(){
+                    // 类似于 Hack 的手段
+                    // eval('this.r = parseFloat(this.n1)${this.opt}parseFloat(this.n2)');
+                    eval(`this.r = parseFloat(this.n1)${this.opt}parseFloat(this.n2)`);
+                }
+            }
+        });
+    </script>
+</body>
+</html>

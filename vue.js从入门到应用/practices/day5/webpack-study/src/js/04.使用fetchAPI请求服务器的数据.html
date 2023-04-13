@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        fetch('http://api.cms.liulongbin.top/api/getlunbo').then(   // 通过 fetch 请求的结果，如果成功了，则第一个 .then中拿不到最终的数据
+            response => {
+                console.log("fetch then response", response);
+                return response.json();
+            }
+        ).then( // 第二个.then中得到的才是真实的 数据
+            data => {
+                console.log("fetch then then data", data);
+            }
+        );
+
+        console.log("========================================");
+        // Promise 可以进行.then
+        fetch('http://api.cms.liulongbin.top/api/getlunbo').then(   // 通过 fetch 请求的结果，如果成功了，则第一个 .then中拿不到最终的数据
+            function (response){
+                console.log("fetch then function (response)", response);
+                return response.json();
+            }
+        ).then( // 第二个.then中得到的才是真实的 数据
+            function(data){
+                console.log("fetch then function(data)", data);
+            }
+        );
+
+        console.log("========================================");
+
+        async function getInfo(url){
+            const result = await fetch(url);
+            console.log("async function getInfo await", result);
+            // const data = result.json();
+            // console.log(data);
+            const data = result.json().then(data => {
+                console.log("async function getInfo result.json().then", data);
+            });
+            console.log("async function getInfo "+data);
+        }
+
+        getInfo('http://api.cms.liulongbin.top/api/getlunbo');
+    </script>
+</body>
+</html>

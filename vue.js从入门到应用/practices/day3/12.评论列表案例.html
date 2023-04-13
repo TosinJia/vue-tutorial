@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./lib/vue-2.6.14.js"></script>
+</head>
+<body>
+    <div id="app">
+
+        <!-- 评论框区域 -->
+        <cmt-box v-on:func1="addNewCmt"></cmt-box>
+        <ul>
+            <cmt-item v-for="(item, i) in list" v-bind:item="item" v-bind:key="i"></cmt-item>
+        </ul>
+
+
+        <hr>
+        <ul>
+            <li v-for="item in list" ><h3>评论人：{{item.name}}</h3><h6>评论内容：{{item.content}}</h6></li>
+        </ul>
+    </div>
+
+    <template id="tmpl">
+        <div>
+            <label>评论人：</label>
+            <input type="text" v-model="name"><br>
+            <label>评论内容：</label><br>
+            <textarea v-model="content"></textarea>
+            <input type="button" value="发表评论" v-on:click="postComment">
+        </div>
+    </template>
+
+    <script>
+        Vue.component('cmt-item', {
+            template: `<li><h3>评论人：{{item.name}}</h3><h6>评论内容：{{item.content}}</h6></li>`,
+            props: ['item']
+
+        });
+        Vue.component('cmt-box', {
+            template: '#tmpl',
+            data: function(){
+                return {
+                    name: '',
+                    content: ''
+                }
+            },
+            methods: {
+                postComment: function(){  // 发表评论
+                    const cmt = {name: this.name, content: this.content};
+                    console.log("cmt-bo postComment", cmt);
+
+                    // 子组件中，调用父组件传递过来的方法，然后可以把 子组件的数据，当作参数，传递给父组件的方法去使用
+                    this.$emit('func1', cmt);
+                    this.name=this.content='';
+                }
+            }
+
+        });
+
+        const vm = new Vue({
+            el: '#app',
+            data: {
+                list: [
+                    {name: 'name1', content: 'content1'},
+                    {name: 'name2', content: 'content2'},
+                    {name: 'name3', content: 'content3'},
+                    {name: 'name4', content: 'content4'},
+                ]
+            },
+            methods: {
+                addNewCmt: function(cmt){
+                    console.log("vm methods addNewCmt", cmt);
+                    this.list.push(cmt);
+                }
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./lib/vue-2.6.14.js"></script>
+</head>
+<body>
+    <div id="app">
+        <h1 style="color:red; font-size: 15px; font-style: italic;">13.vue中书写行内的样式.html</h1>
+        <h1 v-bind:style="{color: 'red', 'font-size': 15, 'font-style': 'italic'}">13.vue中书写行内的样式.html</h1>
+        <h1 v-bind:style="{color: 'red', 'font-size': '15px', 'font-style': 'italic'}">13.vue中书写行内的样式.html</h1>
+        <h1 v-bind:style="[{color: 'red', 'font-size': '15px'}, { 'font-style': 'italic'}]">13.vue中书写行内的样式.html</h1>
+        <h1 v-bind:style="[styleObj1, styleObj2]">13.vue中书写行内的样式.html</h1>
+    </div>
+    <script>
+        var vm = new Vue({
+            el: '#app',
+            data: {
+                styleObj1: {color: 'red', 'font-size': '15px'},
+                styleObj2: {'font-style': 'italic'}
+            }
+        });
+
+    </script>
+</body>
+</html>

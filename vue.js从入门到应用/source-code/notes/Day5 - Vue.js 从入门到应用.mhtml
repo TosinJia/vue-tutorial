@@ -1,0 +1,1020 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://doc.cms.liulongbin.top/#/md/day5
+Subject: =?utf-8?Q?Day5=20-=20Vue.js=20=E4=BB=8E=E5=85=A5=E9=97=A8=E5=88=B0=E5=BA?=
+ =?utf-8?Q?=94=E7=94=A8?=
+Date: Wed, 6 Oct 2021 01:19:44 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--NJPYTzZ9OCUqWFLpZzMGrMhBchHxPvya4e1WTC0OPa----"
+
+
+------MultipartBoundary--NJPYTzZ9OCUqWFLpZzMGrMhBchHxPvya4e1WTC0OPa----
+Content-Type: text/html
+Content-ID: <frame-C838362984B36A1E8040F2FEA19638EA@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://doc.cms.liulongbin.top/#/md/day5
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8">
+ =20
+  <title>Day5 - Vue.js =E4=BB=8E=E5=85=A5=E9=97=A8=E5=88=B0=E5=BA=94=E7=94=
+=A8</title>
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge,chrome=3D1">
+  <meta name=3D"description" content=3D"Description">
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, user-scalable=3D=
+no, initial-scale=3D1.0, maximum-scale=3D1.0, minimum-scale=3D1.0">
+  <link rel=3D"stylesheet" href=3D"http://doc.cms.liulongbin.top/css/vue-mi=
+n.css">
+</head>
+<body data-page=3D"md/day5.md" class=3D"ready sticky">
+  <main><button class=3D"sidebar-toggle" aria-label=3D"Menu"><div class=3D"=
+sidebar-toggle-button"><span></span><span></span><span></span></div></butto=
+n><aside class=3D"sidebar"><h1 class=3D"app-name"><a class=3D"app-name-link=
+" data-nosearch=3D"" href=3D"http://doc.cms.liulongbin.top/">Vue.js =E4=BB=
+=8E=E5=85=A5=E9=97=A8=E5=88=B0=E5=BA=94=E7=94=A8</a></h1><div class=3D"side=
+bar-nav"><!-- docs/_sidebar.md -->
+
+<ul><li><a href=3D"http://doc.cms.liulongbin.top/#/">Home</a></li><li><a hr=
+ef=3D"http://doc.cms.liulongbin.top/#/md/day1">Day1</a></li><li><a href=3D"=
+http://doc.cms.liulongbin.top/#/md/day2">Day2</a></li><li><a href=3D"http:/=
+/doc.cms.liulongbin.top/#/md/day3">Day3</a></li><li><a href=3D"http://doc.c=
+ms.liulongbin.top/#/md/day4">Day4</a></li><li class=3D"active"><a href=3D"h=
+ttp://doc.cms.liulongbin.top/#/md/day5">Day5</a><ul class=3D"app-sub-sideba=
+r"><li><a class=3D"section-link" href=3D"http://doc.cms.liulongbin.top/#/md=
+/day5?id=3D%e5%8f%8d%e9%a6%88">=E5=8F=8D=E9=A6=88</a></li><li><a class=3D"s=
+ection-link" href=3D"http://doc.cms.liulongbin.top/#/md/day5?id=3D%e5%bc%80=
+%e5%8f%91%e9%98%b6%e6%ae%b5%e9%85%8d%e7%bd%aewebpack">=E5=BC=80=E5=8F=91=E9=
+=98=B6=E6=AE=B5=E9=85=8D=E7=BD=AEwebpack</a></li><li><a class=3D"section-li=
+nk" href=3D"http://doc.cms.liulongbin.top/#/md/day5?id=3Dwebpack%e7%9a%84%e=
+5%8f%91%e5%b8%83%e7%ad%96%e7%95%a5">webpack=E7=9A=84=E5=8F=91=E5=B8=83=E7=
+=AD=96=E7=95=A5</a></li><li><a class=3D"section-link" href=3D"http://doc.cm=
+s.liulongbin.top/#/md/day5?id=3D%e6%af%8f%e6%ac%a1%e9%87%8d%e6%96%b0%e6%9e%=
+84%e5%bb%ba%e6%97%b6%e5%80%99%e5%88%a0%e9%99%a4dist%e7%9b%ae%e5%bd%95">=E6=
+=AF=8F=E6=AC=A1=E9=87=8D=E6=96=B0=E6=9E=84=E5=BB=BA=E6=97=B6=E5=80=99=E5=88=
+=A0=E9=99=A4dist=E7=9B=AE=E5=BD=95</a></li><li><a class=3D"section-link" hr=
+ef=3D"http://doc.cms.liulongbin.top/#/md/day5?id=3D%e5%88%86%e7%a6%bb%e7%ac=
+%ac%e4%b8%89%e6%96%b9%e5%8c%85%e6%94%b9%e9%80%a0webpackpublishconfigjs">=E5=
+=88=86=E7=A6=BB=E7=AC=AC=E4=B8=89=E6=96=B9=E5=8C=85=E6=94=B9=E9=80=A0<code>=
+webpack.publish.config.js</code></a></li><li><a class=3D"section-link" href=
+=3D"http://doc.cms.liulongbin.top/#/md/day5?id=3D%e4%bc%98%e5%8c%96%e5%8e%8=
+b%e7%bc%a9js">=E4=BC=98=E5=8C=96=E5=8E=8B=E7=BC=A9JS</a></li><li><a class=
+=3D"section-link" href=3D"http://doc.cms.liulongbin.top/#/md/day5?id=3D%e4%=
+bc%98%e5%8c%96%e5%8e%8b%e7%bc%a9html%e6%96%87%e4%bb%b6">=E4=BC=98=E5=8C=96=
+=E5=8E=8B=E7=BC=A9HTML=E6=96=87=E4=BB=B6</a></li><li><a class=3D"section-li=
+nk" href=3D"http://doc.cms.liulongbin.top/#/md/day5?id=3D%e6%8a%bd%e5%8f%96=
+css%e6%96%87%e4%bb%b6">=E6=8A=BD=E5=8F=96CSS=E6=96=87=E4=BB=B6</a></li><li>=
+<a class=3D"section-link" href=3D"http://doc.cms.liulongbin.top/#/md/day5?i=
+d=3D%e5%8e%8b%e7%bc%a9%e6%8a%bd%e5%8f%96%e5%87%ba%e6%9d%a5%e7%9a%84css%e6%9=
+6%87%e4%bb%b6">=E5=8E=8B=E7=BC=A9=E6=8A=BD=E5=8F=96=E5=87=BA=E6=9D=A5=E7=9A=
+=84CSS=E6=96=87=E4=BB=B6</a></li><li><a class=3D"section-link" href=3D"http=
+://doc.cms.liulongbin.top/#/md/day5?id=3D%e7%9b%b8%e5%85%b3%e6%96%87%e7%ab%=
+a0">=E7=9B=B8=E5=85=B3=E6=96=87=E7=AB=A0</a></li></ul></li><li><a href=3D"h=
+ttp://doc.cms.liulongbin.top/#/md/day6">Day6</a></li><li><a href=3D"http://=
+doc.cms.liulongbin.top/#/md/day7_day8">Day7 &amp; Day8</a></li><li><a href=
+=3D"http://doc.cms.liulongbin.top/#/md/day9">Day9</a></li></ul></div></asid=
+e><section class=3D"content"><article class=3D"markdown-section" id=3D"main=
+"><h1 id=3D"vuejs-day5"><a href=3D"http://doc.cms.liulongbin.top/#/md/day5?=
+id=3Dvuejs-day5" data-id=3D"vuejs-day5" class=3D"anchor"><span>Vue.js - Day=
+5</span></a></h1><h2 id=3D"=E5=8F=8D=E9=A6=88"><a href=3D"http://doc.cms.li=
+ulongbin.top/#/md/day5?id=3D%e5%8f%8d%e9%a6%88" data-id=3D"=E5=8F=8D=E9=A6=
+=88" class=3D"anchor"><span>=E5=8F=8D=E9=A6=88</span></a></h2><ol><li>fetch=
+ API =E7=9A=84=E5=9F=BA=E6=9C=AC=E4=BD=BF=E7=94=A8</li><li>=E4=BD=BF=E7=94=
+=A8cnpm=E5=AE=89=E8=A3=85=E7=9A=84=E5=8C=85=EF=BC=8Cnode_modules=E7=9B=AE=
+=E5=BD=95=E4=B8=8B=E7=9A=84=E8=BD=AF=E8=BF=9E=E6=8E=A5<ul><li>cnpm =E5=8F=
+=AA=E6=8E=A8=E8=8D=90=E5=9C=A8vue=E5=92=8Creact,angular=E4=B8=AD=E4=BD=BF=
+=E7=94=A8=EF=BC=9B=E5=BD=93=E5=AD=A6=E4=B9=A0ReactNative=E7=9A=84=E6=97=B6=
+=E5=80=99=EF=BC=8C=E8=A3=85=E5=8C=85=EF=BC=8C=E4=B8=80=E5=AE=9A=E4=B8=8D=E8=
+=A6=81=E7=94=A8cnpm</li><li>=E5=9C=A8ReactNative=E4=B8=AD=E8=A3=85=E5=8C=85=
+=EF=BC=8C=E8=A6=81=E4=B9=88=E4=BD=BF=E7=94=A8npm=EF=BC=8C=E8=A6=81=E4=B9=88=
+=E4=BD=BF=E7=94=A8yarn</li></ul></li></ol><h2 id=3D"=E5=BC=80=E5=8F=91=E9=
+=98=B6=E6=AE=B5=E9=85=8D=E7=BD=AEwebpack"><a href=3D"http://doc.cms.liulong=
+bin.top/#/md/day5?id=3D%e5%bc%80%e5%8f%91%e9%98%b6%e6%ae%b5%e9%85%8d%e7%bd%=
+aewebpack" data-id=3D"=E5=BC=80=E5=8F=91=E9=98=B6=E6=AE=B5=E9=85=8D=E7=BD=
+=AEwebpack" class=3D"anchor"><span>=E5=BC=80=E5=8F=91=E9=98=B6=E6=AE=B5=E9=
+=85=8D=E7=BD=AEwebpack</span></a></h2><ol><li>=E5=88=9B=E5=BB=BA<code>webpa=
+ck.config.js</code>=E7=9A=84=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6<ul><li>ent=
+ry     =E6=8C=87=E5=AE=9A=E9=A1=B9=E7=9B=AE=E7=9A=84=E5=85=A5=E5=8F=A3</li>=
+<li>output   =E8=BE=93=E5=87=BA=E7=9B=B8=E5=85=B3=E7=9A=84=E9=85=8D=E7=BD=
+=AE</li><li>plugins  =E5=92=8C=E6=8F=92=E4=BB=B6=E6=9C=89=E5=85=B3</li><li>=
+module  =E5=92=8C=E7=AC=AC=E4=B8=89=E6=96=B9loader=E7=9B=B8=E5=85=B3 <ul><l=
+i>rules  =E7=AC=AC=E4=B8=89=E6=96=B9loader=E7=9A=84=E5=8C=B9=E9=85=8D=E8=A7=
+=84=E5=88=99</li></ul></li></ul></li><li>=E5=AE=89=E8=A3=85=E4=BA=86=E5=B7=
+=A5=E5=85=B7<code>webpack-dev-server</code></li><li><code>html-webpack-plug=
+in</code></li><li>=E5=A4=84=E7=90=86=E7=AC=AC=E4=B8=89=E6=96=B9=E6=96=87=E4=
+=BB=B6=EF=BC=9A=E5=AE=89=E8=A3=85=E5=B9=B6=E9=85=8D=E7=BD=AE=E7=AC=AC=E4=B8=
+=89=E6=96=B9=E7=9A=84loader<ul><li>style-loader   css-loader     =E3=80=90s=
+tyle-loader   css-loader=E3=80=91</li><li>style-loader   css-loader   less-=
+loader      =E3=80=90less-loader   less=E3=80=91</li><li>style-loader   css=
+-loader   sass-loader      =E3=80=90sass-loader    node-sass=E3=80=91</li><=
+li>url-loader     =E3=80=90url-loader     file-loader=E3=80=91</li><li>babe=
+l-loader  =E5=90=8C=E6=97=B6=E8=A6=81=E6=B7=BB=E5=8A=A0exclude=E6=8E=92=E9=
+=99=A4=E9=A1=B9   =E3=80=90babel-core babel-loader babel-plugin-transform-r=
+untime babel-preset-env babel-preset-stage-0=E3=80=91</li></ul></li></ol><h=
+2 id=3D"webpack=E7=9A=84=E5=8F=91=E5=B8=83=E7=AD=96=E7=95=A5"><a href=3D"ht=
+tp://doc.cms.liulongbin.top/#/md/day5?id=3Dwebpack%e7%9a%84%e5%8f%91%e5%b8%=
+83%e7%ad%96%e7%95%a5" data-id=3D"webpack=E7=9A=84=E5=8F=91=E5=B8=83=E7=AD=
+=96=E7=95=A5" class=3D"anchor"><span>webpack=E7=9A=84=E5=8F=91=E5=B8=83=E7=
+=AD=96=E7=95=A5</span></a></h2><ol><li>=E5=9C=A8=E5=AE=9E=E9=99=85=E5=BC=80=
+=E5=8F=91=E4=B8=AD=EF=BC=8C=E4=B8=80=E8=88=AC=E4=BC=9A=E6=9C=89=E4=B8=A4=E5=
+=A5=97=E9=A1=B9=E7=9B=AE=E6=96=B9=E6=A1=88=EF=BC=9A<ul><li>=E4=B8=80=E5=A5=
+=97=E6=98=AF=E5=BC=80=E5=8F=91=E6=9C=9F=E9=97=B4=E7=9A=84=E9=A1=B9=E7=9B=AE=
+=EF=BC=8C=E5=8C=85=E5=90=AB=E4=BA=86=E6=B5=8B=E8=AF=95=E6=96=87=E4=BB=B6=E3=
+=80=81=E6=B5=8B=E8=AF=95=E6=95=B0=E6=8D=AE=E3=80=81=E5=BC=80=E5=8F=91=E5=B7=
+=A5=E5=85=B7=E3=80=81=E6=B5=8B=E8=AF=95=E5=B7=A5=E5=85=B7=E7=AD=89=E7=9B=B8=
+=E5=85=B3=E9=85=8D=E7=BD=AE=EF=BC=8C=E6=9C=89=E5=88=A9=E4=BA=8E=E9=A1=B9=E7=
+=9B=AE=E7=9A=84=E5=BC=80=E5=8F=91=E5=92=8C=E6=B5=8B=E8=AF=95=EF=BC=8C=E4=BD=
+=86=E6=98=AF=E8=BF=99=E4=BA=9B=E6=96=87=E4=BB=B6=E4=BB=85=E7=94=A8=E4=BA=8E=
+=E5=BC=80=E5=8F=91=EF=BC=8C=E5=8F=91=E5=B8=83=E9=A1=B9=E7=9B=AE=E6=97=B6=E5=
+=80=99=E9=9C=80=E8=A6=81=E5=89=94=E9=99=A4=EF=BC=9B</li><li>=E5=8F=A6=E4=B8=
+=80=E5=A5=97=E6=98=AF=E9=83=A8=E7=BD=B2=E6=9C=9F=E9=97=B4=E7=9A=84=E9=A1=B9=
+=E7=9B=AE=EF=BC=8C=E5=89=94=E9=99=A4=E4=BA=86=E9=82=A3=E4=BA=9B=E5=AE=A2=E6=
+=88=B7=E7=94=A8=E4=B8=8D=E5=88=B0=E7=9A=84=E6=B5=8B=E8=AF=95=E6=95=B0=E6=8D=
+=AE=E6=B5=8B=E8=AF=95=E5=B7=A5=E5=85=B7=E5=92=8C=E6=96=87=E4=BB=B6=EF=BC=8C=
+=E6=AF=94=E8=BE=83=E7=BA=AF=E5=87=80=EF=BC=8C=E5=87=8F=E5=B0=91=E4=BA=86=E9=
+=A1=B9=E7=9B=AE=E5=8F=91=E5=B8=83=E5=90=8E=E7=9A=84=E4=BD=93=E7=A7=AF=EF=BC=
+=8C=E6=9C=89=E5=88=A9=E4=BA=8E=E5=AE=89=E8=A3=85=E5=92=8C=E9=83=A8=E7=BD=B2=
+=EF=BC=81</li></ul></li><li>=E4=B8=BA=E4=BA=86=E6=BB=A1=E8=B6=B3=E6=88=91=
+=E4=BB=AC=E7=9A=84=E5=8F=91=E5=B8=83=E7=AD=96=E7=95=A5=EF=BC=8C=E9=9C=80=E8=
+=A6=81=E6=96=B0=E5=BB=BA=E4=B8=80=E4=B8=AA=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=
+=B6=EF=BC=8C=E5=91=BD=E5=90=8D=E4=B8=BA<code>webpack.publish.config.js</cod=
+e>=EF=BC=8C=E5=B0=86<code>webpack.config.js</code>=E7=9A=84=E9=85=8D=E7=BD=
+=AE=E6=8B=B7=E8=B4=9D=E8=BF=87=E5=8E=BB=EF=BC=8C=E5=89=94=E9=99=A4=E4=B8=80=
+=E4=BA=9B=E5=BC=80=E5=8F=91=E9=85=8D=E7=BD=AE=E9=A1=B9=E5=8D=B3=E5=8F=AF=EF=
+=BC=9A<ul><li>=E5=B0=86<code>devServer</code>=E8=8A=82=E7=82=B9=E5=88=A0=E6=
+=8E=89=EF=BC=9A<pre v-pre=3D"" data-lang=3D"js"><code class=3D"lang-js">dev=
+Server<span class=3D"token operator">:</span> <span class=3D"token punctuat=
+ion">{</span>
+   hot<span class=3D"token operator">:</span> <span class=3D"token boolean"=
+>true</span><span class=3D"token punctuation">,</span>
+   open<span class=3D"token operator">:</span> <span class=3D"token boolean=
+">true</span><span class=3D"token punctuation">,</span>
+   port<span class=3D"token operator">:</span> <span class=3D"token number"=
+>4321</span>
+<span class=3D"token punctuation">}</span></code></pre></li><li>=E5=B0=86<c=
+ode>plugins</code>=E8=8A=82=E7=82=B9=E4=B8=8B=E7=9A=84=E7=83=AD=E6=9B=B4=E6=
+=96=B0=E6=8F=92=E4=BB=B6=E5=88=A0=E6=8E=89=EF=BC=9A<pre v-pre=3D"" data-lan=
+g=3D"js"><code class=3D"lang-js"><span class=3D"token keyword">new</span> <=
+span class=3D"token class-name">webpack<span class=3D"token punctuation">.<=
+/span>HotModuleReplacementPlugin</span><span class=3D"token punctuation">(<=
+/span><span class=3D"token punctuation">)</span></code></pre></li></ul></li=
+><li>=E4=BF=AE=E6=94=B9<code>url-loader</code>=EF=BC=8C=E5=B0=86=E5=9B=BE=
+=E7=89=87=E6=94=BE=E5=85=A5=E7=BB=9F=E4=B8=80=E7=9A=84images=E6=96=87=E4=BB=
+=B6=E5=A4=B9=E4=B9=8B=E4=B8=8B=EF=BC=9A<pre v-pre=3D"" data-lang=3D"js"><co=
+de class=3D"lang-js"><span class=3D"token punctuation">{</span> test<span c=
+lass=3D"token operator">:</span> <span class=3D"token regex">/\.(png|jpg|gi=
+f)$/</span><span class=3D"token punctuation">,</span> use<span class=3D"tok=
+en operator">:</span> <span class=3D"token string">'url-loader?limit=3D4395=
+9&amp;name=3Dimages/[name].[ext]'</span> <span class=3D"token punctuation">=
+}</span></code></pre>=E6=88=96=E8=80=85=E4=BD=BF=E7=94=A8<code>img-</code>=
+=E5=89=8D=E7=BC=80=E5=8A=A0=E4=B8=8A<code>7=E4=BD=8D=E7=9A=84hash=E5=90=8D=
+=E7=A7=B0</code>=EF=BC=9A<pre v-pre=3D"" data-lang=3D"js"><code class=3D"la=
+ng-js"><span class=3D"token punctuation">{</span> test<span class=3D"token =
+operator">:</span> <span class=3D"token regex">/\.(png|jpg|gif)$/</span><sp=
+an class=3D"token punctuation">,</span> use<span class=3D"token operator">:=
+</span> <span class=3D"token string">'url-loader?limit=3D43959&amp;name=3Di=
+mages/img-[hash:7].[ext]'</span> <span class=3D"token punctuation">}</span>=
+</code></pre></li><li>=E5=9C=A8<code>package.json</code>=E4=B8=AD=E7=9A=84s=
+cript=E8=8A=82=E7=82=B9=E4=B8=8B=E6=96=B0=E5=A2=9E<code>dev</code>=E5=91=BD=
+=E4=BB=A4=EF=BC=8C=E9=80=9A=E8=BF=87<code>--config</code>=E6=8C=87=E5=AE=9A=
+webpack=E5=90=AF=E5=8A=A8=E6=97=B6=E8=A6=81=E8=AF=BB=E5=8F=96=E7=9A=84=E9=
+=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6=EF=BC=9A<pre v-pre=3D"" data-lang=3D"js">=
+<code class=3D"lang-js"><span class=3D"token string">"pub"</span><span clas=
+s=3D"token operator">:</span> <span class=3D"token string">"webpack --confi=
+g webpack.publish.config.js"</span></code></pre></li></ol><h2 id=3D"=E6=AF=
+=8F=E6=AC=A1=E9=87=8D=E6=96=B0=E6=9E=84=E5=BB=BA=E6=97=B6=E5=80=99=E5=88=A0=
+=E9=99=A4dist=E7=9B=AE=E5=BD=95"><a href=3D"http://doc.cms.liulongbin.top/#=
+/md/day5?id=3D%e6%af%8f%e6%ac%a1%e9%87%8d%e6%96%b0%e6%9e%84%e5%bb%ba%e6%97%=
+b6%e5%80%99%e5%88%a0%e9%99%a4dist%e7%9b%ae%e5%bd%95" data-id=3D"=E6=AF=8F=
+=E6=AC=A1=E9=87=8D=E6=96=B0=E6=9E=84=E5=BB=BA=E6=97=B6=E5=80=99=E5=88=A0=E9=
+=99=A4dist=E7=9B=AE=E5=BD=95" class=3D"anchor"><span>=E6=AF=8F=E6=AC=A1=E9=
+=87=8D=E6=96=B0=E6=9E=84=E5=BB=BA=E6=97=B6=E5=80=99=E5=88=A0=E9=99=A4dist=
+=E7=9B=AE=E5=BD=95</span></a></h2><ol><li>=E8=BF=90=E8=A1=8C<code>cnpm i cl=
+ean-webpack-plugin --save-dev</code></li><li>=E5=9C=A8=E5=A4=B4=E9=83=A8=E5=
+=BC=95=E5=85=A5=E8=BF=99=E4=B8=AA=E6=8F=92=E4=BB=B6=EF=BC=9A<pre v-pre=3D""=
+ data-lang=3D"js"><code class=3D"lang-js"><span class=3D"token keyword">var=
+</span> cleanWebpackPlugin <span class=3D"token operator">=3D</span> <span =
+class=3D"token function">require</span><span class=3D"token punctuation">(<=
+/span><span class=3D"token string">'clean-webpack-plugin'</span><span class=
+=3D"token punctuation">)</span><span class=3D"token punctuation">;</span></=
+code></pre></li><li>=E5=9C=A8<code>plugins</code>=E8=8A=82=E7=82=B9=E4=B8=
+=8B=E4=BD=BF=E7=94=A8=E8=BF=99=E4=B8=AA=E6=8F=92=E4=BB=B6=EF=BC=9A<pre v-pr=
+e=3D"" data-lang=3D"js"><code class=3D"lang-js"><span class=3D"token keywor=
+d">new</span> <span class=3D"token class-name">cleanWebpackPlugin</span><sp=
+an class=3D"token punctuation">(</span><span class=3D"token punctuation">[<=
+/span><span class=3D"token string">'dist'</span><span class=3D"token punctu=
+ation">]</span><span class=3D"token punctuation">)</span></code></pre></li>=
+</ol><h2 id=3D"=E5=88=86=E7=A6=BB=E7=AC=AC=E4=B8=89=E6=96=B9=E5=8C=85=E6=94=
+=B9=E9=80=A0webpackpublishconfigjs"><a href=3D"http://doc.cms.liulongbin.to=
+p/#/md/day5?id=3D%e5%88%86%e7%a6%bb%e7%ac%ac%e4%b8%89%e6%96%b9%e5%8c%85%e6%=
+94%b9%e9%80%a0webpackpublishconfigjs" data-id=3D"=E5=88=86=E7=A6=BB=E7=AC=
+=AC=E4=B8=89=E6=96=B9=E5=8C=85=E6=94=B9=E9=80=A0webpackpublishconfigjs" cla=
+ss=3D"anchor"><span>=E5=88=86=E7=A6=BB=E7=AC=AC=E4=B8=89=E6=96=B9=E5=8C=85=
+=E6=94=B9=E9=80=A0<code>webpack.publish.config.js</code></span></a></h2><ol=
+><li>=E6=94=B9=E9=80=A0entry=E8=8A=82=E7=82=B9=E5=A6=82=E4=B8=8B=EF=BC=9A<p=
+re v-pre=3D"" data-lang=3D"js"><code class=3D"lang-js">entry<span class=3D"=
+token operator">:</span> <span class=3D"token punctuation">{</span>
+     app<span class=3D"token operator">:</span> path<span class=3D"token pu=
+nctuation">.</span><span class=3D"token function">resolve</span><span class=
+=3D"token punctuation">(</span>__dirname<span class=3D"token punctuation">,=
+</span> <span class=3D"token string">'src/js/main.js'</span><span class=3D"=
+token punctuation">)</span><span class=3D"token punctuation">,</span> <span=
+ class=3D"token comment">// =E8=87=AA=E5=B7=B1=E4=BB=A3=E7=A0=81=E7=9A=84=
+=E5=85=A5=E5=8F=A3</span>
+     vendors<span class=3D"token operator">:</span> <span class=3D"token pu=
+nctuation">[</span><span class=3D"token string">'jquery'</span><span class=
+=3D"token punctuation">]</span> <span class=3D"token comment">// =E8=A6=81=
+=E5=88=86=E7=A6=BB=E7=9A=84=E7=AC=AC=E4=B8=89=E6=96=B9=E5=8C=85=E7=9A=84=E5=
+=85=A5=E5=8F=A3</span>
+ <span class=3D"token punctuation">}</span></code></pre></li><li>=E5=9C=A8p=
+lugins=E8=8A=82=E7=82=B9=E4=B8=8B=E6=96=B0=E5=A2=9E=E6=8F=92=E4=BB=B6=EF=BC=
+=9A<pre v-pre=3D"" data-lang=3D"js"><code class=3D"lang-js"><span class=3D"=
+token keyword">new</span> <span class=3D"token class-name">webpack<span cla=
+ss=3D"token punctuation">.</span>optimize<span class=3D"token punctuation">=
+.</span>CommonsChunkPlugin</span><span class=3D"token punctuation">(</span>=
+<span class=3D"token punctuation">{</span> <span class=3D"token comment">//=
+ =E6=8A=BD=E7=A6=BB=E7=AC=AC=E4=B8=89=E6=96=B9=E5=8C=85=E7=9A=84=E6=8F=92=
+=E4=BB=B6</span>
+     name<span class=3D"token operator">:</span><span class=3D"token string=
+">'vendors'</span><span class=3D"token punctuation">,</span> <span class=3D=
+"token comment">// =E6=8C=87=E5=AE=9A=E6=8A=BD=E7=A6=BB=E7=AC=AC=E4=B8=89=
+=E6=96=B9=E5=8C=85=E7=9A=84=E5=85=A5=E5=8F=A3=E5=90=8D=E7=A7=B0</span>
+     filename<span class=3D"token operator">:</span><span class=3D"token st=
+ring">'vendors.js'</span> <span class=3D"token comment">// =E6=8A=BD=E7=A6=
+=BB=E5=87=BA=E7=9A=84=E5=85=AC=E5=85=B1=E6=A8=A1=E5=9D=97=E7=9A=84=E5=90=8D=
+=E7=A7=B0</span>
+<span class=3D"token punctuation">}</span><span class=3D"token punctuation"=
+>)</span></code></pre></li><li><code>html-webpack-plugin</code>=E5=9C=A8=E7=
+=94=9F=E6=88=90<code>index.html</code>=E6=96=87=E4=BB=B6=E7=9A=84=E6=97=B6=
+=E5=80=99=EF=BC=8C=E4=BC=9A=E8=87=AA=E5=8A=A8=E5=B0=86=E6=8A=BD=E7=A6=BB=E7=
+=9A=84=E7=AC=AC=E4=B8=89=E6=96=B9=E5=8C=85=E5=BC=95=E5=85=A5=E8=BF=9B=E5=8E=
+=BB=EF=BC=81</li></ol><h2 id=3D"=E4=BC=98=E5=8C=96=E5=8E=8B=E7=BC=A9js"><a =
+href=3D"http://doc.cms.liulongbin.top/#/md/day5?id=3D%e4%bc%98%e5%8c%96%e5%=
+8e%8b%e7%bc%a9js" data-id=3D"=E4=BC=98=E5=8C=96=E5=8E=8B=E7=BC=A9js" class=
+=3D"anchor"><span>=E4=BC=98=E5=8C=96=E5=8E=8B=E7=BC=A9JS</span></a></h2><bl=
+ockquote>
+<p><a href=3D"https://webpack.js.org/configuration/plugins/#plugins" target=
+=3D"_blank">https://webpack.js.org/configuration/plugins/#plugins</a></p></=
+blockquote>
+<p>=E5=9C=A8plugins=E6=95=B0=E7=BB=84=E4=B8=AD=E6=B7=BB=E5=8A=A0=EF=BC=9A</=
+p><pre v-pre=3D"" data-lang=3D"js"><code class=3D"lang-js"><span class=3D"t=
+oken keyword">new</span> <span class=3D"token class-name">webpack<span clas=
+s=3D"token punctuation">.</span>optimize<span class=3D"token punctuation">.=
+</span>UglifyJsPlugin</span><span class=3D"token punctuation">(</span><span=
+ class=3D"token punctuation">{</span> <span class=3D"token comment">// =E4=
+=BC=98=E5=8C=96=E5=8E=8B=E7=BC=A9JS</span>
+    compress<span class=3D"token operator">:</span><span class=3D"token pun=
+ctuation">{</span>
+        warnings<span class=3D"token operator">:</span><span class=3D"token=
+ boolean">false</span> <span class=3D"token comment">// =E7=A7=BB=E9=99=A4=
+=E8=AD=A6=E5=91=8A</span>
+    <span class=3D"token punctuation">}</span>
+<span class=3D"token punctuation">}</span><span class=3D"token punctuation"=
+>)</span></code></pre><h2 id=3D"=E4=BC=98=E5=8C=96=E5=8E=8B=E7=BC=A9html=E6=
+=96=87=E4=BB=B6"><a href=3D"http://doc.cms.liulongbin.top/#/md/day5?id=3D%e=
+4%bc%98%e5%8c%96%e5%8e%8b%e7%bc%a9html%e6%96%87%e4%bb%b6" data-id=3D"=E4=BC=
+=98=E5=8C=96=E5=8E=8B=E7=BC=A9html=E6=96=87=E4=BB=B6" class=3D"anchor"><spa=
+n>=E4=BC=98=E5=8C=96=E5=8E=8B=E7=BC=A9HTML=E6=96=87=E4=BB=B6</span></a></h2=
+><p>=E5=9C=A8<code>plugins</code>=E8=8A=82=E7=82=B9=E4=B8=8B=E7=9A=84<code>=
+htmlWebpackPlugin</code>=E6=8F=92=E4=BB=B6=E4=B8=AD=EF=BC=8C=E6=B7=BB=E5=8A=
+=A0<code>minify</code>=E5=AD=90=E8=8A=82=E7=82=B9=EF=BC=9A</p><pre v-pre=3D=
+"" data-lang=3D"js"><code class=3D"lang-js">minify<span class=3D"token oper=
+ator">:</span><span class=3D"token punctuation">{</span><span class=3D"toke=
+n comment">// =E5=8E=8B=E7=BC=A9HTML=E4=BB=A3=E7=A0=81</span>
+    collapseWhitespace<span class=3D"token operator">:</span><span class=3D=
+"token boolean">true</span><span class=3D"token punctuation">,</span> <span=
+ class=3D"token comment">// =E5=90=88=E5=B9=B6=E7=A9=BA=E7=99=BD=E5=AD=97=
+=E7=AC=A6</span>
+    removeComments<span class=3D"token operator">:</span><span class=3D"tok=
+en boolean">true</span><span class=3D"token punctuation">,</span> <span cla=
+ss=3D"token comment">// =E7=A7=BB=E9=99=A4=E6=B3=A8=E9=87=8A</span>
+    removeAttributeQuotes<span class=3D"token operator">:</span><span class=
+=3D"token boolean">true</span> <span class=3D"token comment">// =E7=A7=BB=
+=E9=99=A4=E5=B1=9E=E6=80=A7=E4=B8=8A=E7=9A=84=E5=BC=95=E5=8F=B7</span>
+<span class=3D"token punctuation">}</span></code></pre><p>=E5=85=B6=E4=BB=
+=96=E4=BC=98=E5=8C=96=E9=A1=B9=E8=AF=B7=E5=8F=82=E8=80=83=EF=BC=9A<a href=
+=3D"https://github.com/kangax/html-minifier#options-quick-reference" target=
+=3D"_blank">html-minifier - github</a></p><h2 id=3D"=E6=8A=BD=E5=8F=96css=
+=E6=96=87=E4=BB=B6"><a href=3D"http://doc.cms.liulongbin.top/#/md/day5?id=
+=3D%e6%8a%bd%e5%8f%96css%e6%96%87%e4%bb%b6" data-id=3D"=E6=8A=BD=E5=8F=96cs=
+s=E6=96=87=E4=BB=B6" class=3D"anchor"><span>=E6=8A=BD=E5=8F=96CSS=E6=96=87=
+=E4=BB=B6</span></a></h2><blockquote>
+<p><a href=3D"https://github.com/webpack-contrib/extract-text-webpack-plugi=
+n" target=3D"_blank">https://github.com/webpack-contrib/extract-text-webpac=
+k-plugin</a></p></blockquote>
+<ol><li>=E8=BF=90=E8=A1=8C<code>npm install --save-dev extract-text-webpack=
+-plugin</code>=E5=AE=89=E8=A3=85=E6=8A=BD=E5=8F=96CSS=E6=96=87=E4=BB=B6=E7=
+=9A=84=E6=8F=92=E4=BB=B6=E3=80=82</li><li>=E5=9C=A8=E9=85=8D=E7=BD=AE=E6=96=
+=87=E4=BB=B6=E4=B8=AD=E5=AF=BC=E5=85=A5=E6=8F=92=E4=BB=B6=EF=BC=9A<pre v-pr=
+e=3D"" data-lang=3D"js"><code class=3D"lang-js"><span class=3D"token keywor=
+d">const</span> ExtractTextPlugin <span class=3D"token operator">=3D</span>=
+ <span class=3D"token function">require</span><span class=3D"token punctuat=
+ion">(</span><span class=3D"token string">"extract-text-webpack-plugin"</sp=
+an><span class=3D"token punctuation">)</span><span class=3D"token punctuati=
+on">;</span></code></pre></li><li>=E4=BF=AE=E6=94=B9CSS=E5=92=8CSass=E7=9A=
+=84loader=E5=A6=82=E4=B8=8B=EF=BC=9A<pre v-pre=3D"" data-lang=3D"js"><code =
+class=3D"lang-js"><span class=3D"token punctuation">{</span>
+ test<span class=3D"token operator">:</span> <span class=3D"token regex">/\=
+.css$/</span><span class=3D"token punctuation">,</span> use<span class=3D"t=
+oken operator">:</span> ExtractTextPlugin<span class=3D"token punctuation">=
+.</span><span class=3D"token function">extract</span><span class=3D"token p=
+unctuation">(</span><span class=3D"token punctuation">{</span>
+     fallback<span class=3D"token operator">:</span> <span class=3D"token s=
+tring">"style-loader"</span><span class=3D"token punctuation">,</span>
+     use<span class=3D"token operator">:</span> <span class=3D"token punctu=
+ation">[</span><span class=3D"token string">"css-loader"</span><span class=
+=3D"token punctuation">]</span><span class=3D"token punctuation">,</span>
+     publicPath<span class=3D"token operator">:</span> <span class=3D"token=
+ string">'../'</span> <span class=3D"token comment">// =E8=AE=BE=E7=BD=AE=
+=E5=9B=BE=E7=89=87=E8=B7=AF=E5=BE=84</span>
+ <span class=3D"token punctuation">}</span><span class=3D"token punctuation=
+">)</span>
+<span class=3D"token punctuation">}</span><span class=3D"token punctuation"=
+>,</span>
+<span class=3D"token punctuation">{</span>
+ test<span class=3D"token operator">:</span> <span class=3D"token regex">/\=
+.scss$/</span><span class=3D"token punctuation">,</span> use<span class=3D"=
+token operator">:</span> ExtractTextPlugin<span class=3D"token punctuation"=
+>.</span><span class=3D"token function">extract</span><span class=3D"token =
+punctuation">(</span><span class=3D"token punctuation">{</span>
+     fallback<span class=3D"token operator">:</span> <span class=3D"token s=
+tring">"style-loader"</span><span class=3D"token punctuation">,</span>
+     use<span class=3D"token operator">:</span> <span class=3D"token punctu=
+ation">[</span><span class=3D"token string">'css-loader'</span><span class=
+=3D"token punctuation">,</span> <span class=3D"token string">'sass-loader'<=
+/span><span class=3D"token punctuation">]</span><span class=3D"token punctu=
+ation">,</span>
+     publicPath<span class=3D"token operator">:</span> <span class=3D"token=
+ string">'../'</span> <span class=3D"token comment">// =E8=AE=BE=E7=BD=AE=
+=E5=9B=BE=E7=89=87=E8=B7=AF=E5=BE=84</span>
+ <span class=3D"token punctuation">}</span><span class=3D"token punctuation=
+">)</span>
+<span class=3D"token punctuation">}</span></code></pre></li><li>=E5=9C=A8pl=
+ugins=E8=8A=82=E7=82=B9=E4=B8=8B=E6=96=B0=E5=A2=9E=E6=8F=92=E4=BB=B6=EF=BC=
+=9A<pre v-pre=3D"" data-lang=3D"js"><code class=3D"lang-js"><span class=3D"=
+token keyword">new</span> <span class=3D"token class-name">ExtractTextPlugi=
+n</span><span class=3D"token punctuation">(</span><span class=3D"token stri=
+ng">"css/styles.css"</span><span class=3D"token punctuation">)</span><span =
+class=3D"token punctuation">,</span> <span class=3D"token comment">// =E6=
+=8A=BD=E5=8F=96CSS=E6=96=87=E4=BB=B6=E7=9A=84=E6=8F=92=E4=BB=B6</span></cod=
+e></pre></li></ol><h2 id=3D"=E5=8E=8B=E7=BC=A9=E6=8A=BD=E5=8F=96=E5=87=BA=
+=E6=9D=A5=E7=9A=84css=E6=96=87=E4=BB=B6"><a href=3D"http://doc.cms.liulongb=
+in.top/#/md/day5?id=3D%e5%8e%8b%e7%bc%a9%e6%8a%bd%e5%8f%96%e5%87%ba%e6%9d%a=
+5%e7%9a%84css%e6%96%87%e4%bb%b6" data-id=3D"=E5=8E=8B=E7=BC=A9=E6=8A=BD=E5=
+=8F=96=E5=87=BA=E6=9D=A5=E7=9A=84css=E6=96=87=E4=BB=B6" class=3D"anchor"><s=
+pan>=E5=8E=8B=E7=BC=A9=E6=8A=BD=E5=8F=96=E5=87=BA=E6=9D=A5=E7=9A=84CSS=E6=
+=96=87=E4=BB=B6</span></a></h2><blockquote>
+<p><a href=3D"https://github.com/NMFR/optimize-css-assets-webpack-plugin" t=
+arget=3D"_blank">https://github.com/NMFR/optimize-css-assets-webpack-plugin=
+</a></p></blockquote>
+<ol><li>=E8=BF=90=E8=A1=8C<code>cnpm i optimize-css-assets-webpack-plugin -=
+-save-dev</code>=E5=AE=89=E8=A3=85=E6=8F=92=E4=BB=B6=E5=88=B0=E5=BC=80=E5=
+=8F=91=E4=BE=9D=E8=B5=96=E3=80=82</li><li>=E5=9C=A8=E9=85=8D=E7=BD=AE=E6=96=
+=87=E4=BB=B6=E5=A4=B4=E9=83=A8=E5=AF=BC=E5=85=A5=E6=8F=92=E4=BB=B6=EF=BC=9A=
+<pre v-pre=3D"" data-lang=3D"js"><code class=3D"lang-js"><span class=3D"tok=
+en keyword">var</span> OptimizeCssAssetsPlugin <span class=3D"token operato=
+r">=3D</span> <span class=3D"token function">require</span><span class=3D"t=
+oken punctuation">(</span><span class=3D"token string">'optimize-css-assets=
+-webpack-plugin'</span><span class=3D"token punctuation">)</span><span clas=
+s=3D"token punctuation">;</span></code></pre></li><li>=E5=9C=A8plugins=E8=
+=8A=82=E7=82=B9=E4=B8=8B=E6=96=B0=E5=A2=9E=E6=8F=92=E4=BB=B6=EF=BC=9A<pre v=
+-pre=3D"" data-lang=3D"s"><code class=3D"lang-s">new OptimizeCssAssetsPlugi=
+n() // =E5=8E=8B=E7=BC=A9CSS=E6=96=87=E4=BB=B6=E7=9A=84=E6=8F=92=E4=BB=B6</=
+code></pre></li></ol><h2 id=3D"=E7=9B=B8=E5=85=B3=E6=96=87=E7=AB=A0"><a hre=
+f=3D"http://doc.cms.liulongbin.top/#/md/day5?id=3D%e7%9b%b8%e5%85%b3%e6%96%=
+87%e7%ab%a0" data-id=3D"=E7=9B=B8=E5=85=B3=E6=96=87=E7=AB=A0" class=3D"anch=
+or"><span>=E7=9B=B8=E5=85=B3=E6=96=87=E7=AB=A0</span></a></h2><ol><li><a hr=
+ef=3D"http://www.sasschina.com/guide/" target=3D"_blank">Sass =E5=9F=BA=E7=
+=A1=80=E6=95=99=E7=A8=8B</a></li><li><a href=3D"https://github.com/webpack/=
+webpack-dev-server/releases" target=3D"_blank">webpack-dev-server</a></li><=
+li><a href=3D"http://majing.io/questions/804" target=3D"_blank">You have no=
+t accepted the license agreements of the following </a></li><li><a href=3D"=
+https://doc.webpack-china.org/guides/production/#-" target=3D"_blank">webpa=
+ck.DefinePlugin =E4=BD=BF=E7=94=A8</a></li></ol></article></section></main>
+ =20
+  <!-- <script src=3D"//unpkg.com/docsify/lib/docsify.min.js"></script> -->
+ =20
+
+
+<div class=3D"progress" style=3D"opacity: 0; width: 0%;"></div><div class=
+=3D"xl-chrome-ext-bar" id=3D"xl_chrome_ext_{4DB361DE-01F7-4376-B494-639E489=
+D19ED}" style=3D"display: none;">
+      <div class=3D"xl-chrome-ext-bar__logo"></div>
+
+      <a id=3D"xl_chrome_ext_download" class=3D"xl-chrome-ext-bar__option">=
+=E4=B8=8B=E8=BD=BD=E8=A7=86=E9=A2=91</a>
+      <a id=3D"xl_chrome_ext_close" class=3D"xl-chrome-ext-bar__close"></a>
+    </div></body></html>
+------MultipartBoundary--NJPYTzZ9OCUqWFLpZzMGrMhBchHxPvya4e1WTC0OPa----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://doc.cms.liulongbin.top/css/vue-min.css
+
+@charset "utf-8";
+
+@import url("https://fonts.googleapis.com/css?family=3DRoboto+Mono|Source+S=
+ans+Pro:300,400,600");
+
+* { -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(=
+0, 0, 0, 0); text-size-adjust: none; box-sizing: border-box; }
+
+body:not(.ready) { overflow: hidden; }
+
+body:not(.ready) .app-nav, body:not(.ready) > nav, body:not(.ready) [data-c=
+loak] { display: none; }
+
+div#app { font-size: 30px; font-weight: lighter; margin: 40vh auto; text-al=
+ign: center; }
+
+div#app:empty::before { content: "Loading..."; }
+
+.emoji { height: 1.2rem; vertical-align: middle; }
+
+.progress { background-color: var(--theme-color,#42b983); height: 2px; left=
+: 0px; position: fixed; right: 0px; top: 0px; transition: width 0.2s ease 0=
+s, opacity 0.4s ease 0s; width: 0px; z-index: 5; }
+
+.search .search-keyword, .search a:hover { color: var(--theme-color,#42b983=
+); }
+
+.search .search-keyword { font-style: normal; font-weight: 700; }
+
+body, html { height: 100%; }
+
+body { -webkit-font-smoothing: antialiased; color: rgb(52, 73, 94); font-fa=
+mily: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif; font-size: 15=
+px; letter-spacing: 0px; margin: 0px; overflow-x: hidden; }
+
+img { max-width: 100%; }
+
+a[disabled] { cursor: not-allowed; opacity: 0.6; }
+
+kbd { border: 1px solid rgb(204, 204, 204); border-radius: 3px; display: in=
+line-block; line-height: 12px; margin-bottom: 3px; padding: 3px 5px; vertic=
+al-align: middle; font-size: 12px !important; }
+
+li input[type=3D"checkbox"] { margin: 0px 0.2em 0.25em 0px; vertical-align:=
+ middle; }
+
+.app-nav { margin: 25px 60px 0px 0px; position: absolute; right: 0px; text-=
+align: right; z-index: 2; }
+
+.app-nav.no-badge { margin-right: 25px; }
+
+.app-nav p { margin: 0px; }
+
+.app-nav > a { margin: 0px 1rem; padding: 5px 0px; }
+
+.app-nav li, .app-nav ul { display: inline-block; list-style: none; margin:=
+ 0px; }
+
+.app-nav a { color: inherit; font-size: 16px; text-decoration: none; transi=
+tion: color 0.3s ease 0s; }
+
+.app-nav a.active, .app-nav a:hover { color: var(--theme-color,#42b983); }
+
+.app-nav a.active { border-bottom: 2px solid var(--theme-color,#42b983); }
+
+.app-nav li { display: inline-block; margin: 0px 1rem; padding: 5px 0px; po=
+sition: relative; }
+
+.app-nav li ul { background-color: rgb(255, 255, 255); border-width: 1px; b=
+order-style: solid; border-color: rgb(221, 221, 221) rgb(221, 221, 221) rgb=
+(204, 204, 204); border-image: initial; border-radius: 4px; box-sizing: bor=
+der-box; display: none; max-height: calc(100vh - 61px); overflow-y: auto; p=
+adding: 10px 0px; position: absolute; right: -15px; text-align: left; top: =
+100%; white-space: nowrap; }
+
+.app-nav li ul li { display: block; font-size: 14px; line-height: 1rem; mar=
+gin: 8px 14px; white-space: nowrap; }
+
+.app-nav li ul a { display: block; font-size: inherit; margin: 0px; padding=
+: 0px; }
+
+.app-nav li ul a.active { border-bottom: 0px; }
+
+.app-nav li:hover ul { display: block; }
+
+.github-corner { border-bottom: 0px; position: fixed; right: 0px; text-deco=
+ration: none; top: 0px; z-index: 1; }
+
+.github-corner:hover .octo-arm { animation: 0.56s ease-in-out 0s 1 normal n=
+one running a; }
+
+.github-corner svg { color: rgb(255, 255, 255); fill: var(--theme-color,#42=
+b983); height: 80px; width: 80px; }
+
+main { display: block; position: relative; width: 100vw; height: 100%; z-in=
+dex: 0; }
+
+main.hidden { display: none; }
+
+.anchor { display: inline-block; text-decoration: none; transition: all 0.3=
+s ease 0s; }
+
+.anchor span { color: rgb(52, 73, 94); }
+
+.anchor:hover { text-decoration: underline; }
+
+.sidebar { border-right: 1px solid rgba(0, 0, 0, 0.07); overflow-y: auto; p=
+adding: 40px 0px 0px; position: absolute; top: 0px; bottom: 0px; left: 0px;=
+ transition: transform 0.25s ease-out 0s; width: 300px; z-index: 3; }
+
+.sidebar > h1 { margin: 0px auto 1rem; font-size: 1.5rem; font-weight: 300;=
+ text-align: center; }
+
+.sidebar > h1 a { color: inherit; text-decoration: none; }
+
+.sidebar > h1 .app-nav { display: block; position: static; }
+
+.sidebar .sidebar-nav { line-height: 2em; padding-bottom: 40px; }
+
+.sidebar li.collapse .app-sub-sidebar { display: none; }
+
+.sidebar ul { margin: 0px 0px 0px 15px; padding: 0px; }
+
+.sidebar li > p { font-weight: 700; margin: 0px; }
+
+.sidebar ul, .sidebar ul li { list-style: none; }
+
+.sidebar ul li a { border-bottom: none; display: block; }
+
+.sidebar ul li ul { padding-left: 20px; }
+
+.sidebar::-webkit-scrollbar { width: 4px; }
+
+.sidebar::-webkit-scrollbar-thumb { background: transparent; border-radius:=
+ 4px; }
+
+.sidebar:hover::-webkit-scrollbar-thumb { background: rgba(135, 135, 135, 0=
+.4); }
+
+.sidebar:hover::-webkit-scrollbar-track { background: rgba(135, 135, 135, 0=
+.1); }
+
+.sidebar-toggle { background-color: rgba(255, 255, 255, 0.8); border: 0px; =
+outline: none; padding: 10px; position: absolute; bottom: 0px; left: 0px; t=
+ext-align: center; transition: opacity 0.3s ease 0s; width: 284px; z-index:=
+ 4; }
+
+.sidebar-toggle .sidebar-toggle-button:hover { opacity: 0.4; }
+
+.sidebar-toggle span { background-color: var(--theme-color,#42b983); displa=
+y: block; margin-bottom: 4px; width: 16px; height: 2px; }
+
+body.sticky .sidebar, body.sticky .sidebar-toggle { position: fixed; }
+
+.content { padding-top: 60px; position: absolute; inset: 0px 0px 0px 300px;=
+ transition: left 0.25s ease 0s; }
+
+.markdown-section { margin: 0px auto; max-width: 800px; padding: 30px 15px =
+40px; position: relative; }
+
+.markdown-section > * { box-sizing: border-box; font-size: inherit; }
+
+.markdown-section > :first-child { margin-top: 0px !important; }
+
+.markdown-section hr { border-top: none; border-right: none; border-left: n=
+one; border-image: initial; border-bottom: 1px solid rgb(238, 238, 238); ma=
+rgin: 2em 0px; }
+
+.markdown-section iframe { border: 1px solid rgb(238, 238, 238); width: 1px=
+; min-width: 100%; }
+
+.markdown-section table { border-collapse: collapse; border-spacing: 0px; d=
+isplay: block; margin-bottom: 1rem; overflow: auto; width: 100%; }
+
+.markdown-section th { font-weight: 700; }
+
+.markdown-section td, .markdown-section th { border: 1px solid rgb(221, 221=
+, 221); padding: 6px 13px; }
+
+.markdown-section tr { border-top: 1px solid rgb(204, 204, 204); }
+
+.markdown-section p.tip, .markdown-section tr:nth-child(2n) { background-co=
+lor: rgb(248, 248, 248); }
+
+.markdown-section p.tip { border-bottom-right-radius: 2px; border-left: 4px=
+ solid rgb(255, 102, 102); border-top-right-radius: 2px; margin: 2em 0px; p=
+adding: 12px 24px 12px 30px; position: relative; }
+
+.markdown-section p.tip::before { background-color: rgb(255, 102, 102); bor=
+der-radius: 100%; color: rgb(255, 255, 255); content: "!"; font-family: Dos=
+is, "Source Sans Pro", "Helvetica Neue", Arial, sans-serif; font-size: 14px=
+; font-weight: 700; left: -12px; line-height: 20px; position: absolute; hei=
+ght: 20px; width: 20px; text-align: center; top: 14px; }
+
+.markdown-section p.tip code { background-color: rgb(239, 239, 239); }
+
+.markdown-section p.tip em { color: rgb(52, 73, 94); }
+
+.markdown-section p.warn { background: rgba(66, 185, 131, 0.1); border-radi=
+us: 2px; padding: 1rem; }
+
+.markdown-section ul.task-list > li { list-style-type: none; }
+
+body.close .sidebar { transform: translateX(-300px); }
+
+body.close .sidebar-toggle { width: auto; }
+
+body.close .content { left: 0px; }
+
+@media print {
+  .app-nav, .github-corner, .sidebar, .sidebar-toggle { display: none; }
+}
+
+@media screen and (max-width: 768px) {
+  .github-corner, .sidebar, .sidebar-toggle { position: fixed; }
+  .app-nav { margin-top: 16px; }
+  .app-nav li ul { top: 30px; }
+  main { height: auto; overflow-x: hidden; }
+  .sidebar { left: -300px; transition: transform 0.25s ease-out 0s; }
+  .content { left: 0px; max-width: 100vw; position: static; padding-top: 20=
+px; transition: transform 0.25s ease 0s; }
+  .app-nav, .github-corner { transition: transform 0.25s ease-out 0s; }
+  .sidebar-toggle { background-color: transparent; width: auto; padding: 30=
+px 30px 10px 10px; }
+  body.close .sidebar { transform: translateX(300px); }
+  body.close .sidebar-toggle { background-color: rgba(255, 255, 255, 0.8); =
+transition: background-color 1s ease 0s; width: 284px; padding: 10px; }
+  body.close .content { transform: translateX(300px); }
+  body.close .app-nav, body.close .github-corner { display: none; }
+  .github-corner:hover .octo-arm { animation: 0s ease 0s 1 normal none runn=
+ing none; }
+  .github-corner .octo-arm { animation: 0.56s ease-in-out 0s 1 normal none =
+running a; }
+}
+
+@keyframes a {=20
+  0%, 100% { transform: rotate(0deg); }
+  20%, 60% { transform: rotate(-25deg); }
+  40%, 80% { transform: rotate(10deg); }
+}
+
+section.cover { align-items: center; background-position: 50% center; backg=
+round-repeat: no-repeat; background-size: cover; height: 100vh; display: no=
+ne; }
+
+section.cover.show { display: flex; }
+
+section.cover.has-mask .mask { background-color: rgb(255, 255, 255); opacit=
+y: 0.8; position: absolute; top: 0px; height: 100%; width: 100%; }
+
+section.cover .cover-main { flex: 1 1 0%; margin: -20px 16px 0px; text-alig=
+n: center; z-index: 1; }
+
+section.cover a { color: inherit; }
+
+section.cover a, section.cover a:hover { text-decoration: none; }
+
+section.cover p { line-height: 1.5rem; margin: 1em 0px; }
+
+section.cover h1 { color: inherit; font-size: 2.5rem; font-weight: 300; mar=
+gin: 0.625rem 0px 2.5rem; position: relative; text-align: center; }
+
+section.cover h1 a { display: block; }
+
+section.cover h1 small { bottom: -0.4375rem; font-size: 1rem; position: abs=
+olute; }
+
+section.cover blockquote { font-size: 1.5rem; text-align: center; }
+
+section.cover ul { line-height: 1.8; list-style-type: none; margin: 1em aut=
+o; max-width: 500px; padding: 0px; }
+
+section.cover .cover-main > p:last-child a { border: 1px solid var(--theme-=
+color,#42b983); border-radius: 2rem; box-sizing: border-box; color: var(--t=
+heme-color,#42b983); display: inline-block; font-size: 1.05rem; letter-spac=
+ing: 0.1rem; margin: 0.5rem 1rem; padding: 0.75em 2rem; text-decoration: no=
+ne; transition: all 0.15s ease 0s; }
+
+section.cover .cover-main > p:last-child a:last-child { background-color: v=
+ar(--theme-color,#42b983); color: rgb(255, 255, 255); }
+
+section.cover .cover-main > p:last-child a:last-child:hover { color: inheri=
+t; opacity: 0.8; }
+
+section.cover .cover-main > p:last-child a:hover { color: inherit; }
+
+section.cover blockquote > p > a { border-bottom: 2px solid var(--theme-col=
+or,#42b983); transition: color 0.3s ease 0s; }
+
+section.cover blockquote > p > a:hover { color: var(--theme-color,#42b983);=
+ }
+
+.sidebar, body { background-color: rgb(255, 255, 255); }
+
+.sidebar { color: rgb(54, 65, 73); }
+
+.sidebar li { margin: 6px 0px; }
+
+.sidebar ul li a { color: rgb(80, 93, 107); font-size: 14px; font-weight: 4=
+00; overflow: hidden; text-decoration: none; text-overflow: ellipsis; white=
+-space: nowrap; }
+
+.sidebar ul li a:hover { text-decoration: underline; }
+
+.sidebar ul li ul { padding: 0px; }
+
+.sidebar ul li.active > a { border-right: 2px solid; color: var(--theme-col=
+or,#42b983); font-weight: 600; }
+
+.app-sub-sidebar li::before { content: "-"; padding-right: 4px; float: left=
+; }
+
+.markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown=
+-section h4, .markdown-section strong { color: rgb(44, 62, 80); font-weight=
+: 600; }
+
+.markdown-section a { color: var(--theme-color,#42b983); font-weight: 600; =
+}
+
+.markdown-section h1 { font-size: 2rem; margin: 0px 0px 1rem; }
+
+.markdown-section h2 { font-size: 1.75rem; margin: 45px 0px 0.8rem; }
+
+.markdown-section h3 { font-size: 1.5rem; margin: 40px 0px 0.6rem; }
+
+.markdown-section h4 { font-size: 1.25rem; }
+
+.markdown-section h5 { font-size: 1rem; }
+
+.markdown-section h6 { color: rgb(119, 119, 119); font-size: 1rem; }
+
+.markdown-section figure, .markdown-section p { margin: 1.2em 0px; }
+
+.markdown-section ol, .markdown-section p, .markdown-section ul { line-heig=
+ht: 1.6rem; word-spacing: 0.05rem; }
+
+.markdown-section ol, .markdown-section ul { padding-left: 1.5rem; }
+
+.markdown-section blockquote { border-left: 4px solid var(--theme-color,#42=
+b983); color: rgb(133, 133, 133); margin: 2em 0px; padding-left: 20px; }
+
+.markdown-section blockquote p { font-weight: 600; margin-left: 0px; }
+
+.markdown-section iframe { margin: 1em 0px; }
+
+.markdown-section em { color: rgb(127, 140, 141); }
+
+.markdown-section code { border-radius: 2px; color: rgb(233, 105, 0); font-=
+size: 0.8rem; margin: 0px 2px; padding: 3px 5px; white-space: pre-wrap; bac=
+kground-color: rgb(248, 248, 248); font-family: "Roboto Mono", Monaco, cour=
+ier, monospace; }
+
+.markdown-section pre { border-radius: 4px; background-color: rgb(32, 40, 4=
+5); font-family: "Roboto Mono", Monaco, courier, monospace; transition: box=
+-shadow 0.2s ease 0s; }
+
+.markdown-section pre::before { content: " "; display: block; background: u=
+rl("../images/flag2.png") 0% 0% / 65px 23px no-repeat; margin-top: 15px; }
+
+.markdown-section pre:hover { box-shadow: blue 1px 1px 10px; }
+
+.markdown-section pre { -webkit-font-smoothing: initial; line-height: 1.5re=
+m; margin: 1.2em 0px; overflow: auto; padding: 0px 1.4rem; position: relati=
+ve; overflow-wrap: normal; }
+
+.token.cdata, .token.comment, .token.doctype, .token.prolog { color: rgb(14=
+2, 144, 140); }
+
+.token.namespace { opacity: 0.7; }
+
+.token.boolean, .token.number { color: rgb(227, 76, 57); }
+
+.token.punctuation { color: rgb(51, 166, 242); }
+
+.token.property { color: rgb(192, 139, 48); }
+
+.token.tag { color: rgb(249, 38, 114); }
+
+.token.operator { color: rgb(255, 190, 75); }
+
+.token.string { color: var(--theme-color,#42b983); }
+
+.token.selector { color: rgb(102, 121, 204); }
+
+.token.attr-name { color: orange; }
+
+.language-css .token.string, .style .token.string, .token.entity, .token.ur=
+l { color: rgb(34, 162, 201); }
+
+.token.attr-value, .token.control, .token.directive, .token.unit { color: v=
+ar(--theme-color,#42b983); }
+
+.token.function, .token.keyword { color: rgb(233, 105, 0); }
+
+.token.atrule, .token.regex, .token.statement { color: rgb(34, 162, 201); }
+
+.token.placeholder, .token.variable { color: rgb(61, 143, 209); }
+
+.token.deleted { text-decoration: line-through; }
+
+.token.inserted { border-bottom: 1px dotted rgb(32, 39, 70); text-decoratio=
+n: none; }
+
+.token.italic { font-style: italic; }
+
+.token.bold, .token.important { font-weight: 700; }
+
+.token.important { color: rgb(201, 73, 34); }
+
+.token.entity { cursor: help; }
+
+.markdown-section pre > code { -webkit-font-smoothing: initial; background-=
+color: rgb(32, 40, 45); border-radius: 2px; color: rgb(255, 255, 255); disp=
+lay: block; font-family: "Roboto Mono", Monaco, courier, monospace; font-si=
+ze: 0.8rem; line-height: inherit; margin: 0px 2px; max-width: inherit; over=
+flow: inherit; padding: 10px 5px 20px; white-space: inherit; }
+
+.markdown-section pre > code::-webkit-scrollbar { width: 4px; height: 4px; =
+}
+
+.markdown-section pre > code::-webkit-scrollbar-thumb { border-radius: 5px;=
+ box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px inset; background: rgb(255, 189=
+, 46); }
+
+.markdown-section pre > code::-webkit-scrollbar-track { box-shadow: rgba(0,=
+ 0, 0, 0.2) 0px 0px 5px inset; border-radius: 2px; background: gray; }
+
+.markdown-section code::after, .markdown-section code::before { letter-spac=
+ing: 0.05rem; }
+
+code .token { -webkit-font-smoothing: initial; min-height: 1.5rem; }
+
+pre::after { color: rgb(204, 204, 204); content: attr(data-lang); font-size=
+: 0.6rem; font-weight: 600; height: 15px; line-height: 15px; padding: 5px 1=
+0px 0px; position: absolute; right: 0px; text-align: right; top: 0px; }
+
+::selection { color: white; background-color: rgb(253, 115, 51); }
+------MultipartBoundary--NJPYTzZ9OCUqWFLpZzMGrMhBchHxPvya4e1WTC0OPa----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro:300,400,600
+
+@charset "utf-8";
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8b=
+XMIhJHg45mwgGEFl0_3vq_SeW4Ep0.woff2") format("woff2"); unicode-range: U+460=
+-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8b=
+XMIhJHg45mwgGEFl0_3vq_QOW4Ep0.woff2") format("woff2"); unicode-range: U+400=
+-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8b=
+XMIhJHg45mwgGEFl0_3vq_R-W4Ep0.woff2") format("woff2"); unicode-range: U+370=
+-3FF; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8b=
+XMIhJHg45mwgGEFl0_3vq_S-W4Ep0.woff2") format("woff2"); unicode-range: U+102=
+-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U=
++20AB; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8b=
+XMIhJHg45mwgGEFl0_3vq_SuW4Ep0.woff2") format("woff2"); unicode-range: U+100=
+-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-=
+2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8b=
+XMIhJHg45mwgGEFl0_3vq_ROW4.woff2") format("woff2"); unicode-range: U+0-FF, =
+U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20=
+AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3ik4zwmhduz8A.woff2") format("woff2"); unicode-range: U+460-=
+52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3ik4zwkxduz8A.woff2") format("woff2"); unicode-range: U+400-=
+45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3ik4zwmxduz8A.woff2") format("woff2"); unicode-range: U+1F00=
+-1FFF; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3ik4zwlBduz8A.woff2") format("woff2"); unicode-range: U+370-=
+3FF; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3ik4zwmBduz8A.woff2") format("woff2"); unicode-range: U+102-=
+103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+=
+20AB; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3ik4zwmRduz8A.woff2") format("woff2"); unicode-range: U+100-=
+24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2=
+C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3ik4zwlxdu.woff2") format("woff2"); unicode-range: U+0-FF, U=
++131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20A=
+C, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcS=
+V-LCoeQqfX1RYOo3qNa7lqDY.woff2") format("woff2"); unicode-range: U+460-52F,=
+ U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcS=
+V-LCoeQqfX1RYOo3qPK7lqDY.woff2") format("woff2"); unicode-range: U+400-45F,=
+ U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcS=
+V-LCoeQqfX1RYOo3qNK7lqDY.woff2") format("woff2"); unicode-range: U+1F00-1FF=
+F; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcS=
+V-LCoeQqfX1RYOo3qO67lqDY.woff2") format("woff2"); unicode-range: U+370-3FF;=
+ }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcS=
+V-LCoeQqfX1RYOo3qN67lqDY.woff2") format("woff2"); unicode-range: U+102-103,=
+ U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB=
+; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcS=
+V-LCoeQqfX1RYOo3qNq7lqDY.woff2") format("woff2"); unicode-range: U+100-24F,=
+ U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,=
+ U+A720-A7FF; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcS=
+V-LCoeQqfX1RYOo3qOK7l.woff2") format("woff2"); unicode-range: U+0-FF, U+131=
+, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U=
++2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 600; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3i54rwmhduz8A.woff2") format("woff2"); unicode-range: U+460-=
+52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 600; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3i54rwkxduz8A.woff2") format("woff2"); unicode-range: U+400-=
+45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 600; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3i54rwmxduz8A.woff2") format("woff2"); unicode-range: U+1F00=
+-1FFF; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 600; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3i54rwlBduz8A.woff2") format("woff2"); unicode-range: U+370-=
+3FF; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 600; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3i54rwmBduz8A.woff2") format("woff2"); unicode-range: U+102-=
+103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+=
+20AB; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 600; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3i54rwmRduz8A.woff2") format("woff2"); unicode-range: U+100-=
+24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2=
+C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 600; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3i54rwlxdu.woff2") format("woff2"); unicode-range: U+0-FF, U=
++131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20A=
+C, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+------MultipartBoundary--NJPYTzZ9OCUqWFLpZzMGrMhBchHxPvya4e1WTC0OPa----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://doc.cms.liulongbin.top/images/flag2.png
+
+iVBORw0KGgoAAAANSUhEUgAAAE0AAAAbCAIAAAC2vJUNAAAACXBIWXMAABJ0AAASdAHeZh94AAAB
+/klEQVR42mNQ0NAdCYhh1J+j/hyW/lTU0DXS1tfT0qOKfQZGOkBEHdcb6cqb6CpoUuzPSjOzfc52
+F9ydbni7XvNyOe3muNHBxk/fkAw3JQZqbe9UPzNd/do8DSACMoBcoCAZRsl76Mj26MrN15Nfbii/
+0khukb7sVF25VLL86aZncNjF/mu4///4MGT0Ly70tq/7SntrkiIQ6KVnq7X+79VDQ0BBoBRJ0Svb
+pquwxlj9hJ36SXtkpHzAQnaGnryTDgn+9NAzPOfmiOZDZPQ9ImC7oy0xztIz1Dk8Ue33Ll1MT0IQ
+UAqoAKiMKE9O0FU5ZIXmQ2Qkt0BP3lmHWH8edbHH40kI+hbuP83GiqDLtrSr/9qpg8uTEARUAFRG
+2JNVusBIw+NJCJKdRVx8NlqYf8NIrljRRQ8nQ219PC4LdNe6v0QTvychCKgMqBhfnjTRlVusT9CT
+kAQsl6VD2J8Hne2J8SQk9daam+Fx3MoG9b+7dYnxJ1AZUDEeo+QydFUOWhLjT1CUTicUn8Aq5KK7
+E5H+BKINDjZ4HHdoghoxnoQgoGJ8ibZbh0hPgnLpYn3MygbFn7paele9XIj35068pdGJKerE+xOo
+GJ8/J+oS70/5ZQYKhqPxOYLy5wgqb0dK/TmC2kMjpX07gvorI6v/OTpuMurPUX+O+nPUn9RDAHzJ
+ItswE45tAAAAAElFTkSuQmCC
+
+------MultipartBoundary--NJPYTzZ9OCUqWFLpZzMGrMhBchHxPvya4e1WTC0OPa------

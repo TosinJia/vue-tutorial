@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./lib/vue-2.6.14.js"></script>
+
+    <style>
+        .outer1 {
+            background-color: green;
+            height: 200px;
+            width: 200px;
+        }
+        .outer2 {
+            background-color: blue;
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div class="outer1" @click="outer1Click">
+            <div class="outer2" @click="outer2Click">
+                <input type="button" value="按钮" v-on:click="btnClick">
+            </div>
+        </div>
+        <hr>
+        <div class="outer1" @click="outer1Click">
+            <div class="outer2" @click.self="outer2Click">
+                <input type="button" value="outer2 self 按钮" v-on:click="btnClick">
+            </div>
+        </div>
+        <hr>
+        <div class="outer1" @click="outer1Click">
+            <div class="outer2" @click.stop="outer2Click">
+                <input type="button" value="outer2 stop 按钮" v-on:click="btnClick">
+            </div>
+        </div>
+    </div>
+    <script>
+        var vm = new Vue({
+            el: '#app',
+            data: {},
+            methods: {
+                outer1Click(){
+                    console.info("outer1Click");
+                },
+                outer2Click(){
+                    console.info("outer2Click");
+                },
+                btnClick(){
+                    console.info("btnClick");
+                },
+            }
+        });
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./lib/vue-2.6.14.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+</head>
+<body>
+    <div id="app">
+        <input type="button" value="toggle" v-on:click="flag=!flag">
+        <transition enter-active-class="bounceInDown" leave-active-class="bounceOutDown">
+            <h3 v-show="flag" class="animated">13.动画-使用现成的动画类库.html</h3>
+        </transition>
+        <hr>
+        <transition enter-active-class="fadeInDown" leave-active-class="fadeOutDown">
+            <h3 v-show="flag" class="animated">13.动画-使用现成的动画类库.html</h3>
+        </transition>
+        <hr>
+        <transition enter-active-class="rollIn" leave-active-class="rollOut">
+            <h3 v-show="flag" class="animated">13.动画-使用现成的动画类库.html</h3>
+        </transition>
+    </div>
+
+    <script>
+        var vm = new Vue({
+            el: '#app',
+            data: {
+                flag: false,
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./lib/vue-2.6.14.js"></script>
+</head>
+<body>
+    <div id="app">
+        <mycom2></mycom2>
+    </div>
+    <script>
+        const com2Obj = {
+            // 1. template 属性中，不能单独放一段文本，必须用标签包裹起来；
+            // 2. 如果在 template 属性中，想要放多个元素了，那么，在这些元素外，必须有唯一的一个根元素进行包裹；
+
+            // Component template requires a root element, rather than just text.
+            // template: '02.组件-创建全局组件方式2.html',
+            // Component template should contain exactly one root element. If you are using v-if on multiple elements, use v-else-if to chain them instead.
+            // template: '<h5>02.组件-创建全局组件方式2.html</h5><h5>02.组件-创建全局组件方式2.html</h5>',
+            template: '<div><h5>02.组件-创建全局组件方式2.html</h5><h5>02.组件-创建全局组件方式2.html</h5></div>',
+        };
+
+        // 定义全局的组件
+        // Vue.component 的第二个参数，既接收 一个 组件的构造函数， 同时，也接受 一个对象
+        Vue.component('mycom2', com2Obj);
+        
+        var vm = new Vue({
+            el: '#app',
+            data: {},
+            methods: {}
+        });
+    </script>
+</body>
+</html>

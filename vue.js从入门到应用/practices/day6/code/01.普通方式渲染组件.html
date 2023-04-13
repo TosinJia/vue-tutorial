@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <!-- 1. 导入Vue的包 -->
+    <script src="./lib/vue-2.6.14.js"></script>
+</head>
+<body>
+    <!-- 2. 创建要控制的区域 -->
+    <div id="app">
+        1111111111111
+        <global-custom-componet></global-custom-componet>
+        <custom-componet></custom-componet> <!-- 被渲染成 global-custom-componet -->
+        <custom-componet2></custom-componet2>
+        222222222222
+    </div>
+
+    <script>
+        const customComponet = {
+            template: '<h5>自定义组件</h5>'
+        };
+
+        const customComponet2 = {
+            template: '<h5>自定义组件2</h5>'
+        };
+        // 使用 Vue.component 向全局注册一个组件
+        // Vue.component('组件的名称', 组件的构造函数)
+        Vue.component('globalCustomComponet', customComponet); // login 会被 渲染成 global-custom-componet
+
+        const vm = new Vue({
+            el: '#app',
+            data: {},
+            methods: {},
+            components: {   //注册私有组件 // 定义实例中私有组件的 组件的名称 和组件的 解构
+                customComponet,  //login: login, 简写
+                customComponet2: customComponet2,
+
+            }
+        });
+
+var obj = { "name":"runoob", "alexa":10000, "site":"www.runoob.com"};
+console.log(JSON.stringify(obj));
+    </script>
+
+</body>
+</html>

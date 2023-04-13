@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- <script src="./lib/vue-2.6.14.js"></script> -->
+    <style>
+        [v-cloak] {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <h3>{{ msg }}</h3>
+        <h3 v-cloak>解决闪烁问题-{{ msg }}</h3>
+        <hr>
+        <h3 v-text="msg">h3content</h3>
+        <hr>
+
+        <div>{{ msg2 }}</div>
+        <div v-text="msg2"></div>
+        <div v-html="msg2"></div>
+    </div>
+
+    <!-- Network slow 3G vue-2.6.14.js还没请求下来，app不会被vue控制 -->
+    <script src="./lib/vue-2.6.14.js"></script>
+    <script>
+        const vm = new Vue({
+            el: '#app',
+            data: {
+                msg: '02.区分插值表达式和v-text的区别.html',
+                msg2: '<h1>02.区分插值表达式和v-text的区别.html<h1>'
+            }
+        })
+
+    </script>
+</body>
+</html>

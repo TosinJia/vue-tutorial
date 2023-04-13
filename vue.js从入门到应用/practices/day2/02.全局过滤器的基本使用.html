@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="./lib/vue-2.6.14.js"></script>
+</head>
+<body>
+    <div id="app">
+    <!-- 把 纯洁 这两个字，在渲染的时候，替换为 邪恶， 前提是：不要修改 msg  -->
+    <!-- 注意： 使用Vue中过滤器，并不会修改原数据，只是在展示数据的时候，做了一层包装而已； -->        
+        <h5>{{msg | strFormat}}</h5>
+        <h5>{{msg | strFormat('开心')}}</h5>
+        <h5>{{msg | strFormat('开心') | addStr}}</h5>
+    </div>
+
+    <div id="app2">
+        <h5>{{msg | strFormat}}</h5>
+        <h5>{{msg | strFormat | addStr}}</h5>
+    </div>
+
+    <script>
+        // 创建全局的一个过滤器
+        Vue.filter('strFormat', function(data, str="XE"){
+            // return data.replace('纯洁', str);
+            // 正则表达式 https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/replace
+            return data.replace(/纯洁/g, str);  
+        });
+
+        var vm = new Vue({
+            el: '#app',
+            data: {
+                msg: 'app 纯洁，纯洁，纯洁，纯洁',
+            }
+        });
+
+        var vm2 = new Vue({
+            // el: '#app2',
+            data: {
+                msg: 'app2 纯洁，纯洁，纯洁，纯洁',
+            },
+            methods: {},    // 事件处理函数，一些方法
+            filters: {  // 当前实例私有的过滤器
+                addStr: function(data){
+                    return data+'[addStr]';
+                },
+                // 如果全局过滤器和私有过滤器重名了，则会就近原则调用过滤器
+                strFormat: function(data){  // vm2 的私有过滤器
+                    return data+'[filters.strFormat]';
+                }
+
+            }
+        });
+
+        vm2.$mount('#app2');
+
+    </script>
+</body>
+</html>

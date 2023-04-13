@@ -1,0 +1,989 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://doc.cms.liulongbin.top/#/md/day9
+Subject: =?utf-8?Q?Day9=20-=20Vue.js=20=E4=BB=8E=E5=85=A5=E9=97=A8=E5=88=B0=E5=BA?=
+ =?utf-8?Q?=94=E7=94=A8?=
+Date: Wed, 6 Oct 2021 01:20:06 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--QCzwbddJMU3oH4C0688OrIs3V0vHASETOA5pywzZAU----"
+
+
+------MultipartBoundary--QCzwbddJMU3oH4C0688OrIs3V0vHASETOA5pywzZAU----
+Content-Type: text/html
+Content-ID: <frame-C838362984B36A1E8040F2FEA19638EA@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://doc.cms.liulongbin.top/#/md/day9
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8">
+ =20
+  <title>Day9 - Vue.js =E4=BB=8E=E5=85=A5=E9=97=A8=E5=88=B0=E5=BA=94=E7=94=
+=A8</title>
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge,chrome=3D1">
+  <meta name=3D"description" content=3D"Description">
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, user-scalable=3D=
+no, initial-scale=3D1.0, maximum-scale=3D1.0, minimum-scale=3D1.0">
+  <link rel=3D"stylesheet" href=3D"http://doc.cms.liulongbin.top/css/vue-mi=
+n.css">
+</head>
+<body data-page=3D"md/day9.md" class=3D"ready sticky">
+  <main><button class=3D"sidebar-toggle" aria-label=3D"Menu"><div class=3D"=
+sidebar-toggle-button"><span></span><span></span><span></span></div></butto=
+n><aside class=3D"sidebar"><h1 class=3D"app-name"><a class=3D"app-name-link=
+" data-nosearch=3D"" href=3D"http://doc.cms.liulongbin.top/">Vue.js =E4=BB=
+=8E=E5=85=A5=E9=97=A8=E5=88=B0=E5=BA=94=E7=94=A8</a></h1><div class=3D"side=
+bar-nav"><!-- docs/_sidebar.md -->
+
+<ul><li><a href=3D"http://doc.cms.liulongbin.top/#/">Home</a></li><li><a hr=
+ef=3D"http://doc.cms.liulongbin.top/#/md/day1">Day1</a></li><li><a href=3D"=
+http://doc.cms.liulongbin.top/#/md/day2">Day2</a></li><li><a href=3D"http:/=
+/doc.cms.liulongbin.top/#/md/day3">Day3</a></li><li><a href=3D"http://doc.c=
+ms.liulongbin.top/#/md/day4">Day4</a></li><li><a href=3D"http://doc.cms.liu=
+longbin.top/#/md/day5">Day5</a></li><li><a href=3D"http://doc.cms.liulongbi=
+n.top/#/md/day6">Day6</a></li><li><a href=3D"http://doc.cms.liulongbin.top/=
+#/md/day7_day8">Day7 &amp; Day8</a></li><li class=3D"active"><a href=3D"htt=
+p://doc.cms.liulongbin.top/#/md/day9">Day9</a><ul class=3D"app-sub-sidebar"=
+><li><a class=3D"section-link" href=3D"http://doc.cms.liulongbin.top/#/md/d=
+ay9?id=3Dvuex">Vuex</a></li><ul class=3D"app-sub-sidebar"><li><a class=3D"s=
+ection-link" href=3D"http://doc.cms.liulongbin.top/#/md/day9?id=3D%e4%bb%80=
+%e4%b9%88%e6%98%afvuex">=E4=BB=80=E4=B9=88=E6=98=AFVuex</a></li><li><a clas=
+s=3D"section-link" href=3D"http://doc.cms.liulongbin.top/#/md/day9?id=3D%e4=
+%b8%ba%e4%bb%80%e4%b9%88%e8%a6%81%e6%9c%89vuex">=E4=B8=BA=E4=BB=80=E4=B9=88=
+=E8=A6=81=E6=9C=89Vuex</a></li><li><a class=3D"section-link" href=3D"http:/=
+/doc.cms.liulongbin.top/#/md/day9?id=3D%e5%a6%82%e4%bd%95%e5%9c%a8%e9%a1%b9=
+%e7%9b%ae%e4%b8%ad%e4%bd%bf%e7%94%a8vuex">=E5=A6=82=E4=BD=95=E5=9C=A8=E9=A1=
+=B9=E7=9B=AE=E4=B8=AD=E4=BD=BF=E7=94=A8Vuex</a></li><li><a class=3D"section=
+-link" href=3D"http://doc.cms.liulongbin.top/#/md/day9?id=3D%e5%9c%a8%e7%bb=
+%84%e4%bb%b6%e4%b8%ad%e8%ae%bf%e9%97%aestore%e4%b8%adstate%e4%b8%8a%e7%9a%8=
+4%e5%b1%9e%e6%80%a7">=E5=9C=A8=E7=BB=84=E4=BB=B6=E4=B8=AD=E8=AE=BF=E9=97=AE=
+store=E4=B8=ADstate=E4=B8=8A=E7=9A=84=E5=B1=9E=E6=80=A7</a></li><ul class=
+=3D"app-sub-sidebar"><li><a class=3D"section-link" href=3D"http://doc.cms.l=
+iulongbin.top/#/md/day9?id=3D%e7%ac%ac%e4%b8%80%e7%a7%8d%e6%96%b9%e5%bc%8f"=
+>=E7=AC=AC=E4=B8=80=E7=A7=8D=E6=96=B9=E5=BC=8F</a></li><li><a class=3D"sect=
+ion-link" href=3D"http://doc.cms.liulongbin.top/#/md/day9?id=3D%e7%ac%ac%e4=
+%ba%8c%e7%a7%8d%e6%96%b9%e5%bc%8f">=E7=AC=AC=E4=BA=8C=E7=A7=8D=E6=96=B9=E5=
+=BC=8F</a></li><li><a class=3D"section-link" href=3D"http://doc.cms.liulong=
+bin.top/#/md/day9?id=3D%e7%ac%ac%e4%b8%89%e7%a7%8d%e6%96%b9%e5%bc%8f">=E7=
+=AC=AC=E4=B8=89=E7=A7=8D=E6=96=B9=E5=BC=8F</a></li></ul><li><a class=3D"sec=
+tion-link" href=3D"http://doc.cms.liulongbin.top/#/md/day9?id=3D%e4%bf%ae%e=
+6%94%b9store%e4%b8%adstate%e4%b8%8a%e7%9a%84%e5%80%bc">=E4=BF=AE=E6=94=B9st=
+ore=E4=B8=ADstate=E4=B8=8A=E7=9A=84=E5=80=BC</a></li><ul class=3D"app-sub-s=
+idebar"><li><a class=3D"section-link" href=3D"http://doc.cms.liulongbin.top=
+/#/md/day9?id=3D%e7%ac%ac%e4%b8%80%e7%a7%8d%e6%96%b9%e5%bc%8f-1">=E7=AC=AC=
+=E4=B8=80=E7=A7=8D=E6=96=B9=E5=BC=8F</a></li><li><a class=3D"section-link" =
+href=3D"http://doc.cms.liulongbin.top/#/md/day9?id=3D%e7%ac%ac%e4%ba%8c%e7%=
+a7%8d%e6%96%b9%e5%bc%8f-1">=E7=AC=AC=E4=BA=8C=E7=A7=8D=E6=96=B9=E5=BC=8F</a=
+></li></ul><li><a class=3D"section-link" href=3D"http://doc.cms.liulongbin.=
+top/#/md/day9?id=3D%e5%ae%9a%e4%b9%89%e5%92%8c%e4%bd%bf%e7%94%a8getters">=
+=E5=AE=9A=E4=B9=89=E5=92=8C=E4=BD=BF=E7=94=A8getters</a></li><ul class=3D"a=
+pp-sub-sidebar"><li><a class=3D"section-link" href=3D"http://doc.cms.liulon=
+gbin.top/#/md/day9?id=3D%e4%bd%bf%e7%94%a8%e6%96%b9%e5%bc%8f1">=E4=BD=BF=E7=
+=94=A8=E6=96=B9=E5=BC=8F1</a></li><li><a class=3D"section-link" href=3D"htt=
+p://doc.cms.liulongbin.top/#/md/day9?id=3D%e4%bd%bf%e7%94%a8%e6%96%b9%e5%bc=
+%8f2">=E4=BD=BF=E7=94=A8=E6=96=B9=E5=BC=8F2</a></li></ul><li><a class=3D"se=
+ction-link" href=3D"http://doc.cms.liulongbin.top/#/md/day9?id=3D%e5%ae%9a%=
+e4%b9%89%e5%92%8c%e4%bd%bf%e7%94%a8-actions-%e6%9d%a5%e6%8f%90%e4%ba%a4%e5%=
+bc%82%e6%ad%a5%e7%9a%84%e6%93%8d%e4%bd%9c">=E5=AE=9A=E4=B9=89=E5=92=8C=E4=
+=BD=BF=E7=94=A8 actions =E6=9D=A5=E6=8F=90=E4=BA=A4=E5=BC=82=E6=AD=A5=E7=9A=
+=84=E6=93=8D=E4=BD=9C</a></li><ul class=3D"app-sub-sidebar"><li><a class=3D=
+"section-link" href=3D"http://doc.cms.liulongbin.top/#/md/day9?id=3D%e4%bd%=
+bf%e7%94%a8%e6%96%b9%e5%bc%8f1-1">=E4=BD=BF=E7=94=A8=E6=96=B9=E5=BC=8F1</a>=
+</li><li><a class=3D"section-link" href=3D"http://doc.cms.liulongbin.top/#/=
+md/day9?id=3D%e4%bd%bf%e7%94%a8%e6%96%b9%e5%bc%8f2-1">=E4=BD=BF=E7=94=A8=E6=
+=96=B9=E5=BC=8F2</a></li></ul></ul></ul></li></ul></div></aside><section cl=
+ass=3D"content"><article class=3D"markdown-section" id=3D"main"><h1 id=3D"=
+=E6=9C=80=E5=90=8E=E4=B8=80=E5=A4=A9=E7=9A=84=E4=B8=BB=E8=A6=81=E5=86=85=E5=
+=AE=B9"><a href=3D"http://doc.cms.liulongbin.top/#/md/day9?id=3D%e6%9c%80%e=
+5%90%8e%e4%b8%80%e5%a4%a9%e7%9a%84%e4%b8%bb%e8%a6%81%e5%86%85%e5%ae%b9" dat=
+a-id=3D"=E6=9C=80=E5=90=8E=E4=B8=80=E5=A4=A9=E7=9A=84=E4=B8=BB=E8=A6=81=E5=
+=86=85=E5=AE=B9" class=3D"anchor"><span>=E6=9C=80=E5=90=8E=E4=B8=80=E5=A4=
+=A9=E7=9A=84=E4=B8=BB=E8=A6=81=E5=86=85=E5=AE=B9</span></a></h1><ol><li>=E5=
+=B0=8F=E7=90=83=E5=8A=A8=E7=94=BB=E5=92=8C=E5=8A=A0=E5=85=A5=E8=B4=AD=E7=89=
+=A9=E8=BD=A6=E7=9A=84=E5=8A=9F=E8=83=BD</li><li>vuex</li><li>=E8=B4=AD=E7=
+=89=A9=E8=BD=A6=E9=A1=B5=E9=9D=A2=E7=9A=84=E5=8A=9F=E8=83=BD=E5=AE=9E=E7=8E=
+=B0</li><li>=E6=89=93=E5=8C=85=E5=8F=91=E5=B8=83=E6=88=90=E4=B8=80=E4=B8=AA=
+=E4=BA=A7=E5=93=81=E7=BA=A7=E5=88=AB=E7=9A=84=E7=BD=91=E7=AB=99</li></ol><h=
+1 id=3D"vuex"><a href=3D"http://doc.cms.liulongbin.top/#/md/day9?id=3Dvuex"=
+ data-id=3D"vuex" class=3D"anchor"><span>Vuex</span></a></h1><ol><li>=E5=9C=
+=A8vue=E7=9A=84=E9=A1=B9=E7=9B=AE=E4=B8=AD=EF=BC=8C=E8=A6=81=E5=A4=84=E7=90=
+=86=E5=90=84=E7=A7=8D=E5=90=84=E6=A0=B7=E7=9A=84=E6=95=B0=E6=8D=AE=EF=BC=8C=
+=E4=BD=86=E6=98=AF=EF=BC=8C=E8=BF=99=E4=BA=9B=E6=95=B0=E6=8D=AE=E8=99=BD=E7=
+=84=B6=E5=A4=9A=EF=BC=8C=E4=BB=8E=E6=9C=AC=E8=B4=A8=E4=B8=8A=E6=9D=A5=E5=88=
+=92=E5=88=86=EF=BC=8C=E5=88=86=E4=B8=BA=E4=B8=A4=E7=A7=8D=E6=95=B0=E6=8D=AE=
+<ul><li>=E7=BB=84=E4=BB=B6=E5=86=85=E9=83=A8=E7=A7=81=E6=9C=89=E7=9A=84=E6=
+=95=B0=E6=8D=AE=EF=BC=88=E7=BB=84=E4=BB=B6=E4=B9=8B=E9=97=B4=E4=B8=8D=E4=BC=
+=9A=E5=85=B1=E4=BA=AB=E7=A7=81=E6=9C=89=E7=9A=84=E6=95=B0=E6=8D=AE=EF=BC=89=
+</li><li>=E7=BB=84=E4=BB=B6=E4=B9=8B=E9=97=B4=E5=85=B1=E4=BA=AB=E7=9A=84=E6=
+=95=B0=E6=8D=AE=EF=BC=88=E7=88=B6=E7=BB=84=E4=BB=B6=E8=A6=81=E5=85=B1=E4=BA=
+=AB=E5=92=8C=E5=AD=90=E7=BB=84=E4=BB=B6=E7=9A=84=E6=95=B0=E6=8D=AE=E3=80=81=
+=E5=AD=90=E7=BB=84=E4=BB=B6=E8=A6=81=E5=85=B1=E4=BA=AB=E7=BB=99=E7=88=B6=E7=
+=BB=84=E4=BB=B6=E7=9A=84=E6=95=B0=E6=8D=AE=E3=80=81=E5=85=84=E5=BC=9F=E7=BB=
+=84=E4=BB=B6=E4=B9=8B=E9=97=B4=E4=BC=A0=E5=80=BC=EF=BC=89</li></ul></li><li=
+>=E5=BD=93=E7=BB=84=E4=BB=B6=E4=B9=8B=E9=97=B4=E8=A6=81=E5=85=B1=E4=BA=AB=
+=E6=95=B0=E6=8D=AE=E7=9A=84=E6=97=B6=E5=80=99=E6=9C=80=E5=A5=BD=E4=BD=BF=E7=
+=94=A8=E4=B8=80=E4=B8=AA=E5=85=A8=E5=B1=80=E7=9A=84=E6=95=B0=E6=8D=AE=E5=AD=
+=98=E5=82=A8=E5=AF=B9=E8=B1=A1=E6=9D=A5=E8=BF=9B=E8=A1=8C=E6=8E=A7=E5=88=B6=
+=EF=BC=9B</li></ol><h2 id=3D"=E4=BB=80=E4=B9=88=E6=98=AFvuex"><a href=3D"ht=
+tp://doc.cms.liulongbin.top/#/md/day9?id=3D%e4%bb%80%e4%b9%88%e6%98%afvuex"=
+ data-id=3D"=E4=BB=80=E4=B9=88=E6=98=AFvuex" class=3D"anchor"><span>=E4=BB=
+=80=E4=B9=88=E6=98=AFVuex</span></a></h2><p>=E5=B0=B1=E6=98=AF=E4=B8=BA=E4=
+=BA=86=E5=AE=9E=E7=8E=B0=E7=BB=84=E4=BB=B6=E4=B9=8B=E9=97=B4=E6=95=B0=E6=8D=
+=AE=E5=85=B1=E4=BA=AB=E7=9A=84=E4=B8=80=E7=A7=8D=E6=9C=BA=E5=88=B6=EF=BC=9B=
+</p><h2 id=3D"=E4=B8=BA=E4=BB=80=E4=B9=88=E8=A6=81=E6=9C=89vuex"><a href=3D=
+"http://doc.cms.liulongbin.top/#/md/day9?id=3D%e4%b8%ba%e4%bb%80%e4%b9%88%e=
+8%a6%81%e6%9c%89vuex" data-id=3D"=E4=B8=BA=E4=BB=80=E4=B9=88=E8=A6=81=E6=9C=
+=89vuex" class=3D"anchor"><span>=E4=B8=BA=E4=BB=80=E4=B9=88=E8=A6=81=E6=9C=
+=89Vuex</span></a></h2><ul><li>=E5=9B=A0=E4=B8=BA=E4=BD=BF=E7=94=A8=E7=88=
+=B6=E5=AD=90=E4=BC=A0=E5=80=BC=E6=88=96=E5=85=84=E5=BC=9F=E4=BC=A0=E5=80=BC=
+=EF=BC=8C=E5=A4=AA=E9=BA=BB=E7=83=A6=E4=BA=86=EF=BC=9B=E4=B8=8D=E5=A5=BD=E7=
+=AE=A1=E7=90=86=EF=BC=8C=E9=A1=B9=E7=9B=AE=E4=BB=A3=E7=A0=81=E5=86=99=E8=B5=
+=B7=E6=9D=A5=E5=A4=AA=E9=BA=BB=E7=83=A6=EF=BC=9B</li><li>=E5=BD=93=E6=9C=89=
+=E4=BA=86 vuex ,=E6=83=B3=E8=A6=81=E5=85=B1=E4=BA=AB=E6=95=B0=E6=8D=AE=EF=
+=BC=8C=E5=8F=AA=E9=9C=80=E8=A6=81=E6=8A=8A=E6=95=B0=E6=8D=AE=E6=8C=82=E8=BD=
+=BD=E5=88=B0 vuex =E5=B0=B1=E8=A1=8C=EF=BC=9B=E6=83=B3=E8=A6=81=E8=8E=B7=E5=
+=8F=96=E6=95=B0=E6=8D=AE=EF=BC=8C=E7=9B=B4=E6=8E=A5=E4=BB=8Evuex =E4=B8=8A=
+=E6=8B=BF=E5=B0=B1=E8=A1=8C=EF=BC=9B</li><li>=E5=BD=93 vuex =E4=B8=AD=E7=9A=
+=84=E6=95=B0=E6=8D=AE=E8=A2=AB=E4=BF=AE=E6=94=B9=E4=B9=8B=E5=90=8E=EF=BC=8C=
+=E5=85=B6=E5=AE=83=E5=BC=95=E7=94=A8=E4=BA=86=E6=AD=A4=E6=95=B0=E6=8D=AE=E7=
+=9A=84=E7=BB=84=E4=BB=B6=EF=BC=8C=E4=B9=9F=E4=BC=9A=E8=A2=AB=E5=90=8C=E6=AD=
+=A5=E6=9B=B4=E6=96=B0=EF=BC=9B</li><li>=E6=B3=A8=E6=84=8F=EF=BC=9A=E5=8F=AA=
+=E6=9C=89=E7=BB=84=E4=BB=B6=E9=97=B4=E5=85=B1=E4=BA=AB=E7=9A=84=E6=95=B0=E6=
+=8D=AE=EF=BC=8C=E6=89=8D=E6=9C=89=E5=BF=85=E8=A6=81=E5=AD=98=E5=82=A8=E5=88=
+=B0vuex=E4=B8=AD=EF=BC=8C=E7=BB=84=E4=BB=B6=E8=87=AA=E5=B7=B1=E7=A7=81=E6=
+=9C=89=E7=9A=84=E6=95=B0=E6=8D=AE=EF=BC=8C=E8=BF=98=E6=98=AF=E8=A6=81=E5=AD=
+=98=E5=82=A8=E5=88=B0=E8=87=AA=E5=B7=B1=E7=9A=84data=E4=B8=AD=EF=BC=9B</li>=
+</ul><h2 id=3D"=E5=A6=82=E4=BD=95=E5=9C=A8=E9=A1=B9=E7=9B=AE=E4=B8=AD=E4=BD=
+=BF=E7=94=A8vuex"><a href=3D"http://doc.cms.liulongbin.top/#/md/day9?id=3D%=
+e5%a6%82%e4%bd%95%e5%9c%a8%e9%a1%b9%e7%9b%ae%e4%b8%ad%e4%bd%bf%e7%94%a8vuex=
+" data-id=3D"=E5=A6=82=E4=BD=95=E5=9C=A8=E9=A1=B9=E7=9B=AE=E4=B8=AD=E4=BD=
+=BF=E7=94=A8vuex" class=3D"anchor"><span>=E5=A6=82=E4=BD=95=E5=9C=A8=E9=A1=
+=B9=E7=9B=AE=E4=B8=AD=E4=BD=BF=E7=94=A8Vuex</span></a></h2><ol><li>=E8=BF=
+=90=E8=A1=8C<code>cnpm i vuex -S</code></li><li>=E5=AF=BC=E5=85=A5 vuex<pre=
+ v-pre=3D"" data-lang=3D"js"><code class=3D"lang-js"><span class=3D"token k=
+eyword">import</span> Vuex <span class=3D"token keyword">from</span> <span =
+class=3D"token string">'vuex'</span></code></pre></li><li>=E5=AE=89=E8=A3=
+=85Vuex<pre v-pre=3D"" data-lang=3D"js"><code class=3D"lang-js">Vue<span cl=
+ass=3D"token punctuation">.</span><span class=3D"token function">use</span>=
+<span class=3D"token punctuation">(</span>Vuex<span class=3D"token punctuat=
+ion">)</span></code></pre></li><li>=E5=88=9B=E5=BB=BAstore=E5=85=AC=E5=85=
+=B1=E7=8A=B6=E6=80=81=E5=AF=B9=E8=B1=A1<pre v-pre=3D"" data-lang=3D"js"><co=
+de class=3D"lang-js"><span class=3D"token keyword">const</span> store <span=
+ class=3D"token operator">=3D</span> <span class=3D"token keyword">new</spa=
+n> <span class=3D"token class-name">Vuex<span class=3D"token punctuation">.=
+</span>Store</span><span class=3D"token punctuation">(</span><span class=3D=
+"token punctuation">{</span>
+ state<span class=3D"token operator">:</span> <span class=3D"token punctuat=
+ion">{</span> <span class=3D"token comment">// state =E4=B8=AD=E5=AD=98=E6=
+=94=BE=E7=9A=84=EF=BC=8C=E5=B0=B1=E6=98=AF=E5=85=A8=E5=B1=80=E5=85=B1=E4=BA=
+=AB=E7=9A=84=E6=95=B0=E6=8D=AE</span>
+     count<span class=3D"token operator">:</span> <span class=3D"token numb=
+er">0</span>
+ <span class=3D"token punctuation">}</span>
+<span class=3D"token punctuation">}</span><span class=3D"token punctuation"=
+>)</span></code></pre></li><li>=E5=B0=86 =E5=88=9B=E5=BB=BA=E7=9A=84 <code>=
+store</code> =E6=8C=82=E8=BD=BD=E5=88=B0 vm =E5=AE=9E=E4=BE=8B=E4=B8=8A<pre=
+ v-pre=3D"" data-lang=3D"js"><code class=3D"lang-js"><span class=3D"token k=
+eyword">new</span> <span class=3D"token class-name">Vue</span><span class=
+=3D"token punctuation">(</span><span class=3D"token punctuation">{</span>
+el<span class=3D"token operator">:</span> <span class=3D"token string">'#ap=
+p'</span><span class=3D"token punctuation">,</span>
+<span class=3D"token function-variable function">render</span><span class=
+=3D"token operator">:</span> <span class=3D"token parameter">c</span> <span=
+ class=3D"token operator">=3D&gt;</span> <span class=3D"token function">c</=
+span><span class=3D"token punctuation">(</span>app<span class=3D"token punc=
+tuation">)</span><span class=3D"token punctuation">,</span>
+store <span class=3D"token comment">// 5. =E5=B0=86 =E5=88=9B=E5=BB=BA=E7=
+=9A=84=E5=85=B1=E4=BA=AB=E7=8A=B6=E6=80=81=E5=AF=B9=E8=B1=A1=EF=BC=8C=E6=8C=
+=82=E8=BD=BD=E5=88=B0 Vue =E5=AE=9E=E4=BE=8B=E4=B8=AD=EF=BC=8C=E8=BF=99=E6=
+=A0=B7=EF=BC=8C=E6=89=80=E6=9C=89=E7=9A=84=E7=BB=84=E4=BB=B6=EF=BC=8C=E5=B0=
+=B1=E5=8F=AF=E4=BB=A5=E7=9B=B4=E6=8E=A5=E4=BB=8E store =E4=B8=AD=E8=8E=B7=
+=E5=8F=96 =E5=85=A8=E5=B1=80=E7=9A=84=E6=95=B0=E6=8D=AE=E4=BA=86</span>
+<span class=3D"token punctuation">}</span><span class=3D"token punctuation"=
+>)</span></code></pre></li><li>=E5=A6=82=E6=9E=9C=E6=83=B3=E8=A6=81=E5=9C=
+=A8=E7=BB=84=E4=BB=B6=E4=B8=AD=E8=AE=BF=E9=97=AE=E5=85=A8=E5=B1=80=E7=9A=84=
+=E6=95=B0=E6=8D=AE=EF=BC=9A<pre v-pre=3D"" data-lang=3D"js"><code class=3D"=
+lang-js"><span class=3D"token keyword">this</span><span class=3D"token punc=
+tuation">.</span>$store<span class=3D"token punctuation">.</span>state<span=
+ class=3D"token punctuation">.</span>=E5=85=A8=E5=B1=80=E6=95=B0=E6=8D=AE=
+=E5=90=8D=E7=A7=B0</code></pre></li></ol><h2 id=3D"=E5=9C=A8=E7=BB=84=E4=BB=
+=B6=E4=B8=AD=E8=AE=BF=E9=97=AEstore=E4=B8=ADstate=E4=B8=8A=E7=9A=84=E5=B1=
+=9E=E6=80=A7"><a href=3D"http://doc.cms.liulongbin.top/#/md/day9?id=3D%e5%9=
+c%a8%e7%bb%84%e4%bb%b6%e4%b8%ad%e8%ae%bf%e9%97%aestore%e4%b8%adstate%e4%b8%=
+8a%e7%9a%84%e5%b1%9e%e6%80%a7" data-id=3D"=E5=9C=A8=E7=BB=84=E4=BB=B6=E4=B8=
+=AD=E8=AE=BF=E9=97=AEstore=E4=B8=ADstate=E4=B8=8A=E7=9A=84=E5=B1=9E=E6=80=
+=A7" class=3D"anchor"><span>=E5=9C=A8=E7=BB=84=E4=BB=B6=E4=B8=AD=E8=AE=BF=
+=E9=97=AEstore=E4=B8=ADstate=E4=B8=8A=E7=9A=84=E5=B1=9E=E6=80=A7</span></a>=
+</h2><h3 id=3D"=E7=AC=AC=E4=B8=80=E7=A7=8D=E6=96=B9=E5=BC=8F"><a href=3D"ht=
+tp://doc.cms.liulongbin.top/#/md/day9?id=3D%e7%ac%ac%e4%b8%80%e7%a7%8d%e6%9=
+6%b9%e5%bc%8f" data-id=3D"=E7=AC=AC=E4=B8=80=E7=A7=8D=E6=96=B9=E5=BC=8F" cl=
+ass=3D"anchor"><span>=E7=AC=AC=E4=B8=80=E7=A7=8D=E6=96=B9=E5=BC=8F</span></=
+a></h3><p><code>this.$store.state.=E6=95=B0=E6=8D=AE=E7=9A=84=E5=90=8D=E7=
+=A7=B0</code></p><h3 id=3D"=E7=AC=AC=E4=BA=8C=E7=A7=8D=E6=96=B9=E5=BC=8F"><=
+a href=3D"http://doc.cms.liulongbin.top/#/md/day9?id=3D%e7%ac%ac%e4%ba%8c%e=
+7%a7%8d%e6%96%b9%e5%bc%8f" data-id=3D"=E7=AC=AC=E4=BA=8C=E7=A7=8D=E6=96=B9=
+=E5=BC=8F" class=3D"anchor"><span>=E7=AC=AC=E4=BA=8C=E7=A7=8D=E6=96=B9=E5=
+=BC=8F</span></a></h3><ul><li>=E6=8C=89=E9=9C=80=E5=AF=BC=E5=85=A5 mapState=
+ =E8=BE=85=E5=8A=A9=E5=87=BD=E6=95=B0=EF=BC=9A<pre v-pre=3D"" data-lang=3D"=
+js"><code class=3D"lang-js"><span class=3D"token keyword">import</span> <sp=
+an class=3D"token punctuation">{</span> mapState <span class=3D"token punct=
+uation">}</span> <span class=3D"token keyword">from</span> <span class=3D"t=
+oken string">"vuex"</span><span class=3D"token punctuation">;</span></code>=
+</pre></li><li>=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AAcomputed=E5=B1=9E=E6=80=
+=A7=EF=BC=8C=E9=80=9A=E8=BF=87<code>mapState</code>=E6=8A=8A=E9=9C=80=E8=A6=
+=81=E7=9A=84=E7=8A=B6=E6=80=81=E6=98=A0=E5=B0=84=E5=88=B0=E7=BB=84=E4=BB=B6=
+=E7=9A=84=E8=AE=A1=E7=AE=97=E5=B1=9E=E6=80=A7=E4=B8=AD=EF=BC=9A<pre v-pre=
+=3D"" data-lang=3D"js"><code class=3D"lang-js">computed<span class=3D"token=
+ operator">:</span> <span class=3D"token function">mapState</span><span cla=
+ss=3D"token punctuation">(</span><span class=3D"token punctuation">[</span>=
+<span class=3D"token string">"count"</span><span class=3D"token punctuation=
+">]</span><span class=3D"token punctuation">)</span></code></pre><h3 id=3D"=
+=E7=AC=AC=E4=B8=89=E7=A7=8D=E6=96=B9=E5=BC=8F"><a href=3D"http://doc.cms.li=
+ulongbin.top/#/md/day9?id=3D%e7%ac%ac%e4%b8%89%e7%a7%8d%e6%96%b9%e5%bc%8f" =
+data-id=3D"=E7=AC=AC=E4=B8=89=E7=A7=8D=E6=96=B9=E5=BC=8F" class=3D"anchor">=
+<span>=E7=AC=AC=E4=B8=89=E7=A7=8D=E6=96=B9=E5=BC=8F</span></a></h3></li><li=
+>=E6=8C=89=E9=9C=80=E5=AF=BC=E5=85=A5 mapState =E8=BE=85=E5=8A=A9=E5=87=BD=
+=E6=95=B0=EF=BC=9A<pre v-pre=3D"" data-lang=3D"js"><code class=3D"lang-js">=
+<span class=3D"token keyword">import</span> <span class=3D"token punctuatio=
+n">{</span> mapState <span class=3D"token punctuation">}</span> <span class=
+=3D"token keyword">from</span> <span class=3D"token string">"vuex"</span><s=
+pan class=3D"token punctuation">;</span></code></pre></li><li>=E5=88=9B=E5=
+=BB=BA=E4=B8=80=E4=B8=AAcomputed=E5=B1=9E=E6=80=A7=EF=BC=8C=E9=80=9A=E8=BF=
+=87<code>mapState</code>=EF=BC=8C=E7=BB=93=E5=90=88 <code>...</code> =E5=B1=
+=95=E5=BC=80=E8=BF=90=E7=AE=97=E7=AC=A6=EF=BC=8C=E6=8A=8A=E9=9C=80=E8=A6=81=
+=E7=9A=84=E7=8A=B6=E6=80=81=E6=98=A0=E5=B0=84=E5=88=B0=E7=BB=84=E4=BB=B6=E7=
+=9A=84=E8=AE=A1=E7=AE=97=E5=B1=9E=E6=80=A7=E4=B8=AD=EF=BC=9A<pre v-pre=3D""=
+ data-lang=3D"js"><code class=3D"lang-js">computed<span class=3D"token oper=
+ator">:</span> <span class=3D"token punctuation">{</span>
+  <span class=3D"token comment">// =E8=87=AA=E5=AE=9A=E4=B9=89=E7=9A=84=E8=
+=AE=A1=E7=AE=97=E5=B1=9E=E6=80=A7</span>
+  <span class=3D"token function-variable function">newMsg</span><span class=
+=3D"token operator">:</span> <span class=3D"token keyword">function</span><=
+span class=3D"token punctuation">(</span><span class=3D"token punctuation">=
+)</span> <span class=3D"token punctuation">{</span>
+    <span class=3D"token keyword">return</span> <span class=3D"token string=
+">"----"</span> <span class=3D"token operator">+</span> <span class=3D"toke=
+n keyword">this</span><span class=3D"token punctuation">.</span>msg <span c=
+lass=3D"token operator">+</span> <span class=3D"token string">"------"</spa=
+n><span class=3D"token punctuation">;</span>
+  <span class=3D"token punctuation">}</span><span class=3D"token punctuatio=
+n">,</span>
+  <span class=3D"token comment">// =E9=80=9A=E8=BF=87 =E5=B1=95=E5=BC=80=E8=
+=BF=90=E7=AE=97=E7=AC=A6=EF=BC=8C=E6=8A=8A state=E4=B8=AD=E7=9A=84=E6=95=B0=
+=E6=8D=AE=E6=98=A0=E5=B0=84=E4=B8=BA=E8=AE=A1=E7=AE=97=E5=B1=9E=E6=80=A7=EF=
+=BC=8C=E8=BF=99=E6=A0=B7=EF=BC=8C=E8=83=BD=E5=A4=9F=E8=AE=A9=E8=87=AA=E5=B7=
+=B1=E7=9A=84=E8=AE=A1=E7=AE=97=E5=B1=9E=E6=80=A7=E5=92=8Cstore=E4=B8=AD=E7=
+=9A=84=E5=B1=9E=E6=80=A7=E5=B9=B6=E5=AD=98</span>
+  <span class=3D"token operator">...</span><span class=3D"token function">m=
+apState</span><span class=3D"token punctuation">(</span><span class=3D"toke=
+n punctuation">[</span><span class=3D"token string">"count"</span><span cla=
+ss=3D"token punctuation">]</span><span class=3D"token punctuation">)</span>
+<span class=3D"token punctuation">}</span></code></pre></li></ul><h2 id=3D"=
+=E4=BF=AE=E6=94=B9store=E4=B8=ADstate=E4=B8=8A=E7=9A=84=E5=80=BC"><a href=
+=3D"http://doc.cms.liulongbin.top/#/md/day9?id=3D%e4%bf%ae%e6%94%b9store%e4=
+%b8%adstate%e4%b8%8a%e7%9a%84%e5%80%bc" data-id=3D"=E4=BF=AE=E6=94=B9store=
+=E4=B8=ADstate=E4=B8=8A=E7=9A=84=E5=80=BC" class=3D"anchor"><span>=E4=BF=AE=
+=E6=94=B9store=E4=B8=ADstate=E4=B8=8A=E7=9A=84=E5=80=BC</span></a></h2><h3 =
+id=3D"=E7=AC=AC=E4=B8=80=E7=A7=8D=E6=96=B9=E5=BC=8F-1"><a href=3D"http://do=
+c.cms.liulongbin.top/#/md/day9?id=3D%e7%ac%ac%e4%b8%80%e7%a7%8d%e6%96%b9%e5=
+%bc%8f-1" data-id=3D"=E7=AC=AC=E4=B8=80=E7=A7=8D=E6=96=B9=E5=BC=8F-1" class=
+=3D"anchor"><span>=E7=AC=AC=E4=B8=80=E7=A7=8D=E6=96=B9=E5=BC=8F</span></a><=
+/h3><p>=E4=BD=BF=E7=94=A8<code>this.$store.commit('=E6=96=B9=E6=B3=95=E5=90=
+=8D')</code>=E6=9D=A5=E8=B0=83=E7=94=A8 mutations =E4=B8=AD=E7=9A=84=E6=96=
+=B9=E6=B3=95</p><h3 id=3D"=E7=AC=AC=E4=BA=8C=E7=A7=8D=E6=96=B9=E5=BC=8F-1">=
+<a href=3D"http://doc.cms.liulongbin.top/#/md/day9?id=3D%e7%ac%ac%e4%ba%8c%=
+e7%a7%8d%e6%96%b9%e5%bc%8f-1" data-id=3D"=E7=AC=AC=E4=BA=8C=E7=A7=8D=E6=96=
+=B9=E5=BC=8F-1" class=3D"anchor"><span>=E7=AC=AC=E4=BA=8C=E7=A7=8D=E6=96=B9=
+=E5=BC=8F</span></a></h3><ul><li>=E4=BD=BF=E7=94=A8<code>mapMutaions</code>=
+=E6=9D=A5=E6=98=A0=E5=B0=84=E6=96=B9=E6=B3=95=E5=88=B0<code>methods</code>=
+=E4=B8=AD<pre v-pre=3D"" data-lang=3D"js"><code class=3D"lang-js"><span cla=
+ss=3D"token keyword">import</span> <span class=3D"token punctuation">{</spa=
+n> mapMutations <span class=3D"token punctuation">}</span> <span class=3D"t=
+oken keyword">from</span> <span class=3D"token string">"vuex"</span><span c=
+lass=3D"token punctuation">;</span></code></pre></li><li>=E6=98=A0=E5=B0=84=
+ mutations =E6=96=B9=E6=B3=95=E5=88=B0 <code>methods</code> =E4=B8=AD<pre v=
+-pre=3D"" data-lang=3D"js"><code class=3D"lang-js">methods<span class=3D"to=
+ken operator">:</span> <span class=3D"token punctuation">{</span>
+  <span class=3D"token operator">...</span><span class=3D"token function">m=
+apMutations</span><span class=3D"token punctuation">(</span><span class=3D"=
+token punctuation">[</span><span class=3D"token string">"add"</span><span c=
+lass=3D"token punctuation">]</span><span class=3D"token punctuation">)</spa=
+n>
+<span class=3D"token punctuation">}</span></code></pre></li></ul><h2 id=3D"=
+=E5=AE=9A=E4=B9=89=E5=92=8C=E4=BD=BF=E7=94=A8getters"><a href=3D"http://doc=
+.cms.liulongbin.top/#/md/day9?id=3D%e5%ae%9a%e4%b9%89%e5%92%8c%e4%bd%bf%e7%=
+94%a8getters" data-id=3D"=E5=AE=9A=E4=B9=89=E5=92=8C=E4=BD=BF=E7=94=A8gette=
+rs" class=3D"anchor"><span>=E5=AE=9A=E4=B9=89=E5=92=8C=E4=BD=BF=E7=94=A8get=
+ters</span></a></h2><h3 id=3D"=E4=BD=BF=E7=94=A8=E6=96=B9=E5=BC=8F1"><a hre=
+f=3D"http://doc.cms.liulongbin.top/#/md/day9?id=3D%e4%bd%bf%e7%94%a8%e6%96%=
+b9%e5%bc%8f1" data-id=3D"=E4=BD=BF=E7=94=A8=E6=96=B9=E5=BC=8F1" class=3D"an=
+chor"><span>=E4=BD=BF=E7=94=A8=E6=96=B9=E5=BC=8F1</span></a></h3><p>=E9=80=
+=9A=E8=BF=87 <code>this.$store.getters.=E5=90=8D=E7=A7=B0</code> =E6=9D=A5=
+=E8=AE=BF=E9=97=AE</p><h3 id=3D"=E4=BD=BF=E7=94=A8=E6=96=B9=E5=BC=8F2"><a h=
+ref=3D"http://doc.cms.liulongbin.top/#/md/day9?id=3D%e4%bd%bf%e7%94%a8%e6%9=
+6%b9%e5%bc%8f2" data-id=3D"=E4=BD=BF=E7=94=A8=E6=96=B9=E5=BC=8F2" class=3D"=
+anchor"><span>=E4=BD=BF=E7=94=A8=E6=96=B9=E5=BC=8F2</span></a></h3><p>=E4=
+=BD=BF=E7=94=A8<code>mapGetters</code> =E6=9D=A5=E6=98=A0=E5=B0=84=E4=B8=BA=
+=E8=AE=A1=E7=AE=97=E5=B1=9E=E6=80=A7=EF=BC=9A</p><pre v-pre=3D"" data-lang=
+=3D"js"><code class=3D"lang-js"><span class=3D"token keyword">import</span>=
+ <span class=3D"token punctuation">{</span> mapState<span class=3D"token pu=
+nctuation">,</span> mapGetters <span class=3D"token punctuation">}</span> <=
+span class=3D"token keyword">from</span> <span class=3D"token string">"vuex=
+"</span><span class=3D"token punctuation">;</span>
+
+computed<span class=3D"token operator">:</span> <span class=3D"token punctu=
+ation">{</span>
+    <span class=3D"token operator">...</span><span class=3D"token function"=
+>mapState</span><span class=3D"token punctuation">(</span><span class=3D"to=
+ken punctuation">[</span><span class=3D"token string">"count"</span><span c=
+lass=3D"token punctuation">]</span><span class=3D"token punctuation">)</spa=
+n><span class=3D"token punctuation">,</span>
+    <span class=3D"token operator">...</span><span class=3D"token function"=
+>mapGetters</span><span class=3D"token punctuation">(</span><span class=3D"=
+token punctuation">[</span><span class=3D"token string">"countinfo"</span><=
+span class=3D"token punctuation">]</span><span class=3D"token punctuation">=
+)</span>
+  <span class=3D"token punctuation">}</span></code></pre><h2 id=3D"=E5=AE=
+=9A=E4=B9=89=E5=92=8C=E4=BD=BF=E7=94=A8-actions-=E6=9D=A5=E6=8F=90=E4=BA=A4=
+=E5=BC=82=E6=AD=A5=E7=9A=84=E6=93=8D=E4=BD=9C"><a href=3D"http://doc.cms.li=
+ulongbin.top/#/md/day9?id=3D%e5%ae%9a%e4%b9%89%e5%92%8c%e4%bd%bf%e7%94%a8-a=
+ctions-%e6%9d%a5%e6%8f%90%e4%ba%a4%e5%bc%82%e6%ad%a5%e7%9a%84%e6%93%8d%e4%b=
+d%9c" data-id=3D"=E5=AE=9A=E4=B9=89=E5=92=8C=E4=BD=BF=E7=94=A8-actions-=E6=
+=9D=A5=E6=8F=90=E4=BA=A4=E5=BC=82=E6=AD=A5=E7=9A=84=E6=93=8D=E4=BD=9C" clas=
+s=3D"anchor"><span>=E5=AE=9A=E4=B9=89=E5=92=8C=E4=BD=BF=E7=94=A8 actions =
+=E6=9D=A5=E6=8F=90=E4=BA=A4=E5=BC=82=E6=AD=A5=E7=9A=84=E6=93=8D=E4=BD=9C</s=
+pan></a></h2><h3 id=3D"=E4=BD=BF=E7=94=A8=E6=96=B9=E5=BC=8F1-1"><a href=3D"=
+http://doc.cms.liulongbin.top/#/md/day9?id=3D%e4%bd%bf%e7%94%a8%e6%96%b9%e5=
+%bc%8f1-1" data-id=3D"=E4=BD=BF=E7=94=A8=E6=96=B9=E5=BC=8F1-1" class=3D"anc=
+hor"><span>=E4=BD=BF=E7=94=A8=E6=96=B9=E5=BC=8F1</span></a></h3><h3 id=3D"=
+=E4=BD=BF=E7=94=A8=E6=96=B9=E5=BC=8F2-1"><a href=3D"http://doc.cms.liulongb=
+in.top/#/md/day9?id=3D%e4%bd%bf%e7%94%a8%e6%96%b9%e5%bc%8f2-1" data-id=3D"=
+=E4=BD=BF=E7=94=A8=E6=96=B9=E5=BC=8F2-1" class=3D"anchor"><span>=E4=BD=BF=
+=E7=94=A8=E6=96=B9=E5=BC=8F2</span></a></h3></article></section></main>
+ =20
+  <!-- <script src=3D"//unpkg.com/docsify/lib/docsify.min.js"></script> -->
+ =20
+
+
+<div class=3D"progress" style=3D"opacity: 0; width: 0%;"></div><div class=
+=3D"xl-chrome-ext-bar" id=3D"xl_chrome_ext_{4DB361DE-01F7-4376-B494-639E489=
+D19ED}" style=3D"display: none;">
+      <div class=3D"xl-chrome-ext-bar__logo"></div>
+
+      <a id=3D"xl_chrome_ext_download" class=3D"xl-chrome-ext-bar__option">=
+=E4=B8=8B=E8=BD=BD=E8=A7=86=E9=A2=91</a>
+      <a id=3D"xl_chrome_ext_close" class=3D"xl-chrome-ext-bar__close"></a>
+    </div></body></html>
+------MultipartBoundary--QCzwbddJMU3oH4C0688OrIs3V0vHASETOA5pywzZAU----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://doc.cms.liulongbin.top/css/vue-min.css
+
+@charset "utf-8";
+
+@import url("https://fonts.googleapis.com/css?family=3DRoboto+Mono|Source+S=
+ans+Pro:300,400,600");
+
+* { -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(=
+0, 0, 0, 0); text-size-adjust: none; box-sizing: border-box; }
+
+body:not(.ready) { overflow: hidden; }
+
+body:not(.ready) .app-nav, body:not(.ready) > nav, body:not(.ready) [data-c=
+loak] { display: none; }
+
+div#app { font-size: 30px; font-weight: lighter; margin: 40vh auto; text-al=
+ign: center; }
+
+div#app:empty::before { content: "Loading..."; }
+
+.emoji { height: 1.2rem; vertical-align: middle; }
+
+.progress { background-color: var(--theme-color,#42b983); height: 2px; left=
+: 0px; position: fixed; right: 0px; top: 0px; transition: width 0.2s ease 0=
+s, opacity 0.4s ease 0s; width: 0px; z-index: 5; }
+
+.search .search-keyword, .search a:hover { color: var(--theme-color,#42b983=
+); }
+
+.search .search-keyword { font-style: normal; font-weight: 700; }
+
+body, html { height: 100%; }
+
+body { -webkit-font-smoothing: antialiased; color: rgb(52, 73, 94); font-fa=
+mily: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif; font-size: 15=
+px; letter-spacing: 0px; margin: 0px; overflow-x: hidden; }
+
+img { max-width: 100%; }
+
+a[disabled] { cursor: not-allowed; opacity: 0.6; }
+
+kbd { border: 1px solid rgb(204, 204, 204); border-radius: 3px; display: in=
+line-block; line-height: 12px; margin-bottom: 3px; padding: 3px 5px; vertic=
+al-align: middle; font-size: 12px !important; }
+
+li input[type=3D"checkbox"] { margin: 0px 0.2em 0.25em 0px; vertical-align:=
+ middle; }
+
+.app-nav { margin: 25px 60px 0px 0px; position: absolute; right: 0px; text-=
+align: right; z-index: 2; }
+
+.app-nav.no-badge { margin-right: 25px; }
+
+.app-nav p { margin: 0px; }
+
+.app-nav > a { margin: 0px 1rem; padding: 5px 0px; }
+
+.app-nav li, .app-nav ul { display: inline-block; list-style: none; margin:=
+ 0px; }
+
+.app-nav a { color: inherit; font-size: 16px; text-decoration: none; transi=
+tion: color 0.3s ease 0s; }
+
+.app-nav a.active, .app-nav a:hover { color: var(--theme-color,#42b983); }
+
+.app-nav a.active { border-bottom: 2px solid var(--theme-color,#42b983); }
+
+.app-nav li { display: inline-block; margin: 0px 1rem; padding: 5px 0px; po=
+sition: relative; }
+
+.app-nav li ul { background-color: rgb(255, 255, 255); border-width: 1px; b=
+order-style: solid; border-color: rgb(221, 221, 221) rgb(221, 221, 221) rgb=
+(204, 204, 204); border-image: initial; border-radius: 4px; box-sizing: bor=
+der-box; display: none; max-height: calc(100vh - 61px); overflow-y: auto; p=
+adding: 10px 0px; position: absolute; right: -15px; text-align: left; top: =
+100%; white-space: nowrap; }
+
+.app-nav li ul li { display: block; font-size: 14px; line-height: 1rem; mar=
+gin: 8px 14px; white-space: nowrap; }
+
+.app-nav li ul a { display: block; font-size: inherit; margin: 0px; padding=
+: 0px; }
+
+.app-nav li ul a.active { border-bottom: 0px; }
+
+.app-nav li:hover ul { display: block; }
+
+.github-corner { border-bottom: 0px; position: fixed; right: 0px; text-deco=
+ration: none; top: 0px; z-index: 1; }
+
+.github-corner:hover .octo-arm { animation: 0.56s ease-in-out 0s 1 normal n=
+one running a; }
+
+.github-corner svg { color: rgb(255, 255, 255); fill: var(--theme-color,#42=
+b983); height: 80px; width: 80px; }
+
+main { display: block; position: relative; width: 100vw; height: 100%; z-in=
+dex: 0; }
+
+main.hidden { display: none; }
+
+.anchor { display: inline-block; text-decoration: none; transition: all 0.3=
+s ease 0s; }
+
+.anchor span { color: rgb(52, 73, 94); }
+
+.anchor:hover { text-decoration: underline; }
+
+.sidebar { border-right: 1px solid rgba(0, 0, 0, 0.07); overflow-y: auto; p=
+adding: 40px 0px 0px; position: absolute; top: 0px; bottom: 0px; left: 0px;=
+ transition: transform 0.25s ease-out 0s; width: 300px; z-index: 3; }
+
+.sidebar > h1 { margin: 0px auto 1rem; font-size: 1.5rem; font-weight: 300;=
+ text-align: center; }
+
+.sidebar > h1 a { color: inherit; text-decoration: none; }
+
+.sidebar > h1 .app-nav { display: block; position: static; }
+
+.sidebar .sidebar-nav { line-height: 2em; padding-bottom: 40px; }
+
+.sidebar li.collapse .app-sub-sidebar { display: none; }
+
+.sidebar ul { margin: 0px 0px 0px 15px; padding: 0px; }
+
+.sidebar li > p { font-weight: 700; margin: 0px; }
+
+.sidebar ul, .sidebar ul li { list-style: none; }
+
+.sidebar ul li a { border-bottom: none; display: block; }
+
+.sidebar ul li ul { padding-left: 20px; }
+
+.sidebar::-webkit-scrollbar { width: 4px; }
+
+.sidebar::-webkit-scrollbar-thumb { background: transparent; border-radius:=
+ 4px; }
+
+.sidebar:hover::-webkit-scrollbar-thumb { background: rgba(135, 135, 135, 0=
+.4); }
+
+.sidebar:hover::-webkit-scrollbar-track { background: rgba(135, 135, 135, 0=
+.1); }
+
+.sidebar-toggle { background-color: rgba(255, 255, 255, 0.8); border: 0px; =
+outline: none; padding: 10px; position: absolute; bottom: 0px; left: 0px; t=
+ext-align: center; transition: opacity 0.3s ease 0s; width: 284px; z-index:=
+ 4; }
+
+.sidebar-toggle .sidebar-toggle-button:hover { opacity: 0.4; }
+
+.sidebar-toggle span { background-color: var(--theme-color,#42b983); displa=
+y: block; margin-bottom: 4px; width: 16px; height: 2px; }
+
+body.sticky .sidebar, body.sticky .sidebar-toggle { position: fixed; }
+
+.content { padding-top: 60px; position: absolute; inset: 0px 0px 0px 300px;=
+ transition: left 0.25s ease 0s; }
+
+.markdown-section { margin: 0px auto; max-width: 800px; padding: 30px 15px =
+40px; position: relative; }
+
+.markdown-section > * { box-sizing: border-box; font-size: inherit; }
+
+.markdown-section > :first-child { margin-top: 0px !important; }
+
+.markdown-section hr { border-top: none; border-right: none; border-left: n=
+one; border-image: initial; border-bottom: 1px solid rgb(238, 238, 238); ma=
+rgin: 2em 0px; }
+
+.markdown-section iframe { border: 1px solid rgb(238, 238, 238); width: 1px=
+; min-width: 100%; }
+
+.markdown-section table { border-collapse: collapse; border-spacing: 0px; d=
+isplay: block; margin-bottom: 1rem; overflow: auto; width: 100%; }
+
+.markdown-section th { font-weight: 700; }
+
+.markdown-section td, .markdown-section th { border: 1px solid rgb(221, 221=
+, 221); padding: 6px 13px; }
+
+.markdown-section tr { border-top: 1px solid rgb(204, 204, 204); }
+
+.markdown-section p.tip, .markdown-section tr:nth-child(2n) { background-co=
+lor: rgb(248, 248, 248); }
+
+.markdown-section p.tip { border-bottom-right-radius: 2px; border-left: 4px=
+ solid rgb(255, 102, 102); border-top-right-radius: 2px; margin: 2em 0px; p=
+adding: 12px 24px 12px 30px; position: relative; }
+
+.markdown-section p.tip::before { background-color: rgb(255, 102, 102); bor=
+der-radius: 100%; color: rgb(255, 255, 255); content: "!"; font-family: Dos=
+is, "Source Sans Pro", "Helvetica Neue", Arial, sans-serif; font-size: 14px=
+; font-weight: 700; left: -12px; line-height: 20px; position: absolute; hei=
+ght: 20px; width: 20px; text-align: center; top: 14px; }
+
+.markdown-section p.tip code { background-color: rgb(239, 239, 239); }
+
+.markdown-section p.tip em { color: rgb(52, 73, 94); }
+
+.markdown-section p.warn { background: rgba(66, 185, 131, 0.1); border-radi=
+us: 2px; padding: 1rem; }
+
+.markdown-section ul.task-list > li { list-style-type: none; }
+
+body.close .sidebar { transform: translateX(-300px); }
+
+body.close .sidebar-toggle { width: auto; }
+
+body.close .content { left: 0px; }
+
+@media print {
+  .app-nav, .github-corner, .sidebar, .sidebar-toggle { display: none; }
+}
+
+@media screen and (max-width: 768px) {
+  .github-corner, .sidebar, .sidebar-toggle { position: fixed; }
+  .app-nav { margin-top: 16px; }
+  .app-nav li ul { top: 30px; }
+  main { height: auto; overflow-x: hidden; }
+  .sidebar { left: -300px; transition: transform 0.25s ease-out 0s; }
+  .content { left: 0px; max-width: 100vw; position: static; padding-top: 20=
+px; transition: transform 0.25s ease 0s; }
+  .app-nav, .github-corner { transition: transform 0.25s ease-out 0s; }
+  .sidebar-toggle { background-color: transparent; width: auto; padding: 30=
+px 30px 10px 10px; }
+  body.close .sidebar { transform: translateX(300px); }
+  body.close .sidebar-toggle { background-color: rgba(255, 255, 255, 0.8); =
+transition: background-color 1s ease 0s; width: 284px; padding: 10px; }
+  body.close .content { transform: translateX(300px); }
+  body.close .app-nav, body.close .github-corner { display: none; }
+  .github-corner:hover .octo-arm { animation: 0s ease 0s 1 normal none runn=
+ing none; }
+  .github-corner .octo-arm { animation: 0.56s ease-in-out 0s 1 normal none =
+running a; }
+}
+
+@keyframes a {=20
+  0%, 100% { transform: rotate(0deg); }
+  20%, 60% { transform: rotate(-25deg); }
+  40%, 80% { transform: rotate(10deg); }
+}
+
+section.cover { align-items: center; background-position: 50% center; backg=
+round-repeat: no-repeat; background-size: cover; height: 100vh; display: no=
+ne; }
+
+section.cover.show { display: flex; }
+
+section.cover.has-mask .mask { background-color: rgb(255, 255, 255); opacit=
+y: 0.8; position: absolute; top: 0px; height: 100%; width: 100%; }
+
+section.cover .cover-main { flex: 1 1 0%; margin: -20px 16px 0px; text-alig=
+n: center; z-index: 1; }
+
+section.cover a { color: inherit; }
+
+section.cover a, section.cover a:hover { text-decoration: none; }
+
+section.cover p { line-height: 1.5rem; margin: 1em 0px; }
+
+section.cover h1 { color: inherit; font-size: 2.5rem; font-weight: 300; mar=
+gin: 0.625rem 0px 2.5rem; position: relative; text-align: center; }
+
+section.cover h1 a { display: block; }
+
+section.cover h1 small { bottom: -0.4375rem; font-size: 1rem; position: abs=
+olute; }
+
+section.cover blockquote { font-size: 1.5rem; text-align: center; }
+
+section.cover ul { line-height: 1.8; list-style-type: none; margin: 1em aut=
+o; max-width: 500px; padding: 0px; }
+
+section.cover .cover-main > p:last-child a { border: 1px solid var(--theme-=
+color,#42b983); border-radius: 2rem; box-sizing: border-box; color: var(--t=
+heme-color,#42b983); display: inline-block; font-size: 1.05rem; letter-spac=
+ing: 0.1rem; margin: 0.5rem 1rem; padding: 0.75em 2rem; text-decoration: no=
+ne; transition: all 0.15s ease 0s; }
+
+section.cover .cover-main > p:last-child a:last-child { background-color: v=
+ar(--theme-color,#42b983); color: rgb(255, 255, 255); }
+
+section.cover .cover-main > p:last-child a:last-child:hover { color: inheri=
+t; opacity: 0.8; }
+
+section.cover .cover-main > p:last-child a:hover { color: inherit; }
+
+section.cover blockquote > p > a { border-bottom: 2px solid var(--theme-col=
+or,#42b983); transition: color 0.3s ease 0s; }
+
+section.cover blockquote > p > a:hover { color: var(--theme-color,#42b983);=
+ }
+
+.sidebar, body { background-color: rgb(255, 255, 255); }
+
+.sidebar { color: rgb(54, 65, 73); }
+
+.sidebar li { margin: 6px 0px; }
+
+.sidebar ul li a { color: rgb(80, 93, 107); font-size: 14px; font-weight: 4=
+00; overflow: hidden; text-decoration: none; text-overflow: ellipsis; white=
+-space: nowrap; }
+
+.sidebar ul li a:hover { text-decoration: underline; }
+
+.sidebar ul li ul { padding: 0px; }
+
+.sidebar ul li.active > a { border-right: 2px solid; color: var(--theme-col=
+or,#42b983); font-weight: 600; }
+
+.app-sub-sidebar li::before { content: "-"; padding-right: 4px; float: left=
+; }
+
+.markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown=
+-section h4, .markdown-section strong { color: rgb(44, 62, 80); font-weight=
+: 600; }
+
+.markdown-section a { color: var(--theme-color,#42b983); font-weight: 600; =
+}
+
+.markdown-section h1 { font-size: 2rem; margin: 0px 0px 1rem; }
+
+.markdown-section h2 { font-size: 1.75rem; margin: 45px 0px 0.8rem; }
+
+.markdown-section h3 { font-size: 1.5rem; margin: 40px 0px 0.6rem; }
+
+.markdown-section h4 { font-size: 1.25rem; }
+
+.markdown-section h5 { font-size: 1rem; }
+
+.markdown-section h6 { color: rgb(119, 119, 119); font-size: 1rem; }
+
+.markdown-section figure, .markdown-section p { margin: 1.2em 0px; }
+
+.markdown-section ol, .markdown-section p, .markdown-section ul { line-heig=
+ht: 1.6rem; word-spacing: 0.05rem; }
+
+.markdown-section ol, .markdown-section ul { padding-left: 1.5rem; }
+
+.markdown-section blockquote { border-left: 4px solid var(--theme-color,#42=
+b983); color: rgb(133, 133, 133); margin: 2em 0px; padding-left: 20px; }
+
+.markdown-section blockquote p { font-weight: 600; margin-left: 0px; }
+
+.markdown-section iframe { margin: 1em 0px; }
+
+.markdown-section em { color: rgb(127, 140, 141); }
+
+.markdown-section code { border-radius: 2px; color: rgb(233, 105, 0); font-=
+size: 0.8rem; margin: 0px 2px; padding: 3px 5px; white-space: pre-wrap; bac=
+kground-color: rgb(248, 248, 248); font-family: "Roboto Mono", Monaco, cour=
+ier, monospace; }
+
+.markdown-section pre { border-radius: 4px; background-color: rgb(32, 40, 4=
+5); font-family: "Roboto Mono", Monaco, courier, monospace; transition: box=
+-shadow 0.2s ease 0s; }
+
+.markdown-section pre::before { content: " "; display: block; background: u=
+rl("../images/flag2.png") 0% 0% / 65px 23px no-repeat; margin-top: 15px; }
+
+.markdown-section pre:hover { box-shadow: blue 1px 1px 10px; }
+
+.markdown-section pre { -webkit-font-smoothing: initial; line-height: 1.5re=
+m; margin: 1.2em 0px; overflow: auto; padding: 0px 1.4rem; position: relati=
+ve; overflow-wrap: normal; }
+
+.token.cdata, .token.comment, .token.doctype, .token.prolog { color: rgb(14=
+2, 144, 140); }
+
+.token.namespace { opacity: 0.7; }
+
+.token.boolean, .token.number { color: rgb(227, 76, 57); }
+
+.token.punctuation { color: rgb(51, 166, 242); }
+
+.token.property { color: rgb(192, 139, 48); }
+
+.token.tag { color: rgb(249, 38, 114); }
+
+.token.operator { color: rgb(255, 190, 75); }
+
+.token.string { color: var(--theme-color,#42b983); }
+
+.token.selector { color: rgb(102, 121, 204); }
+
+.token.attr-name { color: orange; }
+
+.language-css .token.string, .style .token.string, .token.entity, .token.ur=
+l { color: rgb(34, 162, 201); }
+
+.token.attr-value, .token.control, .token.directive, .token.unit { color: v=
+ar(--theme-color,#42b983); }
+
+.token.function, .token.keyword { color: rgb(233, 105, 0); }
+
+.token.atrule, .token.regex, .token.statement { color: rgb(34, 162, 201); }
+
+.token.placeholder, .token.variable { color: rgb(61, 143, 209); }
+
+.token.deleted { text-decoration: line-through; }
+
+.token.inserted { border-bottom: 1px dotted rgb(32, 39, 70); text-decoratio=
+n: none; }
+
+.token.italic { font-style: italic; }
+
+.token.bold, .token.important { font-weight: 700; }
+
+.token.important { color: rgb(201, 73, 34); }
+
+.token.entity { cursor: help; }
+
+.markdown-section pre > code { -webkit-font-smoothing: initial; background-=
+color: rgb(32, 40, 45); border-radius: 2px; color: rgb(255, 255, 255); disp=
+lay: block; font-family: "Roboto Mono", Monaco, courier, monospace; font-si=
+ze: 0.8rem; line-height: inherit; margin: 0px 2px; max-width: inherit; over=
+flow: inherit; padding: 10px 5px 20px; white-space: inherit; }
+
+.markdown-section pre > code::-webkit-scrollbar { width: 4px; height: 4px; =
+}
+
+.markdown-section pre > code::-webkit-scrollbar-thumb { border-radius: 5px;=
+ box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px inset; background: rgb(255, 189=
+, 46); }
+
+.markdown-section pre > code::-webkit-scrollbar-track { box-shadow: rgba(0,=
+ 0, 0, 0.2) 0px 0px 5px inset; border-radius: 2px; background: gray; }
+
+.markdown-section code::after, .markdown-section code::before { letter-spac=
+ing: 0.05rem; }
+
+code .token { -webkit-font-smoothing: initial; min-height: 1.5rem; }
+
+pre::after { color: rgb(204, 204, 204); content: attr(data-lang); font-size=
+: 0.6rem; font-weight: 600; height: 15px; line-height: 15px; padding: 5px 1=
+0px 0px; position: absolute; right: 0px; text-align: right; top: 0px; }
+
+::selection { color: white; background-color: rgb(253, 115, 51); }
+------MultipartBoundary--QCzwbddJMU3oH4C0688OrIs3V0vHASETOA5pywzZAU----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro:300,400,600
+
+@charset "utf-8";
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8b=
+XMIhJHg45mwgGEFl0_3vq_SeW4Ep0.woff2") format("woff2"); unicode-range: U+460=
+-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8b=
+XMIhJHg45mwgGEFl0_3vq_QOW4Ep0.woff2") format("woff2"); unicode-range: U+400=
+-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8b=
+XMIhJHg45mwgGEFl0_3vq_R-W4Ep0.woff2") format("woff2"); unicode-range: U+370=
+-3FF; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8b=
+XMIhJHg45mwgGEFl0_3vq_S-W4Ep0.woff2") format("woff2"); unicode-range: U+102=
+-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U=
++20AB; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8b=
+XMIhJHg45mwgGEFl0_3vq_SuW4Ep0.woff2") format("woff2"); unicode-range: U+100=
+-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-=
+2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8b=
+XMIhJHg45mwgGEFl0_3vq_ROW4.woff2") format("woff2"); unicode-range: U+0-FF, =
+U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20=
+AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3ik4zwmhduz8A.woff2") format("woff2"); unicode-range: U+460-=
+52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3ik4zwkxduz8A.woff2") format("woff2"); unicode-range: U+400-=
+45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3ik4zwmxduz8A.woff2") format("woff2"); unicode-range: U+1F00=
+-1FFF; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3ik4zwlBduz8A.woff2") format("woff2"); unicode-range: U+370-=
+3FF; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3ik4zwmBduz8A.woff2") format("woff2"); unicode-range: U+102-=
+103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+=
+20AB; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3ik4zwmRduz8A.woff2") format("woff2"); unicode-range: U+100-=
+24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2=
+C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3ik4zwlxdu.woff2") format("woff2"); unicode-range: U+0-FF, U=
++131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20A=
+C, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcS=
+V-LCoeQqfX1RYOo3qNa7lqDY.woff2") format("woff2"); unicode-range: U+460-52F,=
+ U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcS=
+V-LCoeQqfX1RYOo3qPK7lqDY.woff2") format("woff2"); unicode-range: U+400-45F,=
+ U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcS=
+V-LCoeQqfX1RYOo3qNK7lqDY.woff2") format("woff2"); unicode-range: U+1F00-1FF=
+F; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcS=
+V-LCoeQqfX1RYOo3qO67lqDY.woff2") format("woff2"); unicode-range: U+370-3FF;=
+ }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcS=
+V-LCoeQqfX1RYOo3qN67lqDY.woff2") format("woff2"); unicode-range: U+102-103,=
+ U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB=
+; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcS=
+V-LCoeQqfX1RYOo3qNq7lqDY.woff2") format("woff2"); unicode-range: U+100-24F,=
+ U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,=
+ U+A720-A7FF; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcS=
+V-LCoeQqfX1RYOo3qOK7l.woff2") format("woff2"); unicode-range: U+0-FF, U+131=
+, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U=
++2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 600; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3i54rwmhduz8A.woff2") format("woff2"); unicode-range: U+460-=
+52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 600; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3i54rwkxduz8A.woff2") format("woff2"); unicode-range: U+400-=
+45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 600; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3i54rwmxduz8A.woff2") format("woff2"); unicode-range: U+1F00=
+-1FFF; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 600; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3i54rwlBduz8A.woff2") format("woff2"); unicode-range: U+370-=
+3FF; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 600; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3i54rwmBduz8A.woff2") format("woff2"); unicode-range: U+102-=
+103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+=
+20AB; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 600; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3i54rwmRduz8A.woff2") format("woff2"); unicode-range: U+100-=
+24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2=
+C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 600; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3i54rwlxdu.woff2") format("woff2"); unicode-range: U+0-FF, U=
++131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20A=
+C, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+------MultipartBoundary--QCzwbddJMU3oH4C0688OrIs3V0vHASETOA5pywzZAU----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://doc.cms.liulongbin.top/images/flag2.png
+
+iVBORw0KGgoAAAANSUhEUgAAAE0AAAAbCAIAAAC2vJUNAAAACXBIWXMAABJ0AAASdAHeZh94AAAB
+/klEQVR42mNQ0NAdCYhh1J+j/hyW/lTU0DXS1tfT0qOKfQZGOkBEHdcb6cqb6CpoUuzPSjOzfc52
+F9ydbni7XvNyOe3muNHBxk/fkAw3JQZqbe9UPzNd/do8DSACMoBcoCAZRsl76Mj26MrN15Nfbii/
+0khukb7sVF25VLL86aZncNjF/mu4///4MGT0Ly70tq/7SntrkiIQ6KVnq7X+79VDQ0BBoBRJ0Svb
+pquwxlj9hJ36SXtkpHzAQnaGnryTDgn+9NAzPOfmiOZDZPQ9ImC7oy0xztIz1Dk8Ue33Ll1MT0IQ
+UAqoAKiMKE9O0FU5ZIXmQ2Qkt0BP3lmHWH8edbHH40kI+hbuP83GiqDLtrSr/9qpg8uTEARUAFRG
+2JNVusBIw+NJCJKdRVx8NlqYf8NIrljRRQ8nQ219PC4LdNe6v0QTvychCKgMqBhfnjTRlVusT9CT
+kAQsl6VD2J8Hne2J8SQk9daam+Fx3MoG9b+7dYnxJ1AZUDEeo+QydFUOWhLjT1CUTicUn8Aq5KK7
+E5H+BKINDjZ4HHdoghoxnoQgoGJ8ibZbh0hPgnLpYn3MygbFn7paele9XIj35068pdGJKerE+xOo
+GJ8/J+oS70/5ZQYKhqPxOYLy5wgqb0dK/TmC2kMjpX07gvorI6v/OTpuMurPUX+O+nPUn9RDAHzJ
+ItswE45tAAAAAElFTkSuQmCC
+
+------MultipartBoundary--QCzwbddJMU3oH4C0688OrIs3V0vHASETOA5pywzZAU------

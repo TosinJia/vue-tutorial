@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="./lib/vue-2.6.14.js"></script>
+
+    <style>
+        .v-enter,
+        .v-leave-to {
+            opacity: 0;
+            transform: translate(500px, 500px);
+        }
+
+        .v-enter-active,
+        .v-leave-active {
+            /* transition: 'all 3s easy'; */
+            transition: all 3s ease
+        }
+
+        .fade-enter,
+        .fade-leave-to {
+            opacity: 0.5;
+            transform: translate(0px, 500px);
+        }
+        .fade-enter-active,
+        .fade-leave-active {
+            transition: all 1s ease;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <input type="button" value="toggle" v-on:click="flag=!flag">
+        <transition>
+            <h3 v-show="flag">16.动画-演示name属性的必要性.html</h3>
+        </transition>
+        
+        <hr>
+        <input type="button" value="toggle2" v-on:click="flag2=!flag2">
+        <transition name="fade">
+            <h3 v-show="flag2">16.动画-演示name属性的必要性.html</h3>
+        </transition>
+    </div>
+
+    <script>
+        var rm = new Vue({
+            el: '#app',
+            data: {
+                flag: false,
+                flag2: false,
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./lib/vue-2.6.14.js"></script>
+</head>
+<body>
+    <div id="app">
+
+
+        firstname: <input type="text" v-model="firstname" v-on:keyup="txtChanged"> + 
+        lastname: <input type="text" v-model="lastname" v-on:keyup="txtChanged"> = 
+        fullname: <input type="text" v-model="fullname">
+
+        <hr>
+
+        firstname: <input type="text" v-model="firstname1" v-on:change="txtChanged1"> + 
+        lastname: <input type="text" v-model="lastname1" v-on:change="txtChanged1"> = 
+        fullname: <input type="text" v-model="fullname1">
+    </div>
+    <script>
+        const vm = new Vue({
+            el: '#app',
+            data: {
+                firstname: '',
+                lastname: '',
+                fullname: '',
+
+                firstname1: '',
+                lastname1: '',
+                fullname1: '',
+            },
+            methods: {
+                txtChanged: function(){
+                    this.fullname = this.firstname+'-'+this.lastname;
+                },
+                txtChanged1: function(){
+                    this.fullname1 = this.firstname1+'-'+this.lastname1;
+                }
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./lib/vue-2.6.14.js"></script>
+</head>
+<body>
+    <div id="app">
+        <input type="button" value="获取页面上的组件" v-on:click="getCom">
+        <com1 ref="ref_com1"></com1>
+    </div>
+    <script>
+        Vue.component('com1', {
+            template: `<h5>com1 {{msg}}</h5>`,
+            data: function(){
+                return {
+                    msg: 'com1_data_msg'
+                }
+            },
+            methods: {  // 子组件的方法
+                show: function(){
+                    console.log("com1_methods_show");
+                }
+            }
+        });
+
+        const vm = new Vue({
+            el: '#app',
+            data: {},
+            methods: {
+                getCom: function(){
+                    console.log(this.$refs);
+                    // 修改 子组件上的数据
+                    this.$refs.ref_com1.msg="this.$refs.ref_com1.msg"
+                    // 调用子组件中的方法
+                    this.$refs.ref_com1.show();
+                }
+            }
+        });
+    </script>
+</body>
+</html>

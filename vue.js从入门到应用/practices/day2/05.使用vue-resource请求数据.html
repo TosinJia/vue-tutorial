@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./lib/vue-2.6.14.js"></script>
+    <!-- vue-resource 只能在 vue 的后面导入  -->
+    <script src="./lib/vue-resource-1.5.3.js"></script>
+</head>
+<body>
+    <div id="app">
+        <input type="button" value="Get请求1" v-on:click="getInfo1">
+        <input type="button" value="Get请求2" v-on:click="getInfo2">
+        <input type="button" value="Get请求3" v-on:click="getInfo3">
+        <input type="button" value="Get请求" v-on:click="getInfo">
+        <hr>
+        <input type="button" value="Post请求" v-on:click="postInfo">
+        <hr>
+        <input type="button" value="JSONP请求" v-on:click="jsonpInfo">
+    </div>
+    <script>
+        var vm = new Vue({
+            el: '#app',
+            data: {},
+            methods: {
+                getInfo1(){  // get方式请求数据
+                    this.$http.get('http://api.cms.liulongbin.top/api/getlunbo').then(function(data){
+                        console.log(data, data.body);
+                    });
+                },
+                getInfo2(){
+                    var promise = this.$http.get('http://api.cms.liulongbin.top/api/getlunbo')
+                    console.log(promise);
+                    promise.then(function(response){
+                        console.log(response, response.body);
+                    });
+                },
+                // ES7 async await 支持promise才能用
+                async getInfo3(){
+                    const response= await this.$http.get('http://api.cms.liulongbin.top/api/getlunbo');
+                    console.log(response, response.body);
+                },
+                async getInfo(){
+                    // 对象结构 ES7
+                    const {body} = await this.$http.get('http://api.cms.liulongbin.top/api/getlunbo');
+                    console.log(body);
+                },
+                async postInfo(){
+                    const {body} = await this.$http.post('http://api.cms.liulongbin.top/api/post', {name:'tosin', age:18, gender:'man'});
+                    console.log(body);
+                },
+                // jsonpInfo(){     //Uncaught SyntaxError: await is only valid in async functions and the top level bodies of modules
+                async jsonpInfo(){
+                    const {body} = await this.$http.jsonp('http://api.cms.liulongbin.top/api/jsonp');
+                    console.log(body);
+                }
+            }
+        });
+    </script>
+</body>
+</html>

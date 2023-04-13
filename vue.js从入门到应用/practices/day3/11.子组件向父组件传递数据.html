@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./lib/vue-2.6.14.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- 1. 如果要向子组件传递 data 中的数据，则 使用 属性绑定的形式  v-bind: -->
+        <!-- 2. 如果要向子组件传递 methods 中的 方法，则 使用 事件绑定的形式 v-on: -->
+        <com1 v-on:func1="show"></com1>
+    </div>
+    <script>
+
+
+        const vm = new Vue({
+            el: '#app',
+            data: {
+                msgFromSon: ''
+            },
+            methods: {
+                show: function(arg1){
+                    console.log("vm methods show", arg1);
+                    // 把子组件传递过来的数据，保存到 父组件的  data 中
+                    this.msgFromSon = arg1;
+                    console.log("msgFromSon ", this.msgFromSon);
+
+                    // return 'showReturnResult';
+                }  
+            },
+            components: {   // 定义子组件
+                'com1': {
+                    template: `<div>
+                        <!-- 当点击子组件的  按钮时候， 调用一下 父组件传递过来的 func 方法 -->
+                        <input type="button" value="com1按钮" v-on:click="btnClick"/>
+                        </div>`,
+                    data: function(){   // 子组件的数据
+                        return {
+                            sonMsg: "sonMsgData"
+                        }
+                    },
+                    methods: {
+                        btnClick: function(){
+                            console.log("com1 methods btnClick");
+                            // 调用一下 父组件传递过来的 func1 方法  emit 英文原意为 发射， 在 计算机中，引申为 触发
+                            // this.$emit('func1');
+
+                            // 子组件向父组件传值，本质上，还是调用了父组件传递过来的方法，只不过，子组件在调用的时候，把 数据 当作参数，传给这个方法了；
+                            this.$emit('func1', this.sonMsg);
+                            // let result = null;
+                            // this.$emit('func1', this.sonMsg, val => {result=val});
+                            // this.$emit('func1', this.sonMsg, function(val){
+                            //     result=val;
+                            //     return result;
+                            // });
+                            // console.log("show ", result);
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

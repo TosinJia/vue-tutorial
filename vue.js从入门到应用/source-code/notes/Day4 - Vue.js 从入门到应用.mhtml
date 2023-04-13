@@ -1,0 +1,1270 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://doc.cms.liulongbin.top/#/md/day4
+Subject: =?utf-8?Q?Day4=20-=20Vue.js=20=E4=BB=8E=E5=85=A5=E9=97=A8=E5=88=B0=E5=BA?=
+ =?utf-8?Q?=94=E7=94=A8?=
+Date: Wed, 6 Oct 2021 01:18:43 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--XhcyvL05FFjZ3Pm9ArkuwZnQCkfzBf6Rk6RvWYpzYx----"
+
+
+------MultipartBoundary--XhcyvL05FFjZ3Pm9ArkuwZnQCkfzBf6Rk6RvWYpzYx----
+Content-Type: text/html
+Content-ID: <frame-C838362984B36A1E8040F2FEA19638EA@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://doc.cms.liulongbin.top/#/md/day4
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8">
+ =20
+  <title>Day4 - Vue.js =E4=BB=8E=E5=85=A5=E9=97=A8=E5=88=B0=E5=BA=94=E7=94=
+=A8</title>
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge,chrome=3D1">
+  <meta name=3D"description" content=3D"Description">
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, user-scalable=3D=
+no, initial-scale=3D1.0, maximum-scale=3D1.0, minimum-scale=3D1.0">
+  <link rel=3D"stylesheet" href=3D"http://doc.cms.liulongbin.top/css/vue-mi=
+n.css">
+</head>
+<body data-page=3D"md/day4.md" class=3D"ready sticky">
+  <main><button class=3D"sidebar-toggle" aria-label=3D"Menu"><div class=3D"=
+sidebar-toggle-button"><span></span><span></span><span></span></div></butto=
+n><aside class=3D"sidebar"><h1 class=3D"app-name"><a class=3D"app-name-link=
+" data-nosearch=3D"" href=3D"http://doc.cms.liulongbin.top/">Vue.js =E4=BB=
+=8E=E5=85=A5=E9=97=A8=E5=88=B0=E5=BA=94=E7=94=A8</a></h1><div class=3D"side=
+bar-nav"><!-- docs/_sidebar.md -->
+
+<ul><li><a href=3D"http://doc.cms.liulongbin.top/#/">Home</a></li><li><a hr=
+ef=3D"http://doc.cms.liulongbin.top/#/md/day1">Day1</a></li><li><a href=3D"=
+http://doc.cms.liulongbin.top/#/md/day2">Day2</a></li><li><a href=3D"http:/=
+/doc.cms.liulongbin.top/#/md/day3">Day3</a></li><li class=3D"collapse"><a h=
+ref=3D"http://doc.cms.liulongbin.top/#/md/day4">Day4</a><ul class=3D"app-su=
+b-sidebar"><li class=3D""><a class=3D"section-link" href=3D"http://doc.cms.=
+liulongbin.top/#/md/day4?id=3D%e4%b8%ba%e4%bb%80%e4%b9%88%e8%a6%81%e5%ad%a6=
+%e4%b9%a0webpack">=E4=B8=BA=E4=BB=80=E4=B9=88=E8=A6=81=E5=AD=A6=E4=B9=A0web=
+pack</a></li><li class=3D""><a class=3D"section-link" href=3D"http://doc.cm=
+s.liulongbin.top/#/md/day4?id=3D%e5%9c%a8%e7%bd%91%e9%a1%b5%e4%b8%ad%e4%bc%=
+9a%e5%bc%95%e7%94%a8%e5%93%aa%e4%ba%9b%e5%b8%b8%e8%a7%81%e7%9a%84%e9%9d%99%=
+e6%80%81%e8%b5%84%e6%ba%90%ef%bc%9f">=E5=9C=A8=E7=BD=91=E9=A1=B5=E4=B8=AD=
+=E4=BC=9A=E5=BC=95=E7=94=A8=E5=93=AA=E4=BA=9B=E5=B8=B8=E8=A7=81=E7=9A=84=E9=
+=9D=99=E6=80=81=E8=B5=84=E6=BA=90=EF=BC=9F</a></li><li class=3D"active"><a =
+class=3D"section-link" href=3D"http://doc.cms.liulongbin.top/#/md/day4?id=
+=3D%e7%bd%91%e9%a1%b5%e4%b8%ad%e5%bc%95%e5%85%a5%e7%9a%84%e9%9d%99%e6%80%81=
+%e8%b5%84%e6%ba%90%e5%a4%9a%e4%ba%86%e4%bb%a5%e5%90%8e%e6%9c%89%e4%bb%80%e4=
+%b9%88%e9%97%ae%e9%a2%98%ef%bc%9f%ef%bc%9f%ef%bc%9f">=E7=BD=91=E9=A1=B5=E4=
+=B8=AD=E5=BC=95=E5=85=A5=E7=9A=84=E9=9D=99=E6=80=81=E8=B5=84=E6=BA=90=E5=A4=
+=9A=E4=BA=86=E4=BB=A5=E5=90=8E=E6=9C=89=E4=BB=80=E4=B9=88=E9=97=AE=E9=A2=98=
+=EF=BC=9F=EF=BC=9F=EF=BC=9F</a></li><li class=3D""><a class=3D"section-link=
+" href=3D"http://doc.cms.liulongbin.top/#/md/day4?id=3D%e5%a6%82%e4%bd%95%e=
+8%a7%a3%e5%86%b3%e4%b8%8a%e8%bf%b0%e4%b8%a4%e4%b8%aa%e9%97%ae%e9%a2%98">=E5=
+=A6=82=E4=BD=95=E8=A7=A3=E5=86=B3=E4=B8=8A=E8=BF=B0=E4=B8=A4=E4=B8=AA=E9=97=
+=AE=E9=A2=98</a></li><li class=3D""><a class=3D"section-link" href=3D"http:=
+//doc.cms.liulongbin.top/#/md/day4?id=3D%e4%bb%80%e4%b9%88%e6%98%afwebpack"=
+>=E4=BB=80=E4=B9=88=E6=98=AFwebpack?</a></li><li class=3D""><a class=3D"sec=
+tion-link" href=3D"http://doc.cms.liulongbin.top/#/md/day4?id=3Dwebpack%e5%=
+ae%89%e8%a3%85%e7%9a%84%e4%b8%a4%e7%a7%8d%e6%96%b9%e5%bc%8f">webpack=E5=AE=
+=89=E8=A3=85=E7=9A=84=E4=B8=A4=E7=A7=8D=E6=96=B9=E5=BC=8F</a></li><li class=
+=3D""><a class=3D"section-link" href=3D"http://doc.cms.liulongbin.top/#/md/=
+day4?id=3D%e5%88%9d%e6%ad%a5%e4%bd%bf%e7%94%a8webpack%e6%89%93%e5%8c%85%e6%=
+9e%84%e5%bb%ba%e5%88%97%e8%a1%a8%e9%9a%94%e8%a1%8c%e5%8f%98%e8%89%b2%e6%a1%=
+88%e4%be%8b">=E5=88=9D=E6=AD=A5=E4=BD=BF=E7=94=A8webpack=E6=89=93=E5=8C=85=
+=E6=9E=84=E5=BB=BA=E5=88=97=E8=A1=A8=E9=9A=94=E8=A1=8C=E5=8F=98=E8=89=B2=E6=
+=A1=88=E4=BE=8B</a></li><li class=3D""><a class=3D"section-link" href=3D"ht=
+tp://doc.cms.liulongbin.top/#/md/day4?id=3D%e4%bd%bf%e7%94%a8webpack%e7%9a%=
+84%e9%85%8d%e7%bd%ae%e6%96%87%e4%bb%b6%e7%ae%80%e5%8c%96%e6%89%93%e5%8c%85%=
+e6%97%b6%e5%80%99%e7%9a%84%e5%91%bd%e4%bb%a4">=E4=BD=BF=E7=94=A8webpack=E7=
+=9A=84=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6=E7=AE=80=E5=8C=96=E6=89=93=E5=8C=
+=85=E6=97=B6=E5=80=99=E7=9A=84=E5=91=BD=E4=BB=A4</a></li><li class=3D""><a =
+class=3D"section-link" href=3D"http://doc.cms.liulongbin.top/#/md/day4?id=
+=3D%e5%ae%9e%e7%8e%b0webpack%e7%9a%84%e5%ae%9e%e6%97%b6%e6%89%93%e5%8c%85%e=
+6%9e%84%e5%bb%ba">=E5=AE=9E=E7=8E=B0webpack=E7=9A=84=E5=AE=9E=E6=97=B6=E6=
+=89=93=E5=8C=85=E6=9E=84=E5=BB=BA</a></li><li class=3D""><a class=3D"sectio=
+n-link" href=3D"http://doc.cms.liulongbin.top/#/md/day4?id=3D%e4%bd%bf%e7%9=
+4%a8html-webpack-plugin%e6%8f%92%e4%bb%b6%e9%85%8d%e7%bd%ae%e5%90%af%e5%8a%=
+a8%e9%a1%b5%e9%9d%a2">=E4=BD=BF=E7=94=A8<code>html-webpack-plugin</code>=E6=
+=8F=92=E4=BB=B6=E9=85=8D=E7=BD=AE=E5=90=AF=E5=8A=A8=E9=A1=B5=E9=9D=A2</a></=
+li><li class=3D""><a class=3D"section-link" href=3D"http://doc.cms.liulongb=
+in.top/#/md/day4?id=3D%e5%ae%9e%e7%8e%b0%e8%87%aa%e5%8a%a8%e6%89%93%e5%bc%8=
+0%e6%b5%8f%e8%a7%88%e5%99%a8%e3%80%81%e7%83%ad%e6%9b%b4%e6%96%b0%e5%92%8c%e=
+9%85%8d%e7%bd%ae%e6%b5%8f%e8%a7%88%e5%99%a8%e7%9a%84%e9%bb%98%e8%ae%a4%e7%a=
+b%af%e5%8f%a3%e5%8f%b7">=E5=AE=9E=E7=8E=B0=E8=87=AA=E5=8A=A8=E6=89=93=E5=BC=
+=80=E6=B5=8F=E8=A7=88=E5=99=A8=E3=80=81=E7=83=AD=E6=9B=B4=E6=96=B0=E5=92=8C=
+=E9=85=8D=E7=BD=AE=E6=B5=8F=E8=A7=88=E5=99=A8=E7=9A=84=E9=BB=98=E8=AE=A4=E7=
+=AB=AF=E5=8F=A3=E5=8F=B7</a></li><ul class=3D"app-sub-sidebar"><li class=3D=
+""><a class=3D"section-link" href=3D"http://doc.cms.liulongbin.top/#/md/day=
+4?id=3D%e6%96%b9%e5%bc%8f1%ef%bc%9a">=E6=96=B9=E5=BC=8F1=EF=BC=9A</a></li><=
+li class=3D""><a class=3D"section-link" href=3D"http://doc.cms.liulongbin.t=
+op/#/md/day4?id=3D%e6%96%b9%e5%bc%8f2%ef%bc%9a%e4%b8%8d%e6%8e%a8%e8%8d%90">=
+=E6=96=B9=E5=BC=8F2=EF=BC=9A(=E4=B8=8D=E6=8E=A8=E8=8D=90)</a></li></ul><li =
+class=3D""><a class=3D"section-link" href=3D"http://doc.cms.liulongbin.top/=
+#/md/day4?id=3D%e4%bd%bf%e7%94%a8webpack%e6%89%93%e5%8c%85css%e6%96%87%e4%b=
+b%b6">=E4=BD=BF=E7=94=A8webpack=E6=89=93=E5=8C=85css=E6=96=87=E4=BB=B6</a><=
+/li><li class=3D""><a class=3D"section-link" href=3D"http://doc.cms.liulong=
+bin.top/#/md/day4?id=3D%e4%bd%bf%e7%94%a8webpack%e6%89%93%e5%8c%85less%e6%9=
+6%87%e4%bb%b6">=E4=BD=BF=E7=94=A8webpack=E6=89=93=E5=8C=85less=E6=96=87=E4=
+=BB=B6</a></li><li class=3D""><a class=3D"section-link" href=3D"http://doc.=
+cms.liulongbin.top/#/md/day4?id=3D%e4%bd%bf%e7%94%a8webpack%e6%89%93%e5%8c%=
+85sass%e6%96%87%e4%bb%b6">=E4=BD=BF=E7=94=A8webpack=E6=89=93=E5=8C=85sass=
+=E6=96=87=E4=BB=B6</a></li><li class=3D""><a class=3D"section-link" href=3D=
+"http://doc.cms.liulongbin.top/#/md/day4?id=3D%e4%bd%bf%e7%94%a8webpack%e5%=
+a4%84%e7%90%86css%e4%b8%ad%e7%9a%84%e8%b7%af%e5%be%84">=E4=BD=BF=E7=94=A8we=
+bpack=E5=A4=84=E7=90=86css=E4=B8=AD=E7=9A=84=E8=B7=AF=E5=BE=84</a></li><li =
+class=3D""><a class=3D"section-link" href=3D"http://doc.cms.liulongbin.top/=
+#/md/day4?id=3D%e4%bd%bf%e7%94%a8babel%e5%a4%84%e7%90%86%e9%ab%98%e7%ba%a7j=
+s%e8%af%ad%e6%b3%95">=E4=BD=BF=E7=94=A8babel=E5=A4=84=E7=90=86=E9=AB=98=E7=
+=BA=A7JS=E8=AF=AD=E6=B3=95</a></li><li><a class=3D"section-link" href=3D"ht=
+tp://doc.cms.liulongbin.top/#/md/day4?id=3D%e7%9b%b8%e5%85%b3%e6%96%87%e7%a=
+b%a0">=E7=9B=B8=E5=85=B3=E6=96=87=E7=AB=A0</a></li></ul></li><li><a href=3D=
+"http://doc.cms.liulongbin.top/#/md/day5">Day5</a></li><li><a href=3D"http:=
+//doc.cms.liulongbin.top/#/md/day6">Day6</a></li><li><a href=3D"http://doc.=
+cms.liulongbin.top/#/md/day7_day8">Day7 &amp; Day8</a></li><li><a href=3D"h=
+ttp://doc.cms.liulongbin.top/#/md/day9">Day9</a></li></ul></div></aside><se=
+ction class=3D"content"><article class=3D"markdown-section" id=3D"main"><h1=
+ id=3D"vuejs-day4-webpack"><a href=3D"http://doc.cms.liulongbin.top/#/md/da=
+y4?id=3Dvuejs-day4-webpack" data-id=3D"vuejs-day4-webpack" class=3D"anchor"=
+><span>Vue.js - Day4 - Webpack</span></a></h1><h2 id=3D"=E4=B8=BA=E4=BB=80=
+=E4=B9=88=E8=A6=81=E5=AD=A6=E4=B9=A0webpack"><a href=3D"http://doc.cms.liul=
+ongbin.top/#/md/day4?id=3D%e4%b8%ba%e4%bb%80%e4%b9%88%e8%a6%81%e5%ad%a6%e4%=
+b9%a0webpack" data-id=3D"=E4=B8=BA=E4=BB=80=E4=B9=88=E8=A6=81=E5=AD=A6=E4=
+=B9=A0webpack" class=3D"anchor"><span>=E4=B8=BA=E4=BB=80=E4=B9=88=E8=A6=81=
+=E5=AD=A6=E4=B9=A0webpack</span></a></h2><ol><li>=E5=AD=A6=E4=B9=A0Webpack=
+=E8=A6=81=E5=B8=AE=E6=88=91=E4=BB=AC=E5=8E=8B=E7=BC=A9=E3=80=81=E5=90=88=E5=
+=B9=B6=E5=B8=B8=E8=A7=81=E7=9A=84=E9=9D=99=E6=80=81=E8=B5=84=E6=BA=90=E6=96=
+=87=E4=BB=B6=EF=BC=9B</li><li>=E5=A4=84=E7=90=86=E6=96=87=E4=BB=B6=E7=9A=84=
+=E5=89=8D=E5=90=8E=E4=BE=9D=E8=B5=96=E5=85=B3=E7=B3=BB=EF=BC=9B<ul><li>webp=
+ack=E5=A6=82=E4=BD=95=E5=A4=84=E7=90=86=E8=BF=99=E4=BA=9B=E4=BE=9D=E8=B5=96=
+=E5=85=B3=E7=B3=BB=EF=BC=9B</li><li>webpack=E5=86=85=E9=83=A8=E5=AE=9E=E7=
+=8E=B0=E4=BA=86=E6=A8=A1=E5=9D=97=E5=8C=96=E7=9A=84=E6=9C=BA=E5=88=B6=EF=BC=
+=9B=EF=BC=88=E5=AE=9E=E7=8E=B0=E6=A8=A1=E5=9D=97=E5=8C=96=E7=9A=84=E6=96=B9=
+=E5=BC=8F=EF=BC=8C=E5=92=8C Node =E4=B8=AD=E5=B7=AE=E4=B8=8D=E5=A4=9A=EF=BC=
+=8C=E4=B9=9F=E6=98=AF=E5=88=9B=E5=BB=BA=E4=BA=86=E4=B8=80=E4=B8=AA=E6=A8=A1=
+=E5=9D=97=E5=8C=85=E8=A3=85=E5=99=A8=EF=BC=8C=E6=8A=8A=E6=89=80=E6=9C=89=E7=
+=9A=84=E4=BB=A3=E7=A0=81=E9=83=BD=E5=8C=85=E8=A3=85=E8=B5=B7=E6=9D=A5=EF=BC=
+=9B=EF=BC=89</li></ul></li><li>webpack-dev-server=EF=BC=9A=E4=BD=9C=E7=94=
+=A8=E5=B8=AE=E6=88=91=E4=BB=AC=E5=AE=9E=E7=8E=B0=E5=9C=A8=E5=BC=80=E5=8F=91=
+=E9=98=B6=E6=AE=B5=E4=B8=AD=E7=9A=84=E5=AE=9E=E6=97=B6=E6=89=93=E5=8C=85=E7=
+=BC=96=E8=AF=91=E5=92=8C=E5=88=B7=E6=96=B0=E6=B5=8F=E8=A7=88=E5=99=A8=EF=BC=
+=9B</li><li>html-webpack-plugin=EF=BC=9A=E6=8A=8AHTML=E9=A6=96=E9=A1=B5=E8=
+=87=AA=E5=8A=A8=E6=89=98=E7=AE=A1=E5=88=B0=E5=86=85=E5=AD=98=E4=B8=AD=EF=BC=
+=8C=E8=87=AA=E5=8A=A8=E6=8A=8A=E6=89=93=E5=8C=85=E5=A5=BD=E7=9A=84bundle.js=
+=E8=B7=AF=E5=BE=84=EF=BC=8C=E4=BB=A5 script =E6=A0=87=E7=AD=BE =E6=B3=A8=E5=
+=85=A5=E5=88=B0=E9=A1=B5=E9=9D=A2=E4=B8=AD=EF=BC=9B</li></ol><h2 id=3D"=E5=
+=9C=A8=E7=BD=91=E9=A1=B5=E4=B8=AD=E4=BC=9A=E5=BC=95=E7=94=A8=E5=93=AA=E4=BA=
+=9B=E5=B8=B8=E8=A7=81=E7=9A=84=E9=9D=99=E6=80=81=E8=B5=84=E6=BA=90=EF=BC=9F=
+"><a href=3D"http://doc.cms.liulongbin.top/#/md/day4?id=3D%e5%9c%a8%e7%bd%9=
+1%e9%a1%b5%e4%b8%ad%e4%bc%9a%e5%bc%95%e7%94%a8%e5%93%aa%e4%ba%9b%e5%b8%b8%e=
+8%a7%81%e7%9a%84%e9%9d%99%e6%80%81%e8%b5%84%e6%ba%90%ef%bc%9f" data-id=3D"=
+=E5=9C=A8=E7=BD=91=E9=A1=B5=E4=B8=AD=E4=BC=9A=E5=BC=95=E7=94=A8=E5=93=AA=E4=
+=BA=9B=E5=B8=B8=E8=A7=81=E7=9A=84=E9=9D=99=E6=80=81=E8=B5=84=E6=BA=90=EF=BC=
+=9F" class=3D"anchor"><span>=E5=9C=A8=E7=BD=91=E9=A1=B5=E4=B8=AD=E4=BC=9A=
+=E5=BC=95=E7=94=A8=E5=93=AA=E4=BA=9B=E5=B8=B8=E8=A7=81=E7=9A=84=E9=9D=99=E6=
+=80=81=E8=B5=84=E6=BA=90=EF=BC=9F</span></a></h2><ol><li>=E6=A0=B7=E5=BC=8F=
+=E8=A1=A8<ul><li>.css   .less   .sass   .scss</li></ul></li><li>Javascript=
+=E8=84=9A=E6=9C=AC=E6=96=87=E4=BB=B6<ul><li>.js    .ts   .coffee</li></ul><=
+/li><li>=E5=9B=BE=E7=89=87<ul><li>.jpg   .gif   .png   .bmp</li></ul></li><=
+li>=E5=AD=97=E4=BD=93=E6=96=87=E4=BB=B6=EF=BC=88Fonts=EF=BC=89<ul><li>.eot =
+  .svg   .ttf    .woff    .woff2</li></ul></li><li>=E6=A8=A1=E6=9D=BF=E6=96=
+=87=E4=BB=B6<ul><li>.ejs  .vue   .jade</li></ul></li></ol><h2 id=3D"=E7=BD=
+=91=E9=A1=B5=E4=B8=AD=E5=BC=95=E5=85=A5=E7=9A=84=E9=9D=99=E6=80=81=E8=B5=84=
+=E6=BA=90=E5=A4=9A=E4=BA=86=E4=BB=A5=E5=90=8E=E6=9C=89=E4=BB=80=E4=B9=88=E9=
+=97=AE=E9=A2=98=EF=BC=9F=EF=BC=9F=EF=BC=9F"><a href=3D"http://doc.cms.liulo=
+ngbin.top/#/md/day4?id=3D%e7%bd%91%e9%a1%b5%e4%b8%ad%e5%bc%95%e5%85%a5%e7%9=
+a%84%e9%9d%99%e6%80%81%e8%b5%84%e6%ba%90%e5%a4%9a%e4%ba%86%e4%bb%a5%e5%90%8=
+e%e6%9c%89%e4%bb%80%e4%b9%88%e9%97%ae%e9%a2%98%ef%bc%9f%ef%bc%9f%ef%bc%9f" =
+data-id=3D"=E7=BD=91=E9=A1=B5=E4=B8=AD=E5=BC=95=E5=85=A5=E7=9A=84=E9=9D=99=
+=E6=80=81=E8=B5=84=E6=BA=90=E5=A4=9A=E4=BA=86=E4=BB=A5=E5=90=8E=E6=9C=89=E4=
+=BB=80=E4=B9=88=E9=97=AE=E9=A2=98=EF=BC=9F=EF=BC=9F=EF=BC=9F" class=3D"anch=
+or"><span>=E7=BD=91=E9=A1=B5=E4=B8=AD=E5=BC=95=E5=85=A5=E7=9A=84=E9=9D=99=
+=E6=80=81=E8=B5=84=E6=BA=90=E5=A4=9A=E4=BA=86=E4=BB=A5=E5=90=8E=E6=9C=89=E4=
+=BB=80=E4=B9=88=E9=97=AE=E9=A2=98=EF=BC=9F=EF=BC=9F=EF=BC=9F</span></a></h2=
+><ol><li>=E5=8A=A0=E8=BD=BD=E6=85=A2=EF=BC=9A=E5=BD=93=E9=9D=99=E6=80=81=E8=
+=B5=84=E6=BA=90=E5=A4=9A=E4=BA=86=E4=BB=A5=E5=90=8E=EF=BC=8C=E4=BC=9A=E5=8F=
+=91=E8=B5=B7=E5=BE=88=E5=A4=9A=E7=9A=84=E4=BA=8C=E6=AC=A1=E8=B5=84=E6=BA=90=
+=E8=AF=B7=E6=B1=82=EF=BC=8C=E8=BF=99=E6=97=B6=E5=80=99=EF=BC=8C=E6=88=91=E4=
+=BB=AC=E7=9A=84=E7=BD=91=E9=A1=B5=E5=8A=A0=E8=BD=BD=E9=80=9F=E5=BA=A6=E5=B0=
+=B1=E6=85=A2=E4=BA=86=EF=BC=9B</li><li>=E4=BC=9A=E5=87=BA=E7=8E=B0=E9=9D=99=
+=E6=80=81=E8=B5=84=E6=BA=90=E7=9A=84=E5=89=8D=E5=90=8E=E4=BE=9D=E8=B5=96=E5=
+=85=B3=E7=B3=BB=E9=97=AE=E9=A2=98=EF=BC=9B</li></ol><h2 id=3D"=E5=A6=82=E4=
+=BD=95=E8=A7=A3=E5=86=B3=E4=B8=8A=E8=BF=B0=E4=B8=A4=E4=B8=AA=E9=97=AE=E9=A2=
+=98"><a href=3D"http://doc.cms.liulongbin.top/#/md/day4?id=3D%e5%a6%82%e4%b=
+d%95%e8%a7%a3%e5%86%b3%e4%b8%8a%e8%bf%b0%e4%b8%a4%e4%b8%aa%e9%97%ae%e9%a2%9=
+8" data-id=3D"=E5=A6=82=E4=BD=95=E8=A7=A3=E5=86=B3=E4=B8=8A=E8=BF=B0=E4=B8=
+=A4=E4=B8=AA=E9=97=AE=E9=A2=98" class=3D"anchor"><span>=E5=A6=82=E4=BD=95=
+=E8=A7=A3=E5=86=B3=E4=B8=8A=E8=BF=B0=E4=B8=A4=E4=B8=AA=E9=97=AE=E9=A2=98</s=
+pan></a></h2><ol><li>=E6=8A=8A =E5=9B=BE=E7=89=87=E5=90=88=E5=B9=B6=E6=88=
+=90=E7=B2=BE=E7=81=B5=E5=9B=BE=E3=80=81=E6=8A=8A CSS =E6=88=96 JS =E5=90=88=
+=E5=B9=B6=E3=80=81=E5=8E=8B=E7=BC=A9 =E4=B8=80=E4=B8=8B=EF=BC=9B</li><li>=
+=E6=8A=8A=E5=9B=BE=E7=89=87=E8=BD=AC=E4=B8=BA base64 =E7=9A=84=E7=BC=96=E7=
+=A0=81=E6=A0=BC=E5=BC=8F=EF=BC=9B</li><li>=E5=8F=AF=E4=BB=A5=E4=BD=BF=E7=94=
+=A8=E5=8D=B3=E5=B0=86=E5=AD=A6=E5=88=B0=E7=9A=84webpack=E5=8E=BB=E8=A7=A3=
+=E5=86=B3=E9=9D=99=E6=80=81=E8=B5=84=E6=BA=90=E7=9A=84=E4=BE=9D=E8=B5=96=E9=
+=97=AE=E9=A2=98=EF=BC=9B</li></ol><h2 id=3D"=E4=BB=80=E4=B9=88=E6=98=AFwebp=
+ack"><a href=3D"http://doc.cms.liulongbin.top/#/md/day4?id=3D%e4%bb%80%e4%b=
+9%88%e6%98%afwebpack" data-id=3D"=E4=BB=80=E4=B9=88=E6=98=AFwebpack" class=
+=3D"anchor"><span>=E4=BB=80=E4=B9=88=E6=98=AFwebpack?</span></a></h2><ul><l=
+i>webpack =E6=98=AF=E5=89=8D=E7=AB=AF=E9=A1=B9=E7=9B=AE=E7=9A=84=E6=9E=84=
+=E5=BB=BA=E5=B7=A5=E5=85=B7=EF=BC=8C=E5=B0=86=E6=9D=A5=EF=BC=8C=E6=88=91=E4=
+=BB=AC=E5=BC=80=E5=8F=91=E7=9A=84=E9=A1=B9=E7=9B=AE=EF=BC=8C=E5=A6=82=E6=9E=
+=9C=E6=83=B3=E8=A6=81=E6=8F=90=E9=AB=98=E7=BB=B4=E6=8A=A4=E6=80=A7=E5=92=8C=
+=E5=8F=AF=E6=8E=A7=E5=88=B6=E6=80=A7=E7=9A=84=E8=AF=9D=EF=BC=8C=E5=B0=BD=E9=
+=87=8F=E9=80=89=E6=8B=A9 webpack =E8=BF=9B=E8=A1=8C=E6=9E=84=E5=BB=BA=EF=BC=
+=9B</li><li>webpack =E9=9D=9E=E5=B8=B8=E9=80=82=E5=90=88=E4=B8=8E=E5=8D=95=
+=E9=A1=B5=E9=9D=A2=E5=BA=94=E7=94=A8=E7=A8=8B=E5=BA=8F=E7=BB=93=E5=90=88=E4=
+=BD=BF=E7=94=A8=EF=BC=9B=E4=B8=8D=E5=A4=AA=E9=80=82=E5=90=88=E4=B8=8E=E5=A4=
+=9A=E9=A1=B5=E9=9D=A2=E7=9A=84=E6=99=AE=E9=80=9A=E7=BD=91=E7=AB=99=E7=BB=93=
+=E5=90=88=E4=BD=BF=E7=94=A8=EF=BC=9B</li><li>=E9=A1=B9=E7=9B=AE=E4=B8=AD=E4=
+=BD=BF=E7=94=A8 webpack =E6=9C=89=E4=BB=80=E4=B9=88=E5=A5=BD=E5=A4=84=EF=BC=
+=9A<ul><li>=E8=83=BD=E5=A4=9F=E5=A4=84=E7=90=86=E9=9D=99=E6=80=81=E8=B5=84=
+=E6=BA=90=E7=9A=84 =E4=BE=9D=E8=B5=96=E5=85=B3=E7=B3=BB=EF=BC=9B</li><li>=
+=E8=83=BD=E5=A4=9F=E4=BC=98=E5=8C=96=E9=A1=B9=E7=9B=AE=E4=BB=A3=E7=A0=81=EF=
+=BC=8C=E6=AF=94=E5=A6=82=EF=BC=9A=E5=8E=8B=E7=BC=A9=E5=90=88=E5=B9=B6=E6=96=
+=87=E4=BB=B6=EF=BC=8C=E6=8A=8A=E5=9B=BE=E7=89=87=E8=BD=AC=E4=B8=BAbase64=E7=
+=BC=96=E7=A0=81=E6=A0=BC=E5=BC=8F=EF=BC=9B</li><li>=E8=83=BD=E5=A4=9F=E6=8A=
+=8A=E9=AB=98=E7=BA=A7=E7=9A=84=E8=AF=AD=E6=B3=95=E8=BD=AC=E4=B8=BA=E4=BD=8E=
+=E7=BA=A7=E7=9A=84=E8=AF=AD=E6=B3=95=EF=BC=9B</li><li>webpack =E8=83=BD=E5=
+=A4=9F=E8=BD=AC=E6=8D=A2=E4=B8=80=E4=BA=9B=E6=A8=A1=E6=9D=BF=E6=96=87=E4=BB=
+=B6=EF=BC=9B .vue </li></ul></li><li>=E6=A0=B9=E6=8D=AE=E5=AE=98=E7=BD=91=
+=E7=9A=84=E5=9B=BE=E7=89=87=E4=BB=8B=E7=BB=8Dwebpack=E6=89=93=E5=8C=85=E7=
+=9A=84=E8=BF=87=E7=A8=8B</li><li><a href=3D"http://webpack.github.io/" targ=
+et=3D"_blank">webpack=E5=AE=98=E7=BD=91</a></li></ul><h2 id=3D"webpack=E5=
+=AE=89=E8=A3=85=E7=9A=84=E4=B8=A4=E7=A7=8D=E6=96=B9=E5=BC=8F"><a href=3D"ht=
+tp://doc.cms.liulongbin.top/#/md/day4?id=3Dwebpack%e5%ae%89%e8%a3%85%e7%9a%=
+84%e4%b8%a4%e7%a7%8d%e6%96%b9%e5%bc%8f" data-id=3D"webpack=E5=AE=89=E8=A3=
+=85=E7=9A=84=E4=B8=A4=E7=A7=8D=E6=96=B9=E5=BC=8F" class=3D"anchor"><span>we=
+bpack=E5=AE=89=E8=A3=85=E7=9A=84=E4=B8=A4=E7=A7=8D=E6=96=B9=E5=BC=8F</span>=
+</a></h2><ol><li>=E5=8F=AF=E4=BB=A5=E5=85=A8=E5=B1=80=E5=AE=89=E8=A3=85<cod=
+e>webpack</code>, =E8=BF=90=E8=A1=8C <code>cnpm i webpack -g</code>  =E5=85=
+=A8=E5=B1=80=E5=AE=89=E8=A3=85=E4=B8=80=E4=B8=8Bwebpack=EF=BC=9B</li><li>=
+=E4=B9=9F=E5=8F=AF=E4=BB=A5=E5=9C=A8=E9=A1=B9=E7=9B=AE=E4=B8=AD=E5=AE=89=E8=
+=A3=85 webpack,  =E8=BF=90=E8=A1=8C<code>cnpm i webpack -D</code> =E5=AE=89=
+=E8=A3=85=E5=88=B0=E9=A1=B9=E7=9B=AE=E5=BC=80=E5=8F=91=E4=BE=9D=E8=B5=96=E5=
+=8D=B3=E5=8F=AF=EF=BC=9B</li></ol><h2 id=3D"=E5=88=9D=E6=AD=A5=E4=BD=BF=E7=
+=94=A8webpack=E6=89=93=E5=8C=85=E6=9E=84=E5=BB=BA=E5=88=97=E8=A1=A8=E9=9A=
+=94=E8=A1=8C=E5=8F=98=E8=89=B2=E6=A1=88=E4=BE=8B"><a href=3D"http://doc.cms=
+.liulongbin.top/#/md/day4?id=3D%e5%88%9d%e6%ad%a5%e4%bd%bf%e7%94%a8webpack%=
+e6%89%93%e5%8c%85%e6%9e%84%e5%bb%ba%e5%88%97%e8%a1%a8%e9%9a%94%e8%a1%8c%e5%=
+8f%98%e8%89%b2%e6%a1%88%e4%be%8b" data-id=3D"=E5=88=9D=E6=AD=A5=E4=BD=BF=E7=
+=94=A8webpack=E6=89=93=E5=8C=85=E6=9E=84=E5=BB=BA=E5=88=97=E8=A1=A8=E9=9A=
+=94=E8=A1=8C=E5=8F=98=E8=89=B2=E6=A1=88=E4=BE=8B" class=3D"anchor"><span>=
+=E5=88=9D=E6=AD=A5=E4=BD=BF=E7=94=A8webpack=E6=89=93=E5=8C=85=E6=9E=84=E5=
+=BB=BA=E5=88=97=E8=A1=A8=E9=9A=94=E8=A1=8C=E5=8F=98=E8=89=B2=E6=A1=88=E4=BE=
+=8B</span></a></h2><ul><li>=E7=9B=B4=E6=8E=A5=E8=BF=90=E8=A1=8C=E5=85=A8=E5=
+=B1=80=E7=9A=84 webpack =E6=8C=87=E4=BB=A4=E8=BF=9B=E8=A1=8C=E6=89=93=E5=8C=
+=85=E6=9E=84=E5=BB=BA=EF=BC=9A<pre v-pre=3D"" data-lang=3D"bash"><code clas=
+s=3D"lang-bash">  webpack   ./src/main.js   ./dist/bundle.js</code></pre></=
+li></ul><h2 id=3D"=E4=BD=BF=E7=94=A8webpack=E7=9A=84=E9=85=8D=E7=BD=AE=E6=
+=96=87=E4=BB=B6=E7=AE=80=E5=8C=96=E6=89=93=E5=8C=85=E6=97=B6=E5=80=99=E7=9A=
+=84=E5=91=BD=E4=BB=A4"><a href=3D"http://doc.cms.liulongbin.top/#/md/day4?i=
+d=3D%e4%bd%bf%e7%94%a8webpack%e7%9a%84%e9%85%8d%e7%bd%ae%e6%96%87%e4%bb%b6%=
+e7%ae%80%e5%8c%96%e6%89%93%e5%8c%85%e6%97%b6%e5%80%99%e7%9a%84%e5%91%bd%e4%=
+bb%a4" data-id=3D"=E4=BD=BF=E7=94=A8webpack=E7=9A=84=E9=85=8D=E7=BD=AE=E6=
+=96=87=E4=BB=B6=E7=AE=80=E5=8C=96=E6=89=93=E5=8C=85=E6=97=B6=E5=80=99=E7=9A=
+=84=E5=91=BD=E4=BB=A4" class=3D"anchor"><span>=E4=BD=BF=E7=94=A8webpack=E7=
+=9A=84=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6=E7=AE=80=E5=8C=96=E6=89=93=E5=8C=
+=85=E6=97=B6=E5=80=99=E7=9A=84=E5=91=BD=E4=BB=A4</span></a></h2><ol><li><p>=
+=E5=9C=A8=E9=A1=B9=E7=9B=AE=E4=B8=AD=EF=BC=8C=E6=96=B0=E5=BB=BA=E4=B8=80=E4=
+=B8=AA=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6=E5=8F=AB=E5=81=9A<code>webpack.c=
+onfig.js</code></p></li><li><p>=E5=9C=A8=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=
+=B6=E4=B8=AD=EF=BC=8C=E5=90=91=E5=A4=96=E6=9A=B4=E9=9C=B2=E4=B8=80=E4=B8=AA=
+=E9=85=8D=E7=BD=AE=E5=AF=B9=E8=B1=A1=EF=BC=8C=E4=BE=9Bwebpack=E6=89=A7=E8=
+=A1=8C=E7=9A=84=E6=97=B6=E5=80=99=E6=9D=A5=E8=AF=BB=E5=8F=96=E8=BF=99=E4=B8=
+=AA=E9=85=8D=E7=BD=AE=E5=AF=B9=E8=B1=A1=EF=BC=9A</p><pre v-pre=3D"" data-la=
+ng=3D"js"><code class=3D"lang-js"> <span class=3D"token keyword">const</spa=
+n> path <span class=3D"token operator">=3D</span> <span class=3D"token func=
+tion">require</span><span class=3D"token punctuation">(</span><span class=
+=3D"token string">'path'</span><span class=3D"token punctuation">)</span>
+
+ module<span class=3D"token punctuation">.</span>exports <span class=3D"tok=
+en operator">=3D</span> <span class=3D"token punctuation">{</span>
+     entry<span class=3D"token operator">:</span> path<span class=3D"token =
+punctuation">.</span><span class=3D"token function">join</span><span class=
+=3D"token punctuation">(</span>__dirname<span class=3D"token punctuation">,=
+</span> <span class=3D"token string">'./src/main.js'</span><span class=3D"t=
+oken punctuation">)</span><span class=3D"token punctuation">,</span> <span =
+class=3D"token comment">// =E6=8C=87=E5=AE=9A=E8=A6=81=E5=A4=84=E7=90=86=E9=
+=82=A3=E4=B8=AA=E6=96=87=E4=BB=B6</span>
+     output<span class=3D"token operator">:</span> <span class=3D"token pun=
+ctuation">{</span> <span class=3D"token comment">// =E6=8C=87=E5=AE=9A=E8=
+=BE=93=E5=87=BA=E6=96=87=E4=BB=B6=E7=9A=84=E5=AD=98=E6=94=BE=E8=B7=AF=E5=BE=
+=84</span>
+         path<span class=3D"token operator">:</span> path<span class=3D"tok=
+en punctuation">.</span><span class=3D"token function">join</span><span cla=
+ss=3D"token punctuation">(</span>__dirname<span class=3D"token punctuation"=
+>,</span> <span class=3D"token string">'./dist'</span><span class=3D"token =
+punctuation">)</span><span class=3D"token punctuation">,</span> <span class=
+=3D"token comment">// =E8=B7=AF=E5=BE=84</span>
+         filename<span class=3D"token operator">:</span> <span class=3D"tok=
+en string">'bundle.js'</span> <span class=3D"token comment">// =E8=BE=93=E5=
+=87=BA=E7=9A=84=E6=96=87=E4=BB=B6=E5=90=8D</span>
+     <span class=3D"token punctuation">}</span>
+ <span class=3D"token punctuation">}</span></code></pre></li></ol><h2 id=3D=
+"=E5=AE=9E=E7=8E=B0webpack=E7=9A=84=E5=AE=9E=E6=97=B6=E6=89=93=E5=8C=85=E6=
+=9E=84=E5=BB=BA"><a href=3D"http://doc.cms.liulongbin.top/#/md/day4?id=3D%e=
+5%ae%9e%e7%8e%b0webpack%e7%9a%84%e5%ae%9e%e6%97%b6%e6%89%93%e5%8c%85%e6%9e%=
+84%e5%bb%ba" data-id=3D"=E5=AE=9E=E7=8E=B0webpack=E7=9A=84=E5=AE=9E=E6=97=
+=B6=E6=89=93=E5=8C=85=E6=9E=84=E5=BB=BA" class=3D"anchor"><span>=E5=AE=9E=
+=E7=8E=B0webpack=E7=9A=84=E5=AE=9E=E6=97=B6=E6=89=93=E5=8C=85=E6=9E=84=E5=
+=BB=BA</span></a></h2><ol><li>=E6=AF=8F=E6=AC=A1=E4=BF=AE=E6=94=B9=E5=AE=8C=
+ =E9=A1=B9=E7=9B=AE=E4=BB=A3=E7=A0=81=EF=BC=8C=E9=83=BD=E9=9C=80=E8=A6=81=
+=E6=89=8B=E5=8A=A8=E8=BF=90=E8=A1=8C=E4=B8=80=E4=B8=8B webpack =E5=91=BD=E4=
+=BB=A4=E8=BF=9B=E8=A1=8C=E6=89=93=E5=8C=85=E6=9E=84=E5=BB=BA=EF=BC=9B=E6=AF=
+=94=E8=BE=83=E9=BA=BB=E7=83=A6</li><li>=E5=8F=AF=E4=BB=A5=E5=9C=A8=E9=A1=B9=
+=E7=9B=AE=E6=9C=AC=E5=9C=B0=E5=AE=89=E8=A3=85=E4=B8=80=E4=B8=AA<code>webpac=
+k-dev-server</code>=E7=9A=84=E5=B7=A5=E5=85=B7=E6=9D=A5=E5=AE=9E=E7=8E=B0=
+=E5=AE=9E=E6=97=B6=E6=89=93=E5=8C=85=E6=9E=84=E5=BB=BA=E7=9A=84=E6=95=88=E6=
+=9E=9C=EF=BC=9B</li><li>=E6=B3=A8=E6=84=8F=EF=BC=9A <code>webpack-dev-serve=
+r</code>=E8=BF=99=E4=B8=AA=E5=B7=A5=E5=85=B7=EF=BC=8C=E9=9C=80=E8=A6=81=E5=
+=9C=A8=E9=A1=B9=E7=9B=AE=E6=9C=AC=E5=9C=B0=E5=AE=89=E8=A3=85=EF=BC=8C=E5=90=
+=8C=E6=97=B6=EF=BC=8C=E5=AE=83=E4=BE=9D=E8=B5=96=E4=BA=8E=E9=A1=B9=E7=9B=AE=
+=E6=9C=AC=E5=9C=B0=E7=9A=84<code>webpack</code>:<ul><li><code>cnpm i webpac=
+k webpack-dev-server -D</code></li></ul></li><li>=E9=9C=80=E8=A6=81=E6=89=
+=93=E5=BC=80<code>package.json</code>=E8=BF=99=E4=B8=AA=E9=85=8D=E7=BD=AE=
+=E6=96=87=E4=BB=B6=EF=BC=8C=E6=89=BE=E5=88=B0 <code>scripts</code> =E8=8A=
+=82=E7=82=B9=EF=BC=8C=E5=9C=A8=E5=85=B6=E4=B8=AD=EF=BC=8C=E6=96=B0=E5=A2=9E=
+=E4=B8=80=E4=B8=AA<code>dev</code>=E8=84=9A=E6=9C=AC=E5=91=BD=E4=BB=A4=EF=
+=BC=9A<pre v-pre=3D"" data-lang=3D"js"><code class=3D"lang-js"><span class=
+=3D"token string">"scripts"</span><span class=3D"token operator">:</span> <=
+span class=3D"token punctuation">{</span>
+ <span class=3D"token string">"dev"</span><span class=3D"token operator">:<=
+/span> <span class=3D"token string">"webpack-dev-server"</span>
+<span class=3D"token punctuation">}</span><span class=3D"token punctuation"=
+>,</span></code></pre></li><li>=E5=8F=AA=E8=A6=81=E5=9C=A8=E7=BB=88=E7=AB=
+=AF=E4=B8=AD=EF=BC=8C=E8=BF=90=E8=A1=8C<code>npm run dev</code>=E5=91=BD=E4=
+=BB=A4=EF=BC=8C=E5=8E=BB=E6=89=A7=E8=A1=8C <code>dev</code>=E8=84=9A=E6=9C=
+=AC=EF=BC=8C=E5=90=AF=E5=8A=A8<code>webpack-dev-server</code>=E8=BF=99=E4=
+=B8=AA=E5=AE=9E=E6=97=B6=E6=9E=84=E5=BB=BA=E7=BC=96=E8=AF=91=E7=9A=84=E6=9C=
+=8D=E5=8A=A1=E5=99=A8=EF=BC=9B</li><li>=E6=B3=A8=E6=84=8F=EF=BC=9A<code>web=
+pack-dev-server</code>=E6=89=93=E5=8C=85=E5=87=BA=E6=9D=A5=E7=9A=84 <code>b=
+undle.js</code> =E5=B9=B6=E6=B2=A1=E6=9C=89=E5=AD=98=E6=94=BE=E5=88=B0=E5=
+=AE=9E=E9=99=85=E7=9A=84=E7=89=A9=E7=90=86=E7=A3=81=E7=9B=98=EF=BC=8C=E8=80=
+=8C=E6=98=AF=E6=89=98=E7=AE=A1=E5=88=B0=E4=BA=86=E5=86=85=E5=AD=98=E4=B8=AD=
+=EF=BC=81=E6=89=98=E7=AE=A1=E7=9A=84=E8=B7=AF=E5=BE=84=E6=98=AF=E9=A1=B9=E7=
+=9B=AE=E7=9A=84=E6=A0=B9=E7=9B=AE=E5=BD=95=EF=BC=8C=E6=89=80=E4=BB=A5=EF=BC=
+=8C=E5=9C=A8=E5=BC=95=E7=94=A8=E7=9A=84=E6=97=B6=E5=80=99=EF=BC=8Cscript =
+=E6=A0=87=E7=AD=BE=E7=9A=84=E8=B7=AF=E5=BE=84=E5=BA=94=E8=AF=A5=E8=BF=99=E6=
+=A0=B7=E5=86=99=EF=BC=9A<pre v-pre=3D"" data-lang=3D"html"><code class=3D"l=
+ang-html"> <span class=3D"token tag"><span class=3D"token tag"><span class=
+=3D"token punctuation">&lt;</span>script</span> <span class=3D"token attr-n=
+ame">src</span><span class=3D"token attr-value"><span class=3D"token punctu=
+ation">=3D</span><span class=3D"token punctuation">"</span>/bundle.js<span =
+class=3D"token punctuation">"</span></span><span class=3D"token punctuation=
+">&gt;</span></span><span class=3D"token script"></span><span class=3D"toke=
+n tag"><span class=3D"token tag"><span class=3D"token punctuation">&lt;/</s=
+pan>script</span><span class=3D"token punctuation">&gt;</span></span></code=
+></pre></li></ol><h2 id=3D"=E4=BD=BF=E7=94=A8html-webpack-plugin=E6=8F=92=
+=E4=BB=B6=E9=85=8D=E7=BD=AE=E5=90=AF=E5=8A=A8=E9=A1=B5=E9=9D=A2"><a href=3D=
+"http://doc.cms.liulongbin.top/#/md/day4?id=3D%e4%bd%bf%e7%94%a8html-webpac=
+k-plugin%e6%8f%92%e4%bb%b6%e9%85%8d%e7%bd%ae%e5%90%af%e5%8a%a8%e9%a1%b5%e9%=
+9d%a2" data-id=3D"=E4=BD=BF=E7=94=A8html-webpack-plugin=E6=8F=92=E4=BB=B6=
+=E9=85=8D=E7=BD=AE=E5=90=AF=E5=8A=A8=E9=A1=B5=E9=9D=A2" class=3D"anchor"><s=
+pan>=E4=BD=BF=E7=94=A8<code>html-webpack-plugin</code>=E6=8F=92=E4=BB=B6=E9=
+=85=8D=E7=BD=AE=E5=90=AF=E5=8A=A8=E9=A1=B5=E9=9D=A2</span></a></h2><ol><li>=
+=E8=BF=99=E4=B8=AA=E6=8F=92=E4=BB=B6=E7=9A=84=E4=BD=9C=E7=94=A8=EF=BC=9A<ul=
+><li>=E8=83=BD=E5=A4=9F=E6=A0=B9=E6=8D=AE=E7=BB=99=E5=AE=9A=E7=9A=84=E9=A1=
+=B5=E9=9D=A2=E8=B7=AF=E5=BE=84=EF=BC=8C=E5=9C=A8=E5=86=85=E5=AD=98=E4=B8=AD=
+=E7=94=9F=E6=88=90=E4=B8=80=E4=B8=AA=E4=B8=80=E6=A8=A1=E4=B8=80=E6=A0=B7=E7=
+=9A=84=E9=A1=B5=E9=9D=A2=EF=BC=9B</li><li>=E8=83=BD=E5=A4=9F=E5=9C=A8=E5=86=
+=85=E5=AD=98=E4=B8=AD=E7=94=9F=E6=88=90=E7=9A=84=E9=A1=B5=E9=9D=A2=E4=B8=AD=
+=EF=BC=8C=E8=87=AA=E5=8A=A8=E6=8A=8A =E6=89=93=E5=8C=85=E5=A5=BD=E7=9A=84 b=
+undle.js =E6=96=87=E4=BB=B6=EF=BC=8C=E6=B3=A8=E5=85=A5=E4=B8=BA=E4=B8=80=E4=
+=B8=AA script =E6=A0=87=E7=AD=BE=EF=BC=81</li></ul></li><li>=E5=A6=82=E4=BD=
+=95=E9=85=8D=E7=BD=AE=E6=8F=92=E4=BB=B6=EF=BC=9A=E5=85=88=E8=BF=90=E8=A1=8C=
+<code>cnpm i html-webpack-plugin -D</code>=E5=AE=89=E8=A3=85=E5=88=B0=E6=9C=
+=AC=E5=9C=B0=E5=BC=80=E5=8F=91=E4=BE=9D=E8=B5=96</li><li>=E5=9C=A8<code>web=
+pack.config.js</code>=E4=B8=AD=EF=BC=8C=E5=AF=BC=E5=85=A5=E8=BF=99=E4=B8=AA=
+=E6=8F=92=E4=BB=B6=EF=BC=9A<pre v-pre=3D"" data-lang=3D"js"><code class=3D"=
+lang-js"> <span class=3D"token keyword">const</span> htmlWebpackPlugin <spa=
+n class=3D"token operator">=3D</span> <span class=3D"token function">requir=
+e</span><span class=3D"token punctuation">(</span><span class=3D"token stri=
+ng">'html-webpack-plugin'</span><span class=3D"token punctuation">)</span><=
+/code></pre></li><li>=E5=9C=A8<code>webpack.config.js</code>=E7=9A=84=E9=85=
+=8D=E7=BD=AE=E5=AF=B9=E8=B1=A1=E4=B8=AD=EF=BC=8C=E6=96=B0=E5=A2=9E=E4=B8=80=
+=E4=B8=AA <code>plugins</code> =E6=8F=92=E4=BB=B6=E8=8A=82=E7=82=B9=EF=BC=
+=9A<pre v-pre=3D"" data-lang=3D"js"><code class=3D"lang-js"> plugins<span c=
+lass=3D"token operator">:</span> <span class=3D"token punctuation">[</span>=
+ <span class=3D"token comment">// =E6=8F=92=E4=BB=B6=E7=9A=84=E6=95=B0=E7=
+=BB=84</span>
+     <span class=3D"token keyword">new</span> <span class=3D"token class-na=
+me">htmlWebpackPlugin</span><span class=3D"token punctuation">(</span><span=
+ class=3D"token punctuation">{</span> <span class=3D"token comment">// =E5=
+=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E6=8A=8AHTML=E9=A6=96=E9=A1=B5=E6=89=98=
+=E7=AE=A1=E5=88=B0=E5=86=85=E5=AD=98=E4=B8=AD=E7=9A=84=E6=8F=92=E4=BB=B6</s=
+pan>
+     template<span class=3D"token operator">:</span> path<span class=3D"tok=
+en punctuation">.</span><span class=3D"token function">join</span><span cla=
+ss=3D"token punctuation">(</span>__dirname<span class=3D"token punctuation"=
+>,</span> <span class=3D"token string">'./src/index.html'</span><span class=
+=3D"token punctuation">)</span><span class=3D"token punctuation">,</span> <=
+span class=3D"token comment">//  =E8=A6=81=E6=8A=8A=E5=93=AA=E4=B8=AAHTML=
+=E9=A1=B5=E9=9D=A2=EF=BC=8C=E4=BD=9C=E4=B8=BA=E6=A8=A1=E6=9D=BF=EF=BC=8C=E5=
+=A4=8D=E5=88=B6=E4=B8=80=E4=BB=BD=E6=89=98=E7=AE=A1=E5=88=B0=E5=86=85=E5=AD=
+=98=E4=B8=AD</span>
+     filename<span class=3D"token operator">:</span> <span class=3D"token s=
+tring">'index.html'</span> <span class=3D"token comment">// =E6=8C=87=E5=AE=
+=9A=EF=BC=8C=E5=B0=86=E6=9D=A5=E5=9C=A8=E5=86=85=E5=AD=98=E4=B8=AD=E5=A4=8D=
+=E5=88=B6=E5=87=BA=E6=9D=A5=E7=9A=84=E9=A1=B5=E9=9D=A2=EF=BC=8C=E5=90=8D=E7=
+=A7=B0=E5=8F=AB=E5=81=9A index.html</span>
+     <span class=3D"token punctuation">}</span><span class=3D"token punctua=
+tion">)</span>
+ <span class=3D"token punctuation">]</span></code></pre></li></ol><h2 id=3D=
+"=E5=AE=9E=E7=8E=B0=E8=87=AA=E5=8A=A8=E6=89=93=E5=BC=80=E6=B5=8F=E8=A7=88=
+=E5=99=A8=E3=80=81=E7=83=AD=E6=9B=B4=E6=96=B0=E5=92=8C=E9=85=8D=E7=BD=AE=E6=
+=B5=8F=E8=A7=88=E5=99=A8=E7=9A=84=E9=BB=98=E8=AE=A4=E7=AB=AF=E5=8F=A3=E5=8F=
+=B7"><a href=3D"http://doc.cms.liulongbin.top/#/md/day4?id=3D%e5%ae%9e%e7%8=
+e%b0%e8%87%aa%e5%8a%a8%e6%89%93%e5%bc%80%e6%b5%8f%e8%a7%88%e5%99%a8%e3%80%8=
+1%e7%83%ad%e6%9b%b4%e6%96%b0%e5%92%8c%e9%85%8d%e7%bd%ae%e6%b5%8f%e8%a7%88%e=
+5%99%a8%e7%9a%84%e9%bb%98%e8%ae%a4%e7%ab%af%e5%8f%a3%e5%8f%b7" data-id=3D"=
+=E5=AE=9E=E7=8E=B0=E8=87=AA=E5=8A=A8=E6=89=93=E5=BC=80=E6=B5=8F=E8=A7=88=E5=
+=99=A8=E3=80=81=E7=83=AD=E6=9B=B4=E6=96=B0=E5=92=8C=E9=85=8D=E7=BD=AE=E6=B5=
+=8F=E8=A7=88=E5=99=A8=E7=9A=84=E9=BB=98=E8=AE=A4=E7=AB=AF=E5=8F=A3=E5=8F=B7=
+" class=3D"anchor"><span>=E5=AE=9E=E7=8E=B0=E8=87=AA=E5=8A=A8=E6=89=93=E5=
+=BC=80=E6=B5=8F=E8=A7=88=E5=99=A8=E3=80=81=E7=83=AD=E6=9B=B4=E6=96=B0=E5=92=
+=8C=E9=85=8D=E7=BD=AE=E6=B5=8F=E8=A7=88=E5=99=A8=E7=9A=84=E9=BB=98=E8=AE=A4=
+=E7=AB=AF=E5=8F=A3=E5=8F=B7</span></a></h2><p><strong>=E6=B3=A8=E6=84=8F=EF=
+=BC=9A=E7=83=AD=E6=9B=B4=E6=96=B0=E5=9C=A8JS=E4=B8=AD=E8=A1=A8=E7=8E=B0=E7=
+=9A=84=E4=B8=8D=E6=98=8E=E6=98=BE=EF=BC=8C=E5=8F=AF=E4=BB=A5=E4=BB=8E=E4=B8=
+=80=E4=BC=9A=E5=84=BF=E8=A6=81=E8=AE=B2=E5=88=B0=E7=9A=84CSS=E8=BA=AB=E4=B8=
+=8A=E8=BF=9B=E8=A1=8C=E4=BB=8B=E7=BB=8D=E8=AF=B4=E6=98=8E=EF=BC=81</strong>=
+</p><h3 id=3D"=E6=96=B9=E5=BC=8F1=EF=BC=9A"><a href=3D"http://doc.cms.liulo=
+ngbin.top/#/md/day4?id=3D%e6%96%b9%e5%bc%8f1%ef%bc%9a" data-id=3D"=E6=96=B9=
+=E5=BC=8F1=EF=BC=9A" class=3D"anchor"><span>=E6=96=B9=E5=BC=8F1=EF=BC=9A</s=
+pan></a></h3><p>=E7=9B=B4=E6=8E=A5=E5=9C=A8 <code>package.json</code>=E7=9A=
+=84<code>dev</code>=E8=84=9A=E6=9C=AC=E5=90=8E=EF=BC=8C=E6=B7=BB=E5=8A=A0=
+=E7=9B=B8=E5=85=B3=E6=8C=87=E4=BB=A4=E5=8D=B3=E5=8F=AF=EF=BC=9A</p><pre v-p=
+re=3D"" data-lang=3D"js"><code class=3D"lang-js">    <span class=3D"token s=
+tring">"dev1"</span><span class=3D"token operator">:</span> <span class=3D"=
+token string">"webpack-dev-server --open --port 3000 --host 127.0.0.1 --hot=
+"</span></code></pre><h3 id=3D"=E6=96=B9=E5=BC=8F2=EF=BC=9A=E4=B8=8D=E6=8E=
+=A8=E8=8D=90"><a href=3D"http://doc.cms.liulongbin.top/#/md/day4?id=3D%e6%9=
+6%b9%e5%bc%8f2%ef%bc%9a%e4%b8%8d%e6%8e%a8%e8%8d%90" data-id=3D"=E6=96=B9=E5=
+=BC=8F2=EF=BC=9A=E4=B8=8D=E6=8E=A8=E8=8D=90" class=3D"anchor"><span>=E6=96=
+=B9=E5=BC=8F2=EF=BC=9A(=E4=B8=8D=E6=8E=A8=E8=8D=90)</span></a></h3><ol><li>=
+=E9=9C=80=E8=A6=81=E5=85=88=E5=9C=A8 <code>webpack.config.js</code>=E4=B8=
+=AD=EF=BC=8C=E6=B7=BB=E5=8A=A0<code>devServer</code> =E9=80=89=E9=A1=B9=EF=
+=BC=9A<pre v-pre=3D"" data-lang=3D"js"><code class=3D"lang-js"> devServer<s=
+pan class=3D"token operator">:</span> <span class=3D"token punctuation">{</=
+span> <span class=3D"token comment">// webpack-dev-server=E8=BF=90=E8=A1=8C=
+=E6=97=B6=E5=80=99=E7=9A=84=E6=8C=87=E4=BB=A4=EF=BC=8C =E8=BF=99=E7=A7=8D=
+=E9=85=8D=E7=BD=AE=E6=96=B9=E5=BC=8F=E5=92=8C -- =E6=8C=87=E4=BB=A4=EF=BC=
+=8C=E5=8F=AA=E8=83=BD=E4=BA=8C=E9=80=89=E4=B8=80</span>
+     <span class=3D"token comment">//  --open --port 3000 --host 127.0.0.1 =
+--hot</span>
+     open<span class=3D"token operator">:</span> <span class=3D"token boole=
+an">true</span><span class=3D"token punctuation">,</span> <span class=3D"to=
+ken comment">// =E8=87=AA=E5=8A=A8=E6=89=93=E5=BC=80=E6=B5=8F=E8=A7=88=E5=
+=99=A8</span>
+     port<span class=3D"token operator">:</span> <span class=3D"token numbe=
+r">3000</span><span class=3D"token punctuation">,</span> <span class=3D"tok=
+en comment">// =E6=8C=87=E5=AE=9A=E7=AB=AF=E5=8F=A3=E5=8F=B7</span>
+     host<span class=3D"token operator">:</span> <span class=3D"token strin=
+g">'127.0.0.1'</span><span class=3D"token punctuation">,</span> <span class=
+=3D"token comment">// =E6=8C=87=E5=AE=9AIp=E5=9C=B0=E5=9D=80</span>
+     hot<span class=3D"token operator">:</span> <span class=3D"token boolea=
+n">true</span> <span class=3D"token comment">// =E5=90=AF=E7=94=A8=E7=83=AD=
+=E6=9B=B4=E6=96=B0, =E8=BF=99=E9=87=8C=E7=9A=84 hot =E6=8C=87=E4=BB=A4=EF=
+=BC=8C=E9=9C=80=E8=A6=81=E9=85=8D=E5=90=88 =E4=B8=80=E4=B8=AA =E7=83=AD=E6=
+=9B=B4=E6=96=B0=E7=9A=84 webpack =E6=8F=92=E4=BB=B6=E6=89=8D=E8=83=BD=E6=AD=
+=A3=E5=B8=B8=E4=BD=BF=E7=94=A8</span>
+ <span class=3D"token punctuation">}</span></code></pre></li><li>=E9=9C=80=
+=E8=A6=81=E5=9C=A8=E5=A4=B4=E9=83=A8=E5=AF=BC=E5=85=A5<code>webpack</code>=
+=EF=BC=9A<pre v-pre=3D"" data-lang=3D"js"><code class=3D"lang-js"> <span cl=
+ass=3D"token comment">// =E5=AF=BC=E5=85=A5webpack</span>
+ <span class=3D"token keyword">const</span> webpack <span class=3D"token op=
+erator">=3D</span> <span class=3D"token function">require</span><span class=
+=3D"token punctuation">(</span><span class=3D"token string">'webpack'</span=
+><span class=3D"token punctuation">)</span></code></pre></li><li>=E5=9C=A8 =
+<code>plugins</code>=E8=8A=82=E7=82=B9=E4=B8=AD=EF=BC=8C=E6=B7=BB=E5=8A=A0=
+=E4=B8=80=E4=B8=AA=E6=96=B0=E7=9A=84=E6=8F=92=E4=BB=B6=EF=BC=9A<pre v-pre=
+=3D"" data-lang=3D"js"><code class=3D"lang-js"> <span class=3D"token keywor=
+d">new</span> <span class=3D"token class-name">webpack<span class=3D"token =
+punctuation">.</span>HotModuleReplacementPlugin</span><span class=3D"token =
+punctuation">(</span><span class=3D"token punctuation">)</span></code></pre=
+></li></ol><h2 id=3D"=E4=BD=BF=E7=94=A8webpack=E6=89=93=E5=8C=85css=E6=96=
+=87=E4=BB=B6"><a href=3D"http://doc.cms.liulongbin.top/#/md/day4?id=3D%e4%b=
+d%bf%e7%94%a8webpack%e6%89%93%e5%8c%85css%e6%96%87%e4%bb%b6" data-id=3D"=E4=
+=BD=BF=E7=94=A8webpack=E6=89=93=E5=8C=85css=E6=96=87=E4=BB=B6" class=3D"anc=
+hor"><span>=E4=BD=BF=E7=94=A8webpack=E6=89=93=E5=8C=85css=E6=96=87=E4=BB=B6=
+</span></a></h2><ol><li>=E8=BF=90=E8=A1=8C<code>cnpm i style-loader css-loa=
+der -D</code>=E6=9D=A5=E5=AE=89=E8=A3=85=E5=A4=84=E7=90=86 <code>.css</code=
+> =E6=96=87=E4=BB=B6=E7=9A=84 =E7=AC=AC=E4=B8=89=E6=96=B9loader=E5=8A=A0=E8=
+=BD=BD=E5=99=A8</li><li>=E5=9C=A8<code>webpack.config.js</code> =E7=9A=84=
+=E9=85=8D=E7=BD=AE=E5=AF=B9=E8=B1=A1=E4=B8=AD=EF=BC=8C=E6=B7=BB=E5=8A=A0=E4=
+=B8=80=E4=B8=AA <code>module</code> =E8=8A=82=E7=82=B9=EF=BC=8C=E5=B9=B6=E5=
+=9C=A8 <code>module</code> =E8=8A=82=E7=82=B9=E4=B8=8B=EF=BC=8C=E6=96=B0=E5=
+=A2=9E=E4=B8=80=E4=B8=AA <code>rules</code> =E6=95=B0=E7=BB=84=EF=BC=8C=E8=
+=A1=A8=E7=A4=BA=E9=9D=9EJS=E6=96=87=E4=BB=B6=E7=9A=84=E5=8C=B9=E9=85=8D=E8=
+=A7=84=E5=88=99=EF=BC=9A<pre v-pre=3D"" data-lang=3D"js"><code class=3D"lan=
+g-js">module<span class=3D"token operator">:</span> <span class=3D"token pu=
+nctuation">{</span> <span class=3D"token comment">// =E7=94=A8=E6=9D=A5=E9=
+=85=8D=E7=BD=AE =E9=9D=9EJS=E6=96=87=E4=BB=B6=E5=AF=B9=E5=BA=94=E7=9A=84loa=
+der=E7=9A=84</span>
+ rules<span class=3D"token operator">:</span> <span class=3D"token punctuat=
+ion">[</span> <span class=3D"token comment">// =E5=B0=B1=E6=98=AF=E8=BF=99=
+=E4=BA=9B =E9=9D=9E JS =E6=96=87=E4=BB=B6 =E5=92=8C loader =E4=B9=8B=E9=97=
+=B4=E7=9A=84=E5=AF=B9=E5=BA=94=E5=85=B3=E7=B3=BB</span>
+   <span class=3D"token punctuation">{</span> test<span class=3D"token oper=
+ator">:</span> <span class=3D"token regex">/\.css$/</span><span class=3D"to=
+ken punctuation">,</span> use<span class=3D"token operator">:</span> <span =
+class=3D"token punctuation">[</span><span class=3D"token string">'style-loa=
+der'</span><span class=3D"token punctuation">,</span> <span class=3D"token =
+string">'css-loader'</span><span class=3D"token punctuation">]</span> <span=
+ class=3D"token punctuation">}</span> <span class=3D"token comment">// =E5=
+=88=9B=E5=BB=BA=E5=A4=84=E7=90=86 css =E6=96=87=E4=BB=B6=E7=9A=84 loader =
+=E5=8C=B9=E9=85=8D=E8=A7=84=E5=88=99</span>
+ <span class=3D"token punctuation">]</span>
+<span class=3D"token punctuation">}</span></code></pre></li></ol><h2 id=3D"=
+=E4=BD=BF=E7=94=A8webpack=E6=89=93=E5=8C=85less=E6=96=87=E4=BB=B6"><a href=
+=3D"http://doc.cms.liulongbin.top/#/md/day4?id=3D%e4%bd%bf%e7%94%a8webpack%=
+e6%89%93%e5%8c%85less%e6%96%87%e4%bb%b6" data-id=3D"=E4=BD=BF=E7=94=A8webpa=
+ck=E6=89=93=E5=8C=85less=E6=96=87=E4=BB=B6" class=3D"anchor"><span>=E4=BD=
+=BF=E7=94=A8webpack=E6=89=93=E5=8C=85less=E6=96=87=E4=BB=B6</span></a></h2>=
+<ol><li>=E8=BF=90=E8=A1=8C<code>cnpm i  less-loader less -D</code> =E5=AE=
+=89=E8=A3=85=E7=9B=B8=E5=85=B3=E7=9A=84loader</li><li>=E6=B7=BB=E5=8A=A0=E6=
+=96=B0=E7=9A=84loader=E5=8C=B9=E9=85=8D=E8=A7=84=E5=88=99=EF=BC=9A<pre v-pr=
+e=3D"" data-lang=3D"js"><code class=3D"lang-js"><span class=3D"token punctu=
+ation">{</span> test<span class=3D"token operator">:</span> <span class=3D"=
+token regex">/\.less$/</span><span class=3D"token punctuation">,</span> use=
+<span class=3D"token operator">:</span> <span class=3D"token punctuation">[=
+</span><span class=3D"token string">'style-loader'</span><span class=3D"tok=
+en punctuation">,</span> <span class=3D"token string">'css-loader'</span><s=
+pan class=3D"token punctuation">,</span> <span class=3D"token string">'less=
+-loader'</span><span class=3D"token punctuation">]</span> <span class=3D"to=
+ken punctuation">}</span> <span class=3D"token comment">// =E9=85=8D=E7=BD=
+=AE=E5=A4=84=E7=90=86less=E6=96=87=E4=BB=B6=E7=9A=84=E8=A7=84=E5=88=99</spa=
+n></code></pre></li></ol><h2 id=3D"=E4=BD=BF=E7=94=A8webpack=E6=89=93=E5=8C=
+=85sass=E6=96=87=E4=BB=B6"><a href=3D"http://doc.cms.liulongbin.top/#/md/da=
+y4?id=3D%e4%bd%bf%e7%94%a8webpack%e6%89%93%e5%8c%85sass%e6%96%87%e4%bb%b6" =
+data-id=3D"=E4=BD=BF=E7=94=A8webpack=E6=89=93=E5=8C=85sass=E6=96=87=E4=BB=
+=B6" class=3D"anchor"><span>=E4=BD=BF=E7=94=A8webpack=E6=89=93=E5=8C=85sass=
+=E6=96=87=E4=BB=B6</span></a></h2><ol><li>=E8=BF=90=E8=A1=8C<code>cnpm i sa=
+ss-loader node-sass -D</code></li><li>=E6=B7=BB=E5=8A=A0loader=E9=85=8D=E7=
+=BD=AE=E8=A7=84=E5=88=99=EF=BC=9A<pre v-pre=3D"" data-lang=3D"js"><code cla=
+ss=3D"lang-js"> <span class=3D"token punctuation">{</span> test<span class=
+=3D"token operator">:</span> <span class=3D"token regex">/\.scss$/</span><s=
+pan class=3D"token punctuation">,</span> use<span class=3D"token operator">=
+:</span> <span class=3D"token punctuation">[</span><span class=3D"token str=
+ing">'style-loader'</span><span class=3D"token punctuation">,</span> <span =
+class=3D"token string">'css-loader'</span><span class=3D"token punctuation"=
+>,</span> <span class=3D"token string">'sass-loader'</span><span class=3D"t=
+oken punctuation">]</span> <span class=3D"token punctuation">}</span><span =
+class=3D"token punctuation">,</span> <span class=3D"token comment">// =E9=
+=85=8D=E7=BD=AE =E5=A4=84=E7=90=86 scss =E6=96=87=E4=BB=B6=E7=9A=84=E8=A7=
+=84=E5=88=99</span></code></pre></li></ol><h2 id=3D"=E4=BD=BF=E7=94=A8webpa=
+ck=E5=A4=84=E7=90=86css=E4=B8=AD=E7=9A=84=E8=B7=AF=E5=BE=84"><a href=3D"htt=
+p://doc.cms.liulongbin.top/#/md/day4?id=3D%e4%bd%bf%e7%94%a8webpack%e5%a4%8=
+4%e7%90%86css%e4%b8%ad%e7%9a%84%e8%b7%af%e5%be%84" data-id=3D"=E4=BD=BF=E7=
+=94=A8webpack=E5=A4=84=E7=90=86css=E4=B8=AD=E7=9A=84=E8=B7=AF=E5=BE=84" cla=
+ss=3D"anchor"><span>=E4=BD=BF=E7=94=A8webpack=E5=A4=84=E7=90=86css=E4=B8=AD=
+=E7=9A=84=E8=B7=AF=E5=BE=84</span></a></h2><ol><li>=E8=BF=90=E8=A1=8C<code>=
+cnpm i url-loader file-loader -D</code></li><li>=E6=B7=BB=E5=8A=A0=E9=85=8D=
+=E7=BD=AE=E8=A7=84=E5=88=99=EF=BC=9A<pre v-pre=3D"" data-lang=3D"js"><code =
+class=3D"lang-js"> <span class=3D"token punctuation">{</span> test<span cla=
+ss=3D"token operator">:</span> <span class=3D"token regex">/\.jpg|png|gif|b=
+mp$/</span><span class=3D"token punctuation">,</span> use<span class=3D"tok=
+en operator">:</span> <span class=3D"token string">'url-loader'</span> <spa=
+n class=3D"token punctuation">}</span> <span class=3D"token comment">// =E9=
+=85=8D=E7=BD=AE =E5=A4=84=E7=90=86 =E6=A0=B7=E5=BC=8F=E8=A1=A8=E4=B8=AD=E5=
+=9B=BE=E7=89=87=E7=9A=84 loader=E8=A7=84=E5=88=99</span></code></pre></li><=
+li>=E5=A6=82=E6=9E=9C=EF=BC=8C=E9=85=8D=E7=BD=AE=E8=A7=84=E5=88=99=E4=B8=AD=
+=EF=BC=8C=E5=8F=AA=E9=9C=80=E8=A6=81=E8=B0=83=E7=94=A8=E4=B8=80=E4=B8=AAloa=
+der=EF=BC=8C=E5=88=99=EF=BC=8C=E5=8F=AF=E4=BB=A5=E6=8A=8A=E6=95=B0=E7=BB=84=
+=E7=AE=80=E5=8C=96=E6=88=90=E4=B8=80=E4=B8=AA =E5=AD=97=E7=AC=A6=E4=B8=B2=
+=EF=BC=9B</li><li>=E5=A6=82=E6=9E=9C=E6=83=B3=E8=A6=81=E9=99=90=E5=88=B6=E4=
+=BB=80=E4=B9=88=E5=9B=BE=E7=89=87=E8=A2=AB=E8=BD=AC=E7=A0=81=EF=BC=8C=E4=BB=
+=80=E4=B9=88=E5=9B=BE=E7=89=87=E4=B8=8D=E8=A2=AB=E8=BD=AC=E7=A0=81=EF=BC=8C=
+=E8=BF=99=E6=97=B6=E5=80=99=EF=BC=8C=E5=8F=AF=E4=BB=A5=E4=B8=BA url-loader =
+=E6=8F=90=E4=BE=9B <code>limit</code>=E9=85=8D=E7=BD=AE=E5=8F=82=E6=95=B0=
+=EF=BC=9B=E5=8F=AA=E6=9C=89=E5=B0=8F=E4=BA=8E=E7=BB=99=E5=AE=9A=E5=80=BC=E7=
+=9A=84=E5=9B=BE=E7=89=87=EF=BC=8C=E6=89=8D=E4=BC=9A=E8=A2=AB=E8=BD=AC=E7=A0=
+=81=E6=88=90base64=EF=BC=9Blimit =E7=9A=84=E5=8D=95=E4=BD=8D=E6=98=AF<code>=
+Byte=E5=AD=97=E8=8A=82</code></li><li>url-loader=E8=BF=98=E6=9C=89=E7=AC=AC=
+=E4=BA=8C=E4=B8=AA=E9=85=8D=E7=BD=AE=E5=8F=82=E6=95=B0=EF=BC=8C=E5=8F=AB=E5=
+=81=9A <code>name</code><ul><li>[name]           =E8=A1=A8=E7=A4=BA=E5=8E=
+=9F=E6=9D=A5=E7=9A=84=E5=90=8D=E5=AD=97</li><li>[ext]               =E8=A1=
+=A8=E7=A4=BA=E5=8E=9F=E5=90=8E=E7=BC=80=E5=90=8D</li><li>[hash:=E9=95=BF=E5=
+=BA=A6]     =E8=A1=A8=E7=A4=BA=E5=8F=96Hash=E5=80=BC=E7=9A=84=E5=89=8D=E5=
+=87=A0=E4=BD=8D=EF=BC=88=E6=80=BB=E9=95=BF=E5=BA=A6=E6=98=AF 32 =E4=BD=8D=
+=E5=AD=97=E7=AC=A6=E4=B8=B2=EF=BC=89</li></ul></li></ol><h2 id=3D"=E4=BD=BF=
+=E7=94=A8babel=E5=A4=84=E7=90=86=E9=AB=98=E7=BA=A7js=E8=AF=AD=E6=B3=95"><a =
+href=3D"http://doc.cms.liulongbin.top/#/md/day4?id=3D%e4%bd%bf%e7%94%a8babe=
+l%e5%a4%84%e7%90%86%e9%ab%98%e7%ba%a7js%e8%af%ad%e6%b3%95" data-id=3D"=E4=
+=BD=BF=E7=94=A8babel=E5=A4=84=E7=90=86=E9=AB=98=E7=BA=A7js=E8=AF=AD=E6=B3=
+=95" class=3D"anchor"><span>=E4=BD=BF=E7=94=A8babel=E5=A4=84=E7=90=86=E9=AB=
+=98=E7=BA=A7JS=E8=AF=AD=E6=B3=95</span></a></h2><ol><li>=E5=AE=89=E8=A3=85=
+=E4=B8=A4=E5=A5=97<code>babel</code>=E7=9B=B8=E5=85=B3=E7=9A=84=E5=8C=85=EF=
+=BC=9A<ul><li>=E8=BF=90=E8=A1=8C <code>cnpm i babel-core babel-loader babel=
+-plugin-transform-runtime -D</code></li><li>=E8=BF=90=E8=A1=8C <code>cnpm i=
+ babel-preset-env babel-preset-stage-0 -D</code></li></ul></li><li>=E6=89=
+=93=E5=BC=80<code>webpack.config.js</code>=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=
+=B6=EF=BC=8C=E6=B7=BB=E5=8A=A0<code>babel</code>=E7=9A=84loader=E9=85=8D=E7=
+=BD=AE=E9=A1=B9=EF=BC=9A<pre v-pre=3D"" data-lang=3D"js"><code class=3D"lan=
+g-js"><span class=3D"token comment">// =E6=B7=BB=E5=8A=A0=E8=BD=AC=E6=8D=A2=
+JS=E6=96=87=E4=BB=B6=E7=9A=84loader=EF=BC=8C</span>
+<span class=3D"token comment">// =E5=85=B6=E4=B8=AD=EF=BC=8C=E5=BF=85=E9=A1=
+=BB=E6=8A=8A node_modules =E7=9B=AE=E5=BD=95=E8=AE=BE=E7=BD=AE=E4=B8=BA =E6=
+=8E=92=E9=99=A4=E9=A1=B9=EF=BC=8C=E8=BF=99=E6=A0=B7=EF=BC=8C=E5=9C=A8=E6=89=
+=93=E5=8C=85=E7=9A=84=E6=97=B6=E5=80=99=EF=BC=8C=E4=BC=9A=E5=BF=BD=E7=95=A5=
+node_modules =E7=9B=AE=E5=BD=95=E4=B8=8B=E7=9A=84=E6=89=80=E6=9C=89JS=E6=96=
+=87=E4=BB=B6=EF=BC=9B=E5=90=A6=E5=88=99=E9=A1=B9=E7=9B=AE=E8=BF=90=E8=A1=8C=
+=E4=B8=8D=E8=B5=B7=E6=9D=A5=EF=BC=81</span>
+<span class=3D"token punctuation">{</span> test<span class=3D"token operato=
+r">:</span> <span class=3D"token regex">/\.js$/</span><span class=3D"token =
+punctuation">,</span> use<span class=3D"token operator">:</span> <span clas=
+s=3D"token string">'babel-loader'</span><span class=3D"token punctuation">,=
+</span> exclude<span class=3D"token operator">:</span> <span class=3D"token=
+ regex">/node_modules/</span> <span class=3D"token punctuation">}</span></c=
+ode></pre></li><li>=E5=9C=A8=E9=A1=B9=E7=9B=AE=E7=9A=84=E6=A0=B9=E7=9B=AE=
+=E5=BD=95=E4=B8=AD=EF=BC=8C=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA<code>.babel=
+rc</code>=E7=9A=84=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6=EF=BC=8C=E5=B0=86=E6=
+=9D=A5=EF=BC=8C<code>babel-loader</code>=E5=9C=A8=E6=89=A7=E8=A1=8C=E7=9A=
+=84=E6=97=B6=E5=80=99=EF=BC=8C=E4=BC=9A=E8=AF=BB=E5=8F=96=E5=B9=B6=E4=BD=BF=
+=E7=94=A8=E8=BF=99=E4=B8=AA=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6=EF=BC=9A<pr=
+e v-pre=3D"" data-lang=3D"js"><code class=3D"lang-js"> <span class=3D"token=
+ punctuation">{</span>
+ <span class=3D"token string">"plugins"</span><span class=3D"token operator=
+">:</span> <span class=3D"token punctuation">[</span><span class=3D"token s=
+tring">"transform-runtime"</span><span class=3D"token punctuation">]</span>=
+<span class=3D"token punctuation">,</span>
+ <span class=3D"token string">"presets"</span><span class=3D"token operator=
+">:</span> <span class=3D"token punctuation">[</span><span class=3D"token s=
+tring">"env"</span><span class=3D"token punctuation">,</span> <span class=
+=3D"token string">"stage-0"</span><span class=3D"token punctuation">]</span=
+>
+ <span class=3D"token punctuation">}</span></code></pre></li></ol><h2 id=3D=
+"=E7=9B=B8=E5=85=B3=E6=96=87=E7=AB=A0"><a href=3D"http://doc.cms.liulongbin=
+.top/#/md/day4?id=3D%e7%9b%b8%e5%85%b3%e6%96%87%e7%ab%a0" data-id=3D"=E7=9B=
+=B8=E5=85=B3=E6=96=87=E7=AB=A0" class=3D"anchor"><span>=E7=9B=B8=E5=85=B3=
+=E6=96=87=E7=AB=A0</span></a></h2><p><a href=3D"https://segmentfault.com/p/=
+1210000008466178" target=3D"_blank">babel-preset-env=EF=BC=9A=E4=BD=A0=E9=
+=9C=80=E8=A6=81=E7=9A=84=E5=94=AF=E4=B8=80Babel=E6=8F=92=E4=BB=B6</a>
+<a href=3D"https://segmentfault.com/a/1190000009065987" target=3D"_blank">R=
+untime transform =E8=BF=90=E8=A1=8C=E6=97=B6=E7=BC=96=E8=AF=91es6</a></p></=
+article></section></main>
+ =20
+  <!-- <script src=3D"//unpkg.com/docsify/lib/docsify.min.js"></script> -->
+ =20
+
+
+<div class=3D"progress" style=3D"opacity: 0; width: 0%;"></div><div class=
+=3D"xl-chrome-ext-bar" id=3D"xl_chrome_ext_{4DB361DE-01F7-4376-B494-639E489=
+D19ED}" style=3D"display: none;">
+      <div class=3D"xl-chrome-ext-bar__logo"></div>
+
+      <a id=3D"xl_chrome_ext_download" class=3D"xl-chrome-ext-bar__option">=
+=E4=B8=8B=E8=BD=BD=E8=A7=86=E9=A2=91</a>
+      <a id=3D"xl_chrome_ext_close" class=3D"xl-chrome-ext-bar__close"></a>
+    </div></body></html>
+------MultipartBoundary--XhcyvL05FFjZ3Pm9ArkuwZnQCkfzBf6Rk6RvWYpzYx----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://doc.cms.liulongbin.top/css/vue-min.css
+
+@charset "utf-8";
+
+@import url("https://fonts.googleapis.com/css?family=3DRoboto+Mono|Source+S=
+ans+Pro:300,400,600");
+
+* { -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(=
+0, 0, 0, 0); text-size-adjust: none; box-sizing: border-box; }
+
+body:not(.ready) { overflow: hidden; }
+
+body:not(.ready) .app-nav, body:not(.ready) > nav, body:not(.ready) [data-c=
+loak] { display: none; }
+
+div#app { font-size: 30px; font-weight: lighter; margin: 40vh auto; text-al=
+ign: center; }
+
+div#app:empty::before { content: "Loading..."; }
+
+.emoji { height: 1.2rem; vertical-align: middle; }
+
+.progress { background-color: var(--theme-color,#42b983); height: 2px; left=
+: 0px; position: fixed; right: 0px; top: 0px; transition: width 0.2s ease 0=
+s, opacity 0.4s ease 0s; width: 0px; z-index: 5; }
+
+.search .search-keyword, .search a:hover { color: var(--theme-color,#42b983=
+); }
+
+.search .search-keyword { font-style: normal; font-weight: 700; }
+
+body, html { height: 100%; }
+
+body { -webkit-font-smoothing: antialiased; color: rgb(52, 73, 94); font-fa=
+mily: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif; font-size: 15=
+px; letter-spacing: 0px; margin: 0px; overflow-x: hidden; }
+
+img { max-width: 100%; }
+
+a[disabled] { cursor: not-allowed; opacity: 0.6; }
+
+kbd { border: 1px solid rgb(204, 204, 204); border-radius: 3px; display: in=
+line-block; line-height: 12px; margin-bottom: 3px; padding: 3px 5px; vertic=
+al-align: middle; font-size: 12px !important; }
+
+li input[type=3D"checkbox"] { margin: 0px 0.2em 0.25em 0px; vertical-align:=
+ middle; }
+
+.app-nav { margin: 25px 60px 0px 0px; position: absolute; right: 0px; text-=
+align: right; z-index: 2; }
+
+.app-nav.no-badge { margin-right: 25px; }
+
+.app-nav p { margin: 0px; }
+
+.app-nav > a { margin: 0px 1rem; padding: 5px 0px; }
+
+.app-nav li, .app-nav ul { display: inline-block; list-style: none; margin:=
+ 0px; }
+
+.app-nav a { color: inherit; font-size: 16px; text-decoration: none; transi=
+tion: color 0.3s ease 0s; }
+
+.app-nav a.active, .app-nav a:hover { color: var(--theme-color,#42b983); }
+
+.app-nav a.active { border-bottom: 2px solid var(--theme-color,#42b983); }
+
+.app-nav li { display: inline-block; margin: 0px 1rem; padding: 5px 0px; po=
+sition: relative; }
+
+.app-nav li ul { background-color: rgb(255, 255, 255); border-width: 1px; b=
+order-style: solid; border-color: rgb(221, 221, 221) rgb(221, 221, 221) rgb=
+(204, 204, 204); border-image: initial; border-radius: 4px; box-sizing: bor=
+der-box; display: none; max-height: calc(100vh - 61px); overflow-y: auto; p=
+adding: 10px 0px; position: absolute; right: -15px; text-align: left; top: =
+100%; white-space: nowrap; }
+
+.app-nav li ul li { display: block; font-size: 14px; line-height: 1rem; mar=
+gin: 8px 14px; white-space: nowrap; }
+
+.app-nav li ul a { display: block; font-size: inherit; margin: 0px; padding=
+: 0px; }
+
+.app-nav li ul a.active { border-bottom: 0px; }
+
+.app-nav li:hover ul { display: block; }
+
+.github-corner { border-bottom: 0px; position: fixed; right: 0px; text-deco=
+ration: none; top: 0px; z-index: 1; }
+
+.github-corner:hover .octo-arm { animation: 0.56s ease-in-out 0s 1 normal n=
+one running a; }
+
+.github-corner svg { color: rgb(255, 255, 255); fill: var(--theme-color,#42=
+b983); height: 80px; width: 80px; }
+
+main { display: block; position: relative; width: 100vw; height: 100%; z-in=
+dex: 0; }
+
+main.hidden { display: none; }
+
+.anchor { display: inline-block; text-decoration: none; transition: all 0.3=
+s ease 0s; }
+
+.anchor span { color: rgb(52, 73, 94); }
+
+.anchor:hover { text-decoration: underline; }
+
+.sidebar { border-right: 1px solid rgba(0, 0, 0, 0.07); overflow-y: auto; p=
+adding: 40px 0px 0px; position: absolute; top: 0px; bottom: 0px; left: 0px;=
+ transition: transform 0.25s ease-out 0s; width: 300px; z-index: 3; }
+
+.sidebar > h1 { margin: 0px auto 1rem; font-size: 1.5rem; font-weight: 300;=
+ text-align: center; }
+
+.sidebar > h1 a { color: inherit; text-decoration: none; }
+
+.sidebar > h1 .app-nav { display: block; position: static; }
+
+.sidebar .sidebar-nav { line-height: 2em; padding-bottom: 40px; }
+
+.sidebar li.collapse .app-sub-sidebar { display: none; }
+
+.sidebar ul { margin: 0px 0px 0px 15px; padding: 0px; }
+
+.sidebar li > p { font-weight: 700; margin: 0px; }
+
+.sidebar ul, .sidebar ul li { list-style: none; }
+
+.sidebar ul li a { border-bottom: none; display: block; }
+
+.sidebar ul li ul { padding-left: 20px; }
+
+.sidebar::-webkit-scrollbar { width: 4px; }
+
+.sidebar::-webkit-scrollbar-thumb { background: transparent; border-radius:=
+ 4px; }
+
+.sidebar:hover::-webkit-scrollbar-thumb { background: rgba(135, 135, 135, 0=
+.4); }
+
+.sidebar:hover::-webkit-scrollbar-track { background: rgba(135, 135, 135, 0=
+.1); }
+
+.sidebar-toggle { background-color: rgba(255, 255, 255, 0.8); border: 0px; =
+outline: none; padding: 10px; position: absolute; bottom: 0px; left: 0px; t=
+ext-align: center; transition: opacity 0.3s ease 0s; width: 284px; z-index:=
+ 4; }
+
+.sidebar-toggle .sidebar-toggle-button:hover { opacity: 0.4; }
+
+.sidebar-toggle span { background-color: var(--theme-color,#42b983); displa=
+y: block; margin-bottom: 4px; width: 16px; height: 2px; }
+
+body.sticky .sidebar, body.sticky .sidebar-toggle { position: fixed; }
+
+.content { padding-top: 60px; position: absolute; inset: 0px 0px 0px 300px;=
+ transition: left 0.25s ease 0s; }
+
+.markdown-section { margin: 0px auto; max-width: 800px; padding: 30px 15px =
+40px; position: relative; }
+
+.markdown-section > * { box-sizing: border-box; font-size: inherit; }
+
+.markdown-section > :first-child { margin-top: 0px !important; }
+
+.markdown-section hr { border-top: none; border-right: none; border-left: n=
+one; border-image: initial; border-bottom: 1px solid rgb(238, 238, 238); ma=
+rgin: 2em 0px; }
+
+.markdown-section iframe { border: 1px solid rgb(238, 238, 238); width: 1px=
+; min-width: 100%; }
+
+.markdown-section table { border-collapse: collapse; border-spacing: 0px; d=
+isplay: block; margin-bottom: 1rem; overflow: auto; width: 100%; }
+
+.markdown-section th { font-weight: 700; }
+
+.markdown-section td, .markdown-section th { border: 1px solid rgb(221, 221=
+, 221); padding: 6px 13px; }
+
+.markdown-section tr { border-top: 1px solid rgb(204, 204, 204); }
+
+.markdown-section p.tip, .markdown-section tr:nth-child(2n) { background-co=
+lor: rgb(248, 248, 248); }
+
+.markdown-section p.tip { border-bottom-right-radius: 2px; border-left: 4px=
+ solid rgb(255, 102, 102); border-top-right-radius: 2px; margin: 2em 0px; p=
+adding: 12px 24px 12px 30px; position: relative; }
+
+.markdown-section p.tip::before { background-color: rgb(255, 102, 102); bor=
+der-radius: 100%; color: rgb(255, 255, 255); content: "!"; font-family: Dos=
+is, "Source Sans Pro", "Helvetica Neue", Arial, sans-serif; font-size: 14px=
+; font-weight: 700; left: -12px; line-height: 20px; position: absolute; hei=
+ght: 20px; width: 20px; text-align: center; top: 14px; }
+
+.markdown-section p.tip code { background-color: rgb(239, 239, 239); }
+
+.markdown-section p.tip em { color: rgb(52, 73, 94); }
+
+.markdown-section p.warn { background: rgba(66, 185, 131, 0.1); border-radi=
+us: 2px; padding: 1rem; }
+
+.markdown-section ul.task-list > li { list-style-type: none; }
+
+body.close .sidebar { transform: translateX(-300px); }
+
+body.close .sidebar-toggle { width: auto; }
+
+body.close .content { left: 0px; }
+
+@media print {
+  .app-nav, .github-corner, .sidebar, .sidebar-toggle { display: none; }
+}
+
+@media screen and (max-width: 768px) {
+  .github-corner, .sidebar, .sidebar-toggle { position: fixed; }
+  .app-nav { margin-top: 16px; }
+  .app-nav li ul { top: 30px; }
+  main { height: auto; overflow-x: hidden; }
+  .sidebar { left: -300px; transition: transform 0.25s ease-out 0s; }
+  .content { left: 0px; max-width: 100vw; position: static; padding-top: 20=
+px; transition: transform 0.25s ease 0s; }
+  .app-nav, .github-corner { transition: transform 0.25s ease-out 0s; }
+  .sidebar-toggle { background-color: transparent; width: auto; padding: 30=
+px 30px 10px 10px; }
+  body.close .sidebar { transform: translateX(300px); }
+  body.close .sidebar-toggle { background-color: rgba(255, 255, 255, 0.8); =
+transition: background-color 1s ease 0s; width: 284px; padding: 10px; }
+  body.close .content { transform: translateX(300px); }
+  body.close .app-nav, body.close .github-corner { display: none; }
+  .github-corner:hover .octo-arm { animation: 0s ease 0s 1 normal none runn=
+ing none; }
+  .github-corner .octo-arm { animation: 0.56s ease-in-out 0s 1 normal none =
+running a; }
+}
+
+@keyframes a {=20
+  0%, 100% { transform: rotate(0deg); }
+  20%, 60% { transform: rotate(-25deg); }
+  40%, 80% { transform: rotate(10deg); }
+}
+
+section.cover { align-items: center; background-position: 50% center; backg=
+round-repeat: no-repeat; background-size: cover; height: 100vh; display: no=
+ne; }
+
+section.cover.show { display: flex; }
+
+section.cover.has-mask .mask { background-color: rgb(255, 255, 255); opacit=
+y: 0.8; position: absolute; top: 0px; height: 100%; width: 100%; }
+
+section.cover .cover-main { flex: 1 1 0%; margin: -20px 16px 0px; text-alig=
+n: center; z-index: 1; }
+
+section.cover a { color: inherit; }
+
+section.cover a, section.cover a:hover { text-decoration: none; }
+
+section.cover p { line-height: 1.5rem; margin: 1em 0px; }
+
+section.cover h1 { color: inherit; font-size: 2.5rem; font-weight: 300; mar=
+gin: 0.625rem 0px 2.5rem; position: relative; text-align: center; }
+
+section.cover h1 a { display: block; }
+
+section.cover h1 small { bottom: -0.4375rem; font-size: 1rem; position: abs=
+olute; }
+
+section.cover blockquote { font-size: 1.5rem; text-align: center; }
+
+section.cover ul { line-height: 1.8; list-style-type: none; margin: 1em aut=
+o; max-width: 500px; padding: 0px; }
+
+section.cover .cover-main > p:last-child a { border: 1px solid var(--theme-=
+color,#42b983); border-radius: 2rem; box-sizing: border-box; color: var(--t=
+heme-color,#42b983); display: inline-block; font-size: 1.05rem; letter-spac=
+ing: 0.1rem; margin: 0.5rem 1rem; padding: 0.75em 2rem; text-decoration: no=
+ne; transition: all 0.15s ease 0s; }
+
+section.cover .cover-main > p:last-child a:last-child { background-color: v=
+ar(--theme-color,#42b983); color: rgb(255, 255, 255); }
+
+section.cover .cover-main > p:last-child a:last-child:hover { color: inheri=
+t; opacity: 0.8; }
+
+section.cover .cover-main > p:last-child a:hover { color: inherit; }
+
+section.cover blockquote > p > a { border-bottom: 2px solid var(--theme-col=
+or,#42b983); transition: color 0.3s ease 0s; }
+
+section.cover blockquote > p > a:hover { color: var(--theme-color,#42b983);=
+ }
+
+.sidebar, body { background-color: rgb(255, 255, 255); }
+
+.sidebar { color: rgb(54, 65, 73); }
+
+.sidebar li { margin: 6px 0px; }
+
+.sidebar ul li a { color: rgb(80, 93, 107); font-size: 14px; font-weight: 4=
+00; overflow: hidden; text-decoration: none; text-overflow: ellipsis; white=
+-space: nowrap; }
+
+.sidebar ul li a:hover { text-decoration: underline; }
+
+.sidebar ul li ul { padding: 0px; }
+
+.sidebar ul li.active > a { border-right: 2px solid; color: var(--theme-col=
+or,#42b983); font-weight: 600; }
+
+.app-sub-sidebar li::before { content: "-"; padding-right: 4px; float: left=
+; }
+
+.markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown=
+-section h4, .markdown-section strong { color: rgb(44, 62, 80); font-weight=
+: 600; }
+
+.markdown-section a { color: var(--theme-color,#42b983); font-weight: 600; =
+}
+
+.markdown-section h1 { font-size: 2rem; margin: 0px 0px 1rem; }
+
+.markdown-section h2 { font-size: 1.75rem; margin: 45px 0px 0.8rem; }
+
+.markdown-section h3 { font-size: 1.5rem; margin: 40px 0px 0.6rem; }
+
+.markdown-section h4 { font-size: 1.25rem; }
+
+.markdown-section h5 { font-size: 1rem; }
+
+.markdown-section h6 { color: rgb(119, 119, 119); font-size: 1rem; }
+
+.markdown-section figure, .markdown-section p { margin: 1.2em 0px; }
+
+.markdown-section ol, .markdown-section p, .markdown-section ul { line-heig=
+ht: 1.6rem; word-spacing: 0.05rem; }
+
+.markdown-section ol, .markdown-section ul { padding-left: 1.5rem; }
+
+.markdown-section blockquote { border-left: 4px solid var(--theme-color,#42=
+b983); color: rgb(133, 133, 133); margin: 2em 0px; padding-left: 20px; }
+
+.markdown-section blockquote p { font-weight: 600; margin-left: 0px; }
+
+.markdown-section iframe { margin: 1em 0px; }
+
+.markdown-section em { color: rgb(127, 140, 141); }
+
+.markdown-section code { border-radius: 2px; color: rgb(233, 105, 0); font-=
+size: 0.8rem; margin: 0px 2px; padding: 3px 5px; white-space: pre-wrap; bac=
+kground-color: rgb(248, 248, 248); font-family: "Roboto Mono", Monaco, cour=
+ier, monospace; }
+
+.markdown-section pre { border-radius: 4px; background-color: rgb(32, 40, 4=
+5); font-family: "Roboto Mono", Monaco, courier, monospace; transition: box=
+-shadow 0.2s ease 0s; }
+
+.markdown-section pre::before { content: " "; display: block; background: u=
+rl("../images/flag2.png") 0% 0% / 65px 23px no-repeat; margin-top: 15px; }
+
+.markdown-section pre:hover { box-shadow: blue 1px 1px 10px; }
+
+.markdown-section pre { -webkit-font-smoothing: initial; line-height: 1.5re=
+m; margin: 1.2em 0px; overflow: auto; padding: 0px 1.4rem; position: relati=
+ve; overflow-wrap: normal; }
+
+.token.cdata, .token.comment, .token.doctype, .token.prolog { color: rgb(14=
+2, 144, 140); }
+
+.token.namespace { opacity: 0.7; }
+
+.token.boolean, .token.number { color: rgb(227, 76, 57); }
+
+.token.punctuation { color: rgb(51, 166, 242); }
+
+.token.property { color: rgb(192, 139, 48); }
+
+.token.tag { color: rgb(249, 38, 114); }
+
+.token.operator { color: rgb(255, 190, 75); }
+
+.token.string { color: var(--theme-color,#42b983); }
+
+.token.selector { color: rgb(102, 121, 204); }
+
+.token.attr-name { color: orange; }
+
+.language-css .token.string, .style .token.string, .token.entity, .token.ur=
+l { color: rgb(34, 162, 201); }
+
+.token.attr-value, .token.control, .token.directive, .token.unit { color: v=
+ar(--theme-color,#42b983); }
+
+.token.function, .token.keyword { color: rgb(233, 105, 0); }
+
+.token.atrule, .token.regex, .token.statement { color: rgb(34, 162, 201); }
+
+.token.placeholder, .token.variable { color: rgb(61, 143, 209); }
+
+.token.deleted { text-decoration: line-through; }
+
+.token.inserted { border-bottom: 1px dotted rgb(32, 39, 70); text-decoratio=
+n: none; }
+
+.token.italic { font-style: italic; }
+
+.token.bold, .token.important { font-weight: 700; }
+
+.token.important { color: rgb(201, 73, 34); }
+
+.token.entity { cursor: help; }
+
+.markdown-section pre > code { -webkit-font-smoothing: initial; background-=
+color: rgb(32, 40, 45); border-radius: 2px; color: rgb(255, 255, 255); disp=
+lay: block; font-family: "Roboto Mono", Monaco, courier, monospace; font-si=
+ze: 0.8rem; line-height: inherit; margin: 0px 2px; max-width: inherit; over=
+flow: inherit; padding: 10px 5px 20px; white-space: inherit; }
+
+.markdown-section pre > code::-webkit-scrollbar { width: 4px; height: 4px; =
+}
+
+.markdown-section pre > code::-webkit-scrollbar-thumb { border-radius: 5px;=
+ box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px inset; background: rgb(255, 189=
+, 46); }
+
+.markdown-section pre > code::-webkit-scrollbar-track { box-shadow: rgba(0,=
+ 0, 0, 0.2) 0px 0px 5px inset; border-radius: 2px; background: gray; }
+
+.markdown-section code::after, .markdown-section code::before { letter-spac=
+ing: 0.05rem; }
+
+code .token { -webkit-font-smoothing: initial; min-height: 1.5rem; }
+
+pre::after { color: rgb(204, 204, 204); content: attr(data-lang); font-size=
+: 0.6rem; font-weight: 600; height: 15px; line-height: 15px; padding: 5px 1=
+0px 0px; position: absolute; right: 0px; text-align: right; top: 0px; }
+
+::selection { color: white; background-color: rgb(253, 115, 51); }
+------MultipartBoundary--XhcyvL05FFjZ3Pm9ArkuwZnQCkfzBf6Rk6RvWYpzYx----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro:300,400,600
+
+@charset "utf-8";
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8b=
+XMIhJHg45mwgGEFl0_3vq_SeW4Ep0.woff2") format("woff2"); unicode-range: U+460=
+-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8b=
+XMIhJHg45mwgGEFl0_3vq_QOW4Ep0.woff2") format("woff2"); unicode-range: U+400=
+-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8b=
+XMIhJHg45mwgGEFl0_3vq_R-W4Ep0.woff2") format("woff2"); unicode-range: U+370=
+-3FF; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8b=
+XMIhJHg45mwgGEFl0_3vq_S-W4Ep0.woff2") format("woff2"); unicode-range: U+102=
+-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U=
++20AB; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8b=
+XMIhJHg45mwgGEFl0_3vq_SuW4Ep0.woff2") format("woff2"); unicode-range: U+100=
+-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-=
+2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8b=
+XMIhJHg45mwgGEFl0_3vq_ROW4.woff2") format("woff2"); unicode-range: U+0-FF, =
+U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20=
+AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3ik4zwmhduz8A.woff2") format("woff2"); unicode-range: U+460-=
+52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3ik4zwkxduz8A.woff2") format("woff2"); unicode-range: U+400-=
+45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3ik4zwmxduz8A.woff2") format("woff2"); unicode-range: U+1F00=
+-1FFF; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3ik4zwlBduz8A.woff2") format("woff2"); unicode-range: U+370-=
+3FF; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3ik4zwmBduz8A.woff2") format("woff2"); unicode-range: U+102-=
+103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+=
+20AB; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3ik4zwmRduz8A.woff2") format("woff2"); unicode-range: U+100-=
+24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2=
+C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3ik4zwlxdu.woff2") format("woff2"); unicode-range: U+0-FF, U=
++131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20A=
+C, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcS=
+V-LCoeQqfX1RYOo3qNa7lqDY.woff2") format("woff2"); unicode-range: U+460-52F,=
+ U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcS=
+V-LCoeQqfX1RYOo3qPK7lqDY.woff2") format("woff2"); unicode-range: U+400-45F,=
+ U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcS=
+V-LCoeQqfX1RYOo3qNK7lqDY.woff2") format("woff2"); unicode-range: U+1F00-1FF=
+F; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcS=
+V-LCoeQqfX1RYOo3qO67lqDY.woff2") format("woff2"); unicode-range: U+370-3FF;=
+ }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcS=
+V-LCoeQqfX1RYOo3qN67lqDY.woff2") format("woff2"); unicode-range: U+102-103,=
+ U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB=
+; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcS=
+V-LCoeQqfX1RYOo3qNq7lqDY.woff2") format("woff2"); unicode-range: U+100-24F,=
+ U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,=
+ U+A720-A7FF; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcS=
+V-LCoeQqfX1RYOo3qOK7l.woff2") format("woff2"); unicode-range: U+0-FF, U+131=
+, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U=
++2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 600; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3i54rwmhduz8A.woff2") format("woff2"); unicode-range: U+460-=
+52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 600; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3i54rwkxduz8A.woff2") format("woff2"); unicode-range: U+400-=
+45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 600; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3i54rwmxduz8A.woff2") format("woff2"); unicode-range: U+1F00=
+-1FFF; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 600; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3i54rwlBduz8A.woff2") format("woff2"); unicode-range: U+370-=
+3FF; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 600; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3i54rwmBduz8A.woff2") format("woff2"); unicode-range: U+102-=
+103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+=
+20AB; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 600; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3i54rwmRduz8A.woff2") format("woff2"); unicode-range: U+100-=
+24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2=
+C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weigh=
+t: 600; src: url("https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcS=
+V-LCoeQqfX1RYOo3i54rwlxdu.woff2") format("woff2"); unicode-range: U+0-FF, U=
++131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20A=
+C, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+------MultipartBoundary--XhcyvL05FFjZ3Pm9ArkuwZnQCkfzBf6Rk6RvWYpzYx----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://doc.cms.liulongbin.top/images/flag2.png
+
+iVBORw0KGgoAAAANSUhEUgAAAE0AAAAbCAIAAAC2vJUNAAAACXBIWXMAABJ0AAASdAHeZh94AAAB
+/klEQVR42mNQ0NAdCYhh1J+j/hyW/lTU0DXS1tfT0qOKfQZGOkBEHdcb6cqb6CpoUuzPSjOzfc52
+F9ydbni7XvNyOe3muNHBxk/fkAw3JQZqbe9UPzNd/do8DSACMoBcoCAZRsl76Mj26MrN15Nfbii/
+0khukb7sVF25VLL86aZncNjF/mu4///4MGT0Ly70tq/7SntrkiIQ6KVnq7X+79VDQ0BBoBRJ0Svb
+pquwxlj9hJ36SXtkpHzAQnaGnryTDgn+9NAzPOfmiOZDZPQ9ImC7oy0xztIz1Dk8Ue33Ll1MT0IQ
+UAqoAKiMKE9O0FU5ZIXmQ2Qkt0BP3lmHWH8edbHH40kI+hbuP83GiqDLtrSr/9qpg8uTEARUAFRG
+2JNVusBIw+NJCJKdRVx8NlqYf8NIrljRRQ8nQ219PC4LdNe6v0QTvychCKgMqBhfnjTRlVusT9CT
+kAQsl6VD2J8Hne2J8SQk9daam+Fx3MoG9b+7dYnxJ1AZUDEeo+QydFUOWhLjT1CUTicUn8Aq5KK7
+E5H+BKINDjZ4HHdoghoxnoQgoGJ8ibZbh0hPgnLpYn3MygbFn7paele9XIj35068pdGJKerE+xOo
+GJ8/J+oS70/5ZQYKhqPxOYLy5wgqb0dK/TmC2kMjpX07gvorI6v/OTpuMurPUX+O+nPUn9RDAHzJ
+ItswE45tAAAAAElFTkSuQmCC
+
+------MultipartBoundary--XhcyvL05FFjZ3Pm9ArkuwZnQCkfzBf6Rk6RvWYpzYx------

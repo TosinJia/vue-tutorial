@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./lib/axios-0.24.0.js"></script>
+    <script src="./lib/vue-2.6.14.js"></script>
+    <!-- <script src="./lib/axios-0.24.0.js"></script> -->
+</head>
+<body>
+    <div id="app">
+        <input type="button" value="get请求1" v-on:click="getInfo1">
+        <input type="button" value="get请求2" v-on:click="getInfo2">
+        <input type="button" value="Get请求3" v-on:click="getInfo3">
+        <input type="button" value="get请求" v-on:click="getInfo">
+        <hr>
+        <input type="button" value="post请求" v-on:click="postInfo">
+        <hr>
+        <span>axios 不支持jsonp请求</span>
+    </div>
+    <script>
+        // 把 axios 挂载到 Vue 构造函数的原型上
+        Vue.prototype.$http = axios;
+
+        var vm = new Vue({
+            el: '#app',
+            data: {},
+            methods: {
+                // ES7 async await 支持promise才能用
+                async getInfo1(){
+                    const result = axios.get('http://api.cms.liulongbin.top/api/getlunbo');
+                    console.log(result);
+                },
+                async getInfo2(){
+                    const result = await axios.get('http://api.cms.liulongbin.top/api/getlunbo');
+                    console.log(result);
+                },
+                async getInfo3(){
+                    const responseObj = await axios.get('http://api.cms.liulongbin.top/api/getlunbo');
+                    console.log(responseObj, responseObj.data);
+                },
+                async getInfo(){
+                    // this.$http.get()
+                    const {data} = await this.$http.get('http://api.cms.liulongbin.top/api/getlunbo');
+                    console.log(data);
+                },
+                async postInfo(){
+                    const {data} = await this.$http.post('http://api.cms.liulongbin.top/api/post', {name: 'tosin'});
+                    console.log(data);
+                }
+            }
+        });
+    </script>
+</body>
+</html>

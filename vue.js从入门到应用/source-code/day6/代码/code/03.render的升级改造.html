@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="./lib/vue-2.5.9.js"></script>
+</head>
+
+<body>
+  <div id="app"></div>
+
+  <script>
+
+    const login = {
+      template: '<h3>好好学习，变光变强，买车买房！</h3>'
+    }
+
+    // 创建 Vue 实例，得到 ViewModel
+    var vm = new Vue({
+      el: '#app',
+      data: {},
+      methods: {},
+      /* render: function (createElements) {
+        return createElements(login)
+      } */
+
+      /* render: (createElements) => {
+        return createElements(login)
+      } */
+
+      /* render: createElements => {
+        return createElements(login)
+      } */
+
+      /* render: createElements => createElements(login) */
+
+      // 今后就这用
+      render: c => c(login)
+    });
+  </script>
+</body>
+
+</html>

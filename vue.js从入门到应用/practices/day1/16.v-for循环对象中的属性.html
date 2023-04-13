@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./lib/vue-2.6.14.js"></script>
+</head>
+<body>
+    <div id="app">
+        <ul>
+            <!-- 值 -->
+            <li v-for="item in person">{{item}}</li>
+            <hr>
+            <!-- 循环遍历对象身上的属性 -->
+            <li v-for="(val, key, i) in person">{{i}}--{{key}}--{{val}}</li>
+        </ul>
+        <hr>
+        <!-- 负值 [Vue warn]: Error in render: "RangeError: Invalid array length" -->
+        <p v-for="item in 9">{{item}}</p>
+        <hr>
+        <p v-for="(item, i) in 9">{{i}}--{{item}}</p>
+
+    </div>
+    <script>
+        var vm = new Vue({
+            el: '#app',
+            data: {
+                person:{
+                    id: 100,
+                    name: 'name1',
+                    age: 18,
+                    gender: '男'
+                }
+            }
+        });
+
+    </script>
+</body>
+</html>
